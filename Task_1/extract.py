@@ -2,6 +2,8 @@ import pdfplumber
 import pandas as pd
 import datetime
 import os
+from dateutil import parser
+import re
 
 # ------------------------------
 # Helper functions
@@ -46,24 +48,76 @@ def merge_continuation_rows(df, key_col='ticker'):
 
     return pd.DataFrame(merged_rows).reset_index(drop=True)
 
+def fix_multiline_ipo(df, col='IPO Month'):
+    """
+    Merge IPO Month values that are split across multiple rows.
+    Example:
+        Row 1: "Jan"
+        Row 2: "2020"
+    Result: "Jan 2020"
+    """
+    df = df.copy()
+    skip_next = False
+
+    for i in range(len(df)):
+        if skip_next:
+            skip_next = False
+            continue
+
+        val = str(df.at[i, col]).strip()
+        if i + 1 < len(df):
+            next_val = str(df.at[i + 1, col]).strip()
+            # If current row has only a month and next row has only a year, merge them
+            if re.match(r"^[A-Za-z]{3,}$", val) and re.match(r"^\d{4}$", next_val):
+                merged_val = val + " " + next_val
+                df.at[i, col] = merged_val
+                df.at[i + 1, col] = merged_val
+                skip_next = True
+    return df
+
 def parse_ipo_month(val):
     """
     Convert IPO Month string to YYYY-MM format.
-    Handles multi-line, hyphenated, and year-first formats.
+    - Cleans all whitespace, line breaks, tabs, non-breaking spaces
+    - Normalizes special hyphens
+    - Parses standard month/year formats
+    - Defaults to January if only a year is present
     """
-    if pd.isna(val) or val.strip() == "":
+    if pd.isna(val):
         return None
-    val = val.replace("-", " ").strip()
+
+    # Replace line breaks, tabs, non-breaking spaces, special hyphens
+    val = str(val)
+    val = val.replace("\n", " ").replace("\r", " ").replace("\t", " ")
+    val = val.replace("\xa0", " ")       # non-breaking space
+    val = val.replace("–", " ")          # en dash
+    val = re.sub(r"\s+", " ", val).strip()
+
+    if val == "":
+        return None
+
+    # Only a year
+    if re.fullmatch(r"\d{4}", val):
+        return f"{val}-01"
+
+    # Try parsing
     try:
-        return pd.to_datetime(val, errors="raise").strftime("%Y-%m")
+        dt = parser.parse(val, default=datetime.datetime(1900, 1, 1))
+        return dt.strftime("%Y-%m")
     except Exception:
-        parts = val.split()
-        if len(parts) == 2 and parts[0].isdigit():
-            val = f"{parts[1]} {parts[0]}"
-            try:
-                return pd.to_datetime(val, errors="raise").strftime("%Y-%m")
-            except Exception:
-                return None
+        # Fallback: try to extract month and year manually
+        months = {
+            "Jan": "01", "Feb": "02", "Mar": "03", "Apr": "04",
+            "May": "05", "Jun": "06", "Jul": "07", "Aug": "08",
+            "Sep": "09", "Oct": "10", "Nov": "11", "Dec": "12"
+        }
+        # Look for month abbreviation
+        month_match = re.search(r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)", val, re.IGNORECASE)
+        year_match = re.search(r"(\d{4})", val)
+        if year_match:
+            year = year_match.group(1)
+            month = months.get(month_match.group(1).title(), "01") if month_match else "01"
+            return f"{year}-{month}"
         return None
 
 # ------------------------------
@@ -73,39 +127,27 @@ def parse_ipo_month(val):
 def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_dir="./data"):
     """
     Extract and clean tables from USCC PDF.
-    Steps:
-      - Extract tables with pdfplumber
-      - Merge continuation rows
-      - Normalize ticker/Exchange
-      - Clean numeric columns (Market Cap, IPO Value)
-      - Normalize IPO Month
-      - Lowercase 'Sector' column
-      - Save as CSV (optional)
     """
-    # ------------------------------
     # 1. Extract tables from PDF
-    # ------------------------------
     tables = []
     with pdfplumber.open(pdf_path) as pdf:
         for i in range(start_page - 1, end_page):
             page = pdf.pages[i]
             page_tables = page.extract_tables()
             for t in page_tables:
-                df = pd.DataFrame(t[1:], columns=t[0][:8])  # keep first 8 columns
+                df = pd.DataFrame(t[1:], columns=t[0][:8])
                 tables.append(df)
 
     if not tables:
         raise ValueError("No tables found in PDF.")
 
-    # Drop fully empty rows
     tables = [df.dropna(how='all') for df in tables if not df.dropna(how='all').empty]
 
-    # Fix header: first column empty → 'ticker'
+    # Fix header
     header = tables[0].columns.tolist()
     if header[0].strip() == '':
         header[0] = 'ticker'
 
-    # Standardize columns for all tables
     standardized_tables = [df.iloc[:, :8].copy() for df in tables]
     for df in standardized_tables:
         df.columns = header
@@ -113,35 +155,26 @@ def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_di
     # Combine all tables
     df_raw = pd.concat(standardized_tables, ignore_index=True)
 
-    # ------------------------------
     # 2. Merge continuation rows
-    # ------------------------------
     df_clean = merge_continuation_rows(df_raw, key_col='ticker')
 
-    # ------------------------------
     # 3. Normalize ticker & Exchange
-    # ------------------------------
-    df_clean["Exchange"] = ""  # default empty
+    df_clean["Exchange"] = ""
     df_clean["Symbol"] = df_clean["Symbol"].astype(str)
     mask_hk = df_clean["Symbol"].str.endswith("+HK", na=False)
     df_clean.loc[mask_hk, "Symbol"] = df_clean.loc[mask_hk, "Symbol"].str.replace("+HK", "", regex=False)
     df_clean.loc[mask_hk, "Exchange"] = "HK"
-
-    # Merge again in case multi-line symbols exist
     df_clean = merge_continuation_rows(df_clean, key_col='ticker')
 
-    # ------------------------------
     # 4. Clean numeric columns
-    # ------------------------------
     if "Market Cap" in df_clean.columns:
         df_clean["Market Cap"] = clean_numeric_column(df_clean["Market Cap"])
     if "IPO Value" in df_clean.columns:
         df_clean["IPO Value"] = clean_numeric_column(df_clean["IPO Value"])
 
-    # ------------------------------
-    # 5. Normalize IPO Month
-    # ------------------------------
+    # 5. Handle multi-line IPO Month and parse
     if "IPO Month" in df_clean.columns:
+        df_clean = fix_multiline_ipo(df_clean, col="IPO Month")
         df_clean["IPO Month"] = (
             df_clean["IPO Month"]
             .astype(str)
@@ -151,9 +184,7 @@ def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_di
             .apply(parse_ipo_month)
         )
 
-    # ------------------------------
     # 6. Rename columns and lowercase Sector
-    # ------------------------------
     if "Symbol" in df_clean.columns:
         df_clean = df_clean.drop(columns=["ticker"], errors="ignore")
         df_clean = df_clean.rename(columns={
@@ -166,12 +197,9 @@ def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_di
             "Exchange": "ticker_hk"
         })
 
-    # Lowercase 'Sector' column if present
     df_clean.columns = [col.lower() if col.strip().lower() == "sector" else col for col in df_clean.columns]
 
-    # ------------------------------
     # 7. Save CSV if requested
-    # ------------------------------
     if save_csv:
         os.makedirs(output_dir, exist_ok=True)
         RUN_DATE = datetime.datetime.now().strftime("%Y%m%d")
