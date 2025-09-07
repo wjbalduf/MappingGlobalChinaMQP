@@ -6,7 +6,8 @@ import os
 def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_dir="./data"):
     """
     Extract raw tables from USCC PDF using pdfplumber only,
-    collapse split rows, and optionally save as CSV.
+    collapse split rows, normalize Symbol with HK flag,
+    and optionally save as CSV.
     """
     tables = []
 
@@ -59,6 +60,37 @@ def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_di
         clean_rows.append(buffer)
 
     df_clean = pd.DataFrame(clean_rows).reset_index(drop=True)
+
+    # --- Normalize Symbol column and add Exchange ---
+    df_clean["Exchange"] = ""  # default empty
+    df_clean["Symbol"] = df_clean["Symbol"].astype(str)
+
+    mask_hk = df_clean["Symbol"].str.endswith("+HK", na=False)
+    df_clean.loc[mask_hk, "Symbol"] = df_clean.loc[mask_hk, "Symbol"].str.replace("+HK", "", regex=False)
+    df_clean.loc[mask_hk, "Exchange"] = "HK"
+
+    # --- Fix multi-line rows (continuations) ---
+    cleaned_rows = []
+    current_row = None
+
+    for _, row in df_clean.iterrows():
+        if pd.notna(row["ticker"]) and str(row["ticker"]).strip() != "":
+            # Start a new company row
+            if current_row is not None:
+                cleaned_rows.append(current_row)
+            current_row = row.copy()
+        else:
+            # Continuation row → merge into current row
+            if current_row is not None:
+                for col in ["Name", "Lead Underwriter"]:
+                    if pd.notna(row[col]) and str(row[col]).strip() != "":
+                        current_row[col] = str(current_row[col]) + " " + str(row[col])
+
+    # Append the last row
+    if current_row is not None:
+        cleaned_rows.append(current_row)
+
+    df_clean = pd.DataFrame(cleaned_rows)
 
     # --- Save CSV if requested ---
     if save_csv:
