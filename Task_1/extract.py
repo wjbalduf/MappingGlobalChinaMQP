@@ -184,7 +184,12 @@ def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_di
             .apply(parse_ipo_month)
         )
 
-    # 6. Rename columns and lowercase Sector
+    # 6. Remove § and other unwanted symbols globally
+    df_clean = df_clean.applymap(
+        lambda x: re.sub(r"§", "", str(x)) if isinstance(x, str) else x
+    )
+
+    # 7. Rename columns and lowercase Sector
     if "Symbol" in df_clean.columns:
         df_clean = df_clean.drop(columns=["ticker"], errors="ignore")
         df_clean = df_clean.rename(columns={
@@ -199,7 +204,7 @@ def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_di
 
     df_clean.columns = [col.lower() if col.strip().lower() == "sector" else col for col in df_clean.columns]
 
-    # 7. Save CSV if requested
+    # 8. Save CSV if requested
     if save_csv:
         os.makedirs(output_dir, exist_ok=True)
         RUN_DATE = datetime.datetime.now().strftime("%Y%m%d")
