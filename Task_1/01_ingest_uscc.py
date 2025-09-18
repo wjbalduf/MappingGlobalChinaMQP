@@ -1,24 +1,28 @@
+"""
+Extracts Chinese company listings from the USCC PDF and outputs
+a canonical seed list cleaned CSV.
+
+Usage:
+    python 01_ingest_uscc.py --pdf "path/to/USCC_report.pdf" --out ./data
+"""
+
 import pdfplumber
 import pandas as pd
 import datetime
 import os
-from dateutil import parser
 import re
+import argparse
+from dateutil import parser
 
-# ------------------------------
 # Helper functions
-# ------------------------------
-
 def clean_numeric_column(series):
-    """
-    Convert numeric strings with $/commas/n/a to pandas nullable integer.
-    """
+    """Convert numeric strings with $/commas/n/a to pandas nullable integer."""
     return (
         series
         .replace(r"[\$,]", "", regex=True)   # remove $ and commas
         .replace(r"n/?a", None, regex=True) # treat 'n/a' as NaN
         .astype(float)
-        .astype("Int64")                     # nullable integer type
+        .astype("Int64") # nullable integer type
     )
 
 def merge_continuation_rows(df, key_col='ticker'):
@@ -67,7 +71,6 @@ def fix_multiline_ipo(df, col='IPO Month'):
         val = str(df.at[i, col]).strip()
         if i + 1 < len(df):
             next_val = str(df.at[i + 1, col]).strip()
-            # If current row has only a month and next row has only a year, merge them
             if re.match(r"^[A-Za-z]{3,}$", val) and re.match(r"^\d{4}$", next_val):
                 merged_val = val + " " + next_val
                 df.at[i, col] = merged_val
@@ -78,40 +81,30 @@ def fix_multiline_ipo(df, col='IPO Month'):
 def parse_ipo_month(val):
     """
     Convert IPO Month string to YYYY-MM format.
-    - Cleans all whitespace, line breaks, tabs, non-breaking spaces
-    - Normalizes special hyphens
-    - Parses standard month/year formats
-    - Defaults to January if only a year is present
     """
     if pd.isna(val):
         return None
 
-    # Replace line breaks, tabs, non-breaking spaces, special hyphens
     val = str(val)
     val = val.replace("\n", " ").replace("\r", " ").replace("\t", " ")
-    val = val.replace("\xa0", " ")       # non-breaking space
-    val = val.replace("–", " ")          # en dash
+    val = val.replace("\xa0", " ").replace("–", " ")
     val = re.sub(r"\s+", " ", val).strip()
 
     if val == "":
         return None
 
-    # Only a year
     if re.fullmatch(r"\d{4}", val):
         return f"{val}-01"
 
-    # Try parsing
     try:
         dt = parser.parse(val, default=datetime.datetime(1900, 1, 1))
         return dt.strftime("%Y-%m")
     except Exception:
-        # Fallback: try to extract month and year manually
         months = {
             "Jan": "01", "Feb": "02", "Mar": "03", "Apr": "04",
             "May": "05", "Jun": "06", "Jul": "07", "Aug": "08",
             "Sep": "09", "Oct": "10", "Nov": "11", "Dec": "12"
         }
-        # Look for month abbreviation
         month_match = re.search(r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)", val, re.IGNORECASE)
         year_match = re.search(r"(\d{4})", val)
         if year_match:
@@ -120,15 +113,12 @@ def parse_ipo_month(val):
             return f"{year}-{month}"
         return None
 
-# ------------------------------
 # Main extraction function
-# ------------------------------
-
 def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_dir="./data"):
     """
     Extract and clean tables from USCC PDF.
     """
-    # 1. Extract tables from PDF
+    # Extract tables from PDF
     tables = []
     with pdfplumber.open(pdf_path) as pdf:
         for i in range(start_page - 1, end_page):
@@ -155,10 +145,10 @@ def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_di
     # Combine all tables
     df_raw = pd.concat(standardized_tables, ignore_index=True)
 
-    # 2. Merge continuation rows
+    # Merge continuation rows
     df_clean = merge_continuation_rows(df_raw, key_col='ticker')
 
-    # 3. Normalize ticker & Exchange
+    # Normalize ticker & Exchange
     df_clean["Exchange"] = ""
     df_clean["Symbol"] = df_clean["Symbol"].astype(str)
     mask_hk = df_clean["Symbol"].str.endswith("+HK", na=False)
@@ -166,13 +156,13 @@ def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_di
     df_clean.loc[mask_hk, "Exchange"] = "HK"
     df_clean = merge_continuation_rows(df_clean, key_col='ticker')
 
-    # 4. Clean numeric columns
+    # Clean numeric columns
     if "Market Cap" in df_clean.columns:
         df_clean["Market Cap"] = clean_numeric_column(df_clean["Market Cap"])
     if "IPO Value" in df_clean.columns:
         df_clean["IPO Value"] = clean_numeric_column(df_clean["IPO Value"])
 
-    # 5. Handle multi-line IPO Month and parse
+    # Handle multi-line IPO Month and parse
     if "IPO Month" in df_clean.columns:
         df_clean = fix_multiline_ipo(df_clean, col="IPO Month")
         df_clean["IPO Month"] = (
@@ -184,12 +174,12 @@ def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_di
             .apply(parse_ipo_month)
         )
 
-    # 6. Remove § and other unwanted symbols globally
+    # Remove unwanted symbols
     df_clean = df_clean.applymap(
         lambda x: re.sub(r"§", "", str(x)) if isinstance(x, str) else x
     )
 
-    # 7. Rename columns and lowercase Sector
+    # Rename columns
     if "Symbol" in df_clean.columns:
         df_clean = df_clean.drop(columns=["ticker"], errors="ignore")
         df_clean = df_clean.rename(columns={
@@ -204,12 +194,23 @@ def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_di
 
     df_clean.columns = [col.lower() if col.strip().lower() == "sector" else col for col in df_clean.columns]
 
-    # 8. Save CSV if requested
+    # Save CSV
     if save_csv:
         os.makedirs(output_dir, exist_ok=True)
-        RUN_DATE = datetime.datetime.now().strftime("%Y%m%d")
-        output_path = os.path.join(output_dir, f"{RUN_DATE}_chinese_companies_USA.csv")
+        run_date = datetime.datetime.now().strftime("%Y%m%d")
+        output_path = os.path.join(output_dir, f"{run_date}_chinese_companies_USA.csv")
         df_clean.to_csv(output_path, index=False)
-        print(f"Saved cleaned CSV to: {output_path}")
+        print(f"✅ Saved cleaned CSV to: {output_path}")
 
     return df_clean
+
+# CLI Entry Point
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Extract Chinese company listings from USCC PDF.")
+    parser.add_argument("--pdf", required=True, help="Path to USCC PDF file")
+    parser.add_argument("--out", default="./data", help="Output directory for CSV")
+    parser.add_argument("--start", type=int, default=8, help="Start page (default=8)")
+    parser.add_argument("--end", type=int, default=22, help="End page (default=22)")
+    args = parser.parse_args()
+
+    extract_tables(args.pdf, start_page=args.start, end_page=args.end, save_csv=True, output_dir=args.out)
