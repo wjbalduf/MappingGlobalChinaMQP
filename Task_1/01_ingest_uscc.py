@@ -26,10 +26,7 @@ def clean_numeric_column(series):
     )
 
 def merge_continuation_rows(df, key_col='ticker'):
-    """
-    Merge rows where the key column is NaN/empty into the previous row.
-    Handles multi-line cells.
-    """
+    """Merge rows where the key column is NaN/empty into the previous row."""
     merged_rows = []
     buffer = None
 
@@ -53,13 +50,7 @@ def merge_continuation_rows(df, key_col='ticker'):
     return pd.DataFrame(merged_rows).reset_index(drop=True)
 
 def fix_multiline_ipo(df, col='IPO Month'):
-    """
-    Merge IPO Month values that are split across multiple rows.
-    Example:
-        Row 1: "Jan"
-        Row 2: "2020"
-    Result: "Jan 2020"
-    """
+    """Merge IPO Month values that are split across multiple rows."""
     df = df.copy()
     skip_next = False
 
@@ -79,9 +70,7 @@ def fix_multiline_ipo(df, col='IPO Month'):
     return df
 
 def parse_ipo_month(val):
-    """
-    Convert IPO Month string to YYYY-MM format.
-    """
+    """Convert IPO Month string to YYYY-MM format."""
     if pd.isna(val):
         return None
 
@@ -113,11 +102,50 @@ def parse_ipo_month(val):
             return f"{year}-{month}"
         return None
 
+def detect_listing_pages(pdf_path, min_rows=2):
+    """
+    Detect start and end pages of USCC listings in a PDF.
+    - start_page: first page whose table header contains 'ticker' or 'symbol'
+    - end_page: last page that contains a table with at least `min_rows` of data
+    Returns (start_page, end_page)
+    """
+    start_page = None
+    last_page_with_table = None
+
+    with pdfplumber.open(pdf_path) as pdf:
+        for i, page in enumerate(pdf.pages, start=1):
+            tables = page.extract_tables()
+            if not tables:
+                continue
+
+            # Detect start_page using header
+            if start_page is None:
+                for t in tables:
+                    header = t[0]
+                    header_text = " ".join([str(h) if h else "" for h in header]).lower()
+                    if "ticker" in header_text or "symbol" in header_text:
+                        start_page = i
+                        break
+
+            # Detect last_page using table length
+            for t in tables:
+                if len(t) > min_rows:
+                    last_page_with_table = i
+                    break
+
+    if start_page is None or last_page_with_table is None:
+        raise ValueError("Could not detect listing pages in PDF")
+
+    return start_page, last_page_with_table
+
 # Main extraction function
-def extract_tables(pdf_path, start_page=8, end_page=22, save_csv=True, output_dir="./data"):
+def extract_tables(pdf_path, save_csv=True, output_dir="./data"):
     """
-    Extract and clean tables from USCC PDF.
+    Extract and clean tables from USCC PDF with automatic page detection.
     """
+    start_page, end_page = detect_listing_pages(pdf_path)
+    print(f"Detected tables on pages {start_page} to {end_page}")
+
     # Extract tables from PDF
     tables = []
     with pdfplumber.open(pdf_path) as pdf:
@@ -209,8 +237,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract Chinese company listings from USCC PDF.")
     parser.add_argument("--pdf", required=True, help="Path to USCC PDF file")
     parser.add_argument("--out", default="./data", help="Output directory for CSV")
-    parser.add_argument("--start", type=int, default=8, help="Start page (default=8)")
-    parser.add_argument("--end", type=int, default=22, help="End page (default=22)")
     args = parser.parse_args()
 
-    extract_tables(args.pdf, start_page=args.start, end_page=args.end, save_csv=True, output_dir=args.out)
+    extract_tables(args.pdf, save_csv=True, output_dir=args.out)
