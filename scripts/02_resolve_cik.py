@@ -11,7 +11,7 @@ OUTPUT_DIR = "data/intermediate/"
 CACHE_FILE = "data/cache/sec_tickers.json"
 SEC_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
 HEADERS = {
-    "User-Agent": "William Balduf silly12billy@gmail.com"
+    "User-Agent": "First-Name Last-Name Email" #Enter your information
 }
 
 # Load or fetch SEC mapping
