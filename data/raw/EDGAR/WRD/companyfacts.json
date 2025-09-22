@@ -1,0 +1,5941 @@
+{
+  "cik": "0001867729",
+  "entityName": "WeRide Inc.",
+  "facts": {
+    "ifrs-full": {
+      "AdditionsToRightofuseAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 6600000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 23200000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 59200000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "AdjustmentsForDecreaseIncreaseInContractAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -93062000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 1717000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 54410000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "AdjustmentsForDecreaseIncreaseInTradeAndOtherReceivables": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -215850000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -54076000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": -11166000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "AdjustmentsForIncreaseDecreaseInContractLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 381000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 8298000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": -8022000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "AdjustmentsForIncreaseDecreaseInFinancialLiabilitiesMeasuredAtFairValueThroughProfitOrLoss": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -25308000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 4549000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "AdjustmentsForIncreaseDecreaseInTradeAndOtherPayables": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -4485000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 6291000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 3734000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "AdministrativeExpense": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 237236000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 625369000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 1138802000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "AmountsPayableRelatedPartyTransactions": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 77827000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 9450000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "AmountsReceivableRelatedPartyTransactions": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 26923000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 13117000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "Assets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 5614258000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 7693770000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "BasicEarningsLossPerShare": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY/shares": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -11.08,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -16.86,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": -8.54,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "Borrowings": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 80059000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "CancellationOfTreasuryShares": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2024-11-30",
+              "val": 151700000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "CashAndCashEquivalents": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2021-12-31",
+              "val": 2725568000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2021Q4I"
+            },
+            {
+              "end": "2022-12-31",
+              "val": 2233691000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022Q4I"
+            },
+            {
+              "end": "2023-12-31",
+              "val": 1661152000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 4268300000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "CashFlowsFromUsedInFinancingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 2184588000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 446954000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 2823875000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "CashFlowsFromUsedInInvestingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -2202414000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -546944000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 325505000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "CashFlowsFromUsedInOperatingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -670381000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -474890000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": -593595000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "CashFlowsFromUsedInOperations": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -670381000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -472024000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": -589804000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ChangesInEquity": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 360064000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 1052622000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 12596381000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ChangesInFairValueOfFinancialAssetsAttributableToChangesInCreditRiskOfFinancialAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -7731000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -42960000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 61834000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ComprehensiveIncome": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -1476071000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -2022424000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": -2478444000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ComprehensiveIncomeAttributableToOwnersOfParent": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -1476071000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -2022424000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": -2478444000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ContractAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 83076000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 28566000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "ContractLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 12498000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 4476000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "ContractualCapitalCommitments": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2024-12-31",
+              "val": 279103000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "CostOfInventoriesRecognisedAsExpenseDuringPeriod": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 192523000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 27739000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 46055000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "CostOfSales": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 294998000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 218368000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 250419000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "CurrentAccruedExpensesAndOtherCurrentLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 271306000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 397755000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "CurrentAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 5370023000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 7287995000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "CurrentAssetsLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": -3221390000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 6745506000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "CurrentContractAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 82826000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 28005000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "CurrentFinancialAssetsAtFairValueThroughProfitOrLoss": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 317042000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 1685146000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "CurrentLeaseLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 31098000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 36900000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "CurrentLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 8591413000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 542489000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "CurrentPrepaymentsAndOtherCurrentAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 192530000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 197652000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "CurrentRestrictedCashAndCashEquivalents": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 10194000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 4814000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "CurrentTaxExpenseIncome": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 2900000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 5900000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "CurrentTaxLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 2077000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "DeferredTaxAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 1994000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 997000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "DeferredTaxLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 5483000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 4486000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "DepreciationAndAmortisationExpense": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 86552000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 89610000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 101131000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "DepreciationRightofuseAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 31748000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 36205000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 38484000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "DescriptionOfDiscountRatesAppliedToCashFlowProjections": {
+        "label": null,
+        "description": null,
+        "units": {
+          "pure": [
+            {
+              "end": "2023-12-31",
+              "val": 0.195,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 0.186,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "DescriptionOfGrowthRateUsedToExtrapolateCashFlowProjections": {
+        "label": null,
+        "description": null,
+        "units": {
+          "pure": [
+            {
+              "end": "2023-12-31",
+              "val": 0.022,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 0.02,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "DilutedEarningsLossPerShare": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY/shares": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -11.08,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -16.86,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": -8.54,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwners": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-05-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q2I"
+            }
+          ]
+        }
+      },
+      "EffectOfExchangeRateChangesOnCashAndCashEquivalents": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 196330000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 2341000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 51363000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "EmployeeBenefitsExpense": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 802355000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 1497459000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 1953723000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "Equity": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2021-12-31",
+              "val": -966109000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2021Q4I"
+            },
+            {
+              "end": "2022-12-31",
+              "val": -2082116000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022Q4I"
+            },
+            {
+              "end": "2023-12-31",
+              "val": -3051918000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 7066019000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "EquityAndLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 5614258000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 7693770000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "ExpectedDividendShareOptionsGranted": {
+        "label": null,
+        "description": null,
+        "units": {
+          "USD": [
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "ExpenseByNature": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 1314373000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 1943579000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 2534144000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ExpenseFromSharebasedPaymentTransactionsInWhichGoodsOrServicesReceivedDidNotQualifyForRecognitionAsAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            }
+          ]
+        }
+      },
+      "ExpenseFromSharebasedPaymentTransactionsWithEmployees": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 325429000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 931784000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 1187867000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ExpenseRelatingToShorttermLeasesForWhichRecognitionExemptionHasBeenUsed": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 1366000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 933000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 1686000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "FinanceCosts": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 4202000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 3490000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 3451000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "FinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 317042000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 1742065000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "FinancialLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2021-12-31",
+              "val": 3038516000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2021Q4I"
+            },
+            {
+              "end": "2022-12-31",
+              "val": 6396105000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022Q4I"
+            },
+            {
+              "end": "2023-12-31",
+              "val": 8042784000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "GainsLossesOnDisposalsOfNoncurrentAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -950000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -1087000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 1013000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "Goodwill": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 44758000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 44758000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "GrossProfit": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 232545000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 183476000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 110715000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ImpairmentLoss": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ImpairmentLossOnReceivablesOrContractAssetsArisingFromContractsWithCustomers": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 11696000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 40217000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 28664000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncomeTaxExpenseContinuingOperations": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 2866000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 5868000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncomeTaxesPaidClassifiedAsOperatingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 2866000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 3791000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -688207000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -574880000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 2555785000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseThroughChangesInFairValuesLiabilitiesArisingFromFinancingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 25308000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -4549000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseThroughEffectOfChangesInForeignExchangeRatesLiabilitiesArisingFromFinancingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 459137000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 126911000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 30172000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseThroughExerciseOfWarrantsEquity": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 79512000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 111086000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseThroughFinancingCashFlowsLiabilitiesArisingFromFinancingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 2229750000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 444246000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 32282000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseThroughOtherDistributionsToOwners": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 4528000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseThroughSharebasedPaymentTransactions": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 325429000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 931784000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 1187867000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseThroughNewLeasesLiabilitiesArisingFromFinancingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 6649000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 23271000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 59159000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IntangibleAssetsOtherThanGoodwill": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 24594000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 21664000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "InterestExpenseOnBorrowings": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 525000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "InterestExpenseOnLeaseLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 3574000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 2853000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 2275000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "InterestPaidClassifiedAsFinancingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 466000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "Inventories": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 218220000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 204705000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "InventoriesTotal": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 218220000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 204705000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "InventoryWritedown2011": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 6399000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 25661000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "KeyManagementPersonnelCompensationOtherLongtermBenefits": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 15083000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 7396000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 15425000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "KeyManagementPersonnelCompensationShorttermEmployeeBenefits": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 22461000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 18191000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 15575000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "LeaseLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 53407000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 62959000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "Liabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 8666176000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 627751000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "LiabilitiesArisingFromFinancingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2021-12-31",
+              "val": 3998010000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2021Q4I"
+            },
+            {
+              "end": "2022-12-31",
+              "val": 7197351000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022Q4I"
+            },
+            {
+              "end": "2023-12-31",
+              "val": 8275578000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 184117000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "LongtermBorrowings": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 50040000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "NetDeferredTaxAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 1994000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 997000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "NetDeferredTaxLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": -5483000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": -4486000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "NetForeignExchangeGain": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 20209000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 7052000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 27880000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "NoncurrentAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 244235000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 405775000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "NoncurrentContractAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 250000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 561000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 56919000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "NoncurrentLeaseLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 22309000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 26059000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "NoncurrentLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 74763000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 85262000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "NoncurrentRestrictedCashAndCashEquivalents": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 1575000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 9669000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "NotionalAmount": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2024-12-31",
+              "val": 14200000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ],
+          "USD": [
+            {
+              "end": "2024-12-31",
+              "val": 2000000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "NumberOfOutstandingShareOptions": {
+        "label": null,
+        "description": null,
+        "units": {
+          "shares": [
+            {
+              "end": "2021-12-31",
+              "val": 53564010,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2021Q4I"
+            },
+            {
+              "end": "2022-12-31",
+              "val": 103897771,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022Q4I"
+            },
+            {
+              "end": "2023-12-31",
+              "val": 109142239,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 121852549,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "NumberOfShareOptionsExercisableInSharebasedPaymentArrangement": {
+        "label": null,
+        "description": null,
+        "units": {
+          "shares": [
+            {
+              "end": "2024-12-31",
+              "val": 84685936,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "NumberOfShareOptionsExercisedInSharebasedPaymentArrangement": {
+        "label": null,
+        "description": null,
+        "units": {
+          "shares": [
+            {
+              "start": "2024-12-01",
+              "end": "2024-12-31",
+              "val": 8879402,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "NumberOfShareOptionsExpiredInSharebasedPaymentArrangement": {
+        "label": null,
+        "description": null,
+        "units": {
+          "shares": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 1062550,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 935335,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 643187,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "NumberOfShareOptionsForfeitedInSharebasedPaymentArrangement": {
+        "label": null,
+        "description": null,
+        "units": {
+          "shares": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 6047037,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 4654713,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 2923088,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "NumberOfShareOptionsGrantedInSharebasedPaymentArrangement": {
+        "label": null,
+        "description": null,
+        "units": {
+          "shares": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 57443348,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 10834516,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 16276585,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "NumberOfSharesAuthorised": {
+        "label": null,
+        "description": null,
+        "units": {
+          "shares": [
+            {
+              "end": "2024-07-31",
+              "val": 1000000000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q2I"
+            }
+          ]
+        }
+      },
+      "OtherComprehensiveIncome": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -177575000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -73323000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 38364000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -177575000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -73323000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 38364000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslationOtherThanTranslationOfForeignOperations": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -177575000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -73323000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 38364000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OtherExpenseByNature": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 72814000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 88705000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 107205000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OtherFinanceCost": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 4202000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 3490000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 3451000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OtherIncome": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 19296000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 15750000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 16491000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OtherNoncurrentAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 21082000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 20025000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "OtherNoncurrentFinancialAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 21082000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 20025000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "OtherNoncurrentLiabilities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 6522000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 4677000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "OtherPropertyPlantAndEquipment": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2024-12-31",
+              "val": 5200000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "OtherReceivables": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 63811000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 50418000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "ParValuePerShare": {
+        "label": null,
+        "description": null,
+        "units": {
+          "USD/shares": [
+            {
+              "end": "2024-07-31",
+              "val": 1e-05,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q2I"
+            }
+          ]
+        }
+      },
+      "PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 38022000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 41016000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 47252000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "PaymentsToAndOnBehalfOfEmployees": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2023-06-01",
+              "end": "2023-06-30",
+              "val": 10900000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q2I"
+            }
+          ],
+          "USD": [
+            {
+              "start": "2023-06-01",
+              "end": "2023-06-30",
+              "val": 1500000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q2I"
+            }
+          ]
+        }
+      },
+      "PostemploymentBenefitExpenseDefinedContributionPlans": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 16705000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 20707000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 37483000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "PrepaymentsAndAccruedIncomeOtherThanContractAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 128719000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 147234000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "ProceedsFromDisposalsOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 2166000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 1903000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 1060000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ProceedsFromIssueOfOrdinaryShares": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 13442000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 42519000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 1000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ProceedsFromIssueOfPreferenceShares": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 31000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "ProceedsFromNoncurrentBorrowings": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 80000000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ProceedsFromSaleOrIssueOfTreasuryShares": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 6480000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            }
+          ]
+        }
+      },
+      "ProceedsFromSalesOrMaturityOfFinancialAssetsMeasuredAtFairValueThroughProfitOrLossClassifiedAsInvestingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 929785000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 2925265000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 324791000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ProductionSupplies": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 58151000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 76961000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "ProfessionalFeesExpense": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 63811000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 46918000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 107178000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ProfitLoss": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -1298496000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -1949101000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": -2516808000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ProfitLossAttributableToOwnersOfParent": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -1298496000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -1949101000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": -2516808000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ProfitLossBeforeTax": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -1298496000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -1946235000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": -2510940000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ProfitLossFromOperatingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": -779230000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": -1566202000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": -2185183000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "PropertyPlantAndEquipment": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 98574000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 178179000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "PurchaseOfFinancialAssetsMeasuredAtFairValueThroughProfitOrLossClassifiedAsInvestingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 2041173000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 1965328000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 1807527000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 1881000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 304000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 1504000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 80812000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 36650000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 84004000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "PurchasesOfGoodsRelatedPartyTransactions": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 199136000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 129909000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 161097000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ReceivablesFromContractsWithCustomers": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 52952000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 31917000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "ResearchAndDevelopmentExpense": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 758565000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 1058395000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 1091357000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "RestrictedCashAndCashEquivalents": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 1575000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 9669000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "RetainedEarnings": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": -6114544000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": -8631352000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "Revenue": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 527543000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 401844000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 361134000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "RevenueFromContractsWithCustomers": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 527543000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 401844000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 361134000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "RevenueFromGovernmentGrants": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 19658000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 14399000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 14132000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "RevenueFromInterest": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 36111000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 132042000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 176902000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "RevenueFromSaleOfGoodsRelatedPartyTransactions": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 44973000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 10218000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 2840000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "RevenueThatWasIncludedInContractLiabilityBalanceAtBeginningOfPeriod": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 12500000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "RightofuseAssets": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 51658000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 73564000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "SaleOrIssueOfTreasuryShares": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 6480000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            }
+          ]
+        }
+      },
+      "SellingExpense": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 23574000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 41447000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 53566000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "SettlementOfLiabilitiesByEntityOnBehalfOfRelatedPartyRelatedPartyTransactions": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 34848000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 65238000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "SharePremium": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 1104120000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 12750598000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "ShorttermBorrowings": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 30019000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "TaxEffectOfExpenseNotDeductibleInDeterminingTaxableProfitTaxLoss": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 1479000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 14467000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 19894000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "TaxEffectOfForeignTaxRates": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 30000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "TradeAndOtherCurrentPayablesToRelatedParties": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 77827000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 9450000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "TradeAndOtherCurrentReceivables": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 266933000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 252607000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "TradeAndOtherPayables": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 16962000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 20713000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "TradeAndOtherReceivables": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 330744000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 303025000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "TradeReceivables": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 266933000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 252607000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "TransactionPriceAllocatedToRemainingPerformanceObligations": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2022-12-31",
+              "val": 401500000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022Q4I"
+            },
+            {
+              "end": "2023-12-31",
+              "val": 263800000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 88300000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "TreasuryShares": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 151668000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "UtilitiesExpense": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 38210000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 31978000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 35698000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ValueAddedTaxReceivables": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 49493000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 64678000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "WagesAndSalaries": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 460221000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 544968000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 728373000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "WarrantLiability": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2021-12-31",
+              "val": 74357000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2021Q4I"
+            },
+            {
+              "end": "2022-12-31",
+              "val": 72112000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022Q4I"
+            },
+            {
+              "end": "2023-12-31",
+              "val": 0,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            }
+          ]
+        }
+      },
+      "WeightedAverageExercisePriceOfShareOptionsExercisableInSharebasedPaymentArrangement2019": {
+        "label": null,
+        "description": null,
+        "units": {
+          "USD/shares": [
+            {
+              "end": "2024-12-31",
+              "val": 1.2,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "WeightedAverageExercisePriceOfShareOptionsExpiredInSharebasedPaymentArrangement2019": {
+        "label": null,
+        "description": null,
+        "units": {
+          "USD/shares": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 0.5,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 0.6,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 0.8,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "WeightedAverageExercisePriceOfShareOptionsForfeitedInSharebasedPaymentArrangement2019": {
+        "label": null,
+        "description": null,
+        "units": {
+          "USD/shares": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 0.7,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 0.9,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 1.2,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "WeightedAverageExercisePriceOfShareOptionsGrantedInSharebasedPaymentArrangement2019": {
+        "label": null,
+        "description": null,
+        "units": {
+          "USD/shares": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 1.2,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 1.2,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 2.7,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "WeightedAverageExercisePriceOfShareOptionsOutstandingInSharebasedPaymentArrangement2019": {
+        "label": null,
+        "description": null,
+        "units": {
+          "USD/shares": [
+            {
+              "end": "2021-12-31",
+              "val": 0.6,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2021Q4I"
+            },
+            {
+              "end": "2022-12-31",
+              "val": 0.9,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022Q4I"
+            },
+            {
+              "end": "2023-12-31",
+              "val": 0.9,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 1.2,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "WeightedAverageFairValueAtMeasurementDateShareOptionsGranted": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2022-12-31",
+              "val": 959800000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022Q4I"
+            },
+            {
+              "end": "2023-12-31",
+              "val": 194300000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 396500000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ],
+          "USD": [
+            {
+              "end": "2022-12-31",
+              "val": 142800000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022Q4I"
+            },
+            {
+              "end": "2023-12-31",
+              "val": 27600000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 55700000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      },
+      "WeightedAverageSharePrice2019": {
+        "label": null,
+        "description": null,
+        "units": {
+          "USD/shares": [
+            {
+              "start": "2024-07-01",
+              "end": "2024-07-31",
+              "val": 1.22,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q2I"
+            },
+            {
+              "start": "2024-10-01",
+              "end": "2024-10-31",
+              "val": 3.89,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "WeightedAverageSharePriceShareOptionsGranted2019": {
+        "label": null,
+        "description": null,
+        "units": {
+          "USD/shares": [
+            {
+              "start": "2022-01-01",
+              "end": "2022-12-31",
+              "val": 2.4,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "val": 2.6,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "val": 3.4,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "WorkInProgress": {
+        "label": null,
+        "description": null,
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-12-31",
+              "val": 160069000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2023Q4I"
+            },
+            {
+              "end": "2024-12-31",
+              "val": 127744000,
+              "accn": "0001193125-25-062519",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-03-25",
+              "frame": "CY2024Q4I"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

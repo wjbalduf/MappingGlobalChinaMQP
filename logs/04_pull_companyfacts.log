@@ -1,0 +1,799 @@
+2025-09-22 08:24:43,056 - INFO - Starting company facts extraction - Run date: 20250922
+2025-09-22 08:25:03,985 - INFO - Starting company facts extraction - Run date: 20250922
+2025-09-22 08:25:03,985 - INFO - Loaded 267 companies with CIK mappings
+2025-09-22 08:25:03,986 - INFO - Processing 1/267: BABA (CIK: 0001577552)
+2025-09-22 08:25:05,009 - INFO - Successfully fetched company facts for BABA (CIK: 0001577552)
+2025-09-22 08:25:05,104 - INFO - Extracted DEI data for BABA: None, Country: None, State: None
+2025-09-22 08:25:05,105 - INFO - Processing 2/267: PDD (CIK: 0001737806)
+2025-09-22 08:25:05,589 - INFO - Successfully fetched company facts for PDD (CIK: 0001737806)
+2025-09-22 08:25:05,632 - INFO - Extracted DEI data for PDD: None, Country: None, State: None
+2025-09-22 08:25:05,632 - INFO - Processing 3/267: NTES (CIK: 0001110646)
+2025-09-22 08:25:06,082 - INFO - Successfully fetched company facts for NTES (CIK: 0001110646)
+2025-09-22 08:25:06,169 - INFO - Extracted DEI data for NTES: None, Country: None, State: None
+2025-09-22 08:25:06,169 - INFO - Processing 4/267: JD (CIK: 0001549802)
+2025-09-22 08:25:06,636 - INFO - Successfully fetched company facts for JD (CIK: 0001549802)
+2025-09-22 08:25:06,713 - INFO - Extracted DEI data for JD: None, Country: None, State: None
+2025-09-22 08:25:06,713 - INFO - Processing 5/267: TCOM (CIK: 0001269238)
+2025-09-22 08:25:07,285 - INFO - Successfully fetched company facts for TCOM (CIK: 0001269238)
+2025-09-22 08:25:07,382 - INFO - Extracted DEI data for TCOM: None, Country: None, State: None
+2025-09-22 08:25:07,382 - INFO - Processing 6/267: BIDU (CIK: 0001329099)
+2025-09-22 08:25:07,945 - INFO - Successfully fetched company facts for BIDU (CIK: 0001329099)
+2025-09-22 08:25:08,099 - INFO - Extracted DEI data for BIDU: None, Country: None, State: None
+2025-09-22 08:25:08,099 - INFO - Processing 7/267: LI (CIK: 0001791706)
+2025-09-22 08:25:08,523 - INFO - Successfully fetched company facts for LI (CIK: 0001791706)
+2025-09-22 08:25:08,574 - INFO - Extracted DEI data for LI: None, Country: None, State: None
+2025-09-22 08:25:08,574 - INFO - Processing 8/267: BEKE (CIK: 0001809587)
+2025-09-22 08:25:09,058 - INFO - Successfully fetched company facts for BEKE (CIK: 0001809587)
+2025-09-22 08:25:09,117 - INFO - Extracted DEI data for BEKE: None, Country: None, State: None
+2025-09-22 08:25:09,117 - INFO - Processing 9/267: ONC (CIK: 0001651308)
+2025-09-22 08:25:09,657 - INFO - Successfully fetched company facts for ONC (CIK: 0001651308)
+2025-09-22 08:25:09,787 - INFO - Extracted DEI data for ONC: None, Country: None, State: None
+2025-09-22 08:25:09,787 - INFO - Processing 10/267: TME (CIK: 0001744676)
+2025-09-22 08:25:10,263 - INFO - Successfully fetched company facts for TME (CIK: 0001744676)
+2025-09-22 08:25:10,295 - INFO - Extracted DEI data for TME: None, Country: None, State: None
+2025-09-22 08:25:10,295 - INFO - Processing 11/267: XPEV (CIK: 0001810997)
+2025-09-22 08:25:10,764 - INFO - Successfully fetched company facts for XPEV (CIK: 0001810997)
+2025-09-22 08:25:10,795 - INFO - Extracted DEI data for XPEV: None, Country: None, State: None
+2025-09-22 08:25:10,795 - INFO - Processing 12/267: YUMC (CIK: 0001673358)
+2025-09-22 08:25:11,330 - INFO - Successfully fetched company facts for YUMC (CIK: 0001673358)
+2025-09-22 08:25:11,460 - INFO - Extracted DEI data for YUMC: None, Country: None, State: None
+2025-09-22 08:25:11,460 - INFO - Processing 13/267: ZTO (CIK: 0001677250)
+2025-09-22 08:25:11,897 - INFO - Successfully fetched company facts for ZTO (CIK: 0001677250)
+2025-09-22 08:25:11,958 - INFO - Extracted DEI data for ZTO: None, Country: None, State: None
+2025-09-22 08:25:11,958 - INFO - Processing 14/267: YMM (CIK: 0001838413)
+2025-09-22 08:25:12,552 - INFO - Successfully fetched company facts for YMM (CIK: 0001838413)
+2025-09-22 08:25:12,580 - INFO - Extracted DEI data for YMM: None, Country: None, State: None
+2025-09-22 08:25:12,580 - INFO - Processing 15/267: HTHT (CIK: 0001483994)
+2025-09-22 08:25:13,103 - INFO - Successfully fetched company facts for HTHT (CIK: 0001483994)
+2025-09-22 08:25:13,224 - INFO - Extracted DEI data for HTHT: None, Country: None, State: None
+2025-09-22 08:25:13,224 - INFO - Processing 16/267: BILI (CIK: 0001723690)
+2025-09-22 08:25:13,631 - INFO - Successfully fetched company facts for BILI (CIK: 0001723690)
+2025-09-22 08:25:13,678 - INFO - Extracted DEI data for BILI: None, Country: None, State: None
+2025-09-22 08:25:13,678 - INFO - Processing 17/267: NIO (CIK: 0001736541)
+2025-09-22 08:25:14,116 - INFO - Successfully fetched company facts for NIO (CIK: 0001736541)
+2025-09-22 08:25:14,195 - INFO - Extracted DEI data for NIO: None, Country: None, State: None
+2025-09-22 08:25:14,195 - INFO - Processing 18/267: TAL (CIK: 0001499620)
+2025-09-22 08:25:14,634 - INFO - Successfully fetched company facts for TAL (CIK: 0001499620)
+2025-09-22 08:25:14,700 - INFO - Extracted DEI data for TAL: None, Country: None, State: None
+2025-09-22 08:25:14,700 - INFO - Processing 19/267: EDU (CIK: 0001372920)
+2025-09-22 08:25:15,166 - INFO - Successfully fetched company facts for EDU (CIK: 0001372920)
+2025-09-22 08:25:15,247 - INFO - Extracted DEI data for EDU: None, Country: None, State: None
+2025-09-22 08:25:15,247 - INFO - Processing 20/267: ZK (CIK: 0001954042)
+2025-09-22 08:25:15,571 - WARNING - No company facts found for ZK (CIK: 0001954042)
+2025-09-22 08:25:15,572 - INFO - Processing 21/267: BZ (CIK: 0001842827)
+2025-09-22 08:25:15,993 - INFO - Successfully fetched company facts for BZ (CIK: 0001842827)
+2025-09-22 08:25:16,019 - INFO - Extracted DEI data for BZ: None, Country: None, State: None
+2025-09-22 08:25:16,019 - INFO - Processing 22/267: GDS (CIK: 0001526125)
+2025-09-22 08:25:16,513 - INFO - Successfully fetched company facts for GDS (CIK: 0001526125)
+2025-09-22 08:25:16,582 - INFO - Extracted DEI data for GDS: None, Country: None, State: None
+2025-09-22 08:25:16,582 - INFO - Processing 23/267: QFIN (CIK: 0001741530)
+2025-09-22 08:25:17,033 - INFO - Successfully fetched company facts for QFIN (CIK: 0001741530)
+2025-09-22 08:25:17,077 - INFO - Extracted DEI data for QFIN: None, Country: None, State: None
+2025-09-22 08:25:17,077 - INFO - Processing 24/267: MNSO (CIK: 0001815846)
+2025-09-22 08:25:17,558 - INFO - Successfully fetched company facts for MNSO (CIK: 0001815846)
+2025-09-22 08:25:17,595 - INFO - Extracted DEI data for MNSO: None, Country: None, State: None
+2025-09-22 08:25:17,595 - INFO - Processing 25/267: PONY (CIK: 0001969302)
+2025-09-22 08:25:18,008 - INFO - Successfully fetched company facts for PONY (CIK: 0001969302)
+2025-09-22 08:25:18,018 - INFO - Extracted DEI data for PONY: None, Country: None, State: None
+2025-09-22 08:25:18,018 - INFO - Processing 26/267: WRD (CIK: 0001867729)
+2025-09-22 08:25:18,450 - INFO - Successfully fetched company facts for WRD (CIK: 0001867729)
+2025-09-22 08:25:18,460 - INFO - Extracted DEI data for WRD: None, Country: None, State: None
+2025-09-22 08:25:18,460 - INFO - Processing 27/267: KC (CIK: 0001795589)
+2025-09-22 08:25:18,912 - INFO - Successfully fetched company facts for KC (CIK: 0001795589)
+2025-09-22 08:25:18,963 - INFO - Extracted DEI data for KC: None, Country: None, State: None
+2025-09-22 08:25:18,963 - INFO - Processing 28/267: ATAT (CIK: 0001853717)
+2025-09-22 08:25:19,395 - INFO - Successfully fetched company facts for ATAT (CIK: 0001853717)
+2025-09-22 08:25:19,422 - INFO - Extracted DEI data for ATAT: None, Country: None, State: None
+2025-09-22 08:25:19,422 - INFO - Processing 29/267: ZLAB (CIK: 0001704292)
+2025-09-22 08:25:19,922 - INFO - Successfully fetched company facts for ZLAB (CIK: 0001704292)
+2025-09-22 08:25:19,991 - INFO - Extracted DEI data for ZLAB: None, Country: None, State: None
+2025-09-22 08:25:19,991 - INFO - Processing 30/267: ATHM (CIK: 0001527636)
+2025-09-22 08:25:20,614 - INFO - Successfully fetched company facts for ATHM (CIK: 0001527636)
+2025-09-22 08:25:20,695 - INFO - Extracted DEI data for ATHM: None, Country: None, State: None
+2025-09-22 08:25:20,695 - INFO - Processing 31/267: VNET (CIK: 0001508475)
+2025-09-22 08:25:21,177 - INFO - Successfully fetched company facts for VNET (CIK: 0001508475)
+2025-09-22 08:25:21,283 - INFO - Extracted DEI data for VNET: None, Country: None, State: None
+2025-09-22 08:25:21,283 - INFO - Processing 32/267: HCM (CIK: 0001648257)
+2025-09-22 08:25:21,762 - INFO - Successfully fetched company facts for HCM (CIK: 0001648257)
+2025-09-22 08:25:21,831 - INFO - Extracted DEI data for HCM: None, Country: None, State: None
+2025-09-22 08:25:21,832 - INFO - Processing 33/267: TUYA (CIK: 0001829118)
+2025-09-22 08:25:22,238 - INFO - Successfully fetched company facts for TUYA (CIK: 0001829118)
+2025-09-22 08:25:22,261 - INFO - Extracted DEI data for TUYA: None, Country: None, State: None
+2025-09-22 08:25:22,261 - INFO - Processing 34/267: LU (CIK: 0001816007)
+2025-09-22 08:25:22,688 - INFO - Successfully fetched company facts for LU (CIK: 0001816007)
+2025-09-22 08:25:22,722 - INFO - Extracted DEI data for LU: None, Country: None, State: None
+2025-09-22 08:25:22,722 - INFO - Processing 35/267: WB (CIK: 0001595761)
+2025-09-22 08:25:23,168 - INFO - Successfully fetched company facts for WB (CIK: 0001595761)
+2025-09-22 08:25:23,227 - INFO - Extracted DEI data for WB: None, Country: None, State: None
+2025-09-22 08:25:23,227 - INFO - Processing 36/267: YY (CIK: PENDING)
+2025-09-22 08:25:23,556 - WARNING - No company facts found for YY (CIK: PENDING)
+2025-09-22 08:25:23,557 - INFO - Processing 37/267: IQ (CIK: 0001722608)
+2025-09-22 08:25:24,093 - INFO - Successfully fetched company facts for IQ (CIK: 0001722608)
+2025-09-22 08:25:24,169 - INFO - Extracted DEI data for IQ: None, Country: None, State: None
+2025-09-22 08:25:24,169 - INFO - Processing 38/267: HSAI (CIK: 0001861737)
+2025-09-22 08:25:24,629 - INFO - Successfully fetched company facts for HSAI (CIK: 0001861737)
+2025-09-22 08:25:24,651 - INFO - Extracted DEI data for HSAI: None, Country: None, State: None
+2025-09-22 08:25:24,651 - INFO - Processing 39/267: FINV (CIK: 0001691445)
+2025-09-22 08:25:25,086 - INFO - Successfully fetched company facts for FINV (CIK: 0001691445)
+2025-09-22 08:25:25,137 - INFO - Extracted DEI data for FINV: None, Country: None, State: None
+2025-09-22 08:25:25,138 - INFO - Processing 40/267: LZMH (CIK: 0001967397)
+2025-09-22 08:25:25,539 - INFO - Successfully fetched company facts for LZMH (CIK: 0001967397)
+2025-09-22 08:25:25,548 - INFO - Extracted DEI data for LZMH: None, Country: None, State: None
+2025-09-22 08:25:25,548 - INFO - Processing 41/267: AAPG (CIK: 0002023311)
+2025-09-22 08:25:25,929 - INFO - Successfully fetched company facts for AAPG (CIK: 0002023311)
+2025-09-22 08:25:25,949 - INFO - Extracted DEI data for AAPG: None, Country: None, State: None
+2025-09-22 08:25:25,949 - INFO - Processing 42/267: ACMR (CIK: 0001680062)
+2025-09-22 08:25:26,427 - INFO - Successfully fetched company facts for ACMR (CIK: 0001680062)
+2025-09-22 08:25:26,534 - INFO - Extracted DEI data for ACMR: None, Country: None, State: None
+2025-09-22 08:25:26,534 - INFO - Processing 43/267: LX (CIK: 0001708259)
+2025-09-22 08:25:27,004 - INFO - Successfully fetched company facts for LX (CIK: 0001708259)
+2025-09-22 08:25:27,058 - INFO - Extracted DEI data for LX: None, Country: None, State: None
+2025-09-22 08:25:27,058 - INFO - Processing 44/267: EH (CIK: 0001759783)
+2025-09-22 08:25:27,511 - INFO - Successfully fetched company facts for EH (CIK: 0001759783)
+2025-09-22 08:25:27,550 - INFO - Extracted DEI data for EH: None, Country: None, State: None
+2025-09-22 08:25:27,551 - INFO - Processing 45/267: TIGR (CIK: 0001756699)
+2025-09-22 08:25:28,111 - INFO - Successfully fetched company facts for TIGR (CIK: 0001756699)
+2025-09-22 08:25:28,139 - INFO - Extracted DEI data for TIGR: None, Country: None, State: None
+2025-09-22 08:25:28,139 - INFO - Processing 46/267: MOMO (CIK: 0001610601)
+2025-09-22 08:25:28,568 - INFO - Successfully fetched company facts for MOMO (CIK: 0001610601)
+2025-09-22 08:25:28,618 - INFO - Extracted DEI data for MOMO: None, Country: None, State: None
+2025-09-22 08:25:28,618 - INFO - Processing 47/267: DQ (CIK: 0001477641)
+2025-09-22 08:25:29,069 - INFO - Successfully fetched company facts for DQ (CIK: 0001477641)
+2025-09-22 08:25:29,131 - INFO - Extracted DEI data for DQ: None, Country: None, State: None
+2025-09-22 08:25:29,131 - INFO - Processing 48/267: JKS (CIK: 0001481513)
+2025-09-22 08:25:29,852 - INFO - Successfully fetched company facts for JKS (CIK: 0001481513)
+2025-09-22 08:25:29,973 - INFO - Extracted DEI data for JKS: None, Country: None, State: None
+2025-09-22 08:25:29,973 - INFO - Processing 49/267: BGM (CIK: 0001779578)
+2025-09-22 08:25:30,421 - INFO - Successfully fetched company facts for BGM (CIK: 0001779578)
+2025-09-22 08:25:30,469 - INFO - Extracted DEI data for BGM: None, Country: None, State: None
+2025-09-22 08:25:30,470 - INFO - Processing 50/267: HUYA (CIK: 0001728190)
+2025-09-22 08:25:30,946 - INFO - Successfully fetched company facts for HUYA (CIK: 0001728190)
+2025-09-22 08:25:30,985 - INFO - Extracted DEI data for HUYA: None, Country: None, State: None
+2025-09-22 08:25:30,986 - INFO - Processing 51/267: GOTU (CIK: 0001768259)
+2025-09-22 08:25:31,446 - INFO - Successfully fetched company facts for GOTU (CIK: 0001768259)
+2025-09-22 08:25:31,480 - INFO - Extracted DEI data for GOTU: None, Country: None, State: None
+2025-09-22 08:25:31,480 - INFO - Processing 52/267: NOAH (CIK: 0001499543)
+2025-09-22 08:25:31,960 - INFO - Successfully fetched company facts for NOAH (CIK: 0001499543)
+2025-09-22 08:25:32,046 - INFO - Extracted DEI data for NOAH: None, Country: None, State: None
+2025-09-22 08:25:32,046 - INFO - Processing 53/267: UXIN (CIK: 0001729173)
+2025-09-22 08:25:32,520 - INFO - Successfully fetched company facts for UXIN (CIK: 0001729173)
+2025-09-22 08:25:32,573 - INFO - Extracted DEI data for UXIN: None, Country: None, State: None
+2025-09-22 08:25:32,573 - INFO - Processing 54/267: RERE (CIK: 0001838957)
+2025-09-22 08:25:33,012 - INFO - Successfully fetched company facts for RERE (CIK: 0001838957)
+2025-09-22 08:25:33,045 - INFO - Extracted DEI data for RERE: None, Country: None, State: None
+2025-09-22 08:25:33,045 - INFO - Processing 55/267: MSC (CIK: 0001713334)
+2025-09-22 08:25:33,456 - INFO - Successfully fetched company facts for MSC (CIK: 0001713334)
+2025-09-22 08:25:33,482 - INFO - Extracted DEI data for MSC: None, Country: None, State: None
+2025-09-22 08:25:33,482 - INFO - Processing 56/267: DDL (CIK: 0001854545)
+2025-09-22 08:25:33,947 - INFO - Successfully fetched company facts for DDL (CIK: 0001854545)
+2025-09-22 08:25:33,971 - INFO - Extracted DEI data for DDL: None, Country: None, State: None
+2025-09-22 08:25:33,971 - INFO - Processing 57/267: CSIQ (CIK: 0001375877)
+2025-09-22 08:25:34,427 - INFO - Successfully fetched company facts for CSIQ (CIK: 0001375877)
+2025-09-22 08:25:34,510 - INFO - Extracted DEI data for CSIQ: None, Country: None, State: None
+2025-09-22 08:25:34,510 - INFO - Processing 58/267: YALA (CIK: 0001794350)
+2025-09-22 08:25:34,919 - INFO - Successfully fetched company facts for YALA (CIK: 0001794350)
+2025-09-22 08:25:34,940 - INFO - Extracted DEI data for YALA: None, Country: None, State: None
+2025-09-22 08:25:34,940 - INFO - Processing 59/267: GCT (CIK: 0001857816)
+2025-09-22 08:25:35,433 - INFO - Successfully fetched company facts for GCT (CIK: 0001857816)
+2025-09-22 08:25:35,488 - INFO - Extracted DEI data for GCT: None, Country: None, State: None
+2025-09-22 08:25:35,488 - INFO - Processing 60/267: FLX (CIK: 0001858724)
+2025-09-22 08:25:35,939 - INFO - Successfully fetched company facts for FLX (CIK: 0001858724)
+2025-09-22 08:25:35,961 - INFO - Extracted DEI data for FLX: None, Country: None, State: None
+2025-09-22 08:25:35,961 - INFO - Processing 61/267: YRD (CIK: 0001631761)
+2025-09-22 08:25:36,462 - INFO - Successfully fetched company facts for YRD (CIK: 0001631761)
+2025-09-22 08:25:36,507 - INFO - Extracted DEI data for YRD: None, Country: None, State: None
+2025-09-22 08:25:36,507 - INFO - Processing 62/267: ZKH (CIK: 0001862044)
+2025-09-22 08:25:36,962 - INFO - Successfully fetched company facts for ZKH (CIK: 0001862044)
+2025-09-22 08:25:36,983 - INFO - Extracted DEI data for ZKH: None, Country: None, State: None
+2025-09-22 08:25:36,983 - INFO - Processing 63/267: XYF (CIK: 0001725033)
+2025-09-22 08:25:37,432 - INFO - Successfully fetched company facts for XYF (CIK: 0001725033)
+2025-09-22 08:25:37,487 - INFO - Extracted DEI data for XYF: None, Country: None, State: None
+2025-09-22 08:25:37,487 - INFO - Processing 64/267: AHG (CIK: 0001702318)
+2025-09-22 08:25:37,919 - INFO - Successfully fetched company facts for AHG (CIK: 0001702318)
+2025-09-22 08:25:37,963 - INFO - Extracted DEI data for AHG: None, Country: None, State: None
+2025-09-22 08:25:37,963 - INFO - Processing 65/267: QD (CIK: 0001692705)
+2025-09-22 08:25:38,421 - INFO - Successfully fetched company facts for QD (CIK: 0001692705)
+2025-09-22 08:25:38,472 - INFO - Extracted DEI data for QD: None, Country: None, State: None
+2025-09-22 08:25:38,472 - INFO - Processing 66/267: JFIN (CIK: 0001743102)
+2025-09-22 08:25:38,910 - INFO - Successfully fetched company facts for JFIN (CIK: 0001743102)
+2025-09-22 08:25:38,948 - INFO - Extracted DEI data for JFIN: None, Country: None, State: None
+2025-09-22 08:25:38,949 - INFO - Processing 67/267: WYHG (CIK: 0001999860)
+2025-09-22 08:25:39,366 - INFO - Successfully fetched company facts for WYHG (CIK: 0001999860)
+2025-09-22 08:25:39,372 - INFO - Extracted DEI data for WYHG: None, Country: None, State: None
+2025-09-22 08:25:39,372 - INFO - Processing 68/267: ZH (CIK: 0001835724)
+2025-09-22 08:25:39,790 - INFO - Successfully fetched company facts for ZH (CIK: 0001835724)
+2025-09-22 08:25:39,820 - INFO - Extracted DEI data for ZH: None, Country: None, State: None
+2025-09-22 08:25:39,820 - INFO - Processing 69/267: DADA (CIK: PENDING)
+2025-09-22 08:25:40,148 - WARNING - No company facts found for DADA (CIK: PENDING)
+2025-09-22 08:25:40,148 - INFO - Processing 70/267: SOHU (CIK: 0001734107)
+2025-09-22 08:25:40,516 - INFO - Successfully fetched company facts for SOHU (CIK: 0001734107)
+2025-09-22 08:25:40,559 - INFO - Extracted DEI data for SOHU: None, Country: None, State: None
+2025-09-22 08:25:40,559 - INFO - Processing 71/267: WDH (CIK: 0001823986)
+2025-09-22 08:25:41,008 - INFO - Successfully fetched company facts for WDH (CIK: 0001823986)
+2025-09-22 08:25:41,033 - INFO - Extracted DEI data for WDH: None, Country: None, State: None
+2025-09-22 08:25:41,033 - INFO - Processing 72/267: CAN (CIK: 0001780652)
+2025-09-22 08:25:41,431 - INFO - Successfully fetched company facts for CAN (CIK: 0001780652)
+2025-09-22 08:25:41,469 - INFO - Extracted DEI data for CAN: None, Country: None, State: None
+2025-09-22 08:25:41,469 - INFO - Processing 73/267: AAM (CIK: 0002012964)
+2025-09-22 08:25:41,852 - INFO - Successfully fetched company facts for AAM (CIK: 0002012964)
+2025-09-22 08:25:41,866 - INFO - Extracted DEI data for AAM: None, Country: None, State: None
+2025-09-22 08:25:41,866 - INFO - Processing 74/267: YSG (CIK: 0001819580)
+2025-09-22 08:25:42,280 - INFO - Successfully fetched company facts for YSG (CIK: 0001819580)
+2025-09-22 08:25:42,311 - INFO - Extracted DEI data for YSG: None, Country: None, State: None
+2025-09-22 08:25:42,311 - INFO - Processing 75/267: DOGZ (CIK: 0001707303)
+2025-09-22 08:25:42,754 - INFO - Successfully fetched company facts for DOGZ (CIK: 0001707303)
+2025-09-22 08:25:42,805 - INFO - Extracted DEI data for DOGZ: None, Country: None, State: None
+2025-09-22 08:25:42,805 - INFO - Processing 76/267: CANG (CIK: 0001725123)
+2025-09-22 08:25:43,240 - INFO - Successfully fetched company facts for CANG (CIK: 0001725123)
+2025-09-22 08:25:43,291 - INFO - Extracted DEI data for CANG: None, Country: None, State: None
+2025-09-22 08:25:43,291 - INFO - Processing 77/267: JYD (CIK: 0001938186)
+2025-09-22 08:25:43,736 - INFO - Successfully fetched company facts for JYD (CIK: 0001938186)
+2025-09-22 08:25:43,772 - INFO - Extracted DEI data for JYD: None, Country: None, State: None
+2025-09-22 08:25:43,772 - INFO - Processing 78/267: MFH (CIK: 0001527762)
+2025-09-22 08:25:44,223 - INFO - Successfully fetched company facts for MFH (CIK: 0001527762)
+2025-09-22 08:25:44,270 - INFO - Extracted DEI data for MFH: None, Country: None, State: None
+2025-09-22 08:25:44,270 - INFO - Processing 79/267: ZJK (CIK: 0001941506)
+2025-09-22 08:25:44,712 - INFO - Successfully fetched company facts for ZJK (CIK: 0001941506)
+2025-09-22 08:25:44,719 - INFO - Extracted DEI data for ZJK: None, Country: None, State: None
+2025-09-22 08:25:44,719 - INFO - Processing 80/267: EM (CIK: 0001834253)
+2025-09-22 08:25:45,210 - INFO - Successfully fetched company facts for EM (CIK: 0001834253)
+2025-09-22 08:25:45,246 - INFO - Extracted DEI data for EM: None, Country: None, State: None
+2025-09-22 08:25:45,246 - INFO - Processing 81/267: XNET (CIK: 0001510593)
+2025-09-22 08:25:45,840 - INFO - Successfully fetched company facts for XNET (CIK: 0001510593)
+2025-09-22 08:25:45,894 - INFO - Extracted DEI data for XNET: None, Country: None, State: None
+2025-09-22 08:25:45,894 - INFO - Processing 82/267: XHG (CIK: 0001769256)
+2025-09-22 08:25:46,362 - INFO - Successfully fetched company facts for XHG (CIK: 0001769256)
+2025-09-22 08:25:46,406 - INFO - Extracted DEI data for XHG: None, Country: None, State: None
+2025-09-22 08:25:46,406 - INFO - Processing 83/267: GHG (CIK: 0001724755)
+2025-09-22 08:25:46,877 - INFO - Successfully fetched company facts for GHG (CIK: 0001724755)
+2025-09-22 08:25:46,927 - INFO - Extracted DEI data for GHG: None, Country: None, State: None
+2025-09-22 08:25:46,927 - INFO - Processing 84/267: OCFT (CIK: 0001780531)
+2025-09-22 08:25:47,353 - INFO - Successfully fetched company facts for OCFT (CIK: 0001780531)
+2025-09-22 08:25:47,393 - INFO - Extracted DEI data for OCFT: None, Country: None, State: None
+2025-09-22 08:25:47,393 - INFO - Processing 85/267: ICG (CIK: 0001895597)
+2025-09-22 08:25:47,836 - INFO - Successfully fetched company facts for ICG (CIK: 0001895597)
+2025-09-22 08:25:47,861 - INFO - Extracted DEI data for ICG: None, Country: None, State: None
+2025-09-22 08:25:47,861 - INFO - Processing 86/267: NAMI (CIK: 0001967631)
+2025-09-22 08:25:48,327 - INFO - Successfully fetched company facts for NAMI (CIK: 0001967631)
+2025-09-22 08:25:48,335 - INFO - Extracted DEI data for NAMI: None, Country: None, State: None
+2025-09-22 08:25:48,335 - INFO - Processing 87/267: ZYBT (CIK: 0001975641)
+2025-09-22 08:25:48,758 - INFO - Successfully fetched company facts for ZYBT (CIK: 0001975641)
+2025-09-22 08:25:48,776 - INFO - Extracted DEI data for ZYBT: None, Country: None, State: None
+2025-09-22 08:25:48,776 - INFO - Processing 88/267: PHH (CIK: 0001986247)
+2025-09-22 08:25:49,173 - INFO - Successfully fetched company facts for PHH (CIK: 0001986247)
+2025-09-22 08:25:49,191 - INFO - Extracted DEI data for PHH: None, Country: None, State: None
+2025-09-22 08:25:49,191 - INFO - Processing 89/267: BZUN (CIK: 0001625414)
+2025-09-22 08:25:49,639 - INFO - Successfully fetched company facts for BZUN (CIK: 0001625414)
+2025-09-22 08:25:49,696 - INFO - Extracted DEI data for BZUN: None, Country: None, State: None
+2025-09-22 08:25:49,696 - INFO - Processing 90/267: NIU (CIK: 0001744781)
+2025-09-22 08:25:50,178 - INFO - Successfully fetched company facts for NIU (CIK: 0001744781)
+2025-09-22 08:25:50,230 - INFO - Extracted DEI data for NIU: None, Country: None, State: None
+2025-09-22 08:25:50,230 - INFO - Processing 91/267: NTCL (CIK: 0001927578)
+2025-09-22 08:25:50,768 - INFO - Successfully fetched company facts for NTCL (CIK: 0001927578)
+2025-09-22 08:25:50,773 - INFO - Extracted DEI data for NTCL: None, Country: None, State: None
+2025-09-22 08:25:50,773 - INFO - Processing 92/267: HCAI (CIK: 0001958399)
+2025-09-22 08:25:51,192 - INFO - Successfully fetched company facts for HCAI (CIK: 0001958399)
+2025-09-22 08:25:51,199 - INFO - Extracted DEI data for HCAI: None, Country: None, State: None
+2025-09-22 08:25:51,200 - INFO - Processing 93/267: CMCM (CIK: 0001597835)
+2025-09-22 08:25:51,762 - INFO - Successfully fetched company facts for CMCM (CIK: 0001597835)
+2025-09-22 08:25:51,833 - INFO - Extracted DEI data for CMCM: None, Country: None, State: None
+2025-09-22 08:25:51,833 - INFO - Processing 94/267: TOUR (CIK: 0001597095)
+2025-09-22 08:25:52,328 - INFO - Successfully fetched company facts for TOUR (CIK: 0001597095)
+2025-09-22 08:25:52,400 - INFO - Extracted DEI data for TOUR: None, Country: None, State: None
+2025-09-22 08:25:52,400 - INFO - Processing 95/267: KNDI (CIK: 0001720250)
+2025-09-22 08:25:52,824 - INFO - Successfully fetched company facts for KNDI (CIK: 0001720250)
+2025-09-22 08:25:52,845 - INFO - Extracted DEI data for KNDI: None, Country: None, State: None
+2025-09-22 08:25:52,845 - INFO - Processing 96/267: CAAS (CIK: 0002037400)
+2025-09-22 08:25:53,170 - WARNING - No company facts found for CAAS (CIK: 0002037400)
+2025-09-22 08:25:53,170 - INFO - Processing 97/267: QH (CIK: 0001781193)
+2025-09-22 08:25:53,662 - INFO - Successfully fetched company facts for QH (CIK: 0001781193)
+2025-09-22 08:25:53,710 - INFO - Extracted DEI data for QH: None, Country: None, State: None
+2025-09-22 08:25:53,710 - INFO - Processing 98/267: QSG (CIK: 0001932770)
+2025-09-22 08:25:54,193 - INFO - Successfully fetched company facts for QSG (CIK: 0001932770)
+2025-09-22 08:25:54,207 - INFO - Extracted DEI data for QSG: None, Country: None, State: None
+2025-09-22 08:25:54,207 - INFO - Processing 99/267: ZJYL (CIK: 0001837821)
+2025-09-22 08:25:54,637 - INFO - Successfully fetched company facts for ZJYL (CIK: 0001837821)
+2025-09-22 08:25:54,663 - INFO - Extracted DEI data for ZJYL: None, Country: None, State: None
+2025-09-22 08:25:54,663 - INFO - Processing 100/267: NCTY (CIK: 0001296774)
+2025-09-22 08:25:55,110 - INFO - Successfully fetched company facts for NCTY (CIK: 0001296774)
+2025-09-22 08:25:55,192 - INFO - Extracted DEI data for NCTY: None, Country: None, State: None
+2025-09-22 08:25:55,192 - INFO - Processing 101/267: COE (CIK: 0001659494)
+2025-09-22 08:25:55,645 - INFO - Successfully fetched company facts for COE (CIK: 0001659494)
+2025-09-22 08:25:55,686 - INFO - Extracted DEI data for COE: None, Country: None, State: None
+2025-09-22 08:25:55,686 - INFO - Processing 102/267: IH (CIK: 0001814423)
+2025-09-22 08:25:56,106 - INFO - Successfully fetched company facts for IH (CIK: 0001814423)
+2025-09-22 08:25:56,132 - INFO - Extracted DEI data for IH: None, Country: None, State: None
+2025-09-22 08:25:56,133 - INFO - Processing 103/267: VIOT (CIK: 0001742770)
+2025-09-22 08:25:56,560 - INFO - Successfully fetched company facts for VIOT (CIK: 0001742770)
+2025-09-22 08:25:56,601 - INFO - Extracted DEI data for VIOT: None, Country: None, State: None
+2025-09-22 08:25:56,601 - INFO - Processing 104/267: EPWK (CIK: 0001900720)
+2025-09-22 08:25:56,956 - WARNING - No company facts found for EPWK (CIK: 0001900720)
+2025-09-22 08:25:56,957 - INFO - Processing 105/267: THCH (CIK: 0001877333)
+2025-09-22 08:25:57,392 - INFO - Successfully fetched company facts for THCH (CIK: 0001877333)
+2025-09-22 08:25:57,418 - INFO - Extracted DEI data for THCH: None, Country: None, State: None
+2025-09-22 08:25:57,418 - INFO - Processing 106/267: GLAC (CIK: PENDING)
+2025-09-22 08:25:57,758 - WARNING - No company facts found for GLAC (CIK: PENDING)
+2025-09-22 08:25:57,758 - INFO - Processing 107/267: PAVS (CIK: 0001751876)
+2025-09-22 08:25:58,221 - INFO - Successfully fetched company facts for PAVS (CIK: 0001751876)
+2025-09-22 08:25:58,272 - INFO - Extracted DEI data for PAVS: None, Country: None, State: None
+2025-09-22 08:25:58,272 - INFO - Processing 108/267:  (CIK: PENDING)
+2025-09-22 08:25:58,597 - WARNING - No company facts found for  (CIK: PENDING)
+2025-09-22 08:25:58,598 - INFO - Processing 109/267: LUD (CIK: 0001984124)
+2025-09-22 08:25:59,041 - INFO - Successfully fetched company facts for LUD (CIK: 0001984124)
+2025-09-22 08:25:59,047 - INFO - Extracted DEI data for LUD: None, Country: None, State: None
+2025-09-22 08:25:59,047 - INFO - Processing 110/267: SY (CIK: 0001758530)
+2025-09-22 08:25:59,492 - INFO - Successfully fetched company facts for SY (CIK: 0001758530)
+2025-09-22 08:25:59,534 - INFO - Extracted DEI data for SY: None, Country: None, State: None
+2025-09-22 08:25:59,534 - INFO - Processing 111/267: HUHU (CIK: 0001945415)
+2025-09-22 08:26:00,020 - INFO - Successfully fetched company facts for HUHU (CIK: 0001945415)
+2025-09-22 08:26:00,028 - INFO - Extracted DEI data for HUHU: None, Country: None, State: None
+2025-09-22 08:26:00,028 - INFO - Processing 112/267: ADAG (CIK: 0001818838)
+2025-09-22 08:26:00,482 - INFO - Successfully fetched company facts for ADAG (CIK: 0001818838)
+2025-09-22 08:26:00,517 - INFO - Extracted DEI data for ADAG: None, Country: None, State: None
+2025-09-22 08:26:00,517 - INFO - Processing 113/267: CCG (CIK: 0001965473)
+2025-09-22 08:26:00,969 - INFO - Successfully fetched company facts for CCG (CIK: 0001965473)
+2025-09-22 08:26:00,999 - INFO - Extracted DEI data for CCG: None, Country: None, State: None
+2025-09-22 08:26:00,999 - INFO - Processing 114/267: LSE (CIK: 0001985139)
+2025-09-22 08:26:01,441 - INFO - Successfully fetched company facts for LSE (CIK: 0001985139)
+2025-09-22 08:26:01,447 - INFO - Extracted DEI data for LSE: None, Country: None, State: None
+2025-09-22 08:26:01,447 - INFO - Processing 115/267: ABLV (CIK: 0001957489)
+2025-09-22 08:26:01,893 - INFO - Successfully fetched company facts for ABLV (CIK: 0001957489)
+2025-09-22 08:26:01,914 - INFO - Extracted DEI data for ABLV: None, Country: None, State: None
+2025-09-22 08:26:01,914 - INFO - Processing 116/267: ANL (CIK: 0001944552)
+2025-09-22 08:26:02,301 - INFO - Successfully fetched company facts for ANL (CIK: 0001944552)
+2025-09-22 08:26:02,313 - INFO - Extracted DEI data for ANL: None, Country: None, State: None
+2025-09-22 08:26:02,313 - INFO - Processing 117/267: STG (CIK: 0001723935)
+2025-09-22 08:26:02,741 - INFO - Successfully fetched company facts for STG (CIK: 0001723935)
+2025-09-22 08:26:02,784 - INFO - Extracted DEI data for STG: None, Country: None, State: None
+2025-09-22 08:26:02,784 - INFO - Processing 118/267: SFWL (CIK: 0001863218)
+2025-09-22 08:26:03,207 - INFO - Successfully fetched company facts for SFWL (CIK: 0001863218)
+2025-09-22 08:26:03,236 - INFO - Extracted DEI data for SFWL: None, Country: None, State: None
+2025-09-22 08:26:03,236 - INFO - Processing 119/267: CBAT (CIK: 0001117171)
+2025-09-22 08:26:03,897 - INFO - Successfully fetched company facts for CBAT (CIK: 0001117171)
+2025-09-22 08:26:04,080 - INFO - Extracted DEI data for CBAT: None, Country: None, State: None
+2025-09-22 08:26:04,080 - INFO - Processing 120/267: WETO (CIK: 0001941158)
+2025-09-22 08:26:04,420 - WARNING - No company facts found for WETO (CIK: 0001941158)
+2025-09-22 08:26:04,422 - INFO - Processing 121/267: MATH (CIK: 0001682241)
+2025-09-22 08:26:04,875 - INFO - Successfully fetched company facts for MATH (CIK: 0001682241)
+2025-09-22 08:26:04,929 - INFO - Extracted DEI data for MATH: None, Country: None, State: None
+2025-09-22 08:26:04,929 - INFO - Processing 122/267: YIBO (CIK: 0001868395)
+2025-09-22 08:26:05,342 - INFO - Successfully fetched company facts for YIBO (CIK: 0001868395)
+2025-09-22 08:26:05,355 - INFO - Extracted DEI data for YIBO: None, Country: None, State: None
+2025-09-22 08:26:05,355 - INFO - Processing 123/267: SOL (CIK: 0001417892)
+2025-09-22 08:26:05,816 - INFO - Successfully fetched company facts for SOL (CIK: 0001417892)
+2025-09-22 08:26:05,924 - INFO - Extracted DEI data for SOL: None, Country: None, State: None
+2025-09-22 08:26:05,925 - INFO - Processing 124/267: FVNNU (CIK: 0002010653)
+2025-09-22 08:26:06,272 - INFO - Successfully fetched company facts for FVNNU (CIK: 0002010653)
+2025-09-22 08:26:06,288 - INFO - Extracted DEI data for FVNNU: None, Country: None, State: None
+2025-09-22 08:26:06,288 - INFO - Processing 125/267: FNGR (CIK: 0001602409)
+2025-09-22 08:26:06,758 - INFO - Successfully fetched company facts for FNGR (CIK: 0001602409)
+2025-09-22 08:26:06,833 - INFO - Extracted DEI data for FNGR: None, Country: None, State: None
+2025-09-22 08:26:06,833 - INFO - Processing 126/267: XCH (CIK: 0001979887)
+2025-09-22 08:26:07,288 - INFO - Successfully fetched company facts for XCH (CIK: 0001979887)
+2025-09-22 08:26:07,304 - INFO - Extracted DEI data for XCH: None, Country: None, State: None
+2025-09-22 08:26:07,304 - INFO - Processing 127/267: WIMI (CIK: 0001770088)
+2025-09-22 08:26:07,741 - INFO - Successfully fetched company facts for WIMI (CIK: 0001770088)
+2025-09-22 08:26:07,791 - INFO - Extracted DEI data for WIMI: None, Country: None, State: None
+2025-09-22 08:26:07,791 - INFO - Processing 128/267: AZI (CIK: 0001959726)
+2025-09-22 08:26:08,204 - INFO - Successfully fetched company facts for AZI (CIK: 0001959726)
+2025-09-22 08:26:08,210 - INFO - Extracted DEI data for AZI: None, Country: None, State: None
+2025-09-22 08:26:08,211 - INFO - Processing 129/267: ICLK (CIK: PENDING)
+2025-09-22 08:26:08,531 - WARNING - No company facts found for ICLK (CIK: PENDING)
+2025-09-22 08:26:08,532 - INFO - Processing 130/267: CNF (CIK: 0001733868)
+2025-09-22 08:26:08,963 - INFO - Successfully fetched company facts for CNF (CIK: 0001733868)
+2025-09-22 08:26:09,001 - INFO - Extracted DEI data for CNF: None, Country: None, State: None
+2025-09-22 08:26:09,001 - INFO - Processing 131/267: YGMZ (CIK: 0001782037)
+2025-09-22 08:26:09,431 - INFO - Successfully fetched company facts for YGMZ (CIK: 0001782037)
+2025-09-22 08:26:09,470 - INFO - Extracted DEI data for YGMZ: None, Country: None, State: None
+2025-09-22 08:26:09,470 - INFO - Processing 132/267: YSXT (CIK: 0001993463)
+2025-09-22 08:26:09,910 - INFO - Successfully fetched company facts for YSXT (CIK: 0001993463)
+2025-09-22 08:26:09,918 - INFO - Extracted DEI data for YSXT: None, Country: None, State: None
+2025-09-22 08:26:09,918 - INFO - Processing 133/267: GMM (CIK: 0001913749)
+2025-09-22 08:26:10,349 - INFO - Successfully fetched company facts for GMM (CIK: 0001913749)
+2025-09-22 08:26:10,381 - INFO - Extracted DEI data for GMM: None, Country: None, State: None
+2025-09-22 08:26:10,381 - INFO - Processing 134/267: YAAS (CIK: 0001964946)
+2025-09-22 08:26:10,755 - INFO - Successfully fetched company facts for YAAS (CIK: 0001964946)
+2025-09-22 08:26:10,761 - INFO - Extracted DEI data for YAAS: None, Country: None, State: None
+2025-09-22 08:26:10,761 - INFO - Processing 135/267: YXT (CIK: 0001872090)
+2025-09-22 08:26:11,209 - INFO - Successfully fetched company facts for YXT (CIK: 0001872090)
+2025-09-22 08:26:11,232 - INFO - Extracted DEI data for YXT: None, Country: None, State: None
+2025-09-22 08:26:11,233 - INFO - Processing 136/267: JG (CIK: 0001737339)
+2025-09-22 08:26:11,694 - INFO - Successfully fetched company facts for JG (CIK: 0001737339)
+2025-09-22 08:26:11,744 - INFO - Extracted DEI data for JG: None, Country: None, State: None
+2025-09-22 08:26:11,744 - INFO - Processing 137/267: BNR (CIK: 0001792267)
+2025-09-22 08:26:12,187 - INFO - Successfully fetched company facts for BNR (CIK: 0001792267)
+2025-09-22 08:26:12,223 - INFO - Extracted DEI data for BNR: None, Country: None, State: None
+2025-09-22 08:26:12,223 - INFO - Processing 138/267: BEST (CIK: PENDING)
+2025-09-22 08:26:12,549 - WARNING - No company facts found for BEST (CIK: PENDING)
+2025-09-22 08:26:12,549 - INFO - Processing 139/267: JZXN (CIK: 0001816172)
+2025-09-22 08:26:13,016 - INFO - Successfully fetched company facts for JZXN (CIK: 0001816172)
+2025-09-22 08:26:13,048 - INFO - Extracted DEI data for JZXN: None, Country: None, State: None
+2025-09-22 08:26:13,048 - INFO - Processing 140/267: STEC (CIK: 0001785680)
+2025-09-22 08:26:13,456 - INFO - Successfully fetched company facts for STEC (CIK: 0001785680)
+2025-09-22 08:26:13,473 - INFO - Extracted DEI data for STEC: None, Country: None, State: None
+2025-09-22 08:26:13,473 - INFO - Processing 141/267: PTHL (CIK: 0001970544)
+2025-09-22 08:26:13,796 - WARNING - No company facts found for PTHL (CIK: 0001970544)
+2025-09-22 08:26:13,796 - INFO - Processing 142/267: UCL (CIK: 0001775898)
+2025-09-22 08:26:14,276 - INFO - Successfully fetched company facts for UCL (CIK: 0001775898)
+2025-09-22 08:26:14,305 - INFO - Extracted DEI data for UCL: None, Country: None, State: None
+2025-09-22 08:26:14,305 - INFO - Processing 143/267: LGCL (CIK: 0001954694)
+2025-09-22 08:26:14,690 - INFO - Successfully fetched company facts for LGCL (CIK: 0001954694)
+2025-09-22 08:26:14,710 - INFO - Extracted DEI data for LGCL: None, Country: None, State: None
+2025-09-22 08:26:14,710 - INFO - Processing 144/267: RCON (CIK: 0001442620)
+2025-09-22 08:26:15,376 - INFO - Successfully fetched company facts for RCON (CIK: 0001442620)
+2025-09-22 08:26:15,527 - INFO - Extracted DEI data for RCON: None, Country: None, State: None
+2025-09-22 08:26:15,527 - INFO - Processing 145/267: AIXI (CIK: 0001935172)
+2025-09-22 08:26:15,987 - INFO - Successfully fetched company facts for AIXI (CIK: 0001935172)
+2025-09-22 08:26:16,019 - INFO - Extracted DEI data for AIXI: None, Country: None, State: None
+2025-09-22 08:26:16,019 - INFO - Processing 146/267: WAI (CIK: 0001938865)
+2025-09-22 08:26:16,435 - INFO - Successfully fetched company facts for WAI (CIK: 0001938865)
+2025-09-22 08:26:16,453 - INFO - Extracted DEI data for WAI: None, Country: None, State: None
+2025-09-22 08:26:16,453 - INFO - Processing 147/267: ZBAO (CIK: 0001966750)
+2025-09-22 08:26:16,920 - INFO - Successfully fetched company facts for ZBAO (CIK: 0001966750)
+2025-09-22 08:26:16,943 - INFO - Extracted DEI data for ZBAO: None, Country: None, State: None
+2025-09-22 08:26:16,943 - INFO - Processing 148/267: BEDU (CIK: 0001696355)
+2025-09-22 08:26:17,365 - INFO - Successfully fetched company facts for BEDU (CIK: 0001696355)
+2025-09-22 08:26:17,422 - INFO - Extracted DEI data for BEDU: None, Country: None, State: None
+2025-09-22 08:26:17,422 - INFO - Processing 149/267: ZEPP (CIK: 0001720446)
+2025-09-22 08:26:17,868 - INFO - Successfully fetched company facts for ZEPP (CIK: 0001720446)
+2025-09-22 08:26:17,921 - INFO - Extracted DEI data for ZEPP: None, Country: None, State: None
+2025-09-22 08:26:17,921 - INFO - Processing 150/267: GDHG (CIK: 0001928340)
+2025-09-22 08:26:18,334 - INFO - Successfully fetched company facts for GDHG (CIK: 0001928340)
+2025-09-22 08:26:18,345 - INFO - Extracted DEI data for GDHG: None, Country: None, State: None
+2025-09-22 08:26:18,345 - INFO - Processing 151/267: HPH (CIK: PENDING)
+2025-09-22 08:26:18,698 - WARNING - No company facts found for HPH (CIK: PENDING)
+2025-09-22 08:26:18,698 - INFO - Processing 152/267: DSWL (CIK: 0000946936)
+2025-09-22 08:26:19,132 - INFO - Successfully fetched company facts for DSWL (CIK: 0000946936)
+2025-09-22 08:26:19,194 - INFO - Extracted DEI data for DSWL: None, Country: None, State: None
+2025-09-22 08:26:19,194 - INFO - Processing 153/267: SJ (CIK: 0001753673)
+2025-09-22 08:26:19,738 - INFO - Successfully fetched company facts for SJ (CIK: 0001753673)
+2025-09-22 08:26:19,788 - INFO - Extracted DEI data for SJ: None, Country: None, State: None
+2025-09-22 08:26:19,788 - INFO - Processing 154/267: HKIT (CIK: 0001742341)
+2025-09-22 08:26:20,207 - INFO - Successfully fetched company facts for HKIT (CIK: 0001742341)
+2025-09-22 08:26:20,249 - INFO - Extracted DEI data for HKIT: None, Country: None, State: None
+2025-09-22 08:26:20,249 - INFO - Processing 155/267: CLPS (CIK: 0001724542)
+2025-09-22 08:26:20,667 - INFO - Successfully fetched company facts for CLPS (CIK: 0001724542)
+2025-09-22 08:26:20,699 - INFO - Extracted DEI data for CLPS: None, Country: None, State: None
+2025-09-22 08:26:20,699 - INFO - Processing 156/267: HUIZ (CIK: 0001778982)
+2025-09-22 08:26:21,133 - INFO - Successfully fetched company facts for HUIZ (CIK: 0001778982)
+2025-09-22 08:26:21,191 - INFO - Extracted DEI data for HUIZ: None, Country: None, State: None
+2025-09-22 08:26:21,191 - INFO - Processing 157/267: CASI (CIK: 0001962738)
+2025-09-22 08:26:21,582 - INFO - Successfully fetched company facts for CASI (CIK: 0001962738)
+2025-09-22 08:26:21,601 - INFO - Extracted DEI data for CASI: None, Country: None, State: None
+2025-09-22 08:26:21,601 - INFO - Processing 158/267: RAYA (CIK: 0001825875)
+2025-09-22 08:26:22,022 - INFO - Successfully fetched company facts for RAYA (CIK: 0001825875)
+2025-09-22 08:26:22,046 - INFO - Extracted DEI data for RAYA: None, Country: None, State: None
+2025-09-22 08:26:22,046 - INFO - Processing 159/267: AACG (CIK: 0001420529)
+2025-09-22 08:26:22,480 - INFO - Successfully fetched company facts for AACG (CIK: 0001420529)
+2025-09-22 08:26:22,546 - INFO - Extracted DEI data for AACG: None, Country: None, State: None
+2025-09-22 08:26:22,546 - INFO - Processing 160/267: MTEN (CIK: 0001948099)
+2025-09-22 08:26:23,003 - INFO - Successfully fetched company facts for MTEN (CIK: 0001948099)
+2025-09-22 08:26:23,018 - INFO - Extracted DEI data for MTEN: None, Country: None, State: None
+2025-09-22 08:26:23,018 - INFO - Processing 161/267: NISN (CIK: 0001603993)
+2025-09-22 08:26:23,469 - INFO - Successfully fetched company facts for NISN (CIK: 0001603993)
+2025-09-22 08:26:23,512 - INFO - Extracted DEI data for NISN: None, Country: None, State: None
+2025-09-22 08:26:23,513 - INFO - Processing 162/267: LBGJ (CIK: 0001896425)
+2025-09-22 08:26:23,974 - INFO - Successfully fetched company facts for LBGJ (CIK: 0001896425)
+2025-09-22 08:26:23,993 - INFO - Extracted DEI data for LBGJ: None, Country: None, State: None
+2025-09-22 08:26:23,993 - INFO - Processing 163/267: BTCM (CIK: 0001517496)
+2025-09-22 08:26:24,451 - INFO - Successfully fetched company facts for BTCM (CIK: 0001517496)
+2025-09-22 08:26:24,532 - INFO - Extracted DEI data for BTCM: None, Country: None, State: None
+2025-09-22 08:26:24,532 - INFO - Processing 164/267: MTC (CIK: 0001742518)
+2025-09-22 08:26:24,966 - INFO - Successfully fetched company facts for MTC (CIK: 0001742518)
+2025-09-22 08:26:24,992 - INFO - Extracted DEI data for MTC: None, Country: None, State: None
+2025-09-22 08:26:24,992 - INFO - Processing 165/267: MASK (CIK: 0001993097)
+2025-09-22 08:26:25,402 - INFO - Successfully fetched company facts for MASK (CIK: 0001993097)
+2025-09-22 08:26:25,410 - INFO - Extracted DEI data for MASK: None, Country: None, State: None
+2025-09-22 08:26:25,410 - INFO - Processing 166/267: ZCMD (CIK: 0001785566)
+2025-09-22 08:26:25,875 - INFO - Successfully fetched company facts for ZCMD (CIK: 0001785566)
+2025-09-22 08:26:25,923 - INFO - Extracted DEI data for ZCMD: None, Country: None, State: None
+2025-09-22 08:26:25,923 - INFO - Processing 167/267: ORIS (CIK: 0001964664)
+2025-09-22 08:26:26,371 - INFO - Successfully fetched company facts for ORIS (CIK: 0001964664)
+2025-09-22 08:26:26,387 - INFO - Extracted DEI data for ORIS: None, Country: None, State: None
+2025-09-22 08:26:26,387 - INFO - Processing 168/267: EBON (CIK: 0001799290)
+2025-09-22 08:26:26,837 - INFO - Successfully fetched company facts for EBON (CIK: 0001799290)
+2025-09-22 08:26:26,863 - INFO - Extracted DEI data for EBON: None, Country: None, State: None
+2025-09-22 08:26:26,863 - INFO - Processing 169/267: EHGO (CIK: 0001879754)
+2025-09-22 08:26:27,284 - INFO - Successfully fetched company facts for EHGO (CIK: 0001879754)
+2025-09-22 08:26:27,308 - INFO - Extracted DEI data for EHGO: None, Country: None, State: None
+2025-09-22 08:26:27,308 - INFO - Processing 170/267: JZ (CIK: 0001852440)
+2025-09-22 08:26:27,741 - INFO - Successfully fetched company facts for JZ (CIK: 0001852440)
+2025-09-22 08:26:27,761 - INFO - Extracted DEI data for JZ: None, Country: None, State: None
+2025-09-22 08:26:27,762 - INFO - Processing 171/267: INLF (CIK: 0001991592)
+2025-09-22 08:26:28,164 - INFO - Successfully fetched company facts for INLF (CIK: 0001991592)
+2025-09-22 08:26:28,182 - INFO - Extracted DEI data for INLF: None, Country: None, State: None
+2025-09-22 08:26:28,182 - INFO - Processing 172/267: FENG (CIK: 0001509646)
+2025-09-22 08:26:28,630 - INFO - Successfully fetched company facts for FENG (CIK: 0001509646)
+2025-09-22 08:26:28,698 - INFO - Extracted DEI data for FENG: None, Country: None, State: None
+2025-09-22 08:26:28,698 - INFO - Processing 173/267: EPOW (CIK: 0001780731)
+2025-09-22 08:26:29,129 - INFO - Successfully fetched company facts for EPOW (CIK: 0001780731)
+2025-09-22 08:26:29,182 - INFO - Extracted DEI data for EPOW: None, Country: None, State: None
+2025-09-22 08:26:29,182 - INFO - Processing 174/267: OCG (CIK: 0001776067)
+2025-09-22 08:26:29,556 - INFO - Successfully fetched company facts for OCG (CIK: 0001776067)
+2025-09-22 08:26:29,577 - INFO - Extracted DEI data for OCG: None, Country: None, State: None
+2025-09-22 08:26:29,577 - INFO - Processing 175/267: BTCT (CIK: 0001796514)
+2025-09-22 08:26:30,060 - INFO - Successfully fetched company facts for BTCT (CIK: 0001796514)
+2025-09-22 08:26:30,113 - INFO - Extracted DEI data for BTCT: None, Country: None, State: None
+2025-09-22 08:26:30,113 - INFO - Processing 176/267: UTSI (CIK: 0001030471)
+2025-09-22 08:26:30,676 - INFO - Successfully fetched company facts for UTSI (CIK: 0001030471)
+2025-09-22 08:26:30,731 - INFO - Extracted DEI data for UTSI: None, Country: None, State: None
+2025-09-22 08:26:30,731 - INFO - Processing 177/267: HUDI (CIK: 0001791725)
+2025-09-22 08:26:31,171 - INFO - Successfully fetched company facts for HUDI (CIK: 0001791725)
+2025-09-22 08:26:31,205 - INFO - Extracted DEI data for HUDI: None, Country: None, State: None
+2025-09-22 08:26:31,205 - INFO - Processing 178/267: AIFU (CIK: 0001413855)
+2025-09-22 08:26:31,731 - INFO - Successfully fetched company facts for AIFU (CIK: 0001413855)
+2025-09-22 08:26:31,817 - INFO - Extracted DEI data for AIFU: None, Country: None, State: None
+2025-09-22 08:26:31,818 - INFO - Processing 179/267: GDC (CIK: 0001641398)
+2025-09-22 08:26:32,327 - INFO - Successfully fetched company facts for GDC (CIK: 0001641398)
+2025-09-22 08:26:32,416 - INFO - Extracted DEI data for GDC: None, Country: None, State: None
+2025-09-22 08:26:32,416 - INFO - Processing 180/267: FEDU (CIK: 0001709819)
+2025-09-22 08:26:32,867 - INFO - Successfully fetched company facts for FEDU (CIK: 0001709819)
+2025-09-22 08:26:32,925 - INFO - Extracted DEI data for FEDU: None, Country: None, State: None
+2025-09-22 08:26:32,925 - INFO - Processing 181/267: GTEC (CIK: 0001735041)
+2025-09-22 08:26:33,341 - INFO - Successfully fetched company facts for GTEC (CIK: 0001735041)
+2025-09-22 08:26:33,428 - INFO - Extracted DEI data for GTEC: None, Country: None, State: None
+2025-09-22 08:26:33,428 - INFO - Processing 182/267: CCM (CIK: 0001472072)
+2025-09-22 08:26:34,064 - INFO - Successfully fetched company facts for CCM (CIK: 0001472072)
+2025-09-22 08:26:34,190 - INFO - Extracted DEI data for CCM: None, Country: None, State: None
+2025-09-22 08:26:34,190 - INFO - Processing 183/267: IZM (CIK: 0001854572)
+2025-09-22 08:26:34,614 - INFO - Successfully fetched company facts for IZM (CIK: 0001854572)
+2025-09-22 08:26:34,640 - INFO - Extracted DEI data for IZM: None, Country: None, State: None
+2025-09-22 08:26:34,640 - INFO - Processing 184/267: DDC (CIK: 0001808110)
+2025-09-22 08:26:35,063 - INFO - Successfully fetched company facts for DDC (CIK: 0001808110)
+2025-09-22 08:26:35,085 - INFO - Extracted DEI data for DDC: None, Country: None, State: None
+2025-09-22 08:26:35,085 - INFO - Processing 185/267: BHAT (CIK: 0001759136)
+2025-09-22 08:26:35,485 - INFO - Successfully fetched company facts for BHAT (CIK: 0001759136)
+2025-09-22 08:26:35,511 - INFO - Extracted DEI data for BHAT: None, Country: None, State: None
+2025-09-22 08:26:35,511 - INFO - Processing 186/267: CHR (CIK: 0001738758)
+2025-09-22 08:26:35,990 - INFO - Successfully fetched company facts for CHR (CIK: 0001738758)
+2025-09-22 08:26:36,041 - INFO - Extracted DEI data for CHR: None, Country: None, State: None
+2025-09-22 08:26:36,041 - INFO - Processing 187/267: JFU (CIK: 0001619544)
+2025-09-22 08:26:36,464 - INFO - Successfully fetched company facts for JFU (CIK: 0001619544)
+2025-09-22 08:26:36,507 - INFO - Extracted DEI data for JFU: None, Country: None, State: None
+2025-09-22 08:26:36,507 - INFO - Processing 188/267: DUO (CIK: 0001750593)
+2025-09-22 08:26:36,942 - INFO - Successfully fetched company facts for DUO (CIK: 0001750593)
+2025-09-22 08:26:36,993 - INFO - Extracted DEI data for DUO: None, Country: None, State: None
+2025-09-22 08:26:36,993 - INFO - Processing 189/267: WETH (CIK: 0001826660)
+2025-09-22 08:26:37,443 - INFO - Successfully fetched company facts for WETH (CIK: 0001826660)
+2025-09-22 08:26:37,488 - INFO - Extracted DEI data for WETH: None, Country: None, State: None
+2025-09-22 08:26:37,488 - INFO - Processing 190/267: MGIH (CIK: 0001903995)
+2025-09-22 08:26:37,941 - INFO - Successfully fetched company facts for MGIH (CIK: 0001903995)
+2025-09-22 08:26:37,950 - INFO - Extracted DEI data for MGIH: None, Country: None, State: None
+2025-09-22 08:26:37,950 - INFO - Processing 191/267: TIRX (CIK: 0001782941)
+2025-09-22 08:26:38,396 - INFO - Successfully fetched company facts for TIRX (CIK: 0001782941)
+2025-09-22 08:26:38,434 - INFO - Extracted DEI data for TIRX: None, Country: None, State: None
+2025-09-22 08:26:38,434 - INFO - Processing 192/267: NAAS (CIK: 0001712178)
+2025-09-22 08:26:38,897 - INFO - Successfully fetched company facts for NAAS (CIK: 0001712178)
+2025-09-22 08:26:38,955 - INFO - Extracted DEI data for NAAS: None, Country: None, State: None
+2025-09-22 08:26:38,955 - INFO - Processing 193/267: SISI (CIK: 0001300734)
+2025-09-22 08:26:39,459 - INFO - Successfully fetched company facts for SISI (CIK: 0001300734)
+2025-09-22 08:26:39,590 - INFO - Extracted DEI data for SISI: None, Country: None, State: None
+2025-09-22 08:26:39,590 - INFO - Processing 194/267: EDTK (CIK: 0001782309)
+2025-09-22 08:26:40,022 - INFO - Successfully fetched company facts for EDTK (CIK: 0001782309)
+2025-09-22 08:26:40,064 - INFO - Extracted DEI data for EDTK: None, Country: None, State: None
+2025-09-22 08:26:40,064 - INFO - Processing 195/267: ENFY (CIK: 0000857949)
+2025-09-22 08:26:40,586 - INFO - Successfully fetched company facts for ENFY (CIK: 0000857949)
+2025-09-22 08:26:40,760 - INFO - Extracted DEI data for ENFY: None, Country: None, State: None
+2025-09-22 08:26:40,760 - INFO - Processing 196/267: DTSS (CIK: 0001631282)
+2025-09-22 08:26:41,259 - INFO - Successfully fetched company facts for DTSS (CIK: 0001631282)
+2025-09-22 08:26:41,357 - INFO - Extracted DEI data for DTSS: None, Country: None, State: None
+2025-09-22 08:26:41,358 - INFO - Processing 197/267: XIN (CIK: 0001398453)
+2025-09-22 08:26:41,836 - INFO - Successfully fetched company facts for XIN (CIK: 0001398453)
+2025-09-22 08:26:41,941 - INFO - Extracted DEI data for XIN: None, Country: None, State: None
+2025-09-22 08:26:41,941 - INFO - Processing 198/267: SOS (CIK: 0001346610)
+2025-09-22 08:26:42,344 - INFO - Successfully fetched company facts for SOS (CIK: 0001346610)
+2025-09-22 08:26:42,394 - INFO - Extracted DEI data for SOS: None, Country: None, State: None
+2025-09-22 08:26:42,394 - INFO - Processing 199/267: RETO (CIK: 0001687277)
+2025-09-22 08:26:42,835 - INFO - Successfully fetched company facts for RETO (CIK: 0001687277)
+2025-09-22 08:26:42,879 - INFO - Extracted DEI data for RETO: None, Country: None, State: None
+2025-09-22 08:26:42,880 - INFO - Processing 200/267: DXST (CIK: 0001958133)
+2025-09-22 08:26:43,297 - INFO - Successfully fetched company facts for DXST (CIK: 0001958133)
+2025-09-22 08:26:43,305 - INFO - Extracted DEI data for DXST: None, Country: None, State: None
+2025-09-22 08:26:43,305 - INFO - Processing 201/267: PT (CIK: 0001716338)
+2025-09-22 08:26:43,737 - INFO - Successfully fetched company facts for PT (CIK: 0001716338)
+2025-09-22 08:26:43,771 - INFO - Extracted DEI data for PT: None, Country: None, State: None
+2025-09-22 08:26:43,772 - INFO - Processing 202/267: JDZG (CIK: 0001976908)
+2025-09-22 08:26:44,201 - INFO - Successfully fetched company facts for JDZG (CIK: 0001976908)
+2025-09-22 08:26:44,209 - INFO - Extracted DEI data for JDZG: None, Country: None, State: None
+2025-09-22 08:26:44,209 - INFO - Processing 203/267: PLAG (CIK: 0001117057)
+2025-09-22 08:26:44,689 - INFO - Successfully fetched company facts for PLAG (CIK: 0001117057)
+2025-09-22 08:26:44,845 - INFO - Extracted DEI data for PLAG: None, Country: None, State: None
+2025-09-22 08:26:44,845 - INFO - Processing 204/267: YQ (CIK: 0001821468)
+2025-09-22 08:26:45,253 - INFO - Successfully fetched company facts for YQ (CIK: 0001821468)
+2025-09-22 08:26:45,274 - INFO - Extracted DEI data for YQ: None, Country: None, State: None
+2025-09-22 08:26:45,275 - INFO - Processing 205/267: CDTG (CIK: 0001793895)
+2025-09-22 08:26:45,687 - INFO - Successfully fetched company facts for CDTG (CIK: 0001793895)
+2025-09-22 08:26:45,709 - INFO - Extracted DEI data for CDTG: None, Country: None, State: None
+2025-09-22 08:26:45,709 - INFO - Processing 206/267: SFHG (CIK: 0001926792)
+2025-09-22 08:26:46,110 - INFO - Successfully fetched company facts for SFHG (CIK: 0001926792)
+2025-09-22 08:26:46,120 - INFO - Extracted DEI data for SFHG: None, Country: None, State: None
+2025-09-22 08:26:46,121 - INFO - Processing 207/267: SEED (CIK: 0001321851)
+2025-09-22 08:26:46,605 - INFO - Successfully fetched company facts for SEED (CIK: 0001321851)
+2025-09-22 08:26:46,697 - INFO - Extracted DEI data for SEED: None, Country: None, State: None
+2025-09-22 08:26:46,698 - INFO - Processing 208/267: CREG (CIK: 0000721693)
+2025-09-22 08:26:47,205 - INFO - Successfully fetched company facts for CREG (CIK: 0000721693)
+2025-09-22 08:26:47,380 - INFO - Extracted DEI data for CREG: None, Country: None, State: None
+2025-09-22 08:26:47,380 - INFO - Processing 209/267: PETZ (CIK: 0001684425)
+2025-09-22 08:26:47,807 - INFO - Successfully fetched company facts for PETZ (CIK: 0001684425)
+2025-09-22 08:26:47,841 - INFO - Extracted DEI data for PETZ: None, Country: None, State: None
+2025-09-22 08:26:47,841 - INFO - Processing 210/267: FEBO (CIK: 0001957001)
+2025-09-22 08:26:48,262 - INFO - Successfully fetched company facts for FEBO (CIK: 0001957001)
+2025-09-22 08:26:48,279 - INFO - Extracted DEI data for FEBO: None, Country: None, State: None
+2025-09-22 08:26:48,280 - INFO - Processing 211/267: UCAR (CIK: 0001939780)
+2025-09-22 08:26:48,713 - INFO - Successfully fetched company facts for UCAR (CIK: 0001939780)
+2025-09-22 08:26:48,738 - INFO - Extracted DEI data for UCAR: None, Country: None, State: None
+2025-09-22 08:26:48,738 - INFO - Processing 212/267: STFS (CIK: 0002003061)
+2025-09-22 08:26:49,061 - WARNING - No company facts found for STFS (CIK: 0002003061)
+2025-09-22 08:26:49,061 - INFO - Processing 213/267: CPOP (CIK: 0001807389)
+2025-09-22 08:26:49,558 - INFO - Successfully fetched company facts for CPOP (CIK: 0001807389)
+2025-09-22 08:26:49,595 - INFO - Extracted DEI data for CPOP: None, Country: None, State: None
+2025-09-22 08:26:49,595 - INFO - Processing 214/267: SOGP (CIK: 0001783407)
+2025-09-22 08:26:50,025 - INFO - Successfully fetched company facts for SOGP (CIK: 0001783407)
+2025-09-22 08:26:50,063 - INFO - Extracted DEI data for SOGP: None, Country: None, State: None
+2025-09-22 08:26:50,063 - INFO - Processing 215/267: LOBO (CIK: 0001932072)
+2025-09-22 08:26:50,488 - INFO - Successfully fetched company facts for LOBO (CIK: 0001932072)
+2025-09-22 08:26:50,515 - INFO - Extracted DEI data for LOBO: None, Country: None, State: None
+2025-09-22 08:26:50,515 - INFO - Processing 216/267: LXEH (CIK: 0001814067)
+2025-09-22 08:26:51,073 - INFO - Successfully fetched company facts for LXEH (CIK: 0001814067)
+2025-09-22 08:26:51,114 - INFO - Extracted DEI data for LXEH: None, Country: None, State: None
+2025-09-22 08:26:51,114 - INFO - Processing 217/267: MHUA (CIK: 0001835615)
+2025-09-22 08:26:51,586 - INFO - Successfully fetched company facts for MHUA (CIK: 0001835615)
+2025-09-22 08:26:51,618 - INFO - Extracted DEI data for MHUA: None, Country: None, State: None
+2025-09-22 08:26:51,618 - INFO - Processing 218/267: WNW (CIK: 0001787803)
+2025-09-22 08:26:52,053 - INFO - Successfully fetched company facts for WNW (CIK: 0001787803)
+2025-09-22 08:26:52,087 - INFO - Extracted DEI data for WNW: None, Country: None, State: None
+2025-09-22 08:26:52,087 - INFO - Processing 219/267: WOK (CIK: 0001929783)
+2025-09-22 08:26:52,512 - INFO - Successfully fetched company facts for WOK (CIK: 0001929783)
+2025-09-22 08:26:52,528 - INFO - Extracted DEI data for WOK: None, Country: None, State: None
+2025-09-22 08:26:52,529 - INFO - Processing 220/267: LKCO (CIK: PENDING)
+2025-09-22 08:26:52,853 - WARNING - No company facts found for LKCO (CIK: PENDING)
+2025-09-22 08:26:52,854 - INFO - Processing 221/267: UBXG (CIK: 0001888525)
+2025-09-22 08:26:53,255 - INFO - Successfully fetched company facts for UBXG (CIK: 0001888525)
+2025-09-22 08:26:53,264 - INFO - Extracted DEI data for UBXG: None, Country: None, State: None
+2025-09-22 08:26:53,264 - INFO - Processing 222/267: ILAG (CIK: 0001814963)
+2025-09-22 08:26:53,713 - INFO - Successfully fetched company facts for ILAG (CIK: 0001814963)
+2025-09-22 08:26:53,733 - INFO - Extracted DEI data for ILAG: None, Country: None, State: None
+2025-09-22 08:26:53,733 - INFO - Processing 223/267: AIHS (CIK: 0001711012)
+2025-09-22 08:26:54,204 - INFO - Successfully fetched company facts for AIHS (CIK: 0001711012)
+2025-09-22 08:26:54,307 - INFO - Extracted DEI data for AIHS: None, Country: None, State: None
+2025-09-22 08:26:54,307 - INFO - Processing 224/267: KUKE (CIK: 0001809158)
+2025-09-22 08:26:54,726 - INFO - Successfully fetched company facts for KUKE (CIK: 0001809158)
+2025-09-22 08:26:54,768 - INFO - Extracted DEI data for KUKE: None, Country: None, State: None
+2025-09-22 08:26:54,768 - INFO - Processing 225/267: KRKR (CIK: 0001779476)
+2025-09-22 08:26:55,178 - INFO - Successfully fetched company facts for KRKR (CIK: 0001779476)
+2025-09-22 08:26:55,204 - INFO - Extracted DEI data for KRKR: None, Country: None, State: None
+2025-09-22 08:26:55,204 - INFO - Processing 226/267: WAFU (CIK: 0001716770)
+2025-09-22 08:26:55,625 - INFO - Successfully fetched company facts for WAFU (CIK: 0001716770)
+2025-09-22 08:26:55,666 - INFO - Extracted DEI data for WAFU: None, Country: None, State: None
+2025-09-22 08:26:55,666 - INFO - Processing 227/267: YJ (CIK: 0001759614)
+2025-09-22 08:26:56,155 - INFO - Successfully fetched company facts for YJ (CIK: 0001759614)
+2025-09-22 08:26:56,199 - INFO - Extracted DEI data for YJ: None, Country: None, State: None
+2025-09-22 08:26:56,199 - INFO - Processing 228/267: CLEU (CIK: PENDING)
+2025-09-22 08:26:56,528 - WARNING - No company facts found for CLEU (CIK: PENDING)
+2025-09-22 08:26:56,530 - INFO - Processing 229/267: CHSN (CIK: 0001825349)
+2025-09-22 08:26:56,964 - INFO - Successfully fetched company facts for CHSN (CIK: 0001825349)
+2025-09-22 08:26:56,986 - INFO - Extracted DEI data for CHSN: None, Country: None, State: None
+2025-09-22 08:26:56,986 - INFO - Processing 230/267: HIHO (CIK: 0001026785)
+2025-09-22 08:26:57,407 - INFO - Successfully fetched company facts for HIHO (CIK: 0001026785)
+2025-09-22 08:26:57,465 - INFO - Extracted DEI data for HIHO: None, Country: None, State: None
+2025-09-22 08:26:57,465 - INFO - Processing 231/267: GURE (CIK: 0000885462)
+2025-09-22 08:26:58,111 - INFO - Successfully fetched company facts for GURE (CIK: 0000885462)
+2025-09-22 08:26:58,295 - INFO - Extracted DEI data for GURE: None, Country: None, State: None
+2025-09-22 08:26:58,295 - INFO - Processing 232/267: GRNQ (CIK: 0001597846)
+2025-09-22 08:26:58,809 - INFO - Successfully fetched company facts for GRNQ (CIK: 0001597846)
+2025-09-22 08:26:58,940 - INFO - Extracted DEI data for GRNQ: None, Country: None, State: None
+2025-09-22 08:26:58,940 - INFO - Processing 233/267: CNEY (CIK: 0001780785)
+2025-09-22 08:26:59,355 - INFO - Successfully fetched company facts for CNEY (CIK: 0001780785)
+2025-09-22 08:26:59,390 - INFO - Extracted DEI data for CNEY: None, Country: None, State: None
+2025-09-22 08:26:59,390 - INFO - Processing 234/267: ANTE (CIK: 0001413745)
+2025-09-22 08:26:59,846 - INFO - Successfully fetched company facts for ANTE (CIK: 0001413745)
+2025-09-22 08:26:59,915 - INFO - Extracted DEI data for ANTE: None, Country: None, State: None
+2025-09-22 08:26:59,915 - INFO - Processing 235/267: EJH (CIK: 0001769768)
+2025-09-22 08:27:00,360 - INFO - Successfully fetched company facts for EJH (CIK: 0001769768)
+2025-09-22 08:27:00,404 - INFO - Extracted DEI data for EJH: None, Country: None, State: None
+2025-09-22 08:27:00,404 - INFO - Processing 236/267: WTO (CIK: 0001789299)
+2025-09-22 08:27:00,860 - INFO - Successfully fetched company facts for WTO (CIK: 0001789299)
+2025-09-22 08:27:00,908 - INFO - Extracted DEI data for WTO: None, Country: None, State: None
+2025-09-22 08:27:00,908 - INFO - Processing 237/267: RDGT (CIK: 0001856084)
+2025-09-22 08:27:01,327 - INFO - Successfully fetched company facts for RDGT (CIK: 0001856084)
+2025-09-22 08:27:01,359 - INFO - Extracted DEI data for RDGT: None, Country: None, State: None
+2025-09-22 08:27:01,359 - INFO - Processing 238/267: ATXG (CIK: 0001650101)
+2025-09-22 08:27:01,872 - INFO - Successfully fetched company facts for ATXG (CIK: 0001650101)
+2025-09-22 08:27:01,952 - INFO - Extracted DEI data for ATXG: None, Country: None, State: None
+2025-09-22 08:27:01,952 - INFO - Processing 239/267: CHNR (CIK: 0000793628)
+2025-09-22 08:27:02,416 - INFO - Successfully fetched company facts for CHNR (CIK: 0000793628)
+2025-09-22 08:27:02,465 - INFO - Extracted DEI data for CHNR: None, Country: None, State: None
+2025-09-22 08:27:02,466 - INFO - Processing 240/267: JWEL (CIK: 0001805594)
+2025-09-22 08:27:02,899 - INFO - Successfully fetched company facts for JWEL (CIK: 0001805594)
+2025-09-22 08:27:02,933 - INFO - Extracted DEI data for JWEL: None, Country: None, State: None
+2025-09-22 08:27:02,933 - INFO - Processing 241/267: SNTG (CIK: 0001810467)
+2025-09-22 08:27:03,322 - INFO - Successfully fetched company facts for SNTG (CIK: 0001810467)
+2025-09-22 08:27:03,345 - INFO - Extracted DEI data for SNTG: None, Country: None, State: None
+2025-09-22 08:27:03,345 - INFO - Processing 242/267: FTFT (CIK: 0001066923)
+2025-09-22 08:27:03,956 - INFO - Successfully fetched company facts for FTFT (CIK: 0001066923)
+2025-09-22 08:27:04,110 - INFO - Extracted DEI data for FTFT: None, Country: None, State: None
+2025-09-22 08:27:04,110 - INFO - Processing 243/267: HAO (CIK: 0001954594)
+2025-09-22 08:27:04,515 - INFO - Successfully fetched company facts for HAO (CIK: 0001954594)
+2025-09-22 08:27:04,534 - INFO - Extracted DEI data for HAO: None, Country: None, State: None
+2025-09-22 08:27:04,534 - INFO - Processing 244/267: OST (CIK: 0001803407)
+2025-09-22 08:27:04,962 - INFO - Successfully fetched company facts for OST (CIK: 0001803407)
+2025-09-22 08:27:04,985 - INFO - Extracted DEI data for OST: None, Country: None, State: None
+2025-09-22 08:27:04,985 - INFO - Processing 245/267: CPHI (CIK: 0001106644)
+2025-09-22 08:27:05,435 - INFO - Successfully fetched company facts for CPHI (CIK: 0001106644)
+2025-09-22 08:27:05,579 - INFO - Extracted DEI data for CPHI: None, Country: None, State: None
+2025-09-22 08:27:05,579 - INFO - Processing 246/267: AEHL (CIK: 0001470683)
+2025-09-22 08:27:06,009 - INFO - Successfully fetched company facts for AEHL (CIK: 0001470683)
+2025-09-22 08:27:06,055 - INFO - Extracted DEI data for AEHL: None, Country: None, State: None
+2025-09-22 08:27:06,055 - INFO - Processing 247/267: BON (CIK: 0001816815)
+2025-09-22 08:27:06,511 - INFO - Successfully fetched company facts for BON (CIK: 0001816815)
+2025-09-22 08:27:06,552 - INFO - Extracted DEI data for BON: None, Country: None, State: None
+2025-09-22 08:27:06,552 - INFO - Processing 248/267: AGMH (CIK: 0001705402)
+2025-09-22 08:27:06,974 - INFO - Successfully fetched company facts for AGMH (CIK: 0001705402)
+2025-09-22 08:27:07,027 - INFO - Extracted DEI data for AGMH: None, Country: None, State: None
+2025-09-22 08:27:07,027 - INFO - Processing 249/267: TAOP (CIK: 0001552670)
+2025-09-22 08:27:07,502 - INFO - Successfully fetched company facts for TAOP (CIK: 0001552670)
+2025-09-22 08:27:07,578 - INFO - Extracted DEI data for TAOP: None, Country: None, State: None
+2025-09-22 08:27:07,578 - INFO - Processing 250/267: TANH (CIK: 0001588084)
+2025-09-22 08:27:08,026 - INFO - Successfully fetched company facts for TANH (CIK: 0001588084)
+2025-09-22 08:27:08,089 - INFO - Extracted DEI data for TANH: None, Country: None, State: None
+2025-09-22 08:27:08,089 - INFO - Processing 251/267: JXG (CIK: 0001546383)
+2025-09-22 08:27:08,520 - INFO - Successfully fetched company facts for JXG (CIK: 0001546383)
+2025-09-22 08:27:08,574 - INFO - Extracted DEI data for JXG: None, Country: None, State: None
+2025-09-22 08:27:08,574 - INFO - Processing 252/267: BAOS (CIK: 0001811216)
+2025-09-22 08:27:08,990 - INFO - Successfully fetched company facts for BAOS (CIK: 0001811216)
+2025-09-22 08:27:09,041 - INFO - Extracted DEI data for BAOS: None, Country: None, State: None
+2025-09-22 08:27:09,041 - INFO - Processing 253/267: ITP (CIK: 0001358190)
+2025-09-22 08:27:09,594 - INFO - Successfully fetched company facts for ITP (CIK: 0001358190)
+2025-09-22 08:27:09,760 - INFO - Extracted DEI data for ITP: None, Country: None, State: None
+2025-09-22 08:27:09,760 - INFO - Processing 254/267: NXTT (CIK: 0001784970)
+2025-09-22 08:27:10,182 - INFO - Successfully fetched company facts for NXTT (CIK: 0001784970)
+2025-09-22 08:27:10,240 - INFO - Extracted DEI data for NXTT: None, Country: None, State: None
+2025-09-22 08:27:10,240 - INFO - Processing 255/267: LICN (CIK: 0001876766)
+2025-09-22 08:27:10,664 - INFO - Successfully fetched company facts for LICN (CIK: 0001876766)
+2025-09-22 08:27:10,683 - INFO - Extracted DEI data for LICN: None, Country: None, State: None
+2025-09-22 08:27:10,683 - INFO - Processing 256/267: TCTM (CIK: PENDING)
+2025-09-22 08:27:11,005 - WARNING - No company facts found for TCTM (CIK: PENDING)
+2025-09-22 08:27:11,006 - INFO - Processing 257/267: CNET (CIK: 0001376321)
+2025-09-22 08:27:11,572 - INFO - Successfully fetched company facts for CNET (CIK: 0001376321)
+2025-09-22 08:27:11,745 - INFO - Extracted DEI data for CNET: None, Country: None, State: None
+2025-09-22 08:27:11,745 - INFO - Processing 258/267: IFBD (CIK: 0001815566)
+2025-09-22 08:27:12,169 - INFO - Successfully fetched company facts for IFBD (CIK: 0001815566)
+2025-09-22 08:27:12,201 - INFO - Extracted DEI data for IFBD: None, Country: None, State: None
+2025-09-22 08:27:12,201 - INFO - Processing 259/267: BQ (CIK: 0001815021)
+2025-09-22 08:27:12,641 - INFO - Successfully fetched company facts for BQ (CIK: 0001815021)
+2025-09-22 08:27:12,684 - INFO - Extracted DEI data for BQ: None, Country: None, State: None
+2025-09-22 08:27:12,684 - INFO - Processing 260/267: EZGO (CIK: 0001806904)
+2025-09-22 08:27:13,156 - INFO - Successfully fetched company facts for EZGO (CIK: 0001806904)
+2025-09-22 08:27:13,208 - INFO - Extracted DEI data for EZGO: None, Country: None, State: None
+2025-09-22 08:27:13,208 - INFO - Processing 261/267: UOKA (CIK: 0001741534)
+2025-09-22 08:27:13,675 - INFO - Successfully fetched company facts for UOKA (CIK: 0001741534)
+2025-09-22 08:27:13,703 - INFO - Extracted DEI data for UOKA: None, Country: None, State: None
+2025-09-22 08:27:13,703 - INFO - Processing 262/267: TC (CIK: 0001743340)
+2025-09-22 08:27:14,137 - INFO - Successfully fetched company facts for TC (CIK: 0001743340)
+2025-09-22 08:27:14,195 - INFO - Extracted DEI data for TC: None, Country: None, State: None
+2025-09-22 08:27:14,195 - INFO - Processing 263/267: SXTC (CIK: 0001723980)
+2025-09-22 08:27:14,637 - INFO - Successfully fetched company facts for SXTC (CIK: 0001723980)
+2025-09-22 08:27:14,682 - INFO - Extracted DEI data for SXTC: None, Country: None, State: None
+2025-09-22 08:27:14,682 - INFO - Processing 264/267: UPC (CIK: 0001809616)
+2025-09-22 08:27:15,107 - INFO - Successfully fetched company facts for UPC (CIK: 0001809616)
+2025-09-22 08:27:15,139 - INFO - Extracted DEI data for UPC: None, Country: None, State: None
+2025-09-22 08:27:15,139 - INFO - Processing 265/267: KXIN (CIK: 0001713539)
+2025-09-22 08:27:15,556 - INFO - Successfully fetched company facts for KXIN (CIK: 0001713539)
+2025-09-22 08:27:15,600 - INFO - Extracted DEI data for KXIN: None, Country: None, State: None
+2025-09-22 08:27:15,600 - INFO - Processing 266/267: UK (CIK: 0001821424)
+2025-09-22 08:27:16,080 - INFO - Successfully fetched company facts for UK (CIK: 0001821424)
+2025-09-22 08:27:16,130 - INFO - Extracted DEI data for UK: None, Country: None, State: None
+2025-09-22 08:27:16,130 - INFO - Processing 267/267: XTKG (CIK: 0001754323)
+2025-09-22 08:27:16,578 - INFO - Successfully fetched company facts for XTKG (CIK: 0001754323)
+2025-09-22 08:27:16,614 - INFO - Extracted DEI data for XTKG: None, Country: None, State: None
+2025-09-22 08:27:16,615 - INFO - Saved DEI facts to data\intermediate\dei_facts_20250922.csv
+2025-09-22 08:27:16,615 - WARNING - Recorded 16 errors to logs\04_errors_20250922.json
+2025-09-22 08:27:16,615 - INFO - ==================================================
+2025-09-22 08:27:16,615 - INFO - SUMMARY
+2025-09-22 08:27:16,615 - INFO - Total companies processed: 267
+2025-09-22 08:27:16,615 - INFO - Successful DEI extractions: 0
+2025-09-22 08:27:16,615 - INFO - Companies with country data: 0
+2025-09-22 08:27:16,615 - INFO - Companies with state data: 0
+2025-09-22 08:27:16,615 - INFO - Errors: 16
+2025-09-22 08:27:16,615 - INFO - Success rate (¡Ý1 DEI field): 0.0%
+2025-09-22 08:27:16,615 - WARNING - WARNING: Success rate below 75% threshold

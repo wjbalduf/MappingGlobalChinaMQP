@@ -1,0 +1,5337 @@
+{
+  "cik": "0001959726",
+  "entityName": "AUTOZI INTERNET TECHNOLOGY (GLOBAL) LTD.",
+  "facts": {
+    "us-gaap": {
+      "AccountsPayableAndOtherAccruedLiabilitiesCurrent": {
+        "label": "Accounts Payable and Other Accrued Liabilities, Current",
+        "description": "Amount of liabilities incurred to vendors for goods and services received, and accrued liabilities classified as other, payable within one year or the normal operating cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 11485000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 17189000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AccountsPayableCurrent": {
+        "label": "Accounts Payable, Current",
+        "description": "Carrying value as of the balance sheet date of liabilities incurred (and for which invoices have typically been received) and payable to vendors for goods and services received that are used in an entity's business. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 1389000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 2868000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AccountsReceivableGrossCurrent": {
+        "label": "Accounts Receivable, before Allowance for Credit Loss, Current",
+        "description": "Amount, before allowance for credit loss, of right to consideration from customer for product sold and service rendered in normal course of business, classified as current.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 1735000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 2166000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AccountsReceivableNetCurrent": {
+        "label": "Accounts Receivable, after Allowance for Credit Loss, Current",
+        "description": "Amount, after allowance for credit loss, of right to consideration from customer for product sold and service rendered in normal course of business, classified as current.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 132000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 417000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AccruedLiabilitiesCurrent": {
+        "label": "Accrued Liabilities, Current",
+        "description": "Carrying value as of the balance sheet date of obligations incurred and payable, pertaining to costs that are statutory in nature, are incurred on contractual obligations, or accumulate over time and for which invoices have not yet been received or will not be rendered. Examples include taxes, interest, rent and utilities. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 11485000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 17189000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AccruedPayrollTaxesCurrent": {
+        "label": "Accrued Payroll Taxes, Current",
+        "description": "Carrying value as of the balance sheet date of obligations incurred and payable for statutory payroll taxes incurred through that date and withheld from employees pertaining to services received from them, including entity's matching share of the employees FICA taxes and contributions to the state and federal unemployment insurance programs. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 668000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 2334000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AccruedProfessionalFeesCurrent": {
+        "label": "Accrued Professional Fees, Current",
+        "description": "Carrying value as of the balance sheet date of obligations incurred through that date and payable for professional fees, such as for legal and accounting services received. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 1408000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 4513000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment": {
+        "label": "Accumulated Depreciation, Depletion and Amortization, Property, Plant, and Equipment",
+        "description": "Amount of accumulated depreciation, depletion and amortization for physical assets used in the normal conduct of business to produce goods and services.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 1898000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 2066000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AccumulatedOtherComprehensiveIncomeLossNetOfTax": {
+        "label": "Accumulated Other Comprehensive Income (Loss), Net of Tax",
+        "description": "Accumulated change in equity from transactions and other events and circumstances from non-owner sources, net of tax effect, at period end. Excludes Net Income (Loss), and accumulated changes in equity from transactions resulting from investments by owners and distributions to owners. Includes foreign currency translation items, certain pension adjustments, unrealized gains and losses on certain investments in debt and equity securities, other than temporary impairment (OTTI) losses related to factors other than credit losses on available-for-sale and held-to-maturity debt securities that an entity does not intend to sell and it is not more likely than not that the entity will be required to sell before recovery of the amortized cost basis, as well as changes in the fair value of derivatives related to the effective portion of a designated cash flow hedge.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 14699000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 10967000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AdditionalPaidInCapital": {
+        "label": "Additional Paid in Capital",
+        "description": "Excess of issue price over par or stated value of the entity's capital stock and amounts received from other transactions involving the entity's stock or stockholders. Includes adjustments to additional paid in capital. Some examples of such adjustments include recording the issuance of debt with a beneficial conversion feature and certain tax consequences of equity instruments awarded to employees. Use this element for the aggregate amount of additional paid-in capital associated with common and preferred stock. For additional paid-in capital associated with only common stock, use the element additional paid in capital, common stock. For additional paid-in capital associated with only preferred stock, use the element additional paid in capital, preferred stock.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 4579000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 84824000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AdvertisingExpense": {
+        "label": "Advertising Expense",
+        "description": "Amount charged to advertising expense for the period, which are expenses incurred with the objective of increasing revenue for a specified brand, product or product line.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 21000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 2000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 7000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "AllowanceForDoubtfulAccountsReceivable": {
+        "label": "Accounts Receivable, Allowance for Credit Loss",
+        "description": "Amount of allowance for credit loss on accounts receivable.",
+        "units": {
+          "USD": [
+            {
+              "end": "2021-09-30",
+              "val": 1770000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2021Q3I"
+            },
+            {
+              "end": "2022-09-30",
+              "val": 1557000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022Q3I"
+            },
+            {
+              "end": "2023-09-30",
+              "val": 1603000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 1749000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AllowanceForDoubtfulAccountsReceivableCurrent": {
+        "label": "Accounts Receivable, Allowance for Credit Loss, Current",
+        "description": "Amount of allowance for credit loss on accounts receivable, classified as current.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 1603000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 1749000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AllowanceForDoubtfulAccountsReceivableWriteOffs": {
+        "label": "Accounts Receivable, Allowance for Credit Loss, Writeoff",
+        "description": "Amount of direct write-downs of accounts receivable charged against the allowance.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 201000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 14000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "AllowanceForDoubtfulOtherReceivablesCurrent": {
+        "label": "Allowance for Doubtful Other Receivables, Current",
+        "description": "Amount of valuation allowance for receivables classified as other, due within one year or the normal operating cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 1348000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 1402000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount": {
+        "label": "Antidilutive Securities Excluded from Computation of Earnings Per Share, Amount",
+        "description": "Securities (including those issuable pursuant to contingent stock agreements) that could potentially dilute basic earnings per share (EPS) or earnings per unit (EPU) in the future that were not included in the computation of diluted EPS or EPU because to do so would increase EPS or EPU amounts or decrease loss per share or unit amounts for the period presented.",
+        "units": {
+          "shares": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 0,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 0,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "Assets": {
+        "label": "Assets",
+        "description": "Sum of the carrying amounts as of the balance sheet date of all assets that are recognized. Assets are probable future economic benefits obtained or controlled by an entity as a result of past transactions or events.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 19035000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 21857000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AssetsCurrent": {
+        "label": "Assets, Current",
+        "description": "Sum of the carrying amounts as of the balance sheet date of all assets that are expected to be realized in cash, sold, or consumed within one year (or the normal operating cycle, if longer). Assets are probable future economic benefits obtained or controlled by an entity as a result of past transactions or events.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 18455000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 21087000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AssetsNet": {
+        "label": "Net Assets",
+        "description": "The net of assets and liabilities.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 1510000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 270000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "AssetsNoncurrent": {
+        "label": "Assets, Noncurrent",
+        "description": "Sum of the carrying amounts as of the balance sheet date of all assets that are expected to be realized in cash, sold or consumed after one year or beyond the normal operating cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 580000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 770000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "CashAndCashEquivalentsAtCarryingValue": {
+        "label": "Cash and Cash Equivalents, at Carrying Value",
+        "description": "Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 2120000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 1972000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations": {
+        "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents, Including Disposal Group and Discontinued Operations",
+        "description": "Amount of cash and cash equivalents, and cash and cash equivalents restricted to withdrawal or usage; including, but not limited to, disposal group and discontinued operations. Cash includes, but is not limited to, currency on hand, demand deposits with banks or financial institutions, and other accounts with general characteristics of demand deposits. Cash equivalents include, but are not limited to, short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates.",
+        "units": {
+          "USD": [
+            {
+              "end": "2021-09-30",
+              "val": 749000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2021Q3I"
+            },
+            {
+              "end": "2022-09-30",
+              "val": 2071000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022Q3I"
+            },
+            {
+              "end": "2023-09-30",
+              "val": 2120000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 2473000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffectDisposalGroupIncludingDiscontinuedOperations": {
+        "label": null,
+        "description": null,
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -233000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -56000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 54000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": {
+        "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents, Period Increase (Decrease), Including Exchange Rate Effect",
+        "description": "Amount of increase (decrease) in cash, cash equivalents, and cash and cash equivalents restricted to withdrawal or usage; including effect from exchange rate change. Cash includes, but is not limited to, currency on hand, demand deposits with banks or financial institutions, and other accounts with general characteristics of demand deposits. Cash equivalents include, but are not limited to, short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 1322000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 49000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 353000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "CommonStockParOrStatedValuePerShare": {
+        "label": "Common Stock, Par or Stated Value Per Share",
+        "description": "Face amount or stated value per share of common stock.",
+        "units": {
+          "USD/shares": [
+            {
+              "end": "2023-01-09",
+              "val": 0.0001,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022Q4I"
+            },
+            {
+              "end": "2023-06-14",
+              "val": 0.0001,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q2I"
+            },
+            {
+              "end": "2023-09-30",
+              "val": 1e-06,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 1e-06,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "CommonStockSharesAuthorized": {
+        "label": "Common Stock, Shares Authorized",
+        "description": "The maximum number of common shares permitted to be issued by an entity's charter and bylaws.",
+        "units": {
+          "shares": [
+            {
+              "end": "2023-09-30",
+              "val": 500000000000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 500000000000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "CommonStockSharesIssued": {
+        "label": "Common Stock, Shares, Issued",
+        "description": "Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued, repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners, and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.",
+        "units": {
+          "shares": [
+            {
+              "end": "2023-06-14",
+              "val": 71099300,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q2I"
+            },
+            {
+              "end": "2023-09-30",
+              "val": 73580500,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            }
+          ]
+        }
+      },
+      "CommonStockSharesOutstanding": {
+        "label": "Common Stock, Shares, Outstanding",
+        "description": "Number of shares of common stock outstanding. Common stock represent the ownership interest in a corporation.",
+        "units": {
+          "shares": [
+            {
+              "end": "2023-09-30",
+              "val": 73580500,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            }
+          ]
+        }
+      },
+      "ComprehensiveIncomeNetOfTax": {
+        "label": "Comprehensive Income (Loss), Net of Tax, Attributable to Parent",
+        "description": "Amount after tax of increase (decrease) in equity from transactions and other events and circumstances from net income and other comprehensive income, attributable to parent entity. Excludes changes in equity resulting from investments by owners and distributions to owners.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 8735000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -6201000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -14588000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ComprehensiveIncomeNetOfTaxAttributableToNoncontrollingInterest": {
+        "label": "Comprehensive Income (Loss), Net of Tax, Attributable to Noncontrolling Interest",
+        "description": "Amount after tax of increase (decrease) in equity from transactions and other events and circumstances from net income (loss) and other comprehensive income (loss), attributable to noncontrolling interests. Excludes changes in equity resulting from investments by owners and distributions to owners.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -544000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -413000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -203000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest": {
+        "label": "Comprehensive Income (Loss), Net of Tax, Including Portion Attributable to Noncontrolling Interest",
+        "description": "Amount after tax of increase (decrease) in equity from transactions and other events and circumstances from net income and other comprehensive income. Excludes changes in equity resulting from investments by owners and distributions to owners.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 8191000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -6614000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -14791000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ConvertibleDebtCurrent": {
+        "label": "Convertible Debt, Current",
+        "description": "The portion of the carrying value of long-term convertible debt as of the balance sheet date that is scheduled to be repaid within one year or in the normal operating cycle if longer. Convertible debt is a financial instrument which can be exchanged for a specified amount of another security, typically the entity's common stock, at the option of the issuer or the holder.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 4180000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 4346000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "CostOfRevenue": {
+        "label": "Cost of Revenue",
+        "description": "The aggregate cost of goods produced and sold and services rendered during the reporting period.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 119632000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 113045000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 123484000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "DebtInstrumentRedemptionPricePercentageOfPrincipalAmountRedeemed": {
+        "label": "Debt Instrument, Redemption Price, Percentage of Principal Amount Redeemed",
+        "description": "Percentage of principal amount of debt redeemed.",
+        "units": {
+          "pure": [
+            {
+              "start": "2015-01-01",
+              "end": "2015-12-31",
+              "val": 0.12,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2015"
+            },
+            {
+              "start": "2024-01-01",
+              "end": "2024-09-30",
+              "val": 0.1,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27"
+            }
+          ]
+        }
+      },
+      "DebtWeightedAverageInterestRate": {
+        "label": "Debt, Weighted Average Interest Rate",
+        "description": "Weighted average interest rate of debt outstanding.",
+        "units": {
+          "pure": [
+            {
+              "end": "2023-09-30",
+              "val": 0.0796,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 0.0734,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "DeconsolidationGainOrLossAmount": {
+        "label": "Deconsolidation, Gain (Loss), Amount",
+        "description": "Amount of gain (loss) from deconsolidation of subsidiary and derecognition of group of assets constituting transfer of business or nonprofit activity, excluding conveyance of oil and gas mineral rights and transfer of good or service in contract with customer.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 10000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 78000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "DeferredOfferingCosts": {
+        "label": "Deferred Offering Costs",
+        "description": "Specific incremental costs directly attributable to a proposed or actual offering of securities which are deferred at the end of the reporting period.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 1555000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            }
+          ]
+        }
+      },
+      "DeferredRevenue": {
+        "label": "Deferred Revenue",
+        "description": "Amount of deferred income and obligation to transfer product and service to customer for which consideration has been received or is receivable.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 8913000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 6545000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "DeferredRevenueCurrent": {
+        "label": "Deferred Revenue, Current",
+        "description": "Amount of deferred income and obligation to transfer product and service to customer for which consideration has been received or is receivable, classified as current.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 8913000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 6545000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "DeferredRevenueRevenueRecognized1": {
+        "label": "Deferred Revenue, Revenue Recognized",
+        "description": "Amount of revenue recognized that was previously reported as deferred or unearned revenue.",
+        "units": {
+          "USD": [
+            {
+              "start": "2020-10-01",
+              "end": "2021-09-30",
+              "val": 11678000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2021"
+            },
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 12314000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 7874000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "DeferredTaxAssetsOperatingLossCarryforwards": {
+        "label": "Deferred Tax Assets, Operating Loss Carryforwards",
+        "description": "Amount before allocation of valuation allowances of deferred tax asset attributable to deductible operating loss carryforwards.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 11634000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 11408000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "DeferredTaxAssetsTaxDeferredExpenseReservesAndAccrualsAllowanceForDoubtfulAccounts": {
+        "label": "Deferred Tax Assets, Tax Deferred Expense, Reserves and Accruals, Allowance for Doubtful Accounts",
+        "description": "Amount before allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences from the allowance for doubtful accounts.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 977000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 1141000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "DeferredTaxAssetsValuationAllowance": {
+        "label": "Deferred Tax Assets, Valuation Allowance",
+        "description": "Amount of deferred tax assets for which it is more likely than not that a tax benefit will not be realized.",
+        "units": {
+          "USD": [
+            {
+              "end": "2021-09-30",
+              "val": 19080000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2021Q3I"
+            },
+            {
+              "end": "2022-09-30",
+              "val": 18386000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022Q3I"
+            },
+            {
+              "end": "2023-09-30",
+              "val": 12611000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 12549000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "DepositAssets": {
+        "label": "Deposit Assets",
+        "description": "The carrying amount of the asset transferred to a third party to serve as a deposit, which typically serves as security against failure by the transferor to perform under terms of an agreement.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 78000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 5818000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "DepositLiabilityCurrent": {
+        "label": "Deposit Liability, Current",
+        "description": "The current portion, due within one year or one operating cycle, if longer, of deposits held other than customer deposits.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 943000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 989000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "Deposits": {
+        "label": "Deposits",
+        "description": "The aggregate of all deposit liabilities held by the entity, including foreign and domestic, interest and noninterest bearing; may include demand deposits, saving deposits, Negotiable Order of Withdrawal (NOW) and time deposits among others.",
+        "units": {
+          "USD": [
+            {
+              "end": "2024-09-30",
+              "val": 1000000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "DepreciationAndAmortization": {
+        "label": "Depreciation, Depletion and Amortization, Nonproduction",
+        "description": "The current period expense charged against earnings on long-lived, physical assets not used in production, and which are not intended for resale, to allocate or recognize the cost of such assets over their useful lives; or to record the reduction in book value of an intangible asset over the benefit period of such asset; or to reflect consumption during the period of an asset that is not used in production.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 300000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 229000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 91000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate": {
+        "label": "Effective Income Tax Rate Reconciliation, at Federal Statutory Income Tax Rate, Percent",
+        "description": "Percentage of domestic federal statutory tax rate applicable to pretax income (loss).",
+        "units": {
+          "pure": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 0.25,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 0.25,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 0.25,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "EffectiveIncomeTaxRateReconciliationChangeInDeferredTaxAssetsValuationAllowance": {
+        "label": "Effective Income Tax Rate Reconciliation, Change in Deferred Tax Assets Valuation Allowance, Percent",
+        "description": "Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to changes in the valuation allowance for deferred tax assets.",
+        "units": {
+          "pure": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -0.21,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -0.2,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -0.02,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "EffectiveIncomeTaxRateReconciliationDeductions": {
+        "label": "Effective Income Tax Rate Reconciliation, Deduction, Percent",
+        "description": "Percentage of difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying domestic federal statutory income tax rate to pretax income (loss) from continuing operations attributable to deduction. Includes, but is not limited to, dividend deduction, deduction for dividend paid to employee stock ownership plan (ESOP), Medicare prescription drug benefit subsidy deduction, and other deductions.",
+        "units": {
+          "pure": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -0.02,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -0.03,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -0.01,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "EmployeeBenefitsAndShareBasedCompensation": {
+        "label": "Employee Benefits and Share-based Compensation",
+        "description": "Amount of expense for employee benefit and equity-based compensation.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 344000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 258000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 322000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ForeignCurrencyExchangeRateTranslation1": {
+        "label": "Foreign Currency Exchange Rate, Translation",
+        "description": "Foreign exchange rate used to translate amounts denominated in functional currency to reporting currency.",
+        "units": {
+          "pure": [
+            {
+              "end": "2023-09-30",
+              "val": 7.296,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 7.0176,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "GainLossOnSaleOfPropertyPlantEquipment": {
+        "label": "Gain (Loss) on Disposition of Property Plant Equipment",
+        "description": "Amount of gain (loss) on sale or disposal of property, plant and equipment assets, including oil and gas property and timber property.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -30000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            }
+          ]
+        }
+      },
+      "GainLossOnTerminationOfLease": {
+        "label": "Gain (Loss) on Termination of Lease",
+        "description": "Amount of gain (loss) on termination of lease before expiration of lease term.",
+        "units": {
+          "USD": [
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 29000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "GainOnSaleOfInvestments": {
+        "label": "Gain on Sale of Investments",
+        "description": "The difference between the carrying value and the sale price of an investment. A gain would be recognized when the sale price of the investment is greater than the carrying value of the investment. This element refers to the Gain included in earnings and not to the cash proceeds of the sale.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 10000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 78000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "GeneralAndAdministrativeExpense": {
+        "label": "General and Administrative Expense",
+        "description": "The aggregate total of expenses of managing and administering the affairs of an entity, including affiliates of the reporting entity, which are not directly or indirectly associated with the manufacture, sale or creation of a product or product line.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 2882000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 5370000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 4335000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "GrossProfit": {
+        "label": "Gross Profit",
+        "description": "Aggregate revenue less cost of goods and services sold or operating expenses directly attributable to the revenue generation activity.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 716000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 496000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 1253000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest": {
+        "label": "Income (Loss) from Continuing Operations before Income Taxes, Noncontrolling Interest",
+        "description": "Amount of income (loss) from continuing operations, including income (loss) from equity method investments, before deduction of income tax expense (benefit), and income (loss) attributable to noncontrolling interest.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -6165000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -10549000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -11106000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseInAccountsPayable": {
+        "label": "Increase (Decrease) in Accounts Payable",
+        "description": "The increase (decrease) during the reporting period in the aggregate amount of liabilities incurred (and for which invoices have typically been received) and payable to vendors for goods and services received that are used in an entity's business.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -122000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -1078000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 1388000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseInAccountsReceivable": {
+        "label": "Increase (Decrease) in Accounts Receivable",
+        "description": "The increase (decrease) during the reporting period in amount due within one year (or one business cycle) from customers for the credit sale of goods and services.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -625000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -320000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 353000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseInDeferredRevenue": {
+        "label": "Increase (Decrease) in Deferred Revenue",
+        "description": "Amount of increase (decrease) in deferred income and obligation to transfer product and service to customer for which consideration has been received or is receivable.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 1853000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -4081000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -2651000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseInDueFromRelatedPartiesCurrent": {
+        "label": "Increase (Decrease) in Due from Related Parties, Current",
+        "description": "The aggregate increase (decrease) during the reporting period in the amount due from the following types of related parties: a parent company and its subsidiaries; subsidiaries of a common parent; an entity and trust for the benefit of employees, such as pension and profit-sharing trusts that are managed by or under the trusteeship of the entity's management; an entity and its principal owners, management, or member of their immediate families, affiliates, or other parties with the ability to exert significant influence.",
+        "units": {
+          "USD": [
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 154000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -169000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseInDueToRelatedParties": {
+        "label": "Increase (Decrease) in Due to Related Parties",
+        "description": "The increase (decrease) during the reporting period in the aggregate amount of obligations to be paid to the following types of related parties: a parent company and its subsidiaries; subsidiaries of a common parent; an entity and trust for the benefit of employees, such as pension and profit-sharing trusts that are managed by or under the trusteeship of the entities' management; an entity and its principal owners, management, or member of their immediate families; affiliates; or other parties with the ability to exert significant influence.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 3000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 67000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -177000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseInInventories": {
+        "label": "Increase (Decrease) in Inventories",
+        "description": "The increase (decrease) during the reporting period in the aggregate value of all inventory held by the reporting entity, associated with underlying transactions that are classified as operating activities.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 483000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 202000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 2285000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseInOperatingLeaseLiability": {
+        "label": null,
+        "description": null,
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -29000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -97000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -197000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseInOtherAccountsPayableAndAccruedLiabilities": {
+        "label": "Increase (Decrease) in Other Accounts Payable and Accrued Liabilities",
+        "description": "The increase (decrease) during the reporting period in other obligations or expenses incurred but not yet paid.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 3256000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 630000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 7592000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets": {
+        "label": "Increase (Decrease) in Prepaid Expense and Other Assets",
+        "description": "Amount of increase (decrease) in prepaid expenses, and assets classified as other.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 163000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 533000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 9640000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "InterestExpenseDebt": {
+        "label": "Interest Expense, Debt",
+        "description": "Amount of the cost of borrowed funds accounted for as interest expense for debt.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 527000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 485000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 499000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "InterestExpenseNonoperating": {
+        "label": null,
+        "description": null,
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 1657000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 2060000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 2707000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "InterestPaidNet": {
+        "label": "Interest Paid, Excluding Capitalized Interest, Operating Activities",
+        "description": "Amount of cash paid for interest, excluding capitalized interest, classified as operating activity. Includes, but is not limited to, payment to settle zero-coupon bond for accreted interest of debt discount and debt instrument with insignificant coupon interest rate in relation to effective interest rate of borrowing attributable to accreted interest of debt discount.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 581000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 606000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 394000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "InterestPayableCurrent": {
+        "label": "Interest Payable, Current",
+        "description": "Carrying value as of the balance sheet date of [accrued] interest payable on all forms of debt, including trade payables, that has been incurred and is unpaid. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 3208000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 4417000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "InventoryFinishedGoods": {
+        "label": "Inventory, Finished Goods, Gross",
+        "description": "Amount before valuation and LIFO reserves of completed merchandise or goods expected to be sold within one year or operating cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 305000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            }
+          ]
+        }
+      },
+      "InventoryNet": {
+        "label": "Inventory, Net",
+        "description": "Amount after valuation and LIFO reserves of inventory expected to be sold, or consumed within one year or operating cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 889000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 3270000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "InventoryWriteDown": {
+        "label": "Inventory Write-down",
+        "description": "Amount of loss from reductions in inventory due to subsequent measurement adjustments, including, but not limited to, physical deterioration, obsolescence, or changes in price levels.",
+        "units": {
+          "USD": [
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 49000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "InvestmentIncomeInterest": {
+        "label": "Investment Income, Interest",
+        "description": "Amount before accretion (amortization) of purchase discount (premium) of interest income on nonoperating securities.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 10000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 78000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "LesseeOperatingLeaseLiabilityPaymentsDue": {
+        "label": "Lessee, Operating Lease, Liability, to be Paid",
+        "description": "Amount of lessee's undiscounted obligation for lease payment for operating lease.",
+        "units": {
+          "USD": [
+            {
+              "end": "2024-09-30",
+              "val": 602000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "LesseeOperatingLeaseLiabilityPaymentsDueInRollingYearTwo": {
+        "label": "Lessee, Operating Lease, Liability, Payments, Due in Rolling Year Two",
+        "description": "Amount of lessee's undiscounted obligation for lease payments for operating lease, due in second rolling twelve months following latest statement of financial position date. For interim and annual periods when interim periods are reported on a rolling approach, from latest statement of financial position date.",
+        "units": {
+          "USD": [
+            {
+              "end": "2024-09-30",
+              "val": 7000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "LesseeOperatingLeaseLiabilityPaymentsDueNextRollingTwelveMonths": {
+        "label": "Lessee, Operating Lease, Liability, Payments, Due Next Rolling Twelve Months",
+        "description": "Amount of lessee's undiscounted obligation for lease payments for operating lease, due in next rolling twelve months following latest statement of financial position date. For interim and annual periods when interim periods are reported on a rolling approach, from latest statement of financial position date.",
+        "units": {
+          "USD": [
+            {
+              "end": "2024-09-30",
+              "val": 595000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount": {
+        "label": "Lessee, Operating Lease, Liability, Undiscounted Excess Amount",
+        "description": "Amount of lessee's undiscounted obligation for lease payments in excess of discounted obligation for lease payments for operating lease.",
+        "units": {
+          "USD": [
+            {
+              "end": "2024-09-30",
+              "val": 30000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "Liabilities": {
+        "label": "Liabilities",
+        "description": "Sum of the carrying amounts as of the balance sheet date of all liabilities that are recognized. Liabilities are probable future sacrifices of economic benefits arising from present obligations of an entity to transfer assets or provide services to other entities in the future.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 47446000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 57034000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "LiabilitiesAndStockholdersEquity": {
+        "label": "Liabilities and Equity",
+        "description": "Amount of liabilities and equity items, including the portion of equity attributable to noncontrolling interests, if any.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 19035000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 21857000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "LiabilitiesCurrent": {
+        "label": "Liabilities, Current",
+        "description": "Total obligations incurred as part of normal operations that are expected to be paid during the following twelve months or within one business cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 47429000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 56992000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "LiabilitiesNoncurrent": {
+        "label": "Liabilities, Noncurrent",
+        "description": "Amount of obligation due after one year or beyond the normal operating cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 17000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 42000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "MinorityInterest": {
+        "label": "Stockholders' Equity Attributable to Noncontrolling Interest",
+        "description": "Total of all stockholders' equity (deficit) items, net of receivables from officers, directors, owners, and affiliates of the entity which is directly or indirectly attributable to that ownership interest in subsidiary equity which is not attributable to the parent (that is, noncontrolling interest, previously referred to as minority interest).",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": -529000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": -1436000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "MinorityInterestChangeInRedemptionValue": {
+        "label": "Noncontrolling Interest, Change in Redemption Value",
+        "description": "Change in noncontrolling interest during the period as a result of a change in the redemption value of redeemable noncontrolling interest.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 2519000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 805000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "MinorityInterestDecreaseFromRedemptions": {
+        "label": "Noncontrolling Interest, Decrease from Redemptions or Purchase of Interests",
+        "description": "Decrease in noncontrolling interest (for example, but not limited to, redeeming or purchasing the interests of noncontrolling shareholders, issuance of shares (interests) by the non-wholly owned subsidiary to the parent entity for other than cash, and a buyback of shares (interest) by the non-wholly owned subsidiary from the noncontrolling interests).",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -10000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -12000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "NetCashProvidedByUsedInFinancingActivities": {
+        "label": "Net Cash Provided by (Used in) Financing Activities",
+        "description": "Amount of cash inflow (outflow) from financing activities, including discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on, and a return of, their investment; borrowing money and repaying amounts borrowed, or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 4592000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 7249000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 10475000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "NetCashProvidedByUsedInInvestingActivities": {
+        "label": "Net Cash Provided by (Used in) Investing Activities",
+        "description": "Amount of cash inflow (outflow) from investing activities, including discontinued operations. Investing activity cash flows include making and collecting loans and acquiring and disposing of debt or equity instruments and property, plant, and equipment and other productive assets.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 1827000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 137000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -108000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "NetCashProvidedByUsedInOperatingActivities": {
+        "label": "Net Cash Provided by (Used in) Operating Activities",
+        "description": "Amount of cash inflow (outflow) from operating activities, including discontinued operations. Operating activity cash flows include transactions, adjustments, and changes in value not defined as investing or financing activities.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -4864000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -7281000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -10068000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "NetIncomeLossAttributableToNoncontrollingInterest": {
+        "label": "Net Income (Loss) Attributable to Noncontrolling Interest",
+        "description": "Amount of Net Income (Loss) attributable to noncontrolling interest.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -551000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -397000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -250000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "NetIncomeLossAvailableToCommonStockholdersBasic": {
+        "label": "Net Income (Loss) Available to Common Stockholders, Basic",
+        "description": "Amount, after deduction of tax, noncontrolling interests, dividends on preferred stock and participating securities; of income (loss) available to common shareholders.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -18710000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -21577000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 32466000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "NonoperatingIncomeExpense": {
+        "label": "Nonoperating Income (Expense)",
+        "description": "The aggregate amount of income or expense from ancillary business-related activities (that is to say, excluding major activities considered part of the normal operations of the business).",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -1505000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -3224000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -5659000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OperatingExpenses": {
+        "label": "Operating Expenses",
+        "description": "Generally recurring costs associated with normal operations except for the portion of these expenses which can be clearly related to production and included in cost of sales or services. Includes selling, general and administrative expense.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 5376000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 7821000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 6700000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OperatingIncomeLoss": {
+        "label": "Operating Income (Loss)",
+        "description": "The net result for the period of deducting operating expenses from operating revenues.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -4660000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -7325000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -5447000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OperatingLeaseExpense": {
+        "label": "Operating Lease, Expense",
+        "description": "Amount of operating lease expense. Excludes sublease income.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 154000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 96000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 229000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OperatingLeaseLeaseIncomeLeasePayments": {
+        "label": "Operating Lease, Lease Income, Lease Payments",
+        "description": "Amount of operating lease income from lease payments paid and payable to lessor. Excludes variable lease payments not included in measurement of lease receivable.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 42000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 87000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 140000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OperatingLeaseLiability": {
+        "label": "Operating Lease, Liability",
+        "description": "Present value of lessee's discounted obligation for lease payments from operating lease.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 369000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 572000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "OperatingLeaseLiabilityCurrent": {
+        "label": "Operating Lease, Liability, Current",
+        "description": "Present value of lessee's discounted obligation for lease payments from operating lease, classified as current.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 352000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 530000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "OperatingLeaseLiabilityNoncurrent": {
+        "label": "Operating Lease, Liability, Noncurrent",
+        "description": "Present value of lessee's discounted obligation for lease payments from operating lease, classified as noncurrent.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 17000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 42000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "OperatingLeaseRightOfUseAsset": {
+        "label": "Operating Lease, Right-of-Use Asset",
+        "description": "Amount of lessee's right to use underlying asset under operating lease.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 139000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 343000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "OperatingLeaseRightOfUseAssetAmortizationExpense": {
+        "label": "Operating Lease, Right-of-Use Asset, Amortization Expense",
+        "description": "Amount of amortization expense for right-of-use asset from operating lease.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 145000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 171000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 216000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OperatingLeaseWeightedAverageDiscountRatePercent": {
+        "label": "Operating Lease, Weighted Average Discount Rate, Percent",
+        "description": "Weighted average discount rate for operating lease calculated at point in time.",
+        "units": {
+          "pure": [
+            {
+              "end": "2023-09-30",
+              "val": 0.0381,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 0.0363,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "OperatingLossCarryforwardsValuationAllowance": {
+        "label": "Operating Loss Carryforwards, Valuation Allowance",
+        "description": "The portion of the valuation allowance pertaining to the deferred tax asset representing potential future taxable deductions from net operating loss carryforwards for which it is more likely than not that a tax benefit will not be realized.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 12611000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 12549000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "OtherAccruedLiabilitiesCurrent": {
+        "label": "Other Accrued Liabilities, Current",
+        "description": "Amount of expenses incurred but not yet paid classified as other, due within one year or the normal operating cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 794000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 1096000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax": {
+        "label": "Other Comprehensive Income (Loss), Foreign Currency Transaction and Translation Adjustment, Net of Tax",
+        "description": "Amount after tax and reclassification adjustments of gain (loss) on foreign currency translation adjustments, foreign currency transactions designated and effective as economic hedges of a net investment in a foreign entity and intra-entity foreign currency transactions that are of a long-term-investment nature.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 14356000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 3935000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -3685000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OtherLiabilities": {
+        "label": "Other Liabilities",
+        "description": "Amount of liabilities classified as other.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 478000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 767000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "OtherNonoperatingIncomeExpense": {
+        "label": "Other Nonoperating Income (Expense)",
+        "description": "Amount of income (expense) related to nonoperating activities, classified as other.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 142000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 214000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 17000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "OtherPrepaidExpenseCurrent": {
+        "label": "Other Prepaid Expense, Current",
+        "description": "Amount of asset related to consideration paid in advance for other costs that provide economic benefits within a future period of one year or the normal operating cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 28000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 43000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "OtherReceivablesGrossCurrent": {
+        "label": "Other Receivables, Gross, Current",
+        "description": "Amount, before allowance, of receivables classified as other, due within one year or the operating cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 1751000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 1696000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "OtherReceivablesNetCurrent": {
+        "label": "Other Receivables, Net, Current",
+        "description": "Amount, after allowance, of receivables classified as other, due within one year or the operating cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 403000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 294000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "PaymentsForOtherTaxes": {
+        "label": "Payments for Other Taxes",
+        "description": "Amount of cash outflow for taxes classified as other.",
+        "units": {
+          "CNY": [
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 100000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ],
+          "USD": [
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 14250000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "PaymentsForRepurchaseOfRedeemableNoncontrollingInterest": {
+        "label": "Payments for Repurchase of Redeemable Noncontrolling Interest",
+        "description": "The cash outflow during the period for redemption of redeemable noncontrolling interests.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 20325000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 15077000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "PaymentsOfStockIssuanceCosts": {
+        "label": "Payments of Stock Issuance Costs",
+        "description": "The cash outflow for cost incurred directly with the issuance of an equity security.",
+        "units": {
+          "USD": [
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 1123000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 377000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "PaymentsToAcquireLoansReceivable": {
+        "label": "Payments to Acquire Loans Receivable",
+        "description": "The cash outflow for the purchase of loan receivable arising from the financing of goods and services.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 136000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 82000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 117000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "PaymentsToAcquirePropertyPlantAndEquipment": {
+        "label": "Payments to Acquire Property, Plant, and Equipment",
+        "description": "The cash outflow associated with the acquisition of long-lived, physical assets that are used in the normal conduct of business to produce goods and services and not intended for resale; includes cash outflows to pay for construction of self-constructed assets.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 211000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 61000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "PrepaidExpenseAndOtherAssets": {
+        "label": "Prepaid Expense and Other Assets",
+        "description": "Amount of asset related to consideration paid in advance for costs that provide economic benefits in future periods, and amount of other assets.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 1803000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 8120000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "PrepaidExpenseAndOtherAssetsCurrent": {
+        "label": "Prepaid Expense and Other Assets, Current",
+        "description": "Amount of asset related to consideration paid in advance for costs that provide economic benefits in future periods, and amount of other assets that are expected to be realized or consumed within one year or the normal operating cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 1803000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 8120000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "PrepaidExpenseCurrent": {
+        "label": "Prepaid Expense, Current",
+        "description": "Amount of asset related to consideration paid in advance for costs that provide economic benefits within a future period of one year or the normal operating cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 873000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 1324000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "ProceedsFromCollectionOfLoansReceivable": {
+        "label": "Proceeds from Collection of Loans Receivable",
+        "description": "The cash inflow associated with the collection, including prepayments, of loans receivable issued for financing of goods and services.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 2174000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 217000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 70000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ProceedsFromCollectionOfLongtermLoansToRelatedParties": {
+        "label": "Proceeds from Collection of Long-term Loans to Related Parties",
+        "description": "The cash inflow associated with collection, whether partial or full, of long-term loans to a related party. Alternate caption: Proceeds from Advances to Affiliates.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 3547000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 217000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 70000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ProceedsFromContributedCapital": {
+        "label": "Proceeds from Contributed Capital",
+        "description": "The cash inflow associated with the amount received by a corporation from a shareholder during the period.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 1568000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 8846000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "ProceedsFromIssuanceInitialPublicOffering": {
+        "label": "Proceeds from Issuance Initial Public Offering",
+        "description": "The cash inflow associated with the amount received from entity's first offering of stock to the public.",
+        "units": {
+          "USD": [
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 9029000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ProceedsFromOtherEquity": {
+        "label": "Proceeds from Other Equity",
+        "description": "Amount of cash inflow from the issuance of equity classified as other.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 3815000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            }
+          ]
+        }
+      },
+      "ProceedsFromRelatedPartyDebt": {
+        "label": "Proceeds from Related Party Debt",
+        "description": "The cash inflow from a long-term borrowing made from related parties where one party can exercise control or significant influence over another party; including affiliates, owners or officers and their immediate families, pension trusts, and so forth. Alternate caption: Proceeds from Advances from Affiliates.",
+        "units": {
+          "USD": [
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 2375000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 1566000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ProceedsFromSaleOfPropertyPlantAndEquipment": {
+        "label": "Proceeds from Sale of Property, Plant, and Equipment",
+        "description": "The cash inflow from the sale of long-lived, physical assets that are used in the normal conduct of business to produce goods and services and not intended for resale.",
+        "units": {
+          "USD": [
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 2000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "ProfitLoss": {
+        "label": "Net Income (Loss), Including Portion Attributable to Noncontrolling Interest",
+        "description": "The consolidated profit or loss for the period, net of income taxes, including the portion attributable to the noncontrolling interest.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -6165000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -10549000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -11106000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "PropertyPlantAndEquipmentGross": {
+        "label": "Property, Plant and Equipment, Gross",
+        "description": "Amount before accumulated depreciation, depletion and amortization of physical assets used in the normal conduct of business and not intended for resale. Examples include, but are not limited to, land, buildings, machinery and equipment, office equipment, and furniture and fixtures.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 2339000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 2493000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "PropertyPlantAndEquipmentNet": {
+        "label": "Property, Plant and Equipment, Net",
+        "description": "Amount after accumulated depreciation, depletion and amortization of physical assets used in the normal conduct of business to produce goods and services and not intended for resale. Examples include, but are not limited to, land, buildings, machinery and equipment, office equipment, and furniture and fixtures.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 441000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 427000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "ProvisionForDoubtfulAccounts": {
+        "label": "Accounts Receivable, Credit Loss Expense (Reversal)",
+        "description": "Amount of expense (reversal of expense) for expected credit loss on accounts receivable.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 72000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 1476000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            }
+          ]
+        }
+      },
+      "ProvisionForOtherCreditLosses": {
+        "label": "Provision for Other Credit Losses",
+        "description": "Amount of expense related to credit loss from transactions other than loan and lease transactions.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 37000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 2452000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 837000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "RedeemableNoncontrollingInterestEquityCarryingAmount": {
+        "label": "Redeemable Noncontrolling Interest, Equity, Carrying Amount",
+        "description": "As of the reporting date, the aggregate carrying amount of all noncontrolling interests which are redeemable by the (parent) entity (1) at a fixed or determinable price on a fixed or determinable date, (2) at the option of the holder of the noncontrolling interest, or (3) upon occurrence of an event that is not solely within the control of the (parent) entity. This item includes noncontrolling interest holder's ownership (or holders' ownership) regardless of the type of equity interest (common, preferred, other) including all potential organizational (legal) forms of the investee entity.",
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-06-30",
+              "val": 106400000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q2I"
+            }
+          ],
+          "USD": [
+            {
+              "end": "2023-06-30",
+              "val": 15200000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q2I"
+            },
+            {
+              "end": "2023-09-30",
+              "val": 14893000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 16616000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "RedeemableNoncontrollingInterestEquityRedemptionValue": {
+        "label": "Redeemable Noncontrolling Interest, Equity, Redemption Value",
+        "description": "Redemption value, as if currently redeemable, of redeemable noncontrolling interest classified as temporary equity and the election has been made to accrete changes in redemption value to the earliest redemption date.",
+        "units": {
+          "USD": [
+            {
+              "end": "2021-09-30",
+              "val": 33754000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2021Q3I"
+            },
+            {
+              "end": "2022-09-30",
+              "val": 14162000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022Q3I"
+            }
+          ]
+        }
+      },
+      "RepaymentsOfRelatedPartyDebt": {
+        "label": "Repayments of Related Party Debt",
+        "description": "The cash outflow for the payment of a long-term borrowing made from a related party where one party can exercise control or significant influence over another party; including affiliates, owners or officers and their immediate families, pension trusts, and so forth. Alternate caption: Payments for Advances from Affiliates.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 814000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 2683000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 1146000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ResearchAndDevelopmentExpense": {
+        "label": "Research and Development Expense",
+        "description": "The aggregate costs incurred (1) in a planned search or critical investigation aimed at discovery of new knowledge with the hope that such knowledge will be useful in developing a new product or service, a new process or technique, or in bringing about a significant improvement to an existing product or process; or (2) to translate research findings or other knowledge into a plan or design for a new product or process or for a significant improvement to an existing product or process whether intended for sale or the entity's use, during the reporting period charged to research and development projects, including the costs of developing computer software up to the point in time of achieving technological feasibility, and costs allocated in accounting for a business combination to in-process projects deemed to have no alternative future use.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 1049000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 1314000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 1098000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "RestrictedCashCurrent": {
+        "label": "Restricted Cash, Current",
+        "description": "Amount of cash restricted as to withdrawal or usage, classified as current. Cash includes, but is not limited to, currency on hand, demand deposits with banks or financial institutions, and other accounts with general characteristics of demand deposits.",
+        "units": {
+          "USD": [
+            {
+              "end": "2024-09-30",
+              "val": 501000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "RetainedEarningsAccumulatedDeficit": {
+        "label": "Retained Earnings (Accumulated Deficit)",
+        "description": "The cumulative amount of the reporting entity's undistributed earnings or deficit.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": -166020000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": -129532000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "RetainedEarningsAppropriated": {
+        "label": "Retained Earnings, Appropriated",
+        "description": "A segregation of retained earnings which is unavailable for dividend distribution. Includes also retained earnings appropriated for loss contingencies.",
+        "units": {
+          "CNY": [
+            {
+              "end": "2017-12-31",
+              "val": 200000000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2017Q4I"
+            }
+          ]
+        }
+      },
+      "RevenueFromContractWithCustomerExcludingAssessedTax": {
+        "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+        "description": "Amount, excluding tax collected from customer, of revenue from satisfaction of performance obligation by transferring promised good or service to customer. Tax collected from customer is tax assessed by governmental authority that is both imposed on and concurrent with specific revenue-producing transaction, including, but not limited to, sales, use, value added and excise.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 120348000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 113541000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 124737000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "SellingAndMarketingExpense": {
+        "label": "Selling and Marketing Expense",
+        "description": "The aggregate total amount of expenses directly related to the marketing or selling of products or services.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 1445000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 1137000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 1267000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ShortTermBorrowings": {
+        "label": "Short-term Debt",
+        "description": "Reflects the total carrying amount as of the balance sheet date of debt having initial terms less than one year or the normal operating cycle, if longer.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 5739000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 8131000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "ShortTermLeaseCost": {
+        "label": "Short-term Lease, Cost",
+        "description": "Amount of short-term lease cost, excluding expense for lease with term of one month or less.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 4000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 1000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 5000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "StockholdersEquity": {
+        "label": "Stockholders' Equity Attributable to Parent",
+        "description": "Total of all stockholders' equity (deficit) items, net of receivables from officers, directors, owners, and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest, minority interest). This excludes temporary equity and is sometimes called permanent equity.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": -146742000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": -33741000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": {
+        "label": "Stockholders' Equity, Including Portion Attributable to Noncontrolling Interest",
+        "description": "Amount of stockholders' equity (deficit), net of receivables from officers, directors, owners, and affiliates of the entity, attributable to both the parent and noncontrolling interests. Amount excludes temporary equity. Alternate caption for the concept is permanent equity.",
+        "units": {
+          "USD": [
+            {
+              "end": "2021-09-30",
+              "val": -154977000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2021Q3I"
+            },
+            {
+              "end": "2022-09-30",
+              "val": -138032000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022Q3I"
+            },
+            {
+              "end": "2023-09-30",
+              "val": -147271000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": -35177000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "StockIssuedDuringPeriodSharesNewIssues": {
+        "label": "Stock Issued During Period, Shares, New Issues",
+        "description": "Number of new stock issued during the period.",
+        "units": {
+          "shares": [
+            {
+              "end": "2023-01-09",
+              "val": 458276,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022Q4I"
+            },
+            {
+              "end": "2023-06-14",
+              "val": 541724,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q2I"
+            }
+          ]
+        }
+      },
+      "StockIssuedDuringPeriodSharesStockSplits": {
+        "label": "Stock Issued During Period, Shares, Stock Splits",
+        "description": "Number of shares issued during the period as a result of a stock split.",
+        "units": {
+          "shares": [
+            {
+              "end": "2023-01-09",
+              "val": 45827600,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022Q4I"
+            },
+            {
+              "end": "2023-06-14",
+              "val": 54172400,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q2I"
+            }
+          ]
+        }
+      },
+      "StockIssuedDuringPeriodValueConversionOfConvertibleSecurities": {
+        "label": "Stock Issued During Period, Value, Conversion of Convertible Securities",
+        "description": "The gross value of stock issued during the period upon the conversion of convertible securities.",
+        "units": {
+          "USD": [
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 131308000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "StockIssuedDuringPeriodValueNewIssues": {
+        "label": "Stock Issued During Period, Value, New Issues",
+        "description": "Equity impact of the value of new stock issued during the period. Includes shares issued in an initial public offering or a secondary public offering.",
+        "units": {
+          "USD": [
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 9029000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "TemporaryEquityAccretionOfInterest": {
+        "label": "Temporary Equity, Accretion of Interest",
+        "description": "Value of accretion of temporary equity during the period due to unpaid interest.",
+        "units": {
+          "CNY": [
+            {
+              "start": "2023-06-01",
+              "end": "2023-06-30",
+              "val": 27200000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q2I"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-09-30",
+              "val": 399500000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27"
+            }
+          ],
+          "USD": [
+            {
+              "start": "2023-06-01",
+              "end": "2023-06-30",
+              "val": 3900000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q2I"
+            },
+            {
+              "start": "2023-01-01",
+              "end": "2023-09-30",
+              "val": 54800000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27"
+            }
+          ]
+        }
+      },
+      "TemporaryEquityAccretionToRedemptionValue": {
+        "label": "Temporary Equity, Accretion to Redemption Value",
+        "description": "Value of accretion of temporary equity to its redemption value during the period.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 13194000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 11587000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 10300000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "TemporaryEquityAccretionToRedemptionValueAdjustment": {
+        "label": "Temporary Equity, Accretion to Redemption Value, Adjustment",
+        "description": "Amount of decrease to net income for accretion of temporary equity to its redemption value to derive net income apportioned to common stockholders.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 13194000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 11587000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 10300000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "TemporaryEquityCarryingAmountAttributableToParent": {
+        "label": "Temporary Equity, Carrying Amount, Attributable to Parent",
+        "description": "Carrying amount, attributable to parent, of an entity's issued and outstanding stock which is not included within permanent equity. Temporary equity is a security with redemption features that are outside the control of the issuer, is not classified as an asset or liability in conformity with GAAP, and is not mandatorily redeemable. Includes any type of security that is redeemable at a fixed or determinable price or on a fixed or determinable date or dates, is redeemable at the option of the holder, or has conditions for redemption which are not solely within the control of the issuer. Includes stock with a put option held by an ESOP and stock redeemable by a holder only in the event of a change in control of the issuer.",
+        "units": {
+          "CNY": [
+            {
+              "end": "2023-06-30",
+              "val": 79200000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q2I"
+            }
+          ],
+          "USD": [
+            {
+              "end": "2023-06-30",
+              "val": 11300000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q2I"
+            },
+            {
+              "end": "2023-09-30",
+              "val": 118860000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            }
+          ]
+        }
+      },
+      "TemporaryEquityNetIncome": {
+        "label": "Temporary Equity, Net Income",
+        "description": "The portion of net income or loss attributable to temporary equity interest.",
+        "units": {
+          "CNY": [
+            {
+              "start": "2015-01-01",
+              "end": "2015-12-31",
+              "val": 20000000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2015"
+            },
+            {
+              "start": "2016-01-01",
+              "end": "2016-12-31",
+              "val": 54800000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2016"
+            }
+          ],
+          "USD": [
+            {
+              "start": "2015-01-01",
+              "end": "2015-12-31",
+              "val": 2900000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2015"
+            },
+            {
+              "start": "2016-01-01",
+              "end": "2016-12-31",
+              "val": 8300000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2016"
+            },
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 98000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 162000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 153000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "TemporaryEquityOtherChanges": {
+        "label": "Temporary Equity, Other Changes",
+        "description": "Amount of increase (decrease) in temporary equity from changes classified as other.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 20325000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            }
+          ]
+        }
+      },
+      "TemporaryEquityParOrStatedValuePerShare": {
+        "label": "Temporary Equity, Par or Stated Value Per Share",
+        "description": "Per share amount of par value or stated value of stock classified as temporary equity. Temporary equity is a security with redemption features that are outside the control of the issuer, is not classified as an asset or liability in conformity with GAAP, and is not mandatorily redeemable.",
+        "units": {
+          "USD/shares": [
+            {
+              "end": "2023-08-10",
+              "val": 0.0001,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q2I"
+            },
+            {
+              "end": "2023-09-30",
+              "val": 1e-06,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-04-11",
+              "val": 1e-06,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q1I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 1e-06,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "TemporaryEquityRedemptionPricePerShare": {
+        "label": "Temporary Equity, Redemption Price Per Share",
+        "description": "Amount to be paid per share that is classified as temporary equity by entity upon redemption. Temporary equity is a security with redemption features that are outside the control of the issuer, is not classified as an asset or liability in conformity with GAAP, and is not mandatorily redeemable. Includes any type of security that is redeemable at a fixed or determinable price or on a fixed or determinable date or dates, is redeemable at the option of the holder, or has conditions for redemption which are not solely within the control of the issuer. If convertible, the issuer does not control the actions or events necessary to issue the maximum number of shares that could be required to be delivered under the conversion option if the holder exercises the option to convert the stock to another class of equity. If the security is a warrant or a rights issue, the warrant or rights issue is considered to be temporary equity if the issuer cannot demonstrate that it would be able to deliver upon the exercise of the option by the holder in all cases. Includes stock with put option held by ESOP and stock redeemable by holder only in the event of a change in control of the issuer.",
+        "units": {
+          "USD/shares": [
+            {
+              "end": "2024-08-28",
+              "val": 2.6933,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "TemporaryEquitySharesAuthorized": {
+        "label": "Temporary Equity, Shares Authorized",
+        "description": "The maximum number of securities classified as temporary equity that are permitted to be issued by an entity's charter and bylaws. Temporary equity is a security with redemption features that are outside the control of the issuer, is not classified as an asset or liability in conformity with GAAP, and is not mandatorily redeemable. Includes any type of security that is redeemable at a fixed or determinable price or on a fixed or determinable date or dates, is redeemable at the option of the holder, or has conditions for redemption which are not solely within the control of the issuer. If convertible, the issuer does not control the actions or events necessary to issue the maximum number of shares that could be required to be delivered under the conversion option if the holder exercises the option to convert the stock to another class of equity. If the security is a warrant or a rights issue, the warrant or rights issue is considered to be temporary equity if the issuer cannot demonstrate that it would be able to deliver upon the exercise of the option by the holder in all cases. Includes stock with put option held by ESOP and stock redeemable by holder only in the event of a change in control of the issuer.",
+        "units": {
+          "shares": [
+            {
+              "end": "2023-08-10",
+              "val": 5000000000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q2I"
+            },
+            {
+              "end": "2024-04-11",
+              "val": 500000000000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q1I"
+            }
+          ]
+        }
+      },
+      "TemporaryEquitySharesIssued": {
+        "label": "Temporary Equity, Shares Issued",
+        "description": "The number of securities classified as temporary equity that have been sold (or granted) to the entity's shareholders. Securities issued include securities outstanding and securities held in treasury. Temporary equity is a security with redemption features that are outside the control of the issuer, is not classified as an asset or liability in conformity with GAAP, and is not mandatorily redeemable. Includes any type of security that is redeemable at a fixed or determinable price or on a fixed or determinable date or dates, is redeemable at the option of the holder, or has conditions for redemption which are not solely within the control of the issuer. If convertible, the issuer does not control the actions or events necessary to issue the maximum number of shares that could be required to be delivered under the conversion option if the holder exercises the option to convert the stock to another class of equity. If the security is a warrant or a rights issue, the warrant or rights issue is considered to be temporary equity if the issuer cannot demonstrate that it would be able to deliver upon the exercise of the option by the holder in all cases. Includes stock with put option held by ESOP and stock redeemable by holder only in the event of a change in control of the issuer.",
+        "units": {
+          "shares": [
+            {
+              "end": "2023-06-14",
+              "val": 28900700,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q2I"
+            },
+            {
+              "end": "2023-09-30",
+              "val": 28900700,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            }
+          ]
+        }
+      },
+      "TemporaryEquitySharesOutstanding": {
+        "label": "Temporary Equity, Shares Outstanding",
+        "description": "The number of securities classified as temporary equity that have been issued and are held by the entity's shareholders. Securities outstanding equals securities issued minus securities held in treasury. Temporary equity is a security with redemption features that are outside the control of the issuer, is not classified as an asset or liability in conformity with GAAP, and is not mandatorily redeemable. Includes any type of security that is redeemable at a fixed or determinable price or on a fixed or determinable date or dates, is redeemable at the option of the holder, or has conditions for redemption which are not solely within the control of the issuer. If convertible, the issuer does not control the actions or events necessary to issue the maximum number of shares that could be required to be delivered under the conversion option if the holder exercises the option to convert the stock to another class of equity. If the security is a warrant or a rights issue, the warrant or rights issue is considered to be temporary equity if the issuer cannot demonstrate that it would be able to deliver upon the exercise of the option by the holder in all cases. Includes stock with put option held by ESOP and stock redeemable by holder only in the event of a change in control of the issuer.",
+        "units": {
+          "shares": [
+            {
+              "end": "2023-09-30",
+              "val": 28900700,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            }
+          ]
+        }
+      },
+      "TemporaryEquityStockIssuedDuringPeriodValueNewIssues": {
+        "label": "Temporary Equity, Stock Issued During Period, Value, New Issues",
+        "description": "Value of new stock classified as temporary equity issued during the period.",
+        "units": {
+          "CNY": [
+            {
+              "start": "2015-07-01",
+              "end": "2022-05-31",
+              "val": 619000000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27"
+            },
+            {
+              "end": "2024-08-28",
+              "val": 940400000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ],
+          "USD": [
+            {
+              "start": "2015-07-01",
+              "end": "2022-05-31",
+              "val": 88200000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27"
+            },
+            {
+              "end": "2024-08-28",
+              "val": 131300000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      },
+      "TravelAndEntertainmentExpense": {
+        "label": "Travel and Entertainment Expense",
+        "description": "Expenses incurred for travel and entertainment during the period.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": 147000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": 57000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": 325000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ValuationAllowanceDeferredTaxAssetChangeInAmount": {
+        "label": "Valuation Allowance, Deferred Tax Asset, Increase (Decrease), Amount",
+        "description": "Amount of increase (decrease) in the valuation allowance for a specified deferred tax asset.",
+        "units": {
+          "USD": [
+            {
+              "start": "2021-10-01",
+              "end": "2022-09-30",
+              "val": -30000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2022"
+            },
+            {
+              "start": "2022-10-01",
+              "end": "2023-09-30",
+              "val": -7481000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023"
+            },
+            {
+              "start": "2023-10-01",
+              "end": "2024-09-30",
+              "val": -1258000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024"
+            }
+          ]
+        }
+      },
+      "ValueAddedTaxReceivable": {
+        "label": "Value Added Tax Receivable",
+        "description": "Carrying amount as of the balance sheet date of value added taxes due either from customers arising from sales on credit terms, or as previously overpaid to tax authorities.",
+        "units": {
+          "USD": [
+            {
+              "end": "2023-09-30",
+              "val": 695000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2023Q3I"
+            },
+            {
+              "end": "2024-09-30",
+              "val": 811000,
+              "accn": "0001493152-25-003767",
+              "fy": 2024,
+              "fp": "FY",
+              "form": "20-F",
+              "filed": "2025-01-27",
+              "frame": "CY2024Q3I"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
