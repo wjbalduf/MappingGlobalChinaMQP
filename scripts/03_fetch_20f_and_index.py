@@ -2,6 +2,11 @@ import os, re, json, time, uuid, hashlib, requests
 import pandas as pd
 from datetime import datetime
 
+"""
+Usage:
+    python scripts/03_fetch_20f_and_index.py
+"""
+
 # Config
 DATA_DIR = "data/intermediate"
 OUTPUT_DIR = "companies"
@@ -9,7 +14,7 @@ LOGS_DIR = "logs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(LOGS_DIR, exist_ok=True)
 
-HEADERS = {"User-Agent": "First-Name Last-Name Email"} #Enter your information
+HEADERS = {"User-Agent": "William Balduf silly12billy@gmail.com"} #Enter your information
 
 # Detect latest cik_map file + RUN_DATE
 def get_latest_cik_map():

@@ -9,6 +9,11 @@ Input: /data/intermediate/cik_map_{RUN_DATE}.csv
 API: https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json
 Output: /data/intermediate/dei_facts_{RUN_DATE}.csv
         /data/raw/EDGAR/{TICKER}/companyfacts.json (raw JSON)
+
+
+Usage:
+    python scripts/04_pull_companyfacts.py
+
 """
 
 import json
