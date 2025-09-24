@@ -5,6 +5,11 @@ import pandas as pd
 from datetime import datetime
 import glob
 
+"""
+Usage:
+    python scripts/02_resolve_cik.py
+"""
+
 # Config
 INPUT_DIR = "data/raw/USCC/"
 OUTPUT_DIR = "data/intermediate/"

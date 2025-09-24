@@ -3,7 +3,7 @@ Extracts Chinese company listings from the USCC PDF and outputs
 a canonical seed list cleaned CSV.
 
 Usage:
-    python 01_ingest_uscc.py --pdf "path/to/USCC_report.pdf" --out ./data
+    python scripts/01_ingest_uscc.py --pdf "path/to/USCC_report.pdf" --out ./data
 """
 
 import pdfplumber
@@ -139,7 +139,7 @@ def detect_listing_pages(pdf_path, min_rows=2):
     return start_page, last_page_with_table
 
 # Main extraction function
-def extract_tables(pdf_path, save_csv=True, output_dir="./data"):
+def extract_tables(pdf_path, save_csv=True, output_dir="./data/raw/USCC"):
     """
     Extract and clean tables from USCC PDF with automatic page detection.
     """
@@ -224,11 +224,12 @@ def extract_tables(pdf_path, save_csv=True, output_dir="./data"):
 
     # Save CSV
     if save_csv:
+        output_dir = os.path.join("data", "raw", "USCC")
         os.makedirs(output_dir, exist_ok=True)
         run_date = datetime.datetime.now().strftime("%Y%m%d")
         output_path = os.path.join(output_dir, f"{run_date}_chinese_companies_USA.csv")
         df_clean.to_csv(output_path, index=False)
-        print(f"✅ Saved cleaned CSV to: {output_path}")
+        print(f"Saved cleaned CSV to: {output_path}")
 
     return df_clean
 
