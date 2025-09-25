@@ -14,6 +14,7 @@ from pathlib import Path
 from datetime import datetime
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 import warnings
+import re
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
@@ -37,6 +38,7 @@ COUNTRY_MAP = {
     "PEOPLE'S REPUBLIC OF CHINA": "China",
     "US": "United States",
     "USA": "United States",
+    "United States of America": "United States",
 }
 
 # Helper function to extract text from ix:nonNumeric tag
@@ -83,12 +85,19 @@ def extract_state(soup):
 
     return state
 
+# Extract year from filename
+def get_year_from_filename(file_path):
+    match = re.match(r"(\d{4})_", file_path.name)
+    if match:
+        return int(match.group(1))
+    return 0  # fallback if no year found
+
 # Helper function to iterate all HTMLs for a company
 def parse_company_html(ticker_dir):
     html_files = sorted(
         [f for f in ticker_dir.glob("*.html")],
-        key=lambda f: f.stat().st_mtime,
-        reverse=True  # most recent first
+        key=get_year_from_filename,
+        reverse=True  # most recent year first
     )
 
     for html_file in html_files:
