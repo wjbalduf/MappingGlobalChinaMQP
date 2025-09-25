@@ -3,1799 +3,1799 @@
     "total_filings": 11,
     "successes": 11,
     "failures": 0,
-    "runtime_sec": 4.43,
-    "last_run": "2025-09-19T20:22:04.865504"
+    "runtime_sec": 1.63,
+    "last_run": "2025-09-25T09:14:47.331192"
   },
   "PDD": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 3.1,
-    "last_run": "2025-09-19T20:22:07.968844"
+    "runtime_sec": 0.86,
+    "last_run": "2025-09-25T09:14:48.190069"
   },
   "NTES": {
     "total_filings": 24,
     "successes": 22,
     "failures": 2,
-    "runtime_sec": 6.14,
-    "last_run": "2025-09-19T20:22:14.110719"
+    "runtime_sec": 2.43,
+    "last_run": "2025-09-25T09:14:50.623026"
   },
   "JD": {
     "total_filings": 11,
     "successes": 11,
     "failures": 0,
-    "runtime_sec": 3.74,
-    "last_run": "2025-09-19T20:22:17.847946"
+    "runtime_sec": 1.5,
+    "last_run": "2025-09-25T09:14:52.122302"
   },
   "TCOM": {
     "total_filings": 22,
     "successes": 22,
     "failures": 0,
-    "runtime_sec": 6.48,
-    "last_run": "2025-09-19T20:22:24.325659"
+    "runtime_sec": 2.21,
+    "last_run": "2025-09-25T09:14:54.328669"
   },
   "BIDU": {
     "total_filings": 20,
     "successes": 20,
     "failures": 0,
-    "runtime_sec": 6.64,
-    "last_run": "2025-09-19T20:22:30.967815"
+    "runtime_sec": 2.8,
+    "last_run": "2025-09-25T09:14:57.133353"
   },
   "LI": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 1.91,
-    "last_run": "2025-09-19T20:22:32.879580"
+    "runtime_sec": 1.2,
+    "last_run": "2025-09-25T09:14:58.331457"
   },
   "BEKE": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.46,
-    "last_run": "2025-09-19T20:22:35.341851"
+    "runtime_sec": 1.46,
+    "last_run": "2025-09-25T09:14:59.793161"
   },
   "ONC": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.22,
-    "last_run": "2025-09-19T20:22:35.562054"
+    "runtime_sec": 0.33,
+    "last_run": "2025-09-25T09:15:00.128423"
   },
   "TME": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 3.28,
-    "last_run": "2025-09-19T20:22:38.838834"
+    "runtime_sec": 1.54,
+    "last_run": "2025-09-25T09:15:01.671638"
   },
   "XPEV": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 1.98,
-    "last_run": "2025-09-19T20:22:40.816615"
+    "runtime_sec": 0.66,
+    "last_run": "2025-09-25T09:15:02.332099"
   },
   "YUMC": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.23,
-    "last_run": "2025-09-19T20:22:41.046599"
+    "runtime_sec": 0.15,
+    "last_run": "2025-09-25T09:15:02.485510"
   },
   "ZTO": {
     "total_filings": 9,
     "successes": 9,
     "failures": 0,
-    "runtime_sec": 3.84,
-    "last_run": "2025-09-19T20:22:44.886438"
+    "runtime_sec": 1.19,
+    "last_run": "2025-09-25T09:15:03.675472"
   },
   "YMM": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.6,
-    "last_run": "2025-09-19T20:22:46.482905"
+    "runtime_sec": 0.59,
+    "last_run": "2025-09-25T09:15:04.266293"
   },
   "HTHT": {
     "total_filings": 15,
     "successes": 15,
     "failures": 0,
-    "runtime_sec": 4.63,
-    "last_run": "2025-09-19T20:22:51.116614"
+    "runtime_sec": 2.48,
+    "last_run": "2025-09-25T09:15:06.748214"
   },
   "BILI": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.58,
-    "last_run": "2025-09-19T20:22:53.696327"
+    "runtime_sec": 1.03,
+    "last_run": "2025-09-25T09:15:07.777094"
   },
   "NIO": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.91,
-    "last_run": "2025-09-19T20:22:56.602145"
+    "runtime_sec": 0.99,
+    "last_run": "2025-09-25T09:15:08.764796"
   },
   "TAL": {
     "total_filings": 15,
     "successes": 15,
     "failures": 0,
-    "runtime_sec": 5.09,
-    "last_run": "2025-09-19T20:23:01.691387"
+    "runtime_sec": 1.76,
+    "last_run": "2025-09-25T09:15:10.524151"
   },
   "EDU": {
-    "total_filings": 18,
-    "successes": 18,
+    "total_filings": 19,
+    "successes": 19,
     "failures": 0,
-    "runtime_sec": 6.4,
-    "last_run": "2025-09-19T20:23:08.095423"
+    "runtime_sec": 2.04,
+    "last_run": "2025-09-25T09:15:12.563635"
   },
   "ZK": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.84,
-    "last_run": "2025-09-19T20:23:08.931446"
+    "runtime_sec": 0.27,
+    "last_run": "2025-09-25T09:15:12.833666"
   },
   "BZ": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.6,
-    "last_run": "2025-09-19T20:23:10.531839"
+    "runtime_sec": 0.59,
+    "last_run": "2025-09-25T09:15:13.423570"
   },
   "GDS": {
     "total_filings": 9,
     "successes": 9,
     "failures": 0,
-    "runtime_sec": 3.47,
-    "last_run": "2025-09-19T20:23:13.999928"
+    "runtime_sec": 1.28,
+    "last_run": "2025-09-25T09:15:14.702542"
   },
   "QFIN": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.51,
-    "last_run": "2025-09-19T20:23:16.508399"
+    "runtime_sec": 1.02,
+    "last_run": "2025-09-25T09:15:15.720441"
   },
   "MNSO": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.15,
-    "last_run": "2025-09-19T20:23:18.662503"
+    "runtime_sec": 0.76,
+    "last_run": "2025-09-25T09:15:16.475488"
   },
   "PONY": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.58,
-    "last_run": "2025-09-19T20:23:19.241465"
+    "runtime_sec": 0.31,
+    "last_run": "2025-09-25T09:15:16.786520"
   },
   "WRD": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.63,
-    "last_run": "2025-09-19T20:23:19.875113"
+    "runtime_sec": 0.31,
+    "last_run": "2025-09-25T09:15:17.093458"
   },
   "KC": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 1.9,
-    "last_run": "2025-09-19T20:23:21.772848"
+    "runtime_sec": 0.71,
+    "last_run": "2025-09-25T09:15:17.805296"
   },
   "ATAT": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.0,
-    "last_run": "2025-09-19T20:23:22.772274"
+    "runtime_sec": 0.45,
+    "last_run": "2025-09-25T09:15:18.253302"
   },
   "ZLAB": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.16,
-    "last_run": "2025-09-19T20:23:23.930940"
+    "runtime_sec": 0.62,
+    "last_run": "2025-09-25T09:15:18.873123"
   },
   "ATHM": {
     "total_filings": 12,
     "successes": 12,
     "failures": 0,
-    "runtime_sec": 3.65,
-    "last_run": "2025-09-19T20:23:27.584828"
+    "runtime_sec": 1.62,
+    "last_run": "2025-09-25T09:15:20.493093"
   },
   "VNET": {
     "total_filings": 14,
     "successes": 14,
     "failures": 0,
-    "runtime_sec": 4.64,
-    "last_run": "2025-09-19T20:23:32.226174"
+    "runtime_sec": 1.69,
+    "last_run": "2025-09-25T09:15:22.186416"
   },
   "HCM": {
     "total_filings": 9,
     "successes": 9,
     "failures": 0,
-    "runtime_sec": 4.45,
-    "last_run": "2025-09-19T20:23:36.675702"
+    "runtime_sec": 1.52,
+    "last_run": "2025-09-25T09:15:23.709322"
   },
   "TUYA": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.23,
-    "last_run": "2025-09-19T20:23:37.906033"
+    "runtime_sec": 0.71,
+    "last_run": "2025-09-25T09:15:24.416020"
   },
   "LU": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.95,
-    "last_run": "2025-09-19T20:23:39.851932"
+    "runtime_sec": 0.71,
+    "last_run": "2025-09-25T09:15:25.125404"
   },
   "WB": {
     "total_filings": 11,
     "successes": 11,
     "failures": 0,
-    "runtime_sec": 3.59,
-    "last_run": "2025-09-19T20:23:43.437862"
+    "runtime_sec": 1.46,
+    "last_run": "2025-09-25T09:15:26.590247"
   },
   "IQ": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.79,
-    "last_run": "2025-09-19T20:23:46.227995"
+    "runtime_sec": 1.07,
+    "last_run": "2025-09-25T09:15:27.665335"
   },
   "HSAI": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.0,
-    "last_run": "2025-09-19T20:23:47.233878"
+    "runtime_sec": 0.47,
+    "last_run": "2025-09-25T09:15:28.137734"
   },
   "FINV": {
     "total_filings": 8,
     "successes": 8,
     "failures": 0,
-    "runtime_sec": 4.03,
-    "last_run": "2025-09-19T20:23:51.259668"
+    "runtime_sec": 1.09,
+    "last_run": "2025-09-25T09:15:29.231136"
   },
   "LZMH": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.62,
-    "last_run": "2025-09-19T20:23:51.882318"
+    "runtime_sec": 0.28,
+    "last_run": "2025-09-25T09:15:29.509060"
   },
   "AAPG": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.8,
-    "last_run": "2025-09-19T20:23:52.683311"
+    "runtime_sec": 0.23,
+    "last_run": "2025-09-25T09:15:29.736034"
   },
   "ACMR": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.3,
-    "last_run": "2025-09-19T20:23:52.978774"
+    "runtime_sec": 0.13,
+    "last_run": "2025-09-25T09:15:29.861920"
   },
   "LX": {
     "total_filings": 8,
     "successes": 8,
     "failures": 0,
-    "runtime_sec": 4.18,
-    "last_run": "2025-09-19T20:23:57.161943"
+    "runtime_sec": 1.29,
+    "last_run": "2025-09-25T09:15:31.151742"
   },
   "EH": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 3.02,
-    "last_run": "2025-09-19T20:24:00.185306"
+    "runtime_sec": 0.85,
+    "last_run": "2025-09-25T09:15:32.000056"
   },
   "TIGR": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 3.14,
-    "last_run": "2025-09-19T20:24:03.329012"
+    "runtime_sec": 0.87,
+    "last_run": "2025-09-25T09:15:32.865893"
   },
   "MOMO": {
     "total_filings": 11,
     "successes": 11,
     "failures": 0,
-    "runtime_sec": 5.08,
-    "last_run": "2025-09-19T20:24:08.407442"
+    "runtime_sec": 1.3,
+    "last_run": "2025-09-25T09:15:34.169983"
   },
   "DQ": {
     "total_filings": 15,
     "successes": 15,
     "failures": 0,
-    "runtime_sec": 6.22,
-    "last_run": "2025-09-19T20:24:14.633314"
+    "runtime_sec": 1.56,
+    "last_run": "2025-09-25T09:15:35.725886"
   },
   "JKS": {
     "total_filings": 15,
     "successes": 15,
     "failures": 0,
-    "runtime_sec": 7.65,
-    "last_run": "2025-09-19T20:24:22.285937"
+    "runtime_sec": 1.99,
+    "last_run": "2025-09-25T09:15:37.718647"
   },
   "BGM": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 1.92,
-    "last_run": "2025-09-19T20:24:24.210144"
+    "runtime_sec": 0.74,
+    "last_run": "2025-09-25T09:15:38.462297"
   },
   "HUYA": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 4.31,
-    "last_run": "2025-09-19T20:24:28.516578"
+    "runtime_sec": 0.95,
+    "last_run": "2025-09-25T09:15:39.414715"
   },
   "GOTU": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 3.78,
-    "last_run": "2025-09-19T20:24:32.293383"
+    "runtime_sec": 0.88,
+    "last_run": "2025-09-25T09:15:40.295437"
   },
   "NOAH": {
     "total_filings": 15,
     "successes": 15,
     "failures": 0,
-    "runtime_sec": 5.73,
-    "last_run": "2025-09-19T20:24:38.021026"
+    "runtime_sec": 1.94,
+    "last_run": "2025-09-25T09:15:42.231181"
   },
   "UXIN": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 3.28,
-    "last_run": "2025-09-19T20:24:41.305767"
+    "runtime_sec": 0.98,
+    "last_run": "2025-09-25T09:15:43.214300"
   },
   "RERE": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.9,
-    "last_run": "2025-09-19T20:24:43.202810"
+    "runtime_sec": 0.6,
+    "last_run": "2025-09-25T09:15:43.811728"
   },
   "MSC": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 3.72,
-    "last_run": "2025-09-19T20:24:46.924890"
+    "runtime_sec": 1.04,
+    "last_run": "2025-09-25T09:15:44.850079"
   },
   "DDL": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 2.12,
-    "last_run": "2025-09-19T20:24:49.039948"
+    "runtime_sec": 0.59,
+    "last_run": "2025-09-25T09:15:45.437966"
   },
   "CSIQ": {
     "total_filings": 19,
     "successes": 19,
     "failures": 0,
-    "runtime_sec": 8.53,
-    "last_run": "2025-09-19T20:24:57.570353"
+    "runtime_sec": 2.28,
+    "last_run": "2025-09-25T09:15:47.716088"
   },
   "YALA": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.09,
-    "last_run": "2025-09-19T20:24:59.662495"
+    "runtime_sec": 0.66,
+    "last_run": "2025-09-25T09:15:48.378727"
   },
   "GCT": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 1.03,
-    "last_run": "2025-09-19T20:25:00.690873"
+    "runtime_sec": 0.27,
+    "last_run": "2025-09-25T09:15:48.651403"
   },
   "FLX": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.63,
-    "last_run": "2025-09-19T20:25:01.325712"
+    "runtime_sec": 0.26,
+    "last_run": "2025-09-25T09:15:48.906502"
   },
   "YRD": {
     "total_filings": 10,
     "successes": 10,
     "failures": 0,
-    "runtime_sec": 6.5,
-    "last_run": "2025-09-19T20:25:07.830313"
+    "runtime_sec": 1.43,
+    "last_run": "2025-09-25T09:15:50.336740"
   },
   "ZKH": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 1.07,
-    "last_run": "2025-09-19T20:25:08.901565"
+    "runtime_sec": 0.34,
+    "last_run": "2025-09-25T09:15:50.678463"
   },
   "XYF": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.63,
-    "last_run": "2025-09-19T20:25:11.533527"
+    "runtime_sec": 1.03,
+    "last_run": "2025-09-25T09:15:51.708793"
   },
   "AHG": {
     "total_filings": 8,
     "successes": 8,
     "failures": 0,
-    "runtime_sec": 2.51,
-    "last_run": "2025-09-19T20:25:14.042643"
+    "runtime_sec": 0.96,
+    "last_run": "2025-09-25T09:15:52.667368"
   },
   "QD": {
     "total_filings": 8,
     "successes": 8,
     "failures": 0,
-    "runtime_sec": 3.84,
-    "last_run": "2025-09-19T20:25:17.878246"
+    "runtime_sec": 1.1,
+    "last_run": "2025-09-25T09:15:53.767823"
   },
   "JFIN": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 2.96,
-    "last_run": "2025-09-19T20:25:20.838918"
+    "runtime_sec": 0.94,
+    "last_run": "2025-09-25T09:15:54.703344"
   },
   "WYHG": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.7,
-    "last_run": "2025-09-19T20:25:21.536485"
+    "runtime_sec": 0.26,
+    "last_run": "2025-09-25T09:15:54.962542"
   },
   "ZH": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.94,
-    "last_run": "2025-09-19T20:25:23.479062"
+    "runtime_sec": 0.61,
+    "last_run": "2025-09-25T09:15:55.574643"
   },
   "SOHU": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 3.97,
-    "last_run": "2025-09-19T20:25:27.448959"
+    "runtime_sec": 1.11,
+    "last_run": "2025-09-25T09:15:56.683828"
   },
   "WDH": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 2.84,
-    "last_run": "2025-09-19T20:25:30.284139"
+    "runtime_sec": 0.54,
+    "last_run": "2025-09-25T09:15:57.227076"
   },
   "CAN": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 2.41,
-    "last_run": "2025-09-19T20:25:32.692467"
+    "runtime_sec": 0.93,
+    "last_run": "2025-09-25T09:15:58.158560"
   },
   "AAM": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.24,
-    "last_run": "2025-09-19T20:25:32.937380"
+    "runtime_sec": 0.12,
+    "last_run": "2025-09-25T09:15:58.280793"
   },
   "YSG": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.18,
-    "last_run": "2025-09-19T20:25:35.115746"
+    "runtime_sec": 0.7,
+    "last_run": "2025-09-25T09:15:58.982385"
   },
   "DOGZ": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.22,
-    "last_run": "2025-09-19T20:25:37.339237"
+    "runtime_sec": 0.82,
+    "last_run": "2025-09-25T09:15:59.799179"
   },
   "CANG": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 4.54,
-    "last_run": "2025-09-19T20:25:41.880548"
+    "runtime_sec": 0.96,
+    "last_run": "2025-09-25T09:16:00.761424"
   },
   "JYD": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.84,
-    "last_run": "2025-09-19T20:25:43.716744"
+    "runtime_sec": 0.52,
+    "last_run": "2025-09-25T09:16:01.284808"
   },
   "MFH": {
     "total_filings": 11,
     "successes": 11,
     "failures": 0,
-    "runtime_sec": 5.02,
-    "last_run": "2025-09-19T20:25:48.736081"
+    "runtime_sec": 1.41,
+    "last_run": "2025-09-25T09:16:02.693706"
   },
   "ZJK": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 2.13,
-    "last_run": "2025-09-19T20:25:50.870907"
+    "runtime_sec": 0.3,
+    "last_run": "2025-09-25T09:16:02.999166"
   },
   "EM": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 7.51,
-    "last_run": "2025-09-19T20:25:58.384758"
+    "runtime_sec": 0.7,
+    "last_run": "2025-09-25T09:16:03.703474"
   },
   "XNET": {
     "total_filings": 11,
     "successes": 11,
     "failures": 0,
-    "runtime_sec": 3.71,
-    "last_run": "2025-09-19T20:26:02.098737"
+    "runtime_sec": 1.52,
+    "last_run": "2025-09-25T09:16:05.227564"
   },
   "XHG": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 3.09,
-    "last_run": "2025-09-19T20:26:05.184095"
+    "runtime_sec": 0.9,
+    "last_run": "2025-09-25T09:16:06.123935"
   },
   "GHG": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 3.45,
-    "last_run": "2025-09-19T20:26:08.631630"
+    "runtime_sec": 0.98,
+    "last_run": "2025-09-25T09:16:07.099702"
   },
   "OCFT": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 3.05,
-    "last_run": "2025-09-19T20:26:11.681537"
+    "runtime_sec": 0.95,
+    "last_run": "2025-09-25T09:16:08.051902"
   },
   "ICG": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.43,
-    "last_run": "2025-09-19T20:26:13.110440"
+    "runtime_sec": 0.45,
+    "last_run": "2025-09-25T09:16:08.501477"
   },
   "NAMI": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 2.05,
-    "last_run": "2025-09-19T20:26:15.158936"
+    "runtime_sec": 0.2,
+    "last_run": "2025-09-25T09:16:08.697961"
   },
   "ZYBT": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.7,
-    "last_run": "2025-09-19T20:26:15.858155"
+    "runtime_sec": 0.29,
+    "last_run": "2025-09-25T09:16:08.989735"
   },
   "PHH": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.72,
-    "last_run": "2025-09-19T20:26:16.577200"
+    "runtime_sec": 0.26,
+    "last_run": "2025-09-25T09:16:09.249349"
   },
   "BZUN": {
     "total_filings": 10,
     "successes": 10,
     "failures": 0,
-    "runtime_sec": 4.89,
-    "last_run": "2025-09-19T20:26:21.469103"
+    "runtime_sec": 1.3,
+    "last_run": "2025-09-25T09:16:10.545936"
   },
   "NIU": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.91,
-    "last_run": "2025-09-19T20:26:24.374790"
+    "runtime_sec": 0.95,
+    "last_run": "2025-09-25T09:16:11.500267"
   },
   "NTCL": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 1.12,
-    "last_run": "2025-09-19T20:26:25.491572"
+    "runtime_sec": 0.27,
+    "last_run": "2025-09-25T09:16:11.769755"
   },
   "HCAI": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.74,
-    "last_run": "2025-09-19T20:26:26.232072"
+    "runtime_sec": 0.3,
+    "last_run": "2025-09-25T09:16:12.067997"
   },
   "CMCM": {
     "total_filings": 11,
     "successes": 11,
     "failures": 0,
-    "runtime_sec": 4.94,
-    "last_run": "2025-09-19T20:26:31.174653"
+    "runtime_sec": 1.52,
+    "last_run": "2025-09-25T09:16:13.592487"
   },
   "TOUR": {
     "total_filings": 11,
     "successes": 11,
     "failures": 0,
-    "runtime_sec": 4.46,
-    "last_run": "2025-09-19T20:26:35.633798"
+    "runtime_sec": 1.31,
+    "last_run": "2025-09-25T09:16:14.903002"
   },
   "KNDI": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.59,
-    "last_run": "2025-09-19T20:26:36.224218"
+    "runtime_sec": 0.23,
+    "last_run": "2025-09-25T09:16:15.137661"
   },
   "CAAS": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.24,
-    "last_run": "2025-09-19T20:26:36.460274"
+    "runtime_sec": 0.13,
+    "last_run": "2025-09-25T09:16:15.265032"
   },
   "QH": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.37,
-    "last_run": "2025-09-19T20:26:38.834412"
+    "runtime_sec": 0.68,
+    "last_run": "2025-09-25T09:16:15.945323"
   },
   "QSG": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 1.07,
-    "last_run": "2025-09-19T20:26:39.901852"
+    "runtime_sec": 0.36,
+    "last_run": "2025-09-25T09:16:16.301079"
   },
   "ZJYL": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 1.09,
-    "last_run": "2025-09-19T20:26:40.988839"
+    "runtime_sec": 0.45,
+    "last_run": "2025-09-25T09:16:16.750593"
   },
   "NCTY": {
     "total_filings": 21,
     "successes": 21,
     "failures": 0,
-    "runtime_sec": 7.55,
-    "last_run": "2025-09-19T20:26:48.542292"
+    "runtime_sec": 2.51,
+    "last_run": "2025-09-25T09:16:19.259724"
   },
   "COE": {
     "total_filings": 9,
     "successes": 9,
     "failures": 0,
-    "runtime_sec": 3.93,
-    "last_run": "2025-09-19T20:26:52.474682"
+    "runtime_sec": 1.27,
+    "last_run": "2025-09-25T09:16:20.526892"
   },
   "IH": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 1.79,
-    "last_run": "2025-09-19T20:26:54.263803"
+    "runtime_sec": 0.74,
+    "last_run": "2025-09-25T09:16:21.266907"
   },
   "VIOT": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 2.4,
-    "last_run": "2025-09-19T20:26:56.661943"
+    "runtime_sec": 0.99,
+    "last_run": "2025-09-25T09:16:22.252675"
   },
   "EPWK": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.25,
-    "last_run": "2025-09-19T20:26:56.908554"
+    "runtime_sec": 0.12,
+    "last_run": "2025-09-25T09:16:22.368721"
   },
   "THCH": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.24,
-    "last_run": "2025-09-19T20:26:58.145457"
+    "runtime_sec": 0.51,
+    "last_run": "2025-09-25T09:16:22.881408"
   },
   "PAVS": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.1,
-    "last_run": "2025-09-19T20:27:00.241195"
+    "runtime_sec": 0.78,
+    "last_run": "2025-09-25T09:16:23.658919"
   },
   "LUD": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.59,
-    "last_run": "2025-09-19T20:27:00.829522"
+    "runtime_sec": 0.22,
+    "last_run": "2025-09-25T09:16:23.883498"
   },
   "SY": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 2.24,
-    "last_run": "2025-09-19T20:27:03.072252"
+    "runtime_sec": 0.89,
+    "last_run": "2025-09-25T09:16:24.776330"
   },
   "HUHU": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.55,
-    "last_run": "2025-09-19T20:27:03.622268"
+    "runtime_sec": 0.26,
+    "last_run": "2025-09-25T09:16:25.040072"
   },
   "ADAG": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 3.06,
-    "last_run": "2025-09-19T20:27:06.680866"
+    "runtime_sec": 0.79,
+    "last_run": "2025-09-25T09:16:25.835638"
   },
   "CCG": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.17,
-    "last_run": "2025-09-19T20:27:07.854429"
+    "runtime_sec": 0.61,
+    "last_run": "2025-09-25T09:16:26.448613"
   },
   "LSE": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.47,
-    "last_run": "2025-09-19T20:27:08.320082"
+    "runtime_sec": 0.23,
+    "last_run": "2025-09-25T09:16:26.677650"
   },
   "ABLV": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 1.73,
-    "last_run": "2025-09-19T20:27:10.054613"
+    "runtime_sec": 0.3,
+    "last_run": "2025-09-25T09:16:26.977519"
   },
   "ANL": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 0.81,
-    "last_run": "2025-09-19T20:27:10.869599"
+    "runtime_sec": 0.42,
+    "last_run": "2025-09-25T09:16:27.393407"
   },
   "STG": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.32,
-    "last_run": "2025-09-19T20:27:13.186747"
+    "runtime_sec": 0.93,
+    "last_run": "2025-09-25T09:16:28.325004"
   },
   "SFWL": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 0.96,
-    "last_run": "2025-09-19T20:27:14.143645"
+    "runtime_sec": 0.4,
+    "last_run": "2025-09-25T09:16:28.730107"
   },
   "CBAT": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.23,
-    "last_run": "2025-09-19T20:27:14.374913"
+    "runtime_sec": 0.18,
+    "last_run": "2025-09-25T09:16:28.915646"
   },
   "WETO": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.17,
-    "last_run": "2025-09-19T20:27:14.547502"
+    "runtime_sec": 0.16,
+    "last_run": "2025-09-25T09:16:29.077890"
   },
   "MATH": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 1.65,
-    "last_run": "2025-09-19T20:27:16.195205"
+    "runtime_sec": 0.87,
+    "last_run": "2025-09-25T09:16:29.949510"
   },
   "YIBO": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 0.59,
-    "last_run": "2025-09-19T20:27:16.789054"
+    "runtime_sec": 0.32,
+    "last_run": "2025-09-25T09:16:30.270974"
   },
   "SOL": {
     "total_filings": 16,
     "successes": 16,
     "failures": 0,
-    "runtime_sec": 4.04,
-    "last_run": "2025-09-19T20:27:20.832612"
+    "runtime_sec": 1.94,
+    "last_run": "2025-09-25T09:16:32.207614"
   },
   "FVNNU": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.25,
-    "last_run": "2025-09-19T20:27:21.080291"
+    "runtime_sec": 0.17,
+    "last_run": "2025-09-25T09:16:32.382077"
   },
   "FNGR": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.18,
-    "last_run": "2025-09-19T20:27:21.265019"
+    "runtime_sec": 0.26,
+    "last_run": "2025-09-25T09:16:32.639266"
   },
   "XCH": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.58,
-    "last_run": "2025-09-19T20:27:21.848546"
+    "runtime_sec": 0.23,
+    "last_run": "2025-09-25T09:16:32.872123"
   },
   "WIMI": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 1.98,
-    "last_run": "2025-09-19T20:27:23.826248"
+    "runtime_sec": 0.94,
+    "last_run": "2025-09-25T09:16:33.814454"
   },
   "AZI": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.5,
-    "last_run": "2025-09-19T20:27:24.327802"
+    "runtime_sec": 0.3,
+    "last_run": "2025-09-25T09:16:34.114755"
   },
   "CNF": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.41,
-    "last_run": "2025-09-19T20:27:26.737907"
+    "runtime_sec": 1.03,
+    "last_run": "2025-09-25T09:16:35.144887"
   },
   "YGMZ": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 1.8,
-    "last_run": "2025-09-19T20:27:28.543479"
+    "runtime_sec": 0.66,
+    "last_run": "2025-09-25T09:16:35.806164"
   },
   "YSXT": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.56,
-    "last_run": "2025-09-19T20:27:29.103677"
+    "runtime_sec": 0.26,
+    "last_run": "2025-09-25T09:16:36.062525"
   },
   "GMM": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 0.83,
-    "last_run": "2025-09-19T20:27:29.932648"
+    "runtime_sec": 0.31,
+    "last_run": "2025-09-25T09:16:36.374483"
   },
   "YAAS": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.59,
-    "last_run": "2025-09-19T20:27:30.518251"
+    "runtime_sec": 0.3,
+    "last_run": "2025-09-25T09:16:36.677267"
   },
   "YXT": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.47,
-    "last_run": "2025-09-19T20:27:30.984408"
+    "runtime_sec": 0.24,
+    "last_run": "2025-09-25T09:16:36.918570"
   },
   "JG": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.23,
-    "last_run": "2025-09-19T20:27:33.211981"
+    "runtime_sec": 0.97,
+    "last_run": "2025-09-25T09:16:37.890438"
   },
   "BNR": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 1.53,
-    "last_run": "2025-09-19T20:27:34.738184"
+    "runtime_sec": 0.82,
+    "last_run": "2025-09-25T09:16:38.714122"
   },
   "JZXN": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.11,
-    "last_run": "2025-09-19T20:27:35.851652"
+    "runtime_sec": 0.56,
+    "last_run": "2025-09-25T09:16:39.275509"
   },
   "STEC": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.2,
-    "last_run": "2025-09-19T20:27:37.055284"
+    "runtime_sec": 0.67,
+    "last_run": "2025-09-25T09:16:39.946889"
   },
   "PTHL": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.4,
-    "last_run": "2025-09-19T20:27:37.458609"
+    "runtime_sec": 0.24,
+    "last_run": "2025-09-25T09:16:40.191586"
   },
   "UCL": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 1.57,
-    "last_run": "2025-09-19T20:27:39.025116"
+    "runtime_sec": 0.76,
+    "last_run": "2025-09-25T09:16:40.948642"
   },
   "LGCL": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 1.03,
-    "last_run": "2025-09-19T20:27:40.057805"
+    "runtime_sec": 0.39,
+    "last_run": "2025-09-25T09:16:41.343106"
   },
   "RCON": {
     "total_filings": 8,
     "successes": 8,
     "failures": 0,
-    "runtime_sec": 2.39,
-    "last_run": "2025-09-19T20:27:42.448711"
+    "runtime_sec": 1.0,
+    "last_run": "2025-09-25T09:16:42.344401"
   },
   "AIXI": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 0.98,
-    "last_run": "2025-09-19T20:27:43.430219"
+    "runtime_sec": 0.45,
+    "last_run": "2025-09-25T09:16:42.796066"
   },
   "WAI": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.04,
-    "last_run": "2025-09-19T20:27:44.469638"
+    "runtime_sec": 0.47,
+    "last_run": "2025-09-25T09:16:43.265496"
   },
   "ZBAO": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.56,
-    "last_run": "2025-09-19T20:27:45.026917"
+    "runtime_sec": 0.24,
+    "last_run": "2025-09-25T09:16:43.500885"
   },
   "BEDU": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.68,
-    "last_run": "2025-09-19T20:27:47.706418"
+    "runtime_sec": 0.89,
+    "last_run": "2025-09-25T09:16:44.394316"
   },
   "ZEPP": {
     "total_filings": 8,
     "successes": 8,
     "failures": 0,
-    "runtime_sec": 3.52,
-    "last_run": "2025-09-19T20:27:51.226635"
+    "runtime_sec": 1.26,
+    "last_run": "2025-09-25T09:16:45.656867"
   },
   "GDHG": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 0.96,
-    "last_run": "2025-09-19T20:27:52.188888"
+    "runtime_sec": 0.28,
+    "last_run": "2025-09-25T09:16:45.933421"
   },
   "DSWL": {
     "total_filings": 25,
     "successes": 23,
     "failures": 2,
-    "runtime_sec": 7.22,
-    "last_run": "2025-09-19T20:27:59.413629"
+    "runtime_sec": 2.16,
+    "last_run": "2025-09-25T09:16:48.096779"
   },
   "SJ": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.29,
-    "last_run": "2025-09-19T20:28:01.708019"
+    "runtime_sec": 0.75,
+    "last_run": "2025-09-25T09:16:48.846352"
   },
   "HKIT": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 1.84,
-    "last_run": "2025-09-19T20:28:03.551391"
+    "runtime_sec": 0.81,
+    "last_run": "2025-09-25T09:16:49.659710"
   },
   "CLPS": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.37,
-    "last_run": "2025-09-19T20:28:05.922275"
+    "runtime_sec": 0.87,
+    "last_run": "2025-09-25T09:16:50.532397"
   },
   "HUIZ": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 3.05,
-    "last_run": "2025-09-19T20:28:08.974458"
+    "runtime_sec": 0.79,
+    "last_run": "2025-09-25T09:16:51.326552"
   },
   "CASI": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.72,
-    "last_run": "2025-09-19T20:28:10.689536"
+    "runtime_sec": 0.51,
+    "last_run": "2025-09-25T09:16:51.838899"
   },
   "RAYA": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.66,
-    "last_run": "2025-09-19T20:28:12.348253"
+    "runtime_sec": 0.44,
+    "last_run": "2025-09-25T09:16:52.275582"
   },
   "AACG": {
     "total_filings": 18,
     "successes": 18,
     "failures": 0,
-    "runtime_sec": 5.1,
-    "last_run": "2025-09-19T20:28:17.449262"
+    "runtime_sec": 2.05,
+    "last_run": "2025-09-25T09:16:54.321172"
   },
   "MTEN": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 0.61,
-    "last_run": "2025-09-19T20:28:18.055437"
+    "runtime_sec": 0.31,
+    "last_run": "2025-09-25T09:16:54.629898"
   },
   "NISN": {
     "total_filings": 9,
     "successes": 9,
     "failures": 0,
-    "runtime_sec": 2.96,
-    "last_run": "2025-09-19T20:28:21.016547"
+    "runtime_sec": 1.01,
+    "last_run": "2025-09-25T09:16:55.635428"
   },
   "LBGJ": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.6,
-    "last_run": "2025-09-19T20:28:21.618311"
+    "runtime_sec": 0.25,
+    "last_run": "2025-09-25T09:16:55.888050"
   },
   "BTCM": {
     "total_filings": 12,
     "successes": 12,
     "failures": 0,
-    "runtime_sec": 4.86,
-    "last_run": "2025-09-19T20:28:26.475390"
+    "runtime_sec": 1.5,
+    "last_run": "2025-09-25T09:16:57.383098"
   },
   "MTC": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 3.56,
-    "last_run": "2025-09-19T20:28:30.036812"
+    "runtime_sec": 0.87,
+    "last_run": "2025-09-25T09:16:58.252483"
   },
   "MASK": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.29,
-    "last_run": "2025-09-19T20:28:30.322312"
+    "runtime_sec": 0.13,
+    "last_run": "2025-09-25T09:16:58.385668"
   },
   "ZCMD": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 2.14,
-    "last_run": "2025-09-19T20:28:32.463137"
+    "runtime_sec": 0.81,
+    "last_run": "2025-09-25T09:16:59.195652"
   },
   "ORIS": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 0.97,
-    "last_run": "2025-09-19T20:28:33.434751"
+    "runtime_sec": 0.29,
+    "last_run": "2025-09-25T09:16:59.482896"
   },
   "EBON": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 1.99,
-    "last_run": "2025-09-19T20:28:35.424482"
+    "runtime_sec": 0.72,
+    "last_run": "2025-09-25T09:17:00.202891"
   },
   "EHGO": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 1.43,
-    "last_run": "2025-09-19T20:28:36.855953"
+    "runtime_sec": 0.35,
+    "last_run": "2025-09-25T09:17:00.554484"
   },
   "JZ": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.22,
-    "last_run": "2025-09-19T20:28:38.073698"
+    "runtime_sec": 0.45,
+    "last_run": "2025-09-25T09:17:01.006146"
   },
   "INLF": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.55,
-    "last_run": "2025-09-19T20:28:38.623152"
+    "runtime_sec": 0.24,
+    "last_run": "2025-09-25T09:17:01.245459"
   },
   "FENG": {
     "total_filings": 14,
     "successes": 14,
     "failures": 0,
-    "runtime_sec": 5.55,
-    "last_run": "2025-09-19T20:28:44.170041"
+    "runtime_sec": 1.94,
+    "last_run": "2025-09-25T09:17:03.189494"
   },
   "EPOW": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 1.57,
-    "last_run": "2025-09-19T20:28:45.743050"
+    "runtime_sec": 0.69,
+    "last_run": "2025-09-25T09:17:03.877136"
   },
   "OCG": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 1.48,
-    "last_run": "2025-09-19T20:28:47.218216"
+    "runtime_sec": 0.64,
+    "last_run": "2025-09-25T09:17:04.518061"
   },
   "BTCT": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 1.85,
-    "last_run": "2025-09-19T20:28:49.069466"
+    "runtime_sec": 0.64,
+    "last_run": "2025-09-25T09:17:05.161869"
   },
   "UTSI": {
     "total_filings": 14,
     "successes": 14,
     "failures": 0,
-    "runtime_sec": 5.29,
-    "last_run": "2025-09-19T20:28:54.357111"
+    "runtime_sec": 1.56,
+    "last_run": "2025-09-25T09:17:06.717673"
   },
   "HUDI": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 3.0,
-    "last_run": "2025-09-19T20:28:57.354247"
+    "runtime_sec": 0.72,
+    "last_run": "2025-09-25T09:17:07.437985"
   },
   "AIFU": {
     "total_filings": 18,
     "successes": 18,
     "failures": 0,
-    "runtime_sec": 7.45,
-    "last_run": "2025-09-19T20:29:04.806966"
+    "runtime_sec": 2.21,
+    "last_run": "2025-09-25T09:17:09.646698"
   },
   "GDC": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.3,
-    "last_run": "2025-09-19T20:29:05.111084"
+    "runtime_sec": 0.14,
+    "last_run": "2025-09-25T09:17:09.784755"
   },
   "FEDU": {
     "total_filings": 8,
     "successes": 8,
     "failures": 0,
-    "runtime_sec": 5.26,
-    "last_run": "2025-09-19T20:29:10.374602"
+    "runtime_sec": 1.06,
+    "last_run": "2025-09-25T09:17:10.846720"
   },
   "GTEC": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.46,
-    "last_run": "2025-09-19T20:29:10.839445"
+    "runtime_sec": 0.11,
+    "last_run": "2025-09-25T09:17:10.961357"
   },
   "CCM": {
     "total_filings": 16,
     "successes": 16,
     "failures": 0,
-    "runtime_sec": 6.16,
-    "last_run": "2025-09-19T20:29:17.002589"
+    "runtime_sec": 1.87,
+    "last_run": "2025-09-25T09:17:12.830591"
   },
   "IZM": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 1.18,
-    "last_run": "2025-09-19T20:29:18.181025"
+    "runtime_sec": 0.44,
+    "last_run": "2025-09-25T09:17:13.274633"
   },
   "DDC": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.91,
-    "last_run": "2025-09-19T20:29:19.089097"
+    "runtime_sec": 0.24,
+    "last_run": "2025-09-25T09:17:13.510640"
   },
   "BHAT": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 5.22,
-    "last_run": "2025-09-19T20:29:24.312580"
+    "runtime_sec": 0.79,
+    "last_run": "2025-09-25T09:17:14.302393"
   },
   "CHR": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 1.78,
-    "last_run": "2025-09-19T20:29:26.092004"
+    "runtime_sec": 0.74,
+    "last_run": "2025-09-25T09:17:15.041091"
   },
   "JFU": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 1.89,
-    "last_run": "2025-09-19T20:29:27.982410"
+    "runtime_sec": 0.81,
+    "last_run": "2025-09-25T09:17:15.852073"
   },
   "DUO": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 1.93,
-    "last_run": "2025-09-19T20:29:29.911213"
+    "runtime_sec": 0.8,
+    "last_run": "2025-09-25T09:17:16.654120"
   },
   "WETH": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.27,
-    "last_run": "2025-09-19T20:29:30.186011"
+    "runtime_sec": 0.11,
+    "last_run": "2025-09-25T09:17:16.763335"
   },
   "MGIH": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 1.43,
-    "last_run": "2025-09-19T20:29:31.618884"
+    "runtime_sec": 0.41,
+    "last_run": "2025-09-25T09:17:17.174511"
   },
   "TIRX": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.93,
-    "last_run": "2025-09-19T20:29:34.553658"
+    "runtime_sec": 0.66,
+    "last_run": "2025-09-25T09:17:17.832461"
   },
   "NAAS": {
     "total_filings": 8,
     "successes": 8,
     "failures": 0,
-    "runtime_sec": 3.63,
-    "last_run": "2025-09-19T20:29:38.185923"
+    "runtime_sec": 0.98,
+    "last_run": "2025-09-25T09:17:18.817380"
   },
   "SISI": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.45,
-    "last_run": "2025-09-19T20:29:38.639543"
+    "runtime_sec": 0.11,
+    "last_run": "2025-09-25T09:17:18.930689"
   },
   "EDTK": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 2.23,
-    "last_run": "2025-09-19T20:29:40.865862"
+    "runtime_sec": 0.78,
+    "last_run": "2025-09-25T09:17:19.709964"
   },
   "ENFY": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.32,
-    "last_run": "2025-09-19T20:29:41.190789"
+    "runtime_sec": 0.16,
+    "last_run": "2025-09-25T09:17:19.875852"
   },
   "DTSS": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.24,
-    "last_run": "2025-09-19T20:29:41.432044"
+    "runtime_sec": 0.12,
+    "last_run": "2025-09-25T09:17:19.996704"
   },
   "XIN": {
     "total_filings": 17,
     "successes": 17,
     "failures": 0,
-    "runtime_sec": 7.18,
-    "last_run": "2025-09-19T20:29:48.616983"
+    "runtime_sec": 2.08,
+    "last_run": "2025-09-25T09:17:22.081763"
   },
   "SOS": {
     "total_filings": 8,
     "successes": 8,
     "failures": 0,
-    "runtime_sec": 2.49,
-    "last_run": "2025-09-19T20:29:51.103769"
+    "runtime_sec": 1.08,
+    "last_run": "2025-09-25T09:17:23.164608"
   },
   "RETO": {
     "total_filings": 8,
     "successes": 8,
     "failures": 0,
-    "runtime_sec": 2.16,
-    "last_run": "2025-09-19T20:29:53.267104"
+    "runtime_sec": 0.9,
+    "last_run": "2025-09-25T09:17:24.063917"
   },
   "DXST": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.54,
-    "last_run": "2025-09-19T20:29:53.810222"
+    "runtime_sec": 0.21,
+    "last_run": "2025-09-25T09:17:24.274420"
   },
   "PT": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.72,
-    "last_run": "2025-09-19T20:29:56.526964"
+    "runtime_sec": 0.91,
+    "last_run": "2025-09-25T09:17:25.181866"
   },
   "JDZG": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.85,
-    "last_run": "2025-09-19T20:29:57.380982"
+    "runtime_sec": 0.21,
+    "last_run": "2025-09-25T09:17:25.392497"
   },
   "PLAG": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.23,
-    "last_run": "2025-09-19T20:29:57.607954"
+    "runtime_sec": 0.15,
+    "last_run": "2025-09-25T09:17:25.539786"
   },
   "YQ": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.35,
-    "last_run": "2025-09-19T20:29:59.960621"
+    "runtime_sec": 0.79,
+    "last_run": "2025-09-25T09:17:26.329745"
   },
   "CDTG": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 1.25,
-    "last_run": "2025-09-19T20:30:01.214207"
+    "runtime_sec": 0.33,
+    "last_run": "2025-09-25T09:17:26.659328"
   },
   "SFHG": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.48,
-    "last_run": "2025-09-19T20:30:01.695734"
+    "runtime_sec": 0.22,
+    "last_run": "2025-09-25T09:17:26.876313"
   },
   "SEED": {
     "total_filings": 20,
     "successes": 20,
     "failures": 0,
-    "runtime_sec": 5.73,
-    "last_run": "2025-09-19T20:30:07.420782"
+    "runtime_sec": 2.17,
+    "last_run": "2025-09-25T09:17:29.043730"
   },
   "CREG": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.34,
-    "last_run": "2025-09-19T20:30:07.762716"
+    "runtime_sec": 0.24,
+    "last_run": "2025-09-25T09:17:29.287927"
   },
   "PETZ": {
     "total_filings": 8,
     "successes": 8,
     "failures": 0,
-    "runtime_sec": 2.3,
-    "last_run": "2025-09-19T20:30:10.061904"
+    "runtime_sec": 0.86,
+    "last_run": "2025-09-25T09:17:30.151459"
   },
   "FEBO": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 1.08,
-    "last_run": "2025-09-19T20:30:11.144240"
+    "runtime_sec": 0.31,
+    "last_run": "2025-09-25T09:17:30.459033"
   },
   "UCAR": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.1,
-    "last_run": "2025-09-19T20:30:12.242785"
+    "runtime_sec": 0.39,
+    "last_run": "2025-09-25T09:17:30.851274"
   },
   "STFS": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.45,
-    "last_run": "2025-09-19T20:30:12.697469"
+    "runtime_sec": 0.19,
+    "last_run": "2025-09-25T09:17:31.040183"
   },
   "CPOP": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.92,
-    "last_run": "2025-09-19T20:30:14.622219"
+    "runtime_sec": 0.52,
+    "last_run": "2025-09-25T09:17:31.560548"
   },
   "SOGP": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 2.96,
-    "last_run": "2025-09-19T20:30:17.587048"
+    "runtime_sec": 0.78,
+    "last_run": "2025-09-25T09:17:32.339621"
   },
   "LOBO": {
     "total_filings": 2,
     "successes": 2,
     "failures": 0,
-    "runtime_sec": 0.78,
-    "last_run": "2025-09-19T20:30:18.371440"
+    "runtime_sec": 0.32,
+    "last_run": "2025-09-25T09:17:32.659462"
   },
   "LXEH": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.32,
-    "last_run": "2025-09-19T20:30:20.688423"
+    "runtime_sec": 0.69,
+    "last_run": "2025-09-25T09:17:33.350791"
   },
   "MHUA": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 2.66,
-    "last_run": "2025-09-19T20:30:23.351810"
+    "runtime_sec": 0.53,
+    "last_run": "2025-09-25T09:17:33.877876"
   },
   "WNW": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 5.12,
-    "last_run": "2025-09-19T20:30:28.470445"
+    "runtime_sec": 0.65,
+    "last_run": "2025-09-25T09:17:34.531978"
   },
   "WOK": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.69,
-    "last_run": "2025-09-19T20:30:29.165435"
+    "runtime_sec": 0.21,
+    "last_run": "2025-09-25T09:17:34.739996"
   },
   "UBXG": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.56,
-    "last_run": "2025-09-19T20:30:29.728789"
+    "runtime_sec": 0.22,
+    "last_run": "2025-09-25T09:17:34.962009"
   },
   "ILAG": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.99,
-    "last_run": "2025-09-19T20:30:31.716821"
+    "runtime_sec": 0.5,
+    "last_run": "2025-09-25T09:17:35.466314"
   },
   "AIHS": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.66,
-    "last_run": "2025-09-19T20:30:32.377792"
+    "runtime_sec": 0.25,
+    "last_run": "2025-09-25T09:17:35.718000"
   },
   "KUKE": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.59,
-    "last_run": "2025-09-19T20:30:34.966372"
+    "runtime_sec": 0.67,
+    "last_run": "2025-09-25T09:17:36.389802"
   },
   "KRKR": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 2.99,
-    "last_run": "2025-09-19T20:30:37.958583"
+    "runtime_sec": 0.76,
+    "last_run": "2025-09-25T09:17:37.148497"
   },
   "WAFU": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.44,
-    "last_run": "2025-09-19T20:30:40.398967"
+    "runtime_sec": 0.75,
+    "last_run": "2025-09-25T09:17:37.899293"
   },
   "YJ": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 8.13,
-    "last_run": "2025-09-19T20:30:48.526057"
+    "runtime_sec": 0.9,
+    "last_run": "2025-09-25T09:17:38.795054"
   },
   "CHSN": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 2.65,
-    "last_run": "2025-09-19T20:30:51.174313"
+    "runtime_sec": 0.44,
+    "last_run": "2025-09-25T09:17:39.236470"
   },
   "HIHO": {
     "total_filings": 24,
     "successes": 23,
     "failures": 1,
-    "runtime_sec": 7.81,
-    "last_run": "2025-09-19T20:30:58.980571"
+    "runtime_sec": 2.17,
+    "last_run": "2025-09-25T09:17:41.409966"
   },
   "GURE": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.22,
-    "last_run": "2025-09-19T20:30:59.197626"
+    "runtime_sec": 0.14,
+    "last_run": "2025-09-25T09:17:41.552734"
   },
   "GRNQ": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.31,
-    "last_run": "2025-09-19T20:30:59.507895"
+    "runtime_sec": 0.11,
+    "last_run": "2025-09-25T09:17:41.661453"
   },
   "CNEY": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.48,
-    "last_run": "2025-09-19T20:31:00.985936"
+    "runtime_sec": 0.59,
+    "last_run": "2025-09-25T09:17:42.255185"
   },
   "ANTE": {
     "total_filings": 18,
     "successes": 18,
     "failures": 0,
-    "runtime_sec": 6.03,
-    "last_run": "2025-09-19T20:31:07.015703"
+    "runtime_sec": 1.85,
+    "last_run": "2025-09-25T09:17:44.102822"
   },
   "EJH": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.3,
-    "last_run": "2025-09-19T20:31:09.310995"
+    "runtime_sec": 0.61,
+    "last_run": "2025-09-25T09:17:44.715981"
   },
   "WTO": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 4.54,
-    "last_run": "2025-09-19T20:31:13.852164"
+    "runtime_sec": 0.66,
+    "last_run": "2025-09-25T09:17:45.380454"
   },
   "RDGT": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.7,
-    "last_run": "2025-09-19T20:31:15.551208"
+    "runtime_sec": 0.55,
+    "last_run": "2025-09-25T09:17:45.934137"
   },
   "ATXG": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.5,
-    "last_run": "2025-09-19T20:31:16.046885"
+    "runtime_sec": 0.18,
+    "last_run": "2025-09-25T09:17:46.119366"
   },
   "CHNR": {
     "total_filings": 21,
     "successes": 18,
     "failures": 3,
-    "runtime_sec": 5.9,
-    "last_run": "2025-09-19T20:31:21.949720"
+    "runtime_sec": 1.94,
+    "last_run": "2025-09-25T09:17:48.059568"
   },
   "JWEL": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.59,
-    "last_run": "2025-09-19T20:31:24.543273"
+    "runtime_sec": 0.63,
+    "last_run": "2025-09-25T09:17:48.686101"
   },
   "SNTG": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.7,
-    "last_run": "2025-09-19T20:31:26.239723"
+    "runtime_sec": 0.65,
+    "last_run": "2025-09-25T09:17:49.337026"
   },
   "FTFT": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.29,
-    "last_run": "2025-09-19T20:31:26.534113"
+    "runtime_sec": 0.16,
+    "last_run": "2025-09-25T09:17:49.494691"
   },
   "HAO": {
     "total_filings": 1,
     "successes": 1,
     "failures": 0,
-    "runtime_sec": 0.8,
-    "last_run": "2025-09-19T20:31:27.329473"
+    "runtime_sec": 0.25,
+    "last_run": "2025-09-25T09:17:49.742840"
   },
   "OST": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.49,
-    "last_run": "2025-09-19T20:31:28.818736"
+    "runtime_sec": 0.48,
+    "last_run": "2025-09-25T09:17:50.226251"
   },
   "CPHI": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.66,
-    "last_run": "2025-09-19T20:31:29.480032"
+    "runtime_sec": 0.21,
+    "last_run": "2025-09-25T09:17:50.437055"
   },
   "AEHL": {
     "total_filings": 17,
     "successes": 17,
     "failures": 0,
-    "runtime_sec": 6.08,
-    "last_run": "2025-09-19T20:31:35.562774"
+    "runtime_sec": 1.82,
+    "last_run": "2025-09-25T09:17:52.260599"
   },
   "BON": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.48,
-    "last_run": "2025-09-19T20:31:37.047738"
+    "runtime_sec": 0.68,
+    "last_run": "2025-09-25T09:17:52.944809"
   },
   "AGMH": {
     "total_filings": 8,
     "successes": 8,
     "failures": 0,
-    "runtime_sec": 3.79,
-    "last_run": "2025-09-19T20:31:40.834315"
+    "runtime_sec": 0.86,
+    "last_run": "2025-09-25T09:17:53.801553"
   },
   "TAOP": {
     "total_filings": 13,
     "successes": 13,
     "failures": 0,
-    "runtime_sec": 4.43,
-    "last_run": "2025-09-19T20:31:45.261448"
+    "runtime_sec": 1.35,
+    "last_run": "2025-09-25T09:17:55.150219"
   },
   "TANH": {
     "total_filings": 11,
     "successes": 11,
     "failures": 0,
-    "runtime_sec": 4.23,
-    "last_run": "2025-09-19T20:31:49.489515"
+    "runtime_sec": 1.14,
+    "last_run": "2025-09-25T09:17:56.294690"
   },
   "JXG": {
     "total_filings": 13,
     "successes": 13,
     "failures": 0,
-    "runtime_sec": 7.92,
-    "last_run": "2025-09-19T20:31:57.407631"
+    "runtime_sec": 1.31,
+    "last_run": "2025-09-25T09:17:57.603916"
   },
   "BAOS": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.66,
-    "last_run": "2025-09-19T20:32:00.065969"
+    "runtime_sec": 0.7,
+    "last_run": "2025-09-25T09:17:58.301205"
   },
   "ITP": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.38,
-    "last_run": "2025-09-19T20:32:00.447433"
+    "runtime_sec": 0.12,
+    "last_run": "2025-09-25T09:17:58.422092"
   },
   "NXTT": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.32,
-    "last_run": "2025-09-19T20:32:00.770337"
+    "runtime_sec": 0.11,
+    "last_run": "2025-09-25T09:17:58.536352"
   },
   "LICN": {
     "total_filings": 3,
     "successes": 3,
     "failures": 0,
-    "runtime_sec": 1.45,
-    "last_run": "2025-09-19T20:32:02.218847"
+    "runtime_sec": 0.42,
+    "last_run": "2025-09-25T09:17:58.959275"
   },
   "CNET": {
     "total_filings": 0,
     "successes": 0,
     "failures": 0,
-    "runtime_sec": 0.25,
-    "last_run": "2025-09-19T20:32:02.471198"
+    "runtime_sec": 0.14,
+    "last_run": "2025-09-25T09:17:59.101111"
   },
   "IFBD": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.08,
-    "last_run": "2025-09-19T20:32:04.556131"
+    "runtime_sec": 0.65,
+    "last_run": "2025-09-25T09:17:59.747509"
   },
   "BQ": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.38,
-    "last_run": "2025-09-19T20:32:06.931165"
+    "runtime_sec": 0.8,
+    "last_run": "2025-09-25T09:18:00.549267"
   },
   "EZGO": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.01,
-    "last_run": "2025-09-19T20:32:08.945381"
+    "runtime_sec": 0.65,
+    "last_run": "2025-09-25T09:18:01.203768"
   },
   "UOKA": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.43,
-    "last_run": "2025-09-19T20:32:11.374823"
+    "runtime_sec": 0.78,
+    "last_run": "2025-09-25T09:18:01.979817"
   },
   "TC": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.66,
-    "last_run": "2025-09-19T20:32:14.030724"
+    "runtime_sec": 0.87,
+    "last_run": "2025-09-25T09:18:02.849059"
   },
   "SXTC": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 4.33,
-    "last_run": "2025-09-19T20:32:18.360871"
+    "runtime_sec": 0.82,
+    "last_run": "2025-09-25T09:18:03.669499"
   },
   "UPC": {
     "total_filings": 4,
     "successes": 4,
     "failures": 0,
-    "runtime_sec": 1.66,
-    "last_run": "2025-09-19T20:32:20.020794"
+    "runtime_sec": 0.52,
+    "last_run": "2025-09-25T09:18:04.189081"
   },
   "KXIN": {
     "total_filings": 6,
     "successes": 6,
     "failures": 0,
-    "runtime_sec": 2.96,
-    "last_run": "2025-09-19T20:32:22.976102"
+    "runtime_sec": 0.89,
+    "last_run": "2025-09-25T09:18:05.082108"
   },
   "UK": {
     "total_filings": 5,
     "successes": 5,
     "failures": 0,
-    "runtime_sec": 2.18,
-    "last_run": "2025-09-19T20:32:25.158291"
+    "runtime_sec": 0.77,
+    "last_run": "2025-09-25T09:18:05.852011"
   },
   "XTKG": {
     "total_filings": 7,
     "successes": 7,
     "failures": 0,
-    "runtime_sec": 2.75,
-    "last_run": "2025-09-19T20:32:27.912553"
+    "runtime_sec": 0.86,
+    "last_run": "2025-09-25T09:18:06.716506"
   }
 }

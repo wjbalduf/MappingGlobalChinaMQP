@@ -3,7 +3,7 @@ Extracts Chinese company listings from the USCC PDF and outputs
 a canonical seed list cleaned CSV.
 
 Usage:
-    python scripts/01_ingest_uscc.py --pdf "path/to/USCC_report.pdf" --out ./data
+    python scripts/01_ingest_uscc.py --pdf "USCC_report.pdf" --out ./data
 """
 
 import pdfplumber

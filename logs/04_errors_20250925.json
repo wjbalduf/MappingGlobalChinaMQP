@@ -3,96 +3,96 @@
     "ticker": "ZK",
     "cik10": "0001954042",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:25:15.572620"
+    "timestamp": "2025-09-25T09:42:12.151906"
   },
   {
     "ticker": "YY",
     "cik10": "PENDING",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:25:23.557492"
+    "timestamp": "2025-09-25T09:42:20.734122"
   },
   {
     "ticker": "DADA",
     "cik10": "PENDING",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:25:40.148408"
+    "timestamp": "2025-09-25T09:42:36.237968"
   },
   {
     "ticker": "CAAS",
     "cik10": "0002037400",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:25:53.170209"
+    "timestamp": "2025-09-25T09:42:47.894850"
   },
   {
     "ticker": "EPWK",
     "cik10": "0001900720",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:25:56.956930"
+    "timestamp": "2025-09-25T09:42:51.265354"
   },
   {
     "ticker": "GLAC",
     "cik10": "PENDING",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:25:57.758860"
+    "timestamp": "2025-09-25T09:42:51.908061"
   },
   {
     "ticker": "",
     "cik10": "PENDING",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:25:58.598360"
+    "timestamp": "2025-09-25T09:42:52.622547"
   },
   {
     "ticker": "WETO",
     "cik10": "0001941158",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:26:04.422374"
+    "timestamp": "2025-09-25T09:42:57.853956"
   },
   {
     "ticker": "ICLK",
     "cik10": "PENDING",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:26:08.532131"
+    "timestamp": "2025-09-25T09:43:01.894914"
   },
   {
     "ticker": "BEST",
     "cik10": "PENDING",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:26:12.549815"
+    "timestamp": "2025-09-25T09:43:05.269498"
   },
   {
     "ticker": "PTHL",
     "cik10": "0001970544",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:26:13.796746"
+    "timestamp": "2025-09-25T09:43:06.550830"
   },
   {
     "ticker": "HPH",
     "cik10": "PENDING",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:26:18.698580"
+    "timestamp": "2025-09-25T09:43:11.619050"
   },
   {
     "ticker": "STFS",
     "cik10": "0002003061",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:26:49.061936"
+    "timestamp": "2025-09-25T09:43:42.099077"
   },
   {
     "ticker": "LKCO",
     "cik10": "PENDING",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:26:52.854192"
+    "timestamp": "2025-09-25T09:43:45.405908"
   },
   {
     "ticker": "CLEU",
     "cik10": "PENDING",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:26:56.530167"
+    "timestamp": "2025-09-25T09:43:48.998385"
   },
   {
     "ticker": "TCTM",
     "cik10": "PENDING",
     "error": "Failed to fetch company facts",
-    "timestamp": "2025-09-22T08:27:11.006296"
+    "timestamp": "2025-09-25T09:44:04.143789"
   }
 ]
