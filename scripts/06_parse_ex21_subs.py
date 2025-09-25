@@ -57,35 +57,60 @@ def parse_table_in_html(html_text):
 
     rows = table.find_all("tr")
 
-    first_row = rows[0].find_all(["th", "td"])
+    # Parse first row for headers
+    first_row = [cell.get_text(strip=True).lower() for cell in rows[0].find_all(["th", "td"])]
 
     fields_keywords = {
-        "subsidiary": ("subsidiary", "subsidiaries", "name"),
+        "subsidiary": ("subsidiar", "company", "name"),
         "jurisdiction": ("jurisdiction", "country", "place", "state"),
-        "observer": ("observer", "observed")
+        "owner": ("owner", "owned")
     }
 
-    has_sub = any(k in cell for cell in first_row for k in fields_keywords["subsidiary"])
-    has_jur = any(k in cell for cell in first_row for k in fields_keywords["jurisdiction"])
-    has_owner = any(k in cell for cell in first_row for k in fields_keywords["observer"])
+    field_columns = {
+        "subsidiary": [],
+        "jurisdiction": [],
+        "owner": []
+    }
 
-
-
-    for row in rows:
-
-        cols = row.find_all("td")
-
-        subsidiary = clean_text(cols[0].get_text(strip=True)) if len(cols) > 0 else ""
-        jurisdiction = clean_text(cols[1].get_text(strip=True)) if len(cols) > 1 else ""
-        ownership = clean_text(cols[2].get_text(strip=True)) if len(cols) > 2 else ""
-
-        if not any([subsidiary, jurisdiction, ownership]):
+    # Look through first row, record index of headers
+    for i, cell in enumerate(first_row):
+        if not cell:
             continue
 
-        subsidiaries.append((subsidiary, jurisdiction, ownership))
+        for field in fields_keywords:
+            if any(k in cell for k in fields_keywords[field]):
+                field_columns[field].append(i)
 
-    return subsidiaries
+    # Need to add conflict resolution for possible column name overlap
 
+    # Add spacy as backup
+
+    for row in rows[1:]:
+
+        values = []
+
+        cols = [clean_text(cell.get_text(strip=True)) for cell in row.find_all(["th", "td"])]
+
+        if not any(col for col in cols):
+            continue
+
+        # Get value corresponding to header column index
+        for field in field_columns:
+
+            if not field_columns[field]:
+                values.append("")
+                continue
+
+            for index in field_columns[field]: # This will break if multiple columns are detected for one header
+                values.append(cols[index]) # Needs to be fixed by resolving conflicting columns
+                
+        if values:
+            subsidiaries.append(values)
+
+    return (subsidiaries)
+
+
+# Main Loop
 ex21_index = []
 
 for entry in reports:
@@ -105,7 +130,7 @@ for entry in reports:
             print(f"[WARN] Failed to download exhibit {entry["href"]}: {e}")
             continue
 
-        subsidiaries =  parse_table_in_html(html)
+        subsidiaries = parse_table_in_html(html)
         if not subsidiaries:
             print(f"[INFO] No subsidiaries found in {ticker} {accession} {exhibit_label}")
             continue
