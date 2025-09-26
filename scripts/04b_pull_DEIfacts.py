@@ -125,7 +125,7 @@ for ticker_dir in COMPANIES_DIR.iterdir():
     results.append({
         "ticker": ticker,
         "registrant_name": registrant_name,
-        "incorp_country": incorp_country,
+        "Country_Address": incorp_country,
         "incorp_state_raw": incorp_state_raw,
         "trading_symbol": trading_symbol,
         "filer_category": filer_category,
@@ -133,7 +133,7 @@ for ticker_dir in COMPANIES_DIR.iterdir():
     })
 
 # Write CSV
-fieldnames = ["ticker", "registrant_name", "incorp_country", "incorp_state_raw",
+fieldnames = ["ticker", "registrant_name", "Country_Address", "incorp_state_raw",
               "trading_symbol", "filer_category", "document_period_end"]
 with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=fieldnames)
