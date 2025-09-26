@@ -1,8 +1,7 @@
-#!/usr/bin/env python3
 """
 Parse company HTML files to extract DEI information:
 registrant_name, incorp_country, incorp_state_raw, trading_symbol,
-filer_category, document_period_end
+filer_category, document_period_end, legal_form
 
 Output CSV: /data/intermediate/dei_facts_{RUN_DATE}.csv
 """
@@ -41,13 +40,9 @@ COUNTRY_MAP = {
 def clean_text(text):
     if not text:
         return None
-    # convert weird unicode to standard forms
     text = unicodedata.normalize("NFKC", text)
-    # replace curly quotes with normal quotes
     text = text.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
-    # replace non-breaking spaces and line breaks with single space
     text = text.replace("\xa0", " ").replace("\n", " ").replace("\r", " ")
-    # collapse multiple spaces
     text = re.sub(r"\s+", " ", text).strip()
     return text or None
 
@@ -67,22 +62,16 @@ def extract_incorp_state_raw(soup):
         text = " ".join(tag.stripped_strings)
         cleaned = clean_text(text)
 
-        # if we got something longer than 2 chars, use it
         if cleaned and len(cleaned) > 2:
             return cleaned
 
-        # otherwise, try hidden sibling text (like "British Virgin Islands")
-        # go up to parent and look for visible text after the tag
         parent = tag.parent
         if parent:
-            # extract all strings, not just inside <ix:nonNumeric>
             full_text = parent.get_text(" ", strip=True)
-            # If longer than 2 chars and different from cleaned, return that
             if full_text and len(full_text) > 2 and full_text != cleaned:
                 return clean_text(full_text)
 
     return None
-
 
 # Extract year from filename
 def get_year_from_filename(file_path):
@@ -90,6 +79,30 @@ def get_year_from_filename(file_path):
     if match:
         return int(match.group(1))
     return 0
+
+# --- Legal form extractor ---
+LEGAL_FORM_MAP = {
+    "Inc.": "Corporation",
+    "Inc": "Corporation",
+    "Incorporated": "Corporation",
+    "Corp": "Corporation",
+    "Corporation": "Corporation",
+    "Incorporation": "Corporation",
+    "Ltd.": "Limited",
+    "Ltd": "Limited",
+    "Limited": "Limited",
+}
+
+def get_legal_form(name):
+    if not name:
+        return None
+    name = name.strip().rstrip(",.")  # remove trailing punctuation/commas
+    for abbr, full in LEGAL_FORM_MAP.items():
+        # Match at the end, ignoring case, with optional period/commas/spaces
+        pattern = r"(?:\b|\s)" + re.escape(abbr) + r"(?:\.|,)?$"
+        if re.search(pattern, name, flags=re.IGNORECASE):
+            return full
+    return None
 
 # Parse HTML files for one company
 def parse_company_html(ticker_dir):
@@ -119,9 +132,15 @@ def parse_company_html(ticker_dir):
 
         if any([registrant_name, incorp_country, incorp_state_raw,
                 trading_symbol, filer_category, document_period_end]):
-            return registrant_name, incorp_country, incorp_state_raw, trading_symbol, filer_category, document_period_end
+            return (
+                registrant_name,
+                incorp_country,
+                incorp_state_raw,
+                trading_symbol,
+                filer_category,
+                document_period_end,
+            )
 
-    # Fallback if no valid HTML found
     return None, None, None, None, None, None
 
 # Collect results
@@ -144,12 +163,15 @@ for ticker_dir in COMPANIES_DIR.iterdir():
         "incorp_state_raw": incorp_state_raw,
         "trading_symbol": trading_symbol,
         "filer_category": filer_category,
-        "document_period_end": document_period_end
+        "document_period_end": document_period_end,
+        "legal_form": get_legal_form(registrant_name)
     })
 
 # Write CSV
-fieldnames = ["ticker", "registrant_name", "Country_Address", "incorp_state_raw",
-              "trading_symbol", "filer_category", "document_period_end"]
+fieldnames = [
+    "ticker", "registrant_name", "Country_Address", "incorp_state_raw","legal_form",
+    "trading_symbol", "filer_category", "document_period_end"
+]
 with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
