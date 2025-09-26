@@ -72,17 +72,16 @@ def extract_incorp_state_raw(soup):
             return cleaned
 
         # otherwise, try hidden sibling text (like "British Virgin Islands")
+        # go up to parent and look for visible text after the tag
         parent = tag.parent
         if parent:
+            # extract all strings, not just inside <ix:nonNumeric>
             full_text = parent.get_text(" ", strip=True)
-            if full_text:
-                full_text = clean_text(full_text)
-                # Only accept if > 2 chars, <= 40 chars, and different from short code
-                if 2 < len(full_text) <= 40 and full_text != cleaned:
-                    return full_text
+            # If longer than 2 chars and different from cleaned, return that
+            if full_text and len(full_text) > 2 and full_text != cleaned:
+                return clean_text(full_text)
 
     return None
-
 
 
 # Extract year from filename
