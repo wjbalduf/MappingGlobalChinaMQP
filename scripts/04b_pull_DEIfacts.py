@@ -5,6 +5,7 @@ registrant_name, incorp_country, incorp_state, trading_symbol,
 filer_category, document_period_end
 
 Output CSV: /data/intermediate/dei_facts_{RUN_DATE}.csv
+Also prints raw state values that resulted in null entries.
 """
 
 import html
@@ -36,10 +37,22 @@ COUNTRY_MAP = {
     "CN": "China",
     "THE PEOPLE'S REPUBLIC OF CHINA": "China",
     "PEOPLE'S REPUBLIC OF CHINA": "China",
-    "US": "United States",
-    "USA": "United States",
-    "United States of America": "United States",
+    "US": "United States of America",
+    "USA": "United States of America",
+    "United States": "United States of America",
 }
+
+# Known Chinese provinces / municipalities / regions
+CHINA_PROVINCES = {
+    "Anhui", "Fujian", "Gansu", "Guangdong", "Guizhou", "Hainan", "Hebei",
+    "Heilongjiang", "Henan", "Hubei", "Hunan", "Jiangsu", "Jiangxi", "Jilin",
+    "Liaoning", "Qinghai", "Shaanxi", "Shandong", "Shanxi", "Sichuan", "Yunnan",
+    "Zhejiang", "Beijing", "Shanghai", "Tianjin", "Chongqing", "Guangxi", "Ningxia",
+    "Tibet", "Xinjiang", "Inner Mongolia", "Hong Kong", "Macau"
+}
+
+# Common suffixes to remove for China
+SUFFIXES = [" Province"]
 
 # Helper function to extract text from ix:nonNumeric tag
 def extract_field(soup, field_name):
@@ -47,57 +60,58 @@ def extract_field(soup, field_name):
     if not tag:
         return None
     
-    # Get all text fragments inside the tag
     text_fragments = list(tag.stripped_strings)
     if not text_fragments:
         return None
     
-    # Join fragments with a space, replace internal newlines, and normalize whitespace
     text = " ".join(text_fragments).replace("\xa0", " ").replace("\n", " ").strip()
-    
-    # Unescape HTML entities (like &rsquo;) and fix encoding issues
     text = html.unescape(text)
-    
-    # Normalize curly quotes to straight quotes
     text = text.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
-    
-    # Collapse multiple spaces
     text = " ".join(text.split())
     
     return text or None
 
-# Helper function to extract only state/province/region
-def extract_state(soup):
+# Extract only state/province/region
+def extract_state(soup, country):
     tag = soup.find(attrs={"name": "dei:EntityAddressCityOrTown"})
     if not tag:
-        return None
+        return None, None
 
-    # Join all text fragments
     raw = " ".join(tag.stripped_strings).replace("\xa0", " ").strip()
+    state = None
 
-    # If it's "City, State" or "District, Province" → take only the last part
     parts = [p.strip() for p in raw.split(",")]
-    state = parts[-1] if parts else None
+    if parts:
+        candidate = parts[-1]
+        if country == "China":
+            # Remove suffixes for China
+            for suf in SUFFIXES:
+                if candidate.endswith(suf):
+                    candidate = candidate[:-len(suf)].strip()
+            if candidate in CHINA_PROVINCES:
+                state = candidate
+        else:
+            # For all other countries, just take the last part
+            state = candidate
 
-    # Expand known state abbreviations
     if state in STATE_MAP:
         state = STATE_MAP[state]
 
-    return state
+    return state, raw
 
 # Extract year from filename
 def get_year_from_filename(file_path):
     match = re.match(r"(\d{4})_", file_path.name)
     if match:
         return int(match.group(1))
-    return 0  # fallback if no year found
+    return 0
 
-# Helper function to iterate all HTMLs for a company
+# Parse HTML files for one company
 def parse_company_html(ticker_dir):
     html_files = sorted(
         [f for f in ticker_dir.glob("*.html")],
         key=get_year_from_filename,
-        reverse=True  # most recent year first
+        reverse=True
     )
 
     for html_file in html_files:
@@ -106,35 +120,37 @@ def parse_company_html(ticker_dir):
 
         registrant_name = extract_field(soup, "dei:EntityRegistrantName")
         incorp_country = extract_field(soup, "dei:EntityAddressCountry")
-        incorp_state = extract_state(soup)
         
-        # Map countries
         if incorp_country:
             code = incorp_country.strip().upper()
             if code in COUNTRY_MAP:
                 incorp_country = COUNTRY_MAP[code]
 
+        incorp_state, raw_state = extract_state(soup, incorp_country)
+
         trading_symbol = extract_field(soup, "dei:TradingSymbol")
         filer_category = extract_field(soup, "dei:EntityFilerCategory")
         document_period_end = extract_field(soup, "dei:DocumentPeriodEndDate")
 
-        # Return first HTML where at least one field exists
         if any([registrant_name, incorp_country, incorp_state,
                 trading_symbol, filer_category, document_period_end]):
-            return registrant_name, incorp_country, incorp_state, trading_symbol, filer_category, document_period_end
+            return registrant_name, incorp_country, incorp_state, trading_symbol, filer_category, document_period_end, raw_state
 
-    # Nothing found in any HTML
-    return None, None, None, None, None, None
+    return None, None, None, None, None, None, None
 
-# Collect all results
+# Collect results
 results = []
+null_states = set()
 
 for ticker_dir in COMPANIES_DIR.iterdir():
     if not ticker_dir.is_dir():
         continue
 
     ticker = ticker_dir.name
-    registrant_name, incorp_country, incorp_state, trading_symbol, filer_category, document_period_end = parse_company_html(ticker_dir)
+    registrant_name, incorp_country, incorp_state, trading_symbol, filer_category, document_period_end, raw_state = parse_company_html(ticker_dir)
+
+    if incorp_state is None and raw_state:
+        null_states.add(raw_state)
 
     if not any([registrant_name, incorp_country, incorp_state]):
         print(f"No DEI info found for {ticker}, skipping")
@@ -158,3 +174,9 @@ with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
     writer.writerows(results)
 
 print(f"Saved {len(results)} rows to {OUTPUT_FILE}")
+
+# Print all raw states that ended up null
+if null_states:
+    print("\n=== Raw state values that resulted in null ===")
+    for s in sorted(null_states):
+        print(repr(s))
