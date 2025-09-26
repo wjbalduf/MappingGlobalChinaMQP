@@ -1,4 +1,4 @@
-ticker,registrant_name,incorp_country,incorp_state_raw,trading_symbol,filer_category,document_period_end
+ticker,registrant_name,Country_Address,incorp_state_raw,trading_symbol,filer_category,document_period_end
 AACG,ATA Creativity Global,China,Cayman Islands,AACG,Non-accelerated filer,"December 31 , 2024"
 AAM,,,,,,
 AAPG,ASCENTAGE PHARMA GROUP INTERNATIONAL,China,Cayman Islands,AAPG,Non-accelerated filer,"December 31 , 2024"
@@ -40,7 +40,7 @@ CBAT,,,,,,
 CCG,Cheche Group Inc.,China,Cayman Islands,CCG,Non-accelerated filer,"December 31 , 2024"
 CCM,Concord Medical Services Holdings Ltd,China,Cayman Islands,CCM,Non-accelerated filer,"December 31, 2024"
 CDTG,CDT Environmental Technology Investment Holdings Limited,China,Cayman Islands,CDTG,Non-accelerated filer,"December 31 , 2024"
-CHNR,"CHINA NATURAL RESOURCES, INC.",Hong Kong,F4,CHNR,Non-Accelerated Filer,"December 31 , 2024"
+CHNR,"CHINA NATURAL RESOURCES, INC.",Hong Kong,,CHNR,Non-Accelerated Filer,"December 31 , 2024"
 CHR,"CHEER HOLDING, INC.",China,Cayman Islands,CHR,Non-accelerated filer,"December 31 , 2024"
 CHSN,Chanson International Holding,China,Cayman Islands,CHSN,Non-accelerated filer,"December 31 , 2024"
 CLPS,CLPS Incorporation,Hong Kong,Cayman Islands,CLPS,Non-accelerated filer,"June 30 , 2024"
@@ -96,7 +96,7 @@ HCM,HutchMED (China) LIMITED,Hong Kong,Cayman Islands,HCM,Large accelerated file
 HIHO,HIGHWAY HOLDINGS LIMITED,Hong Kong,British Virgin Islands,HIHO,Non-accelerated filer,"March 31 , 2025"
 HKIT,HITEK GLOBAL INC.,China,Cayman Islands,HKIT,Non-accelerated filer,"December 31 , 2024"
 HSAI,Hesai Group,China,Cayman Islands,HSAI,Accelerated filer,"December 31 , 2024"
-HTHT,H World Group Ltd,China,E9,HTHT,Large accelerated filer,"December 31 , 2024"
+HTHT,H World Group Ltd,China,http://fasb.org/us-gaap/2024#RelatedPartyMember http://fasb.org/us-gaap/2024#RelatedPartyMember http://fasb.org/us-gaap/2024#RelatedPartyMember 0001483994 2024 FY false http://fasb.org/us-gaap/2024#OtherOperatingIncomeExpenseNet http://fasb.org/us-gaap/2024#OtherOperatingIncomeExpenseNet http://fasb.org/us-gaap/2024#OtherOperatingIncomeExpenseNet H World Group Ltd E9 http://fasb.org/us-gaap/2024#RelatedPartyMember http://fasb.org/us-gaap/2024#RelatedPartyMember http://fasb.org/us-gaap/2024#RelatedPartyMember P8Y http://fasb.org/us-gaap/2024#UsefulLifeShorterOfTermOfLeaseOrAssetUtilityMember P2Y http://fasb.org/us-gaap/2024#OtherOperatingIncomeExpenseNet http://fasb.org/us-gaap/2024#OtherOperatingIncomeExpenseNet P3Y http://fasb.org/us-gaap/2024#PrimeRateMember P10Y P10Y,HTHT,Large accelerated filer,"December 31 , 2024"
 HUDI,"Huadi International Group Co., Ltd.",China,Cayman Islands,HUDI,Non-accelerated filer,"September 30 , 2024"
 HUHU,HUHUTECH International Group Inc.,China,Cayman Islands,HUHU,Non-accelerated filer,"December 31 , 2024"
 HUIZ,Huize Holding Limited,China,Cayman Islands,HUIZ,Non-accelerated filer,"December 31 , 2024"
@@ -186,7 +186,7 @@ SJ,SCIENJOY HOLDING CORPORATION,China,British Virgin Islands,SJ,Non-accelerated 
 SNTG,Sentage Holdings Inc.,China,Cayman Islands,SNTG,Non-accelerated filer,"December 31 , 2024"
 SOGP,Sound Group Inc.,Singapore,Cayman Islands,SOGP,Non-accelerated Filer,"December 31 , 2024"
 SOHU,SOHU.COM LIMITED,China,Cayman Islands,SOHU,Accelerated filer,"December 31 , 2024"
-SOL,EMEREN GROUP LTD,United States of America,D8,SOL,Non-accelerated filer,"December 31, 2022"
+SOL,EMEREN GROUP LTD,United States of America,0001417892 --12-31 2022 FY false 20-F D8 US US P5Y P1Y http://fasb.org/us-gaap/2022#OtherOperatingIncomeExpenseNet P3Y true,SOL,Non-accelerated filer,"December 31, 2022"
 SOS,SOS Limited,China,Cayman Islands,SOS,Non-accelerated filer,"December 31 , 2024"
 STEC,Santech Holdings Limited,Hong Kong,Cayman Islands,STEC,Non-accelerated filer,"June 30 , 2024"
 STFS,Star Fashion Culture Holdings Limited,China,Cayman Islands,STFS,Non-accelerated filer,"June 30 , 2024"
@@ -195,7 +195,7 @@ SXTC,"China SXT Pharmaceuticals, Inc.",China,British Virgin Islands,,Non-acceler
 SY,So-Young International Inc.,China,Cayman Islands,SY,Non-accelerated filer,"December 31 , 2024"
 TAL,TAL Education Group,China,Cayman Islands,TAL,Large accelerated filer,"February 28, 2025"
 TANH,TANTECH HOLDINGS LTD,China,British Virgin Islands,TANH,Non-accelerated filer,"DECEMBER 31, 2024"
-TAOP,TAOPING INC.,China,D8,TAOP,Non-Accelerated Filer,"December 31 , 2024"
+TAOP,TAOPING INC.,China,,TAOP,Non-Accelerated Filer,"December 31 , 2024"
 TC,Token Cat Limited,China,Cayman Islands,TC,Non-accelerated filer,"December 31 , 2024"
 TCOM,Trip.com Group Limited,Singapore,Cayman Islands,TCOM,Large accelerated filer,"December 31 , 2024"
 THCH,TH International Limited,China,Cayman Islands,THCH,Non-accelerated filer,"December 31 , 2024"

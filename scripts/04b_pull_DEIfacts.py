@@ -62,12 +62,28 @@ def extract_incorp_state_raw(soup):
     tags = soup.find_all(attrs={"name": "dei:EntityIncorporationStateCountryCode"})
     if not tags:
         return None
+
     for tag in reversed(tags):
         text = " ".join(tag.stripped_strings)
         cleaned = clean_text(text)
-        if cleaned:
+
+        # if we got something longer than 2 chars, use it
+        if cleaned and len(cleaned) > 2:
             return cleaned
+
+        # otherwise, try hidden sibling text (like "British Virgin Islands")
+        parent = tag.parent
+        if parent:
+            full_text = parent.get_text(" ", strip=True)
+            if full_text:
+                full_text = clean_text(full_text)
+                # Only accept if > 2 chars, <= 40 chars, and different from short code
+                if 2 < len(full_text) <= 40 and full_text != cleaned:
+                    return full_text
+
     return None
+
+
 
 # Extract year from filename
 def get_year_from_filename(file_path):
