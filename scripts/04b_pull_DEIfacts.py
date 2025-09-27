@@ -62,16 +62,24 @@ def extract_incorp_state_raw(soup):
         text = " ".join(tag.stripped_strings)
         cleaned = clean_text(text)
 
-        if cleaned and len(cleaned) > 2:
-            return cleaned
+        if cleaned:
+            if len(cleaned) > 60:  # too long, treat as invalid
+                return None
+            if len(cleaned) > 2:
+                return cleaned
 
         parent = tag.parent
         if parent:
             full_text = parent.get_text(" ", strip=True)
-            if full_text and len(full_text) > 2 and full_text != cleaned:
-                return clean_text(full_text)
+            cleaned_full = clean_text(full_text)
+            if cleaned_full:
+                if len(cleaned_full) > 60:  # too long, skip
+                    return None
+                if len(cleaned_full) > 2 and cleaned_full != cleaned:
+                    return cleaned_full
 
     return None
+
 
 # Extract year from filename
 def get_year_from_filename(file_path):
