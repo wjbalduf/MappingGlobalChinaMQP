@@ -1,4 +1,4 @@
-import os, re, json, time, uuid, hashlib, requests
+import os, re, json, time, hashlib, requests
 import pandas as pd
 from datetime import datetime
 
@@ -14,9 +14,9 @@ LOGS_DIR = "logs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(LOGS_DIR, exist_ok=True)
 
-HEADERS = {"User-Agent": "William Balduf silly12billy@gmail.com"} #Enter your information
+HEADERS = {"User-Agent": "William Balduf silly12billy@gmail.com"}  # Enter your info
 
-# Detect latest cik_map file + RUN_DATE
+# Detect latest cik_map file
 def get_latest_cik_map():
     files = [f for f in os.listdir(DATA_DIR) if f.startswith("cik_map_") and f.endswith(".csv")]
     if not files:
@@ -35,7 +35,9 @@ def get_latest_cik_map():
     return latest_date.strftime("%Y%m%d"), os.path.join(DATA_DIR, latest_file)
 
 RUN_DATE, INPUT_FILE = get_latest_cik_map()
-INDEX_FILE = os.path.join(DATA_DIR, f"annual_reports_index_{RUN_DATE}.json")
+
+# Use a single persistent index file
+INDEX_FILE = os.path.join(DATA_DIR, "annual_reports_index.json")
 ERRORS_FILE = os.path.join(LOGS_DIR, f"errors_{RUN_DATE}.jsonl")
 SUPPERS_FILE = os.path.join(LOGS_DIR, f"superseded_{RUN_DATE}.jsonl")
 RUN_SUMMARY_FILE = os.path.join(LOGS_DIR, "run_summary.json")
@@ -43,6 +45,9 @@ RUN_SUMMARY_FILE = os.path.join(LOGS_DIR, "run_summary.json")
 print(f"[INFO] Using cik_map for run_date={RUN_DATE}: {INPUT_FILE}")
 
 # Helpers
+def sha256_bytes(b: bytes):
+    return hashlib.sha256(b).hexdigest()
+
 def sha256_file(path):
     h = hashlib.sha256()
     with open(path, "rb") as f:
@@ -70,7 +75,6 @@ def filter_filings(submissions, forms=("20-F",)):
                 "filing_date": date,
                 "report_period": period,
                 "primary_doc": doc,
-                "files_count": rec["primaryDocDescription"].count(form)
             })
     return out
 
@@ -80,14 +84,20 @@ def build_filing_url(cik10, accession, doc):
 def is_html(doc_name):
     return doc_name.lower().endswith((".htm", ".html"))
 
-# Load existing index
+# Load existing index (persistent)
 if os.path.exists(INDEX_FILE):
     with open(INDEX_FILE) as f:
         annual_index = json.load(f)
 else:
     annual_index = []
 
+# Dedup trackers
 seen_keys = {(row["cik10"], row["accession"]) for row in annual_index}
+hashes_by_ticker = {}
+for row in annual_index:
+    if "sha256" in row:
+        hashes_by_ticker.setdefault(row["ticker"], set()).add(row["sha256"])
+
 run_summary = {}
 
 # Main loop
@@ -137,11 +147,11 @@ for _, row in df.iterrows():
     for year, f in filings_by_year.items():
         key = (cik10, f["accession"])
         if key in seen_keys:
-            print(f"[SKIP] {ticker} {year} accession {f['accession']} already indexed, skipping.")
+            print(f"[SKIP] {ticker} {year} accession {f['accession']} already indexed.")
             continue
 
         if not is_html(f["primary_doc"]):
-            print(f"[SKIP] {ticker} {year} accession {f['accession']} skipped (primary doc not HTML: {f['primary_doc']})")
+            print(f"[SKIP] {ticker} {year} accession {f['accession']} skipped (not HTML).")
             with open(ERRORS_FILE, "a") as ef:
                 ef.write(json.dumps({
                     "ticker": ticker,
@@ -153,16 +163,25 @@ for _, row in df.iterrows():
             failures += 1
             continue
 
-        file_uuid = str(uuid.uuid4())
-        filename = f"{year}_{ticker}_{f['form']}_{file_uuid}.html"
-        filepath = os.path.join(folder, filename)
         url = build_filing_url(cik10, f["accession"], f["primary_doc"])
-
         try:
             r = requests.get(url, headers=HEADERS)
             r.raise_for_status()
+            content = r.content
+            sha = sha256_bytes(content)
+
+            # Deduplication by file hash per ticker
+            if sha in hashes_by_ticker.get(ticker, set()):
+                print(f"[SKIP] {ticker} {year} accession {f['accession']} duplicate content (same file hash).")
+                continue
+
+            # Use accession for stable filename (no UUID)
+            accession_str = f['accession'].replace("-", "")
+            filename = f"{year}_{ticker}_{f['form']}_{accession_str}.html"
+            filepath = os.path.join(folder, filename)
+
             with open(filepath, "wb") as out:
-                out.write(r.content)
+                out.write(content)
 
             entry = {
                 "ticker": ticker,
@@ -171,21 +190,27 @@ for _, row in df.iterrows():
                 **f,
                 "filing_url": url,
                 "localPath": filepath,
-                "sha256": sha256_file(filepath),
-                "bytes": os.path.getsize(filepath),
+                "sha256": sha,
+                "bytes": len(content),
             }
             annual_index.append(entry)
             seen_keys.add(key)
+            hashes_by_ticker.setdefault(ticker, set()).add(sha)
+
             print(f"[{ticker}] {year} saved {filename}")
             successes += 1
 
         except Exception as e:
             print(f"[{ticker}] ERROR {year}: {e}")
             with open(ERRORS_FILE, "a") as ef:
-                ef.write(json.dumps({"ticker": ticker, "year": year, "accession": f["accession"], "error": str(e)}) + "\n")
+                ef.write(json.dumps({
+                    "ticker": ticker,
+                    "year": year,
+                    "accession": f["accession"],
+                    "error": str(e)
+                }) + "\n")
             failures += 1
 
-    # Per-company run summary
     runtime = round(time.time() - start_time, 2)
     run_summary[ticker] = {
         "total_filings": total_filings,
