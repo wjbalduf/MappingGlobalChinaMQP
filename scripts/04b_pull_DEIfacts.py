@@ -88,7 +88,7 @@ def get_year_from_filename(file_path):
         return int(match.group(1))
     return 0
 
-# --- Legal form extractor ---
+#Legal form extractor
 LEGAL_FORM_MAP = {
     "Inc.": "Corporation",
     "Inc": "Corporation",

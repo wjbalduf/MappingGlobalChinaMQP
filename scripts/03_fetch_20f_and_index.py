@@ -10,11 +10,13 @@ Usage:
 # Config
 DATA_DIR = "data/intermediate"
 OUTPUT_DIR = "companies"
+RAW_DIR = os.path.join("data", "raw", "EDGAR")
 LOGS_DIR = "logs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(LOGS_DIR, exist_ok=True)
+os.makedirs(RAW_DIR, exist_ok=True)
 
-HEADERS = {"User-Agent": "First-name Last-name email"}  # Enter your info
+HEADERS = {"User-Agent": "First-name Last-name email"}  #Enter your info
 
 # Detect latest cik_map file
 def get_latest_cik_map():
@@ -84,6 +86,11 @@ def build_filing_url(cik10, accession, doc):
 def is_html(doc_name):
     return doc_name.lower().endswith((".htm", ".html"))
 
+def save_json(path, data):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+
 # Load existing index (persistent)
 if os.path.exists(INDEX_FILE):
     with open(INDEX_FILE) as f:
@@ -110,9 +117,15 @@ for _, row in df.iterrows():
 
     start_time = time.time()
     submissions = get_submissions(cik10)
+
+    #Save submissions.json for this ticker
+    raw_folder = os.path.join(RAW_DIR, ticker)
+    os.makedirs(raw_folder, exist_ok=True)
+    save_json(os.path.join(raw_folder, "submissions.json"), submissions)
+
     filings = filter_filings(submissions, forms=("20-F",))
 
-    # Keep latest per year & log superseded
+    #Keep latest per year & log superseded
     filings_by_year = {}
     for f in filings:
         year = f["filing_date"][:4]
