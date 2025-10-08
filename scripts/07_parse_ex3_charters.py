@@ -72,63 +72,65 @@ def parse_pdf_ex3(filepath: str):
         print(f"Failed to parse PDF: {filepath} — {e}")
     return rows
 
-# Address extraction
+# Find potential addresses in the files
+def potential_address(line):
+    line = line.strip()
+    if len(line) < 10:
+        return False
+
+    line_lower = line.lower()
+
+    # Exclusions that may have numbers
+    if any(kw in line_lower for kw in [
+        "article", "section", "act", "agreement", "party",
+        "shareholder", "company", "director", "member",
+        "notice", "hereby", "therefore", "shall", "exhibit"
+    ]):
+        return False
+
+    # Match street numbers or unit numbers
+    has_number = bool(re.search(r'\b(?:no\.?|room|suite|unit|floor|building)\s*\d+', line_lower))
+    has_postal = bool(re.search(r'\b\d{5,6}(-\d{4})?\b', line))
+    has_street = any(kw in line_lower for kw in [
+        "street", "st.", "road", "rd.", "avenue", "ave", "lane", "ln",
+        "boulevard", "blvd", "suite", "unit", "floor", "building", "block"
+    ])
+    has_city = any(kw in line_lower for kw in [
+        "beijing", "shanghai", "hangzhou", "ningbo", "hong kong", "singapore",
+        "cayman", "ky1", "prc"
+    ])
+
+    # Require a number/unit and street or city
+    if (has_number or has_postal) and (has_street or has_city):
+        return True
+
+    return False
+
+
 def extract_addresses(lines):
     results = []
     current_block = []
-    current_type = None
-    extract = False
-    line_limit = 5
 
     for line in lines:
-        lower = line.lower().strip()
-
-        # Start of an address
-        if any(key in lower for key in ["registered office", "principal office", "principal executive", "c/o", "agent"]):
-            if current_block:
-                # Save previous
-                results.append({
-                    "address_raw": " ".join(current_block),
-                    "address_type": current_type or "other"
-                })
-            # Type of address
-            current_type = (
-                "registered_office" if "registered office" in lower else
-                "principal_office" if "principal" in lower else
-                "agent_address" if "c/o" in lower or "agent" in lower else
-                "other"
-            )
-            # New extraction
-            current_block = [line]
-            extract = True
+        line = line.strip()
+        if not line:
             continue
 
-        # Stop extract when end of address occurs
-        if extract:
-            if re.match(r"^\d{1,2}\s*$", line) or any(
-                kw in lower for kw in ["the company", "articles", "section", "act (revised)"]
-            ):
-                extract = False
+        if potential_address(line):
+            current_block.append(line)
+        else:
+            if current_block:
                 results.append({
                     "address_raw": " ".join(current_block),
-                    "address_type": current_type or "other"
+                    "address_type": "other"
                 })
-                current_block, current_type = [], None
-            elif len(current_block) < line_limit:
-                current_block.append(line)
-            else:
-                extract = False
-                results.append({
-                    "address_raw": " ".join(current_block),
-                    "address_type": current_type or "other"
-                })
-                current_block, current_type = [], None
+                current_block = []
 
-    # Save remaining address blocks
+    # Save any remaining block
     if current_block:
         results.append({
             "address_raw": " ".join(current_block),
-            "address_type": current_type or "other"
+            "address_type": "other"
         })
 
     return results
