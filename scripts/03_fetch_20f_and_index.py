@@ -16,7 +16,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(LOGS_DIR, exist_ok=True)
 os.makedirs(RAW_DIR, exist_ok=True)
 
-HEADERS = {"User-Agent": "First-name Last-name email"}  #Enter your info
+HEADERS = {"User-Agent": "William Balduf silly12billy@gmail.com"}  #Enter your info
 
 # Detect latest cik_map file
 def get_latest_cik_map():

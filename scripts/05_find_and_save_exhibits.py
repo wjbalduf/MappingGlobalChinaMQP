@@ -1,3 +1,7 @@
+"""
+Usage:
+    python scripts/05_find_and_save_exhibits.py
+"""
 import os, re, json, time, hashlib, requests
 from datetime import datetime
 from urllib.parse import urljoin
@@ -8,25 +12,17 @@ DATA_DIR = "data/intermediate"
 OUTPUT_DIR = "companies"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-HEADERS = {"User-Agent": "First-Name Last-Name email@email.com"} #Enter your information
+HEADERS = {"User-Agent": "William Balduf silly12billy@gmail.com"} #Enter your information
 
 # Detect latest annual_reports_index file + RUN_DATE
 def get_latest_annual_reports_index():
-    files = [f for f in os.listdir(DATA_DIR) if f.startswith("annual_reports_index_") and f.endswith(".json")]
-    if not files:
-        raise FileNotFoundError("No annual_reports_index_*.json found in data/intermediate")
+    latest_file = os.path.join(DATA_DIR, "annual_reports_index.json")
+    if not os.path.exists(latest_file):
+        raise FileNotFoundError("No annual_reports_index.json found in data/intermediate")
+    # Use today's date or "unknown" as RUN_DATE since the file has no date
+    run_date = datetime.today().strftime("%Y%m%d")
+    return run_date, latest_file
 
-    dated_files = []
-    for f in files:
-        m = re.search(r"annual_reports_index_(\d{8})\.json", f)
-        if m:
-            run_date = datetime.strptime(m.group(1), "%Y%m%d")
-            dated_files.append((run_date, f))
-    if not dated_files:
-        raise ValueError("No valid annual_reports_index_*.json with YYYYMMDD in filename")
-
-    latest_date, latest_file = max(dated_files, key=lambda x: x[0])
-    return latest_date.strftime("%Y%m%d"), os.path.join(DATA_DIR, latest_file)
 
 RUN_DATE, INPUT_FILE = get_latest_annual_reports_index()
 

@@ -5,7 +5,10 @@ filer_category, document_period_end, legal_form
 
 Output CSV: /data/intermediate/dei_facts_{RUN_DATE}.csv
 """
-
+"""
+Usage:
+    python scripts/04b_pull_DEIfacts.py
+"""
 import unicodedata
 import csv
 from pathlib import Path

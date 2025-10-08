@@ -29,25 +29,25 @@
       "street1": "511 WEIHAI ROAD",
       "street2": "ROOM 1803",
       "city": "SHANGHAI",
-      "stateOrCountry": "F4",
-      "zipCode": "200041",
-      "stateOrCountryDescription": "China",
-      "isForeignLocation": 0,
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
       "foreignStateTerritory": null,
-      "country": null,
-      "countryCode": null
+      "country": "China",
+      "countryCode": "F4"
     },
     "business": {
       "street1": "511 WEIHAI ROAD",
       "street2": "ROOM 1803",
       "city": "SHANGHAI",
-      "stateOrCountry": "F4",
-      "zipCode": "200041",
-      "stateOrCountryDescription": "China",
-      "isForeignLocation": null,
+      "stateOrCountry": null,
+      "zipCode": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
       "foreignStateTerritory": null,
-      "country": null,
-      "countryCode": null
+      "country": "China",
+      "countryCode": "F4"
     }
   },
   "phone": "86-185-0177-0425",
@@ -56,6 +56,7 @@
   "filings": {
     "recent": {
       "accessionNumber": [
+        "0001213900-25-093928",
         "0001213900-25-034677",
         "9999999995-25-000550",
         "0001213900-25-017047",
@@ -117,6 +118,7 @@
         "0001213900-22-082679"
       ],
       "filingDate": [
+        "2025-09-30",
         "2025-04-23",
         "2025-02-27",
         "2025-02-25",
@@ -178,6 +180,7 @@
         "2022-12-27"
       ],
       "reportDate": [
+        "2025-06-30",
         "2024-12-31",
         "",
         "",
@@ -239,6 +242,7 @@
         ""
       ],
       "acceptanceDateTime": [
+        "2025-09-30T20:05:51.000Z",
         "2025-04-23T20:57:53.000Z",
         "2025-02-28T05:15:16.000Z",
         "2025-02-25T20:42:02.000Z",
@@ -301,6 +305,7 @@
       ],
       "act": [
         "34",
+        "34",
         "33",
         "",
         "",
@@ -361,6 +366,7 @@
         "33"
       ],
       "form": [
+        "6-K",
         "20-F",
         "EFFECT",
         "CORRESP",
@@ -423,6 +429,7 @@
       ],
       "fileNumber": [
         "001-41785",
+        "001-41785",
         "333-284994",
         "",
         "333-284994",
@@ -483,6 +490,7 @@
         "377-06530"
       ],
       "filmNumber": [
+        "251360439",
         "25862277",
         "25682276",
         "",
@@ -545,6 +553,7 @@
       ],
       "items": [
         "",
+        "",
         ",,",
         "",
         "",
@@ -606,6 +615,7 @@
       ],
       "core_type": [
         "XBRL",
+        "XBRL",
         "EFFECT",
         "CORRESP",
         "LETTER",
@@ -666,6 +676,7 @@
         "DRS"
       ],
       "size": [
+        6027225,
         10379775,
         1755,
         7933,
@@ -728,6 +739,7 @@
       ],
       "isXBRL": [
         1,
+        1,
         0,
         0,
         0,
@@ -789,6 +801,7 @@
       ],
       "isInlineXBRL": [
         1,
+        1,
         0,
         0,
         0,
@@ -849,6 +862,7 @@
         0
       ],
       "primaryDocument": [
+        "ea0258864-6k_able.htm",
         "ea0238301-20f_ableview.htm",
         "xslEFFECTX01/primary_doc.xml",
         "filename1.htm",
@@ -910,6 +924,7 @@
         "filename1.htm"
       ],
       "primaryDocDescription": [
+        "REPORT OF FOREIGN PRIVATE ISSUER",
         "ANNUAL REPORT",
         "",
         "",

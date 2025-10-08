@@ -2,6 +2,10 @@
 """
 Pull SEC company facts JSON and save raw files.
 """
+"""
+Usage:
+    python scripts/04a_pull_companyfacts.py
+"""
 
 import json
 import csv

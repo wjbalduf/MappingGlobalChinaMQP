@@ -24,28 +24,28 @@
   "stateOfIncorporationDescription": "Cayman Islands",
   "addresses": {
     "mailing": {
-      "street1": "1228 ZHONGSHAN NORTH ROAD",
-      "street2": "PUTUO DISTRICT",
+      "street1": "KOSMOS GROUP 3F BLDG 1 BINJIANG INTL PLZ",
+      "street2": "NO. 1058 YANGSHUPU ROAD, YANGPU DISTRICT",
       "city": "SHANGHAI",
-      "stateOrCountry": "F4",
-      "zipCode": "200065",
-      "stateOrCountryDescription": "China",
-      "isForeignLocation": 0,
+      "stateOrCountry": null,
+      "zipCode": "0000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
       "foreignStateTerritory": null,
-      "country": null,
-      "countryCode": null
+      "country": "China",
+      "countryCode": "F4"
     },
     "business": {
-      "street1": "1228 ZHONGSHAN NORTH ROAD",
-      "street2": "PUTUO DISTRICT",
+      "street1": "KOSMOS GROUP 3F BLDG 1 BINJIANG INTL PLZ",
+      "street2": "NO. 1058 YANGSHUPU ROAD, YANGPU DISTRICT",
       "city": "SHANGHAI",
-      "stateOrCountry": "F4",
-      "zipCode": "200065",
-      "stateOrCountryDescription": "China",
-      "isForeignLocation": null,
+      "stateOrCountry": null,
+      "zipCode": "0000",
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
       "foreignStateTerritory": null,
-      "country": null,
-      "countryCode": null
+      "country": "China",
+      "countryCode": "F4"
     }
   },
   "phone": "86-21-3617-4886",
@@ -54,6 +54,7 @@
   "filings": {
     "recent": {
       "accessionNumber": [
+        "0001213900-25-094237",
         "0001890906-25-000096",
         "0001213900-25-037718",
         "0001213900-25-035243",
@@ -165,6 +166,7 @@
         "0000950123-17-011283"
       ],
       "filingDate": [
+        "2025-10-01",
         "2025-07-11",
         "2025-04-30",
         "2025-04-25",
@@ -276,6 +278,7 @@
         "2017-12-08"
       ],
       "reportDate": [
+        "2025-09-30",
         "",
         "2024-12-31",
         "2025-04-25",
@@ -387,6 +390,7 @@
         ""
       ],
       "acceptanceDateTime": [
+        "2025-10-01T01:16:43.000Z",
         "2025-07-11T16:48:46.000Z",
         "2025-04-30T21:02:04.000Z",
         "2025-04-25T11:21:20.000Z",
@@ -506,6 +510,7 @@
         "34",
         "34",
         "34",
+        "34",
         "",
         "34",
         "",
@@ -609,6 +614,7 @@
         "33"
       ],
       "form": [
+        "6-K",
         "SCHEDULE 13G/A",
         "20-F",
         "6-K",
@@ -720,6 +726,7 @@
         "DRS"
       ],
       "fileNumber": [
+        "001-38425",
         "005-90906",
         "001-38425",
         "001-38425",
@@ -831,6 +838,7 @@
         "377-01823"
       ],
       "filmNumber": [
+        "251362244",
         "251118295",
         "25896675",
         "25869972",
@@ -997,6 +1005,7 @@
         "",
         "",
         "",
+        "",
         "F-3,,2019-09-27 10:00:00",
         "",
         "",
@@ -1053,6 +1062,7 @@
         ""
       ],
       "core_type": [
+        "6-K",
         "SCHEDULE 13G/A",
         "XBRL",
         "6-K",
@@ -1164,6 +1174,7 @@
         "DRS"
       ],
       "size": [
+        372110,
         7864,
         15654345,
         602254,
@@ -1276,6 +1287,7 @@
       ],
       "isXBRL": [
         0,
+        0,
         1,
         0,
         0,
@@ -1387,6 +1399,7 @@
       ],
       "isInlineXBRL": [
         0,
+        0,
         1,
         0,
         0,
@@ -1497,6 +1510,7 @@
         0
       ],
       "primaryDocument": [
+        "ea0259635-6k_greentree.htm",
         "xslSCHEDULE_13G_X01/primary_doc.xml",
         "ea0239717-20f_greentree.htm",
         "ea0239531-6k_greentree.htm",
@@ -1608,6 +1622,7 @@
         "filename1.htm"
       ],
       "primaryDocDescription": [
+        "REPORT OF FOREIGN PRIVATE ISSUER",
         "",
         "ANNUAL REPORT",
         "REPORT OF FOREIGN PRIVATE ISSUER",

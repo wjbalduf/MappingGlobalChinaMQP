@@ -27,25 +27,25 @@
       "street1": "ROOM 64, ROOM 401",
       "street2": "NO. 7 HE NING ER ROAD, HULI DISTRICT",
       "city": "XIAMEN CITY, FUJIAN PROVINCE",
-      "stateOrCountry": "F4",
+      "stateOrCountry": null,
       "zipCode": "361000",
-      "stateOrCountryDescription": "China",
-      "isForeignLocation": 0,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
       "foreignStateTerritory": null,
-      "country": null,
-      "countryCode": null
+      "country": "China",
+      "countryCode": "F4"
     },
     "business": {
       "street1": "ROOM 64, ROOM 401",
       "street2": "NO. 7 HE NING ER ROAD, HULI DISTRICT",
       "city": "XIAMEN CITY, FUJIAN PROVINCE",
-      "stateOrCountry": "F4",
+      "stateOrCountry": null,
       "zipCode": "361000",
-      "stateOrCountryDescription": "China",
-      "isForeignLocation": null,
+      "stateOrCountryDescription": null,
+      "isForeignLocation": 1,
       "foreignStateTerritory": null,
-      "country": null,
-      "countryCode": null
+      "country": "China",
+      "countryCode": "F4"
     }
   },
   "phone": "5859898659",
@@ -54,6 +54,7 @@
   "filings": {
     "recent": {
       "accessionNumber": [
+        "0001213900-25-097207",
         "0001213900-25-063928",
         "0001213900-25-061979",
         "0001213900-25-061647",
@@ -109,6 +110,7 @@
         "0001213900-23-095868"
       ],
       "filingDate": [
+        "2025-10-08",
         "2025-07-15",
         "2025-07-08",
         "2025-07-07",
@@ -164,6 +166,7 @@
         "2023-12-15"
       ],
       "reportDate": [
+        "2025-10-08",
         "",
         "2025-07-08",
         "",
@@ -219,6 +222,7 @@
         ""
       ],
       "acceptanceDateTime": [
+        "2025-10-08T06:03:30.000Z",
         "2025-07-15T11:32:07.000Z",
         "2025-07-08T15:57:58.000Z",
         "2025-07-07T13:01:22.000Z",
@@ -274,6 +278,7 @@
         "2023-12-15T11:12:34.000Z"
       ],
       "act": [
+        "34",
         "33",
         "34",
         "33",
@@ -329,6 +334,7 @@
         "33"
       ],
       "form": [
+        "6-K",
         "424B3",
         "6-K",
         "424B3",
@@ -384,6 +390,7 @@
         "DRS"
       ],
       "fileNumber": [
+        "001-42362",
         "333-287377",
         "001-42362",
         "333-287377",
@@ -439,6 +446,7 @@
         "377-06998"
       ],
       "filmNumber": [
+        "251381176",
         "251123081",
         "251110182",
         "251107093",
@@ -498,6 +506,7 @@
         "",
         "",
         "",
+        "",
         ",,",
         "",
         "",
@@ -549,6 +558,7 @@
         ""
       ],
       "core_type": [
+        "6-K",
         "424B3",
         "6-K",
         "424B3",
@@ -604,6 +614,7 @@
         "DRS"
       ],
       "size": [
+        14482,
         19824,
         48808,
         2394483,
@@ -666,6 +677,7 @@
         0,
         0,
         0,
+        0,
         1,
         0,
         1,
@@ -721,6 +733,7 @@
         0,
         0,
         0,
+        0,
         1,
         0,
         1,
@@ -769,6 +782,7 @@
         0
       ],
       "primaryDocument": [
+        "ea0260522-6k_star.htm",
         "ea0248980-424b3_starfashion.htm",
         "ea0248152-6k_star.htm",
         "ea0247721-424b3_starfashion.htm",
@@ -824,6 +838,7 @@
         "filename1.htm"
       ],
       "primaryDocDescription": [
+        "REPORT OF FOREIGN PRIVATE ISSUER",
         "PROSPECTUS SUPPLEMENT",
         "REPORT OF FOREIGN PRIVATE ISSUER",
         "PROSPECTUS",
