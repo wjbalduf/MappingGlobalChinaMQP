@@ -96,25 +96,40 @@ def potential_address(line):
     line = line.strip()
     line_lower = line.lower()
 
+    # Common address patterns to catch longer lines
+    address_patterns = [
+        r'address at .*',
+        r'located at .*', 
+        r'no\.?\s*\d+',  
+        r'room \d+', 
+        r'building \d+', 
+        r'of \[.*\]',
+    ]
+    if any(re.search(pat, line_lower) for pat in address_patterns):
+        return True
+    
     # Exclude some legal/company keywords, probably not addresses 
     exclusions = [
-        "identity card", "cik", "ticker", "prc identity", "prc id", 
-        "section", "act", "agreement", "party",
-        "shareholder", "company", "director", "member",
+        "moneys", "card", "cik", "ticker",
+        "section", "act", "agreement",
+        "shareholder", "company", "director",
         "notice", "hereby", "therefore", "shall", "exhibit"
     ]
     if any(kw in line_lower for kw in exclusions):
         return False
     
-    # Common address patterns to catch longer lines
-    address_patterns = [
-        r'address at .*',
-        r'registered in .*',
-        r'located at .*',
-        r'no\.?\s*\d+',
-    ]
-    if any(re.search(pat, line_lower) for pat in address_patterns):
-        return True
+    if 'registered in' in line_lower:
+        # only accept if there is a city/street/number nearby
+        has_number = bool(re.search(r'\b\d+\b', line_lower))
+        street_keywords = ["street", "st.", "road", "rd.", "avenue", "ave", "lane", "ln",
+                           "boulevard", "blvd", "drive", "dr.", "court", "ct.", "square", "sq",
+                           "circle", "plaza", "terrace", "trail", "way", "gate"]
+        city_keywords = ["beijing", "shanghai", "hangzhou", "ningbo", "hong kong", "singapore",
+                         "cayman", "ky1", "prc"]
+        has_street = any(kw in line_lower for kw in street_keywords)
+        has_city = any(kw in line_lower for kw in city_keywords)
+        if has_number or has_street or has_city:
+            return True
 
     # Common address patterns
     has_number = bool(re.search(r'\b(?:no\.?|room|suite|unit|floor|building|apt|#)\s*\d+', line_lower))
