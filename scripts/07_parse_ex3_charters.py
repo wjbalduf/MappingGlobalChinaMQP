@@ -82,7 +82,7 @@ def parse_pdf_ex3(filepath: str):
 def classify_address_type(line):
     line_lower = line.lower()
 
-    if "registered office" in line_lower:
+    if "registered office" in line_lower or "registered in" in line_lower or "incorporated in" in line_lower:
         return "registered_office"
     elif "principal executive office" in line_lower or "principal office" in line_lower:
         return "principal_office"
@@ -105,8 +105,18 @@ def potential_address(line):
     ]
     if any(kw in line_lower for kw in exclusions):
         return False
+    
+    # Common address patterns to catch longer lines
+    address_patterns = [
+        r'address at .*',
+        r'registered in .*',
+        r'located at .*',
+        r'no\.?\s*\d+',
+    ]
+    if any(re.search(pat, line_lower) for pat in address_patterns):
+        return True
 
-    # Common Address patterns
+    # Common address patterns
     has_number = bool(re.search(r'\b(?:no\.?|room|suite|unit|floor|building|apt|#)\s*\d+', line_lower))
     has_postal = bool(re.search(r'\b\d{5,6}(-\d{4})?\b', line))
 
