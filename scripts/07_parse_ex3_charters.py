@@ -5,6 +5,14 @@ import csv
 from datetime import datetime
 from bs4 import BeautifulSoup
 import pdfplumber
+import spacy
+from collections import defaultdict
+import string
+
+# Load English models for spacy
+# python -m spacy download en_core_web_sm
+# Not used because it's too lenient in what it can consider an address, find another purpose for spacy
+nlp_en = spacy.load("en_core_web_sm")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data", "intermediate")
@@ -48,10 +56,10 @@ def parse_html_ex3(filepath: str):
     try:
         with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
             soup = BeautifulSoup(f, "html.parser")
-        for line in soup.get_text("\n").split("\n"):
-            line = clean_text(line)
-            if line:
-                rows.append(line)
+        # Extract both normal text and <u> text
+        text_blocks = [clean_text(t) for t in soup.get_text("\n").split("\n") if clean_text(t)]
+        u_blocks = [clean_text(u.get_text()) for u in soup.find_all("u") if clean_text(u.get_text())]
+        rows = list(dict.fromkeys(text_blocks + u_blocks)) 
     except Exception as e:
         print(f"Failed to parse HTML: {filepath} — {e}")
     return rows
@@ -64,79 +72,115 @@ def parse_pdf_ex3(filepath: str):
                 text = page.extract_text()
                 if not text:
                     continue
-                for line in text.split("\n"):
-                    line = clean_text(line)
-                    if line:
-                        rows.append(line)
+                rows.extend([clean_text(l) for l in text.split("\n") if clean_text(l)])
+        rows = list(dict.fromkeys(rows))
     except Exception as e:
         print(f"Failed to parse PDF: {filepath} — {e}")
     return rows
 
+# Helper to detect address type based on context
+def classify_address_type(line):
+    line_lower = line.lower()
+
+    if "registered office" in line_lower:
+        return "registered_office"
+    elif "principal executive office" in line_lower or "principal office" in line_lower:
+        return "principal_office"
+    elif "agent" in line_lower or "representative" in line_lower:
+        return "agent_address"
+    else:
+        return "other"
+
 # Find potential addresses in the files
 def potential_address(line):
     line = line.strip()
-    if len(line) < 10:
-        return False
-
     line_lower = line.lower()
 
-    # Exclusions that may have numbers
-    if any(kw in line_lower for kw in [
-        "article", "section", "act", "agreement", "party",
+    # Exclude some legal/company keywords, probably not addresses 
+    exclusions = [
+        "identity card", "cik", "ticker", "prc identity", "prc id", 
+        "section", "act", "agreement", "party",
         "shareholder", "company", "director", "member",
         "notice", "hereby", "therefore", "shall", "exhibit"
-    ]):
+    ]
+    if any(kw in line_lower for kw in exclusions):
         return False
 
-    # Match street numbers or unit numbers
-    has_number = bool(re.search(r'\b(?:no\.?|room|suite|unit|floor|building)\s*\d+', line_lower))
+    # Common Address patterns
+    has_number = bool(re.search(r'\b(?:no\.?|room|suite|unit|floor|building|apt|#)\s*\d+', line_lower))
     has_postal = bool(re.search(r'\b\d{5,6}(-\d{4})?\b', line))
-    has_street = any(kw in line_lower for kw in [
+
+    # Street keywords
+    street_keywords = [
         "street", "st.", "road", "rd.", "avenue", "ave", "lane", "ln",
-        "boulevard", "blvd", "suite", "unit", "floor", "building", "block"
-    ])
-    has_city = any(kw in line_lower for kw in [
+        "boulevard", "blvd", "drive", "dr.", "court", "ct.", "square", "sq",
+        "circle", "plaza", "terrace", "trail", "way"
+    ]
+    has_street = any(kw in line_lower for kw in street_keywords)
+
+    # City/region keywords, add on if needed
+    city_keywords = [
         "beijing", "shanghai", "hangzhou", "ningbo", "hong kong", "singapore",
         "cayman", "ky1", "prc"
-    ])
+    ]
+    has_city = any(kw in line_lower for kw in city_keywords)
 
-    # Require a number/unit and street or city
+    # Requirements to be an address
     if (has_number or has_postal) and (has_street or has_city):
+        return True
+    if has_city and len(line.split()) <= 6: # potentially address if its a city thats a short line
         return True
 
     return False
 
-
 def extract_addresses(lines):
     results = []
-    current_block = []
+    seen = set()  # Keep track to avoid duplicates
+    current_block = [] # Store address lines
 
     for line in lines:
-        line = line.strip()
-        if not line:
+        line_clean = clean_text(line)
+        if not line_clean:
             continue
 
-        if potential_address(line):
-            current_block.append(line)
+        # If line looks like an address, add to current block
+        if potential_address(line_clean):
+            current_block.append(line_clean)
         else:
+            # End of a block
             if current_block:
-                results.append({
-                    "address_raw": " ".join(current_block),
-                    "address_type": "other"
-                })
+                block_text = " ".join(current_block)  # combine into one block
+                if block_text.lower() not in seen:
+                    addr_type = classify_address_type(block_text)
+                    results.append({"address_raw": block_text, "address_type": addr_type})
+                    seen.add(block_text.lower())
                 current_block = []
 
-    # Save any remaining block
+    # Leftover blocks at the end of file are extracted
     if current_block:
-        results.append({
-            "address_raw": " ".join(current_block),
-            "address_type": "other"
-        })
+        block_text = " ".join(current_block)
+        if block_text.lower() not in seen:
+            addr_type = classify_address_type(block_text)
+            results.append({"address_raw": block_text, "address_type": addr_type})
+            seen.add(block_text.lower())
 
     return results
 
+# Very specific to the results from our EX3s, potentially add on? or we keep the duplicates
+canonical_map = {
+    "the cayman islands": "Cayman Islands",
+    "territory of the cayman islands": "Cayman Islands",
+    "hong kong, people's republic of china": "Hong Kong"
+}
+
+# Helper for deduplication
+def normalize_address(addr):
+    addr_clean = addr.lower().strip().translate(str.maketrans("", "", string.punctuation))
+    return canonical_map.get(addr_clean, addr.strip())
+
 # Main extraction process
 def main():
+    company_seen_addresses = {} 
     rows_out = []
 
     for ex in exhibits:
@@ -146,6 +190,7 @@ def main():
         ticker = ex.get("ticker")
         cik10 = ex.get("cik10")
         accession = ex.get("accession")
+        exhibit_label = ex.get("exhibit_label")
         year = ex.get("year")
         source_path = os.path.abspath(os.path.join(BASE_DIR, ex.get("localPath", "")))
 
@@ -153,42 +198,67 @@ def main():
             print(f"File not found, skipping: {source_path}")
             continue
 
-        print(f"Parsing EX-3 for {ticker} {accession}")
+        print(f"Parsing EX-3 for {ticker} {accession} {exhibit_label}")
 
-        # Parse based on file type
+        # Confidence
         if source_path.endswith((".htm", ".html")):
             parsed_lines = parse_html_ex3(source_path)
-            confidence = "high" if parsed_lines else "low"
+            file_type = "html" if parsed_lines else "ocr_needed"
         elif source_path.endswith(".pdf"):
             parsed_lines = parse_pdf_ex3(source_path)
-            confidence = "medium" if parsed_lines else "low"
+            file_type = "html" if parsed_lines else "ocr_needed"
         else:
-            parsed_lines, confidence = [], "ocr_needed"
+            parsed_lines, file_type = [], "ocr_needed"
 
-        # Extract and store addresses
-        for addr in extract_addresses(parsed_lines):
-            rows_out.append({
-                "parent_ticker": ticker,
-                "parent_cik10": cik10,
-                "accession": accession,
-                "exhibit_year": year,
-                "address_raw": addr["address_raw"],
-                "address_type": addr["address_type"],
-                "source_path": source_path,
-                "parse_confidence": confidence,
-            })
+        # Extract
+        addresses = extract_addresses(parsed_lines)
+        if not addresses:
+            addresses = [{"address_raw": "", "address_type": "other"}]
 
-    # Write output
+        # Track addresses per company
+        company_key = (ticker, cik10)
+        if company_key not in company_seen_addresses:
+            company_seen_addresses[company_key] = set()
+
+        for addr in addresses:
+            addr_lower = addr["address_raw"].lower()
+            if addr_lower not in company_seen_addresses[company_key]:
+                company_seen_addresses[company_key].add(addr_lower)
+                rows_out.append({
+                    "parent_ticker": ticker,
+                    "parent_cik10": cik10,
+                    "accession": accession,
+                    "exhibit_label": exhibit_label,
+                    "exhibit_year": year,
+                    "address_raw": addr["address_raw"],
+                    "address_type": addr["address_type"],
+                    "source_path": source_path,
+                    "parse_confidence": file_type,
+                })
+
+    # Deduplicate addresses per company
+    deduped_rows = []
+    seen_addresses = defaultdict(set)
+
+    for row in rows_out:
+        ticker = row["parent_ticker"]
+        norm_addr = normalize_address(row["address_raw"])
+        if norm_addr.lower() not in seen_addresses[ticker]:
+            row["address_raw"] = norm_addr  # overwrite with normalized address
+            deduped_rows.append(row)
+            seen_addresses[ticker].add(norm_addr.lower())
+
+    # Write to csv
     csv_path = os.path.join(DATA_DIR, f"charter_addresses_raw_{RUN_DATE}.csv")
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=[
-            "parent_ticker", "parent_cik10", "accession", "exhibit_year",
+            "parent_ticker", "parent_cik10", "accession", "exhibit_label", "exhibit_year",
             "address_raw", "address_type", "source_path", "parse_confidence"
         ])
         writer.writeheader()
-        writer.writerows(rows_out)
+        writer.writerows(deduped_rows)
 
-    print(f"Wrote {len(rows_out)} address rows to {csv_path}")
+    print(f"Wrote {len(deduped_rows)} address rows to {csv_path}")
 
 if __name__ == "__main__":
     main()
