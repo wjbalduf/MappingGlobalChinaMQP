@@ -151,7 +151,6 @@ for entry in reports:
                 "ownership_raw": ownership,
                 "footnote_marker": "",
                 "source_path": path,
-                "parse_confidence": ""
             })
 
 ex21_file = os.path.join(DATA_DIR, f"subs_ex21_raw_{RUN_DATE}.csv")
