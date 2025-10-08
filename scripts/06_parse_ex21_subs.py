@@ -1,3 +1,7 @@
+"""
+Usage:
+    python scripts/06_parse_ex21_subs.py
+"""
 import os, re, json, time, hashlib, requests
 from datetime import datetime
 from urllib.parse import urljoin
@@ -127,7 +131,7 @@ for entry in reports:
         try:
             html = download_file("https://www.sec.gov" + entry["href"])
         except requests.RequestException as e:
-            print(f"[WARN] Failed to download exhibit {entry["href"]}: {e}")
+            print(f"[WARN] Failed to download exhibit {entry['href']}: {e}")
             continue
 
         subsidiaries = parse_table_in_html(html)
