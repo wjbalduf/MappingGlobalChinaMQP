@@ -1,11 +1,3 @@
-"""
-Generate Parents Master CSV
-Columns:
-parent_ticker,parent_cik10,parent_name,incorp_country_iso3,
-incorp_state_or_region,legal_form,latest_20f_year,latest_20f_accession,
-sources_used,lineage
-"""
-
 import os
 import json
 import pandas as pd
@@ -42,7 +34,6 @@ merged_df = pd.merge(dei_df, cik_df[["parent_ticker", "parent_cik10"]],
 def get_name_from_submissions(ticker):
     submissions_path = os.path.join(EDGAR_DIR, ticker, "submissions.json")
     if not os.path.exists(submissions_path):
-        # print(f"{ticker}: submissions.json not found at {submissions_path}")
         return None
     try:
         with open(submissions_path, "r", encoding="utf-8") as f:
@@ -55,35 +46,47 @@ def get_name_from_submissions(ticker):
     return None
 
 # -------------------------------------------------------------
-# BUILD PARENTS RECORDS
+# LOAD USCC CSV
 # -------------------------------------------------------------
-# Load USCC CSV once
 USCC_FILE = os.path.join("data", "raw", "USCC", "20251008_chinese_companies_USA.csv")
 uscc_df = pd.read_csv(USCC_FILE)
 uscc_df.rename(columns={"ticker": "parent_ticker", "company_name": "uscc_name"}, inplace=True)
 uscc_lookup = dict(zip(uscc_df["parent_ticker"], uscc_df["uscc_name"]))
 
+# -------------------------------------------------------------
+# BUILD PARENTS RECORDS
+# -------------------------------------------------------------
 records = []
 
 for _, row in merged_df.iterrows():
     parent_ticker = row.get("parent_ticker")
     parent_cik10 = row.get("parent_cik10")
     
-    # 1️⃣ DEI first
+    # Helper to check if a value is non-empty
+    def has_value(val):
+        return val is not None and not (isinstance(val, float) and math.isnan(val)) and str(val).strip() != ""
+    
+    # 1️⃣ Start with DEI
     parent_name = row.get("registrant_name")
-    sources_used = "DEI"
+    sources_used = ["DEI"] if has_value(parent_name) else []
     
     # 2️⃣ Fallback to submissions.json
-    if parent_name is None or (isinstance(parent_name, float) and math.isnan(parent_name)) or str(parent_name).strip() == "":
-        parent_name = get_name_from_submissions(parent_ticker)
-        if parent_name:
-            sources_used = "DEI|submissions"
+    if not has_value(parent_name):
+        parent_name_sub = get_name_from_submissions(parent_ticker)
+        if has_value(parent_name_sub):
+            parent_name = parent_name_sub
+            sources_used.append("submissions")
     
-    # 3️⃣ Fallback to USCC CSV
-    if parent_name is None or (isinstance(parent_name, float) and math.isnan(parent_name)) or str(parent_name).strip() == "":
-        parent_name = uscc_lookup.get(parent_ticker)
-        if parent_name:
-            sources_used = "DEI|submissions|USCC"
+    # 3️⃣ Fallback to USCC
+    if not has_value(parent_name):
+        parent_name_uscc = uscc_lookup.get(parent_ticker)
+        if has_value(parent_name_uscc):
+            parent_name = parent_name_uscc
+            sources_used.append("USCC")
+    
+    # If no source was found at all, keep DEI anyway
+    if not sources_used:
+        sources_used = ["DEI"]
     
     # Other fields
     incorp_country_iso3 = row.get("Country_Address")
@@ -95,11 +98,9 @@ for _, row in merged_df.iterrows():
         "uscc_path": USCC_FILE
     }
     
-    # Latest 20-F placeholders
     latest_20f_year = None
     latest_20f_accession = None
     
-    # Append record
     records.append({
         "parent_ticker": parent_ticker,
         "parent_cik10": parent_cik10,
@@ -109,7 +110,7 @@ for _, row in merged_df.iterrows():
         "legal_form": legal_form,
         "latest_20f_year": latest_20f_year,
         "latest_20f_accession": latest_20f_accession,
-        "sources_used": sources_used,
+        "sources_used": "|".join(sources_used),
         "lineage": json.dumps(lineage)
     })
 
