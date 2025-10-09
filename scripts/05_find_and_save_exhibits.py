@@ -12,7 +12,7 @@ DATA_DIR = "data/intermediate"
 OUTPUT_DIR = "companies"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-HEADERS = {"User-Agent": "William Balduf silly12billy@gmail.com"} #Enter your information
+HEADERS = {"User-Agent": "First-name last-name email"} #Enter your information
 
 # Detect latest annual_reports_index file + RUN_DATE
 def get_latest_annual_reports_index():
