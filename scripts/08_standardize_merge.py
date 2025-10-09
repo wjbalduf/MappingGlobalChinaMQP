@@ -54,6 +54,23 @@ def get_name_from_submissions(ticker):
     return None
 
 # -------------------------------------------------------------
+# FUNCTION TO GET INCORP STATE FROM submissions.json
+# -------------------------------------------------------------
+def get_incorp_state_from_submissions(ticker):
+    submissions_path = os.path.join(EDGAR_DIR, ticker, "submissions.json")
+    if not os.path.exists(submissions_path):
+        return None
+    try:
+        with open(submissions_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            state = data.get("stateOfIncorporationDescription")
+            if state and str(state).strip():
+                return state.strip()
+    except Exception as e:
+        print(f"Error reading {submissions_path}: {e}")
+    return None
+
+# -------------------------------------------------------------
 # HELPER
 # -------------------------------------------------------------
 def has_value(val):
@@ -118,6 +135,16 @@ for _, row in merged_df.iterrows():
     # -----------------------------
     incorp_country_iso3 = ''
     incorp_state_or_region = row.get("incorp_state_raw")
+
+    # Fallback: try submissions if DEI value blank
+    if not has_value(incorp_state_or_region):
+        incorp_state_sub = get_incorp_state_from_submissions(parent_ticker)
+        if has_value(incorp_state_sub):
+            incorp_state_or_region = incorp_state_sub
+            if "submissions" not in sources_used:
+                sources_used.append("submissions")
+            lineage["submissions_path"] = os.path.join(EDGAR_DIR, parent_ticker, "submissions.json")
+
     legal_form = row.get("legal_form")
     latest_20f_year = None
     latest_20f_accession = None
