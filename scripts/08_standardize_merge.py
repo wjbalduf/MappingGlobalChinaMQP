@@ -116,7 +116,7 @@ for _, row in merged_df.iterrows():
     # -----------------------------
     # Other fields
     # -----------------------------
-    incorp_country_iso3 = row.get("Country_Address")
+    incorp_country_iso3 = ''
     incorp_state_or_region = row.get("incorp_state_raw")
     legal_form = row.get("legal_form")
     latest_20f_year = None
