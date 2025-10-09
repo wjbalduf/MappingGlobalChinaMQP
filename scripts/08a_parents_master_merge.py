@@ -1,3 +1,7 @@
+"""
+Usage:
+    python scripts/08a_parents_master_merge.py
+"""
 import os
 import json
 import pandas as pd
