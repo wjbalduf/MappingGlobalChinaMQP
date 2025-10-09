@@ -3,20 +3,47 @@ import json
 import pandas as pd
 import math
 from datetime import datetime
+import re
 
 # -------------------------------------------------------------
 # CONFIG
 # -------------------------------------------------------------
-DEI_FILE = os.path.join("data", "intermediate", "dei_facts_20251008.csv")
-CIK_FILE = os.path.join("data", "intermediate", "cik_map_20251008.csv")
-EX21_FILE = os.path.join("data", "intermediate", "subs_ex21_raw_20251008.csv")
-EDGAR_DIR = os.path.join("data", "raw", "EDGAR")
-USCC_FILE = os.path.join("data", "raw", "USCC", "20251008_chinese_companies_USA.csv")
+def find_latest_file(directory, pattern):
+    """
+    Finds the latest file in `directory` that matches `pattern`,
+    where the pattern should be like 'dei_facts_*.csv'.
+    """
+    matched_files = []
+    for f in os.listdir(directory):
+        if re.fullmatch(pattern.replace("*", ".*"), f):
+            matched_files.append(f)
+    if not matched_files:
+        raise FileNotFoundError(f"No files found for pattern {pattern} in {directory}")
+    matched_files.sort(reverse=True)
+    return os.path.join(directory, matched_files[0])
+
+# Directories
+INTERMEDIATE_DIR = os.path.join("data", "intermediate")
+RAW_DIR = os.path.join("data", "raw")
+USCC_DIR = os.path.join(RAW_DIR, "USCC")
+EDGAR_DIR = os.path.join(RAW_DIR, "EDGAR")
 OUTPUT_DIR = os.path.join("data", "clean")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+# Find latest input files automatically
+DEI_FILE = find_latest_file(INTERMEDIATE_DIR, "dei_facts_*.csv")
+CIK_FILE = find_latest_file(INTERMEDIATE_DIR, "cik_map_*.csv")
+EX21_FILE = find_latest_file(INTERMEDIATE_DIR, "subs_ex21_raw_*.csv")
+USCC_FILE = find_latest_file(USCC_DIR, "*_chinese_companies_USA.csv")
+
 RUN_DATE = datetime.now().strftime("%Y%m%d")
 OUTPUT_PATH = os.path.join(OUTPUT_DIR, f"parents_master_{RUN_DATE}.csv")
+
+print("📂 Using files:")
+print("  DEI:", DEI_FILE)
+print("  CIK:", CIK_FILE)
+print("  EX21:", EX21_FILE)
+print("  USCC:", USCC_FILE)
 
 # -------------------------------------------------------------
 # LOAD DEI FACTS AND CIK MAP

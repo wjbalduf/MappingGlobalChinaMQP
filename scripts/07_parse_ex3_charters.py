@@ -1,3 +1,7 @@
+"""
+Usage:
+    python scripts/07_parse_ex3_charters.py
+"""
 import os
 import re
 import json

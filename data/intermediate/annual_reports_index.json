@@ -5896,20 +5896,6 @@
   {
     "ticker": "CSIQ",
     "cik10": "0001375877",
-    "year": "2024",
-    "form": "20-F",
-    "accession": "0001104659-24-052464",
-    "filing_date": "2024-04-26",
-    "report_period": "2023-12-31",
-    "primary_doc": "csiq-20231231x20f.htm",
-    "filing_url": "https://www.sec.gov/Archives/edgar/data/1375877/000110465924052464/csiq-20231231x20f.htm",
-    "localPath": "companies\\CSIQ\\2024_CSIQ_20-F_000110465924052464.html",
-    "sha256": "12d6423d330bdb4cebc40906b23669b7013628506fe2dd7fe0f33b7e8a2e10e5",
-    "bytes": 5573292
-  },
-  {
-    "ticker": "CSIQ",
-    "cik10": "0001375877",
     "year": "2023",
     "form": "20-F",
     "accession": "0001104659-23-046692",
@@ -10316,6 +10302,20 @@
     "localPath": "companies\\SOL\\2013_SOL_20-F_000114420413024091.html",
     "sha256": "71f9f5e64448b6f1b96dae00b740b17674a2676c9295e569a610dd2650ea67c0",
     "bytes": 2042230
+  },
+  {
+    "ticker": "SOL",
+    "cik10": "0001417892",
+    "year": "2012",
+    "form": "20-F",
+    "accession": "0001144204-12-024229",
+    "filing_date": "2012-04-27",
+    "report_period": "2011-12-31",
+    "primary_doc": "v309166_20f.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1417892/000114420412024229/v309166_20f.htm",
+    "localPath": "companies\\SOL\\2012_SOL_20-F_000114420412024229.html",
+    "sha256": "cf833b0108c3ae83cc5c9b866fc1e903aef84d6e288628748caa61b2c963eb88",
+    "bytes": 1872478
   },
   {
     "ticker": "SOL",
