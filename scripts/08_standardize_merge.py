@@ -72,12 +72,16 @@ for _, row in merged_df.iterrows():
     sources_used = []
     lineage = {}
 
-    # 1️⃣ DEI
+    # -----------------------------
+    # 1️⃣ DEI for name
+    # -----------------------------
     if has_value(parent_name):
         sources_used.append("DEI")
         lineage["dei_path"] = DEI_FILE
 
-    # 2️⃣ submissions fallback
+    # -----------------------------
+    # 2️⃣ submissions fallback for name
+    # -----------------------------
     if not has_value(parent_name):
         parent_name_sub = get_name_from_submissions(parent_ticker)
         if has_value(parent_name_sub):
@@ -85,7 +89,9 @@ for _, row in merged_df.iterrows():
             sources_used.append("submissions")
             lineage["submissions_path"] = os.path.join(EDGAR_DIR, parent_ticker, "submissions.json")
 
-    # 3️⃣ USCC fallback
+    # -----------------------------
+    # 3️⃣ USCC fallback for name
+    # -----------------------------
     if not has_value(parent_name):
         parent_name_uscc = uscc_lookup.get(parent_ticker)
         if has_value(parent_name_uscc):
@@ -93,10 +99,17 @@ for _, row in merged_df.iterrows():
             sources_used.append("USCC")
             lineage["uscc_path"] = USCC_FILE
 
-    # Only keep lineage for the source that provided the value
-    # Already handled: we only add a path when the source provided a value
+    # -----------------------------
+    # 4️⃣ Ticker sources (parent_cik10)
+    # Only add if actual data exists and not already included
+    # -----------------------------
+    if has_value(parent_cik10) and "CIK" not in sources_used:
+        sources_used.append("CIK")
+        lineage["cik_path"] = CIK_FILE
 
+    # -----------------------------
     # Other fields
+    # -----------------------------
     incorp_country_iso3 = row.get("Country_Address")
     incorp_state_or_region = row.get("incorp_state_raw")
     legal_form = row.get("legal_form")
