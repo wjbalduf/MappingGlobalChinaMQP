@@ -57,33 +57,49 @@ def get_name_from_submissions(ticker):
 # -------------------------------------------------------------
 # BUILD PARENTS RECORDS
 # -------------------------------------------------------------
+# Load USCC CSV once
+USCC_FILE = os.path.join("data", "raw", "USCC", "20251008_chinese_companies_USA.csv")
+uscc_df = pd.read_csv(USCC_FILE)
+uscc_df.rename(columns={"ticker": "parent_ticker", "company_name": "uscc_name"}, inplace=True)
+uscc_lookup = dict(zip(uscc_df["parent_ticker"], uscc_df["uscc_name"]))
+
 records = []
 
 for _, row in merged_df.iterrows():
     parent_ticker = row.get("parent_ticker")
     parent_cik10 = row.get("parent_cik10")
     
-    # 1️⃣ Use DEI first
+    # 1️⃣ DEI first
     parent_name = row.get("registrant_name")
     sources_used = "DEI"
     
-    # Handle empty/NaN DEI values → fallback to submissions
+    # 2️⃣ Fallback to submissions.json
     if parent_name is None or (isinstance(parent_name, float) and math.isnan(parent_name)) or str(parent_name).strip() == "":
         parent_name = get_name_from_submissions(parent_ticker)
         if parent_name:
-            sources_used = "DEI|submissions"  # update sources if fallback used
+            sources_used = "DEI|submissions"
     
-    # 2️⃣ Other fields
+    # 3️⃣ Fallback to USCC CSV
+    if parent_name is None or (isinstance(parent_name, float) and math.isnan(parent_name)) or str(parent_name).strip() == "":
+        parent_name = uscc_lookup.get(parent_ticker)
+        if parent_name:
+            sources_used = "DEI|submissions|USCC"
+    
+    # Other fields
     incorp_country_iso3 = row.get("Country_Address")
     incorp_state_or_region = row.get("incorp_state_raw")
     legal_form = row.get("legal_form")
-    lineage = {"dei_path": DEI_FILE, "cik_path": CIK_FILE}
+    lineage = {
+        "dei_path": DEI_FILE,
+        "cik_path": CIK_FILE,
+        "uscc_path": USCC_FILE
+    }
     
     # Latest 20-F placeholders
     latest_20f_year = None
     latest_20f_accession = None
     
-    # 3️⃣ Append record
+    # Append record
     records.append({
         "parent_ticker": parent_ticker,
         "parent_cik10": parent_cik10,
