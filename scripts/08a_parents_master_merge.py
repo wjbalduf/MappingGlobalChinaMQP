@@ -9,6 +9,7 @@ from datetime import datetime
 # -------------------------------------------------------------
 DEI_FILE = os.path.join("data", "intermediate", "dei_facts_20251008.csv")
 CIK_FILE = os.path.join("data", "intermediate", "cik_map_20251008.csv")
+EX21_FILE = os.path.join("data", "intermediate", "subs_ex21_raw_20251008.csv")
 EDGAR_DIR = os.path.join("data", "raw", "EDGAR")
 USCC_FILE = os.path.join("data", "raw", "USCC", "20251008_chinese_companies_USA.csv")
 OUTPUT_DIR = os.path.join("data", "clean")
@@ -26,8 +27,12 @@ cik_df = pd.read_csv(CIK_FILE)
 dei_df.rename(columns={"ticker": "parent_ticker"}, inplace=True)
 cik_df.rename(columns={"ticker": "parent_ticker", "cik10": "parent_cik10"}, inplace=True)
 
-merged_df = pd.merge(dei_df, cik_df[["parent_ticker", "parent_cik10"]],
-                     on="parent_ticker", how="left")
+merged_df = pd.merge(
+    dei_df,
+    cik_df[["parent_ticker", "parent_cik10"]],
+    on="parent_ticker",
+    how="left"
+)
 
 # -------------------------------------------------------------
 # LOAD USCC CSV
@@ -37,8 +42,21 @@ uscc_df.rename(columns={"ticker": "parent_ticker", "company_name": "uscc_name"},
 uscc_lookup = dict(zip(uscc_df["parent_ticker"], uscc_df["uscc_name"]))
 
 # -------------------------------------------------------------
-# FUNCTION TO GET NAME FROM submissions.json
+# LOAD EXHIBIT 21 (subsidiary data)
 # -------------------------------------------------------------
+if os.path.exists(EX21_FILE):
+    ex21_df = pd.read_csv(EX21_FILE)
+    ex21_df["parent_ticker"] = ex21_df["parent_ticker"].astype(str).str.strip()
+    ex21_df["parent_cik10"] = ex21_df["parent_cik10"].astype(str).str.strip()
+else:
+    ex21_df = pd.DataFrame()
+
+# -------------------------------------------------------------
+# FUNCTIONS
+# -------------------------------------------------------------
+def has_value(val):
+    return val is not None and not (isinstance(val, float) and math.isnan(val)) and str(val).strip() != ""
+
 def get_name_from_submissions(ticker):
     submissions_path = os.path.join(EDGAR_DIR, ticker, "submissions.json")
     if not os.path.exists(submissions_path):
@@ -53,28 +71,20 @@ def get_name_from_submissions(ticker):
         print(f"Error reading {submissions_path}: {e}")
     return None
 
-# -------------------------------------------------------------
-# FUNCTION TO GET INCORP STATE FROM submissions.json
-# -------------------------------------------------------------
-def get_incorp_state_from_submissions(ticker):
+def get_state_from_submissions(ticker):
+    """Pull stateOfIncorporationDescription from submissions.json"""
     submissions_path = os.path.join(EDGAR_DIR, ticker, "submissions.json")
     if not os.path.exists(submissions_path):
         return None
     try:
         with open(submissions_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-            state = data.get("stateOfIncorporationDescription")
-            if state and str(state).strip():
-                return state.strip()
+            desc = data.get("stateOfIncorporationDescription")
+            if desc and desc.strip():
+                return desc.strip()
     except Exception as e:
         print(f"Error reading {submissions_path}: {e}")
     return None
-
-# -------------------------------------------------------------
-# HELPER
-# -------------------------------------------------------------
-def has_value(val):
-    return val is not None and not (isinstance(val, float) and math.isnan(val)) and str(val).strip() != ""
 
 # -------------------------------------------------------------
 # BUILD PARENTS RECORDS
@@ -84,13 +94,13 @@ records = []
 for _, row in merged_df.iterrows():
     parent_ticker = row.get("parent_ticker")
     parent_cik10 = row.get("parent_cik10")
-    
+
     parent_name = row.get("registrant_name")
     sources_used = []
     lineage = {}
 
     # -----------------------------
-    # Name source (only if actually provided value)
+    # Name source
     # -----------------------------
     if has_value(parent_name):
         sources_used.append("DEI")
@@ -107,7 +117,7 @@ for _, row in merged_df.iterrows():
             lineage["uscc_path"] = USCC_FILE
 
     # -----------------------------
-    # Ticker / CIK source (only if actually provided value)
+    # Ticker / CIK sources
     # -----------------------------
     if has_value(parent_ticker) and "DEI" not in sources_used:
         sources_used.append("DEI")
@@ -117,13 +127,10 @@ for _, row in merged_df.iterrows():
         sources_used.append("CIK")
         lineage["cik_path"] = CIK_FILE
 
-    # USCC ticker: only if parent_ticker missing from DEI
     if not has_value(parent_ticker) and parent_ticker in uscc_lookup and "USCC" not in sources_used:
-        parent_ticker = parent_ticker  # it would come from USCC in reality
         sources_used.append("USCC")
         lineage["uscc_path"] = USCC_FILE
 
-    # submissions ticker: only if missing from DEI/CIK/USCC
     if not has_value(parent_ticker) and not has_value(parent_cik10):
         submissions_path = os.path.join(EDGAR_DIR, parent_ticker, "submissions.json")
         if os.path.exists(submissions_path) and "submissions" not in sources_used:
@@ -135,20 +142,42 @@ for _, row in merged_df.iterrows():
     # -----------------------------
     incorp_country_iso3 = ''
     incorp_state_or_region = row.get("incorp_state_raw")
-
-    # Fallback: try submissions if DEI value blank
-    if not has_value(incorp_state_or_region):
-        incorp_state_sub = get_incorp_state_from_submissions(parent_ticker)
-        if has_value(incorp_state_sub):
-            incorp_state_or_region = incorp_state_sub
-            if "submissions" not in sources_used:
-                sources_used.append("submissions")
-            lineage["submissions_path"] = os.path.join(EDGAR_DIR, parent_ticker, "submissions.json")
-
     legal_form = row.get("legal_form")
     latest_20f_year = None
     latest_20f_accession = None
 
+    # -------------------------------------------------------------
+    # Fill incorporation state from submissions if missing
+    # -------------------------------------------------------------
+    if not has_value(incorp_state_or_region):
+        sub_state = get_state_from_submissions(parent_ticker)
+        if has_value(sub_state):
+            incorp_state_or_region = sub_state
+            if "submissions" not in sources_used:
+                sources_used.append("submissions")
+            lineage["submissions_path"] = os.path.join(EDGAR_DIR, parent_ticker, "submissions.json")
+
+    # -------------------------------------------------------------
+    # Pull latest 20-F year and accession from EX-21 index
+    # -------------------------------------------------------------
+    if not ex21_df.empty:
+        ex_rows = ex21_df[
+            (ex21_df["parent_ticker"].astype(str) == str(parent_ticker)) |
+            (ex21_df["parent_cik10"].astype(str) == str(parent_cik10))
+        ]
+        if not ex_rows.empty:
+            latest_row = ex_rows.sort_values("exhibit_year", ascending=False).iloc[0]
+            latest_20f_year = latest_row.get("exhibit_year")
+            latest_20f_accession = latest_row.get("accession")
+
+            if has_value(latest_20f_year) or has_value(latest_20f_accession):
+                if "EX-21" not in sources_used:
+                    sources_used.append("EX-21")
+                lineage["ex21_path"] = latest_row.get("source_path")
+
+    # -----------------------------
+    # Append record
+    # -----------------------------
     records.append({
         "parent_ticker": parent_ticker,
         "parent_cik10": parent_cik10,
