@@ -65,19 +65,21 @@ for _, row in merged_df.iterrows():
     
     # 1️⃣ Use DEI first
     parent_name = row.get("registrant_name")
+    sources_used = "DEI"
     
-    # Handle empty/NaN DEI values
+    # Handle empty/NaN DEI values → fallback to submissions
     if parent_name is None or (isinstance(parent_name, float) and math.isnan(parent_name)) or str(parent_name).strip() == "":
         parent_name = get_name_from_submissions(parent_ticker)
+        if parent_name:
+            sources_used = "DEI|submissions"  # update sources if fallback used
     
     # 2️⃣ Other fields
     incorp_country_iso3 = row.get("Country_Address")
     incorp_state_or_region = row.get("incorp_state_raw")
     legal_form = row.get("legal_form")
-    sources_used = "DEI"
     lineage = {"dei_path": DEI_FILE, "cik_path": CIK_FILE}
     
-    # Latest 20-F placeholders (fill later if desired)
+    # Latest 20-F placeholders
     latest_20f_year = None
     latest_20f_accession = None
     
