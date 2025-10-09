@@ -73,39 +73,45 @@ for _, row in merged_df.iterrows():
     lineage = {}
 
     # -----------------------------
-    # 1️⃣ DEI for name
+    # Name source (only if actually provided value)
     # -----------------------------
     if has_value(parent_name):
         sources_used.append("DEI")
         lineage["dei_path"] = DEI_FILE
-
-    # -----------------------------
-    # 2️⃣ submissions fallback for name
-    # -----------------------------
-    if not has_value(parent_name):
+    else:
         parent_name_sub = get_name_from_submissions(parent_ticker)
         if has_value(parent_name_sub):
             parent_name = parent_name_sub
             sources_used.append("submissions")
             lineage["submissions_path"] = os.path.join(EDGAR_DIR, parent_ticker, "submissions.json")
-
-    # -----------------------------
-    # 3️⃣ USCC fallback for name
-    # -----------------------------
-    if not has_value(parent_name):
-        parent_name_uscc = uscc_lookup.get(parent_ticker)
-        if has_value(parent_name_uscc):
-            parent_name = parent_name_uscc
+        elif has_value(uscc_lookup.get(parent_ticker)):
+            parent_name = uscc_lookup.get(parent_ticker)
             sources_used.append("USCC")
             lineage["uscc_path"] = USCC_FILE
 
     # -----------------------------
-    # 4️⃣ Ticker sources (parent_cik10)
-    # Only add if actual data exists and not already included
+    # Ticker / CIK source (only if actually provided value)
     # -----------------------------
+    if has_value(parent_ticker) and "DEI" not in sources_used:
+        sources_used.append("DEI")
+        lineage["dei_path"] = DEI_FILE
+
     if has_value(parent_cik10) and "CIK" not in sources_used:
         sources_used.append("CIK")
         lineage["cik_path"] = CIK_FILE
+
+    # USCC ticker: only if parent_ticker missing from DEI
+    if not has_value(parent_ticker) and parent_ticker in uscc_lookup and "USCC" not in sources_used:
+        parent_ticker = parent_ticker  # it would come from USCC in reality
+        sources_used.append("USCC")
+        lineage["uscc_path"] = USCC_FILE
+
+    # submissions ticker: only if missing from DEI/CIK/USCC
+    if not has_value(parent_ticker) and not has_value(parent_cik10):
+        submissions_path = os.path.join(EDGAR_DIR, parent_ticker, "submissions.json")
+        if os.path.exists(submissions_path) and "submissions" not in sources_used:
+            sources_used.append("submissions")
+            lineage["submissions_path"] = submissions_path
 
     # -----------------------------
     # Other fields
