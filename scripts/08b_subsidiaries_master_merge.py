@@ -148,12 +148,23 @@ def normalize_jurisdiction(j: str):
     return j_norm, iso3
 
 
-def extract_ownership(own_raw: str):
-    """Extract numeric ownership if obvious (e.g., '100%', '50 percent')."""
-    if pd.isna(own_raw):
+def extract_ownership_from_text(text: str):
+    """Extract ownership percentage (numeric) from text if present."""
+    if pd.isna(text):
         return None
-    match = re.search(r"(\d+(?:\.\d+)?)\s*%?", own_raw)
-    return float(match.group(1)) if match else None
+    text = str(text).lower()
+
+    # Match patterns like '100%', '84.32%', '51 percent', '55% owned', etc.
+    match = re.search(r"(\d+(?:\.\d+)?)\s*%|\b(\d+(?:\.\d+)?)\s*percent\b", text)
+    if match:
+        return float(match.group(1) or match.group(2))
+
+    # Handle non-numeric terms like 'wholly-owned'
+    if "wholly" in text or "wholly-owned" in text:
+        return 100.0
+
+    return None
+
 
 def make_uuid(parent_cik10, sub_name_norm, jurisdiction_norm):
     """UUID5 based on parent_cik10 + normalized_sub_name + jurisdiction_norm."""
@@ -171,7 +182,7 @@ df["subsidiary_name"] = df["subsidiary_name_raw"].apply(normalize_sub_name)
 df[["jurisdiction_norm", "jurisdiction_iso3"]] = df["jurisdiction_raw"].apply(
     lambda x: pd.Series(normalize_jurisdiction(x))
 )
-df["ownership_pct"] = df["ownership_raw"].apply(extract_ownership)
+df["ownership_pct"] = df["ownership_raw"].apply(extract_ownership_from_text)
 
 # Derive sub_uuid
 df["sub_uuid"] = df.apply(
