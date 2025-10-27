@@ -222,4 +222,4 @@ df_final = df[final_cols]
 
 # Save
 df_final.to_csv(OUTPUT_FILE, index=False)
-print(f"✅ Subs master written to {OUTPUT_FILE}")
+print(f"Subs master written to {OUTPUT_FILE}")
