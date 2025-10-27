@@ -118,6 +118,31 @@ def get_state_from_submissions(ticker):
     return None
 
 # -------------------------------------------------------------
+# HELPER FUNCTION FOR COUNTRY MAPPING
+# -------------------------------------------------------------
+def get_country_from_state(state_or_region):
+    """Convert state/region to ISO3 country code"""
+    if pd.isna(state_or_region):
+        return None
+
+    state_or_region = str(state_or_region).strip()
+
+    country_mapping = {
+        "Cayman Islands": "CYM",
+        "C ayman Islands": "CYM",  # Handle typo
+        "British Virgin Islands": "VGB",
+        "Virgin Islands, British": "VGB",
+        "Hong Kong": "HKG",
+        "People's Republic of China": "CHN",
+        "Marshall Islands": "MHL",
+        "Ontario": "CAN",
+        # US states
+        "NV": "USA", "DE": "USA", "CA": "USA",
+        "FL": "USA", "VA": "USA", "WY": "USA"
+    }
+    return country_mapping.get(state_or_region, None)
+
+# -------------------------------------------------------------
 # BUILD PARENTS RECORDS
 # -------------------------------------------------------------
 records = []
@@ -125,6 +150,10 @@ records = []
 for _, row in merged_df.iterrows():
     parent_ticker = row.get("parent_ticker")
     parent_cik10 = row.get("parent_cik10")
+
+    # FIX: Ensure CIK is 10 digits with leading zeros
+    if has_value(parent_cik10):
+        parent_cik10 = str(parent_cik10).strip().zfill(10)
 
     parent_name = row.get("registrant_name")
     sources_used = []
@@ -189,6 +218,15 @@ for _, row in merged_df.iterrows():
             lineage["submissions_path"] = os.path.join(EDGAR_DIR, parent_ticker, "submissions.json")
 
     # -------------------------------------------------------------
+    # FIX: Map state/region to ISO3 country code
+    # -------------------------------------------------------------
+    if has_value(incorp_state_or_region):
+        incorp_country_iso3 = get_country_from_state(incorp_state_or_region)
+        if not incorp_country_iso3:
+            # If no mapping found, keep it empty but log
+            print(f"Warning: No country mapping for '{incorp_state_or_region}' (ticker: {parent_ticker})")
+
+    # -------------------------------------------------------------
     # Pull latest 20-F year and accession from EX-21 index
     # -------------------------------------------------------------
     if not ex21_df.empty:
@@ -226,5 +264,9 @@ for _, row in merged_df.iterrows():
 # SAVE CSV
 # -------------------------------------------------------------
 df_out = pd.DataFrame(records)
+
+# FIX: Ensure CIK10 is saved as 10-digit string
+df_out['parent_cik10'] = df_out['parent_cik10'].astype(str).str.zfill(10)
+
 df_out.to_csv(OUTPUT_PATH, index=False, encoding="utf-8")
 print(f"Saved {len(df_out)} records -> {OUTPUT_PATH}")
