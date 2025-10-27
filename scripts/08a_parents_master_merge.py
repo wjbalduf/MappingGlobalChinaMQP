@@ -43,7 +43,7 @@ USCC_FILE = find_latest_file(USCC_DIR, "*_chinese_companies_USA.csv")
 RUN_DATE = datetime.now().strftime("%Y%m%d")
 OUTPUT_PATH = os.path.join(OUTPUT_DIR, f"parents_master_{RUN_DATE}.csv")
 
-print("📂 Using files:")
+print("Using files:")
 print("  DEI:", DEI_FILE)
 print("  CIK:", CIK_FILE)
 print("  EX21:", EX21_FILE)
@@ -227,4 +227,4 @@ for _, row in merged_df.iterrows():
 # -------------------------------------------------------------
 df_out = pd.DataFrame(records)
 df_out.to_csv(OUTPUT_PATH, index=False, encoding="utf-8")
-print(f"✅ Saved {len(df_out)} records → {OUTPUT_PATH}")
+print(f"Saved {len(df_out)} records -> {OUTPUT_PATH}")

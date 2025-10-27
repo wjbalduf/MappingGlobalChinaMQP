@@ -61,57 +61,78 @@ def parse_table_in_html(html_text):
 
     rows = table.find_all("tr")
 
+    if not rows:
+        return subsidiaries
+
     # Parse first row for headers
     first_row = [cell.get_text(strip=True).lower() for cell in rows[0].find_all(["th", "td"])]
 
     fields_keywords = {
         "subsidiary": ("subsidiar", "company", "name"),
-        "jurisdiction": ("jurisdiction", "country", "place", "state"),
-        "owner": ("owner", "owned")
+        "jurisdiction": ("jurisdiction", "country", "place", "state", "incorporated"),
+        "owner": ("owner", "owned", "percentage", "%")
     }
 
-    field_columns = {
-        "subsidiary": [],
-        "jurisdiction": [],
-        "owner": []
-    }
+    # Score each column to determine best match for each field
+    def score_column(header_text, field):
+        score = 0
+        for keyword in fields_keywords[field]:
+            if keyword in header_text:
+                # Give higher score for more specific matches
+                if field == "subsidiary" and "subsidiar" in header_text:
+                    score += 10
+                elif field == "jurisdiction" and ("jurisdiction" in header_text or "incorporated" in header_text):
+                    score += 10
+                elif field == "owner" and ("owner" in header_text or "%" in header_text):
+                    score += 10
+                else:
+                    score += 1
+        return score
 
-    # Look through first row, record index of headers
-    for i, cell in enumerate(first_row):
-        if not cell:
-            continue
+    # Find best column for each field
+    field_column_map = {}
+    for field in fields_keywords:
+        best_col = -1
+        best_score = 0
+        for i, header in enumerate(first_row):
+            if header:
+                score = score_column(header, field)
+                if score > best_score:
+                    best_score = score
+                    best_col = i
+        if best_col >= 0:
+            field_column_map[field] = best_col
 
-        for field in fields_keywords:
-            if any(k in cell for k in fields_keywords[field]):
-                field_columns[field].append(i)
-
-    # Need to add conflict resolution for possible column name overlap
-
-    # Add spacy as backup
-
+    # Parse data rows
     for row in rows[1:]:
-
-        values = []
-
         cols = [clean_text(cell.get_text(strip=True)) for cell in row.find_all(["th", "td"])]
 
         if not any(col for col in cols):
             continue
 
-        # Get value corresponding to header column index
-        for field in field_columns:
+        # Extract values based on identified columns
+        subsidiary_name = ""
+        jurisdiction = ""
+        ownership = ""
 
-            if not field_columns[field]:
-                values.append("")
-                continue
+        if "subsidiary" in field_column_map and field_column_map["subsidiary"] < len(cols):
+            subsidiary_name = cols[field_column_map["subsidiary"]]
 
-            for index in field_columns[field]: # This will break if multiple columns are detected for one header
-                values.append(cols[index]) # Needs to be fixed by resolving conflicting columns
-                
-        if values:
-            subsidiaries.append(values)
+        if "jurisdiction" in field_column_map and field_column_map["jurisdiction"] < len(cols):
+            jurisdiction = cols[field_column_map["jurisdiction"]]
 
-    return (subsidiaries)
+        if "owner" in field_column_map and field_column_map["owner"] < len(cols):
+            ownership = cols[field_column_map["owner"]]
+
+        # Only add if we have at least a subsidiary name
+        if subsidiary_name:
+            subsidiaries.append({
+                "subsidiary": subsidiary_name,
+                "jurisdiction": jurisdiction,
+                "ownership": ownership
+            })
+
+    return subsidiaries
 
 
 # Main Loop
@@ -128,27 +149,46 @@ for entry in reports:
 
         print(f"[INFO] Processing {ticker} {accession} {exhibit_label}")
 
-        try:
-            html = download_file("https://www.sec.gov" + entry["href"])
-        except requests.RequestException as e:
-            print(f"[WARN] Failed to download exhibit {entry['href']}: {e}")
-            continue
+        # First try to use local file if it exists
+        html_content = None
+        local_path = entry.get("localPath", "")
 
-        subsidiaries = parse_table_in_html(html)
+        if local_path and os.path.exists(local_path):
+            try:
+                with open(local_path, "rb") as f:
+                    html_content = f.read()
+                print(f"[INFO] Using local file: {local_path}")
+            except Exception as e:
+                print(f"[WARN] Failed to read local file {local_path}: {e}")
+
+        # If local file doesn't exist or failed to read, download from web
+        if html_content is None:
+            try:
+                html_content = download_file("https://www.sec.gov" + entry["href"])
+                print(f"[INFO] Downloaded from web: {entry['href']}")
+            except requests.RequestException as e:
+                print(f"[WARN] Failed to download exhibit {entry['href']}: {e}")
+                continue
+
+        # Parse the HTML content
+        if isinstance(html_content, bytes):
+            html_content = html_content.decode("utf-8", errors="ignore")
+
+        subsidiaries = parse_table_in_html(html_content)
         if not subsidiaries:
             print(f"[INFO] No subsidiaries found in {ticker} {accession} {exhibit_label}")
             continue
 
-        for subsidiary, jurisdiction, ownership in subsidiaries:
+        for sub_data in subsidiaries:
             ex21_index.append({
                 "parent_ticker": ticker,
                 "parent_cik10": cik10,
                 "accession": accession,
                 "exhibit_label": exhibit_label,
                 "exhibit_year": year,
-                "subsidiary_name_raw": subsidiary,
-                "jurisdiction_raw": jurisdiction,
-                "ownership_raw": ownership,
+                "subsidiary_name_raw": sub_data.get("subsidiary", ""),
+                "jurisdiction_raw": sub_data.get("jurisdiction", ""),
+                "ownership_raw": sub_data.get("ownership", ""),
                 "footnote_marker": "",
                 "source_path": path,
             })
