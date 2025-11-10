@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 # Config
 DATA_DIR = "data/intermediate"
 OUTPUT_DIR = "companies"
+LOG_DIR = "logs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 HEADERS = {"User-Agent": "First-Name Last-Name email@email.com"} #Enter your information
@@ -54,7 +55,7 @@ def find_exhibits_in_html(html_text):
     if not table:
         return exhibits
     
-    ex_pattern = re.compile(r"EX-(21|3)(\.\d+)?$", re.IGNORECASE)
+    ex_pattern = re.compile(r"EX-(21|3|8)(\.\d+)?$", re.IGNORECASE)
 
     for row in table.find_all("tr")[1:]:
         cols = row.find_all("td")
@@ -73,6 +74,7 @@ def find_exhibits_in_html(html_text):
     return exhibits
 
 exhibits_index = []
+errors_index = []
 
 # Main Loop
 for report in reports:
@@ -91,14 +93,21 @@ for report in reports:
         content = download_file(index_url)
     except requests.RequestException as e:
         print(f"[WARN] Failed to download {index_url}: {e}")
+        errors_index.append({
+            "ticker": ticker,
+            "cik10": cik10,
+            "year": year,
+            "accession": accession,
+            "error": f"Failed to download {index_url}: {e}"
+        })
         continue
 
     html_text = content.decode("utf-8", errors="ignore")
 
-    # Look for EX-21 or EX-3
+    # Look for EX-21, EX-8 or EX-3
     found_exhibits = find_exhibits_in_html(html_text)
     if not found_exhibits:
-        print(f"[INFO] No EX-21 or EX-3 found in {ticker} {accession}")
+        print(f"[INFO] No EX-21, EX-8 or EX-3 found in {ticker} {accession}")
         continue
 
     for href, label in found_exhibits:
@@ -107,6 +116,15 @@ for report in reports:
             file_content = download_file(file_url)
         except requests.RequestException as e:
             print(f"[WARN] Failed to download exhibit {href}: {e}")
+            errors_index.append({
+                "ticker": ticker,
+                "cik10": cik10,
+                "year": year,
+                "accession": accession,
+                "exhibit_type": "ex8" if "EX-8" in label.upper() else "ex21" if "EX-21" in label.upper() else "ex3",
+                "exhibit_label": label,
+                "error": f"Failed to download exhibit {href}: {e}"
+            })
             continue
 
         ext = os.path.splitext(href)[1]
@@ -125,7 +143,7 @@ for report in reports:
             "cik10": cik10,
             "year": year,
             "accession": accession,
-            "exhibit_type": "ex21" if "EX-21" in label.upper() else "ex3",
+            "exhibit_type": "ex8" if "EX-8" in label.upper() else "ex21" if "EX-21" in label.upper() else "ex3",
             "exhibit_label": label,
             "href": href,
             "localPath": local_path,
@@ -137,5 +155,9 @@ for report in reports:
 exhibits_index_file = os.path.join(DATA_DIR, f"exhibits_index_{RUN_DATE}.json")
 with open(exhibits_index_file, "w", encoding="utf-8") as f:
     json.dump(exhibits_index, f, indent=2, ensure_ascii=False)
+
+errors_index_file = os.path.join(LOG_DIR, f"05_errors_{RUN_DATE}.json")
+with open(errors_index_file, "w", encoding="utf-8") as f:
+    json.dump(errors_index, f, indent=2, ensure_ascii=False)
 
 print(f"[INFO] Wrote {len(exhibits_index)} exhibits to {exhibits_index_file}")
