@@ -7,6 +7,7 @@ import pandas as pd
 # Config
 DATA_DIR = "data/intermediate"
 OUTPUT_DIR = "companies"
+LOG_DIR = "logs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 HEADERS = {"User-Agent": "First-Name Last-Name email@email.com"} #Enter your information
@@ -111,47 +112,79 @@ def parse_table_in_html(html_text):
 
 
 # Main Loop
-ex21_index = []
+exhibits_index = []
+errors_index = []
 
 for entry in reports:
-    if entry["exhibit_type"] == "ex21":
+    if entry["exhibit_type"] in ("ex21", "ex8"):
         ticker = entry["ticker"]
         cik10 = entry["cik10"]
         accession = entry["accession"]
         exhibit_label = entry["exhibit_label"]
         year = entry["year"]
         path = entry["localPath"]
+        href = entry["href"]
 
         print(f"[INFO] Processing {ticker} {accession} {exhibit_label}")
 
         try:
-            html = download_file("https://www.sec.gov" + entry["href"])
-        except requests.RequestException as e:
-            print(f"[WARN] Failed to download exhibit {entry["href"]}: {e}")
-            continue
-
-        subsidiaries = parse_table_in_html(html)
-        if not subsidiaries:
-            print(f"[INFO] No subsidiaries found in {ticker} {accession} {exhibit_label}")
-            continue
-
-        for subsidiary, jurisdiction, ownership in subsidiaries:
-            ex21_index.append({
+            with open(path, "r", encoding="utf-8") as f:
+                html = f.read()
+        except OSError as e:
+            print(f"[WARN] Failed to read local file {path}: {e}")
+            errors_index.append({
                 "parent_ticker": ticker,
                 "parent_cik10": cik10,
                 "accession": accession,
                 "exhibit_label": exhibit_label,
                 "exhibit_year": year,
-                "subsidiary_name_raw": subsidiary,
-                "jurisdiction_raw": jurisdiction,
-                "ownership_raw": ownership,
-                "footnote_marker": "",
+                "href": href,
                 "source_path": path,
-                "parse_confidence": ""
+                "error" : f"Failed to read local file {path}: {e}"
+            })
+            continue
+
+        try:
+            subsidiaries = parse_table_in_html(html)
+            if not subsidiaries:
+                print(f"[INFO] No subsidiaries found in {ticker} {accession} {exhibit_label}")
+                continue
+
+            for subsidiary, jurisdiction, ownership in subsidiaries:
+                if subsidiary:
+                    exhibits_index.append({
+                        "parent_ticker": ticker,
+                        "parent_cik10": cik10,
+                        "accession": accession,
+                        "exhibit_label": exhibit_label,
+                        "exhibit_year": year,
+                        "subsidiary_name_raw": subsidiary,
+                        "jurisdiction_raw": jurisdiction,
+                        "ownership_raw": ownership,
+                        "footnote_marker": "",
+                        "source_path": path,
+                        "parse_confidence": ""
+                    })
+
+        except Exception as e:
+            print(f"[Error] An error occurred: {e}")
+            errors_index.append({
+                "parent_ticker": ticker,
+                "parent_cik10": cik10,
+                "accession": accession,
+                "exhibit_label": exhibit_label,
+                "exhibit_year": year,
+                "href": href,
+                "source_path": path,
+                "error" : f"An error occurred: {e}"
             })
 
-ex21_file = os.path.join(DATA_DIR, f"subs_ex21_raw_{RUN_DATE}.csv")
-df = pd.DataFrame(ex21_index)
-df.to_csv(ex21_file, index=False, encoding="utf-8")
+exhibit_file = os.path.join(DATA_DIR, f"subs_ex21_ex8_raw_{RUN_DATE}.csv")
+df = pd.DataFrame(exhibits_index)
+df.to_csv(exhibit_file, index=False, encoding="utf-8")
 
-print(f"[INFO] Wrote {len(ex21_index)} exhibits to {ex21_file}")
+errors_index_file = os.path.join(LOG_DIR, f"06_errors_{RUN_DATE}.json")
+with open(errors_index_file, "w", encoding="utf-8") as f:
+    json.dump(errors_index, f, indent=2, ensure_ascii=False)
+
+print(f"[INFO] Wrote {len(exhibits_index)} subidiaries to {exhibit_file}")
