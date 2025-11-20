@@ -78,7 +78,7 @@ def main():
     uscc_files = sorted(glob.glob(os.path.join(INPUT_DIR, "*_chinese_companies_USA.csv")))
 
     for file_path in uscc_files:
-        run_date = os.path.basename(file_path).split("_")[0]
+        run_date = datetime.utcnow().strftime("%Y%m%d")
         output_file = os.path.join(OUTPUT_DIR, f"cik_map_{run_date}.csv")
 
         print(f"[INFO] Processing {file_path} → {output_file}")
