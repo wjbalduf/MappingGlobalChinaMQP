@@ -715,6 +715,19 @@
     "discovered_in": "20-F"
   },
   {
+    "ticker": "JD",
+    "cik10": "0001549802",
+    "year": "2015",
+    "accession": "0001104659-15-028403",
+    "exhibit_type": "ex8",
+    "exhibit_label": "EX-8.1",
+    "href": "/Archives/edgar/data/1549802/000110465915028403/a15-5694_1ex8d1.htm",
+    "localPath": "companies\\JD\\exhibits\\0001104659-15-028403\\EX-8.1.htm",
+    "sha256": "1bad2539cb31b2a0df14d003dbd933e8537be58010fb80fccb22b54ee11f3168",
+    "bytes": 20573,
+    "discovered_in": "20-F"
+  },
+  {
     "ticker": "TCOM",
     "cik10": "0001269238",
     "year": "2025",
@@ -11910,6 +11923,19 @@
   {
     "ticker": "JFU",
     "cik10": "0001619544",
+    "year": "2025",
+    "accession": "0001213900-25-073649",
+    "exhibit_type": "ex8",
+    "exhibit_label": "EX-8.1",
+    "href": "/Archives/edgar/data/1619544/000121390025073649/ea023969601ex8-1_9finc.htm",
+    "localPath": "companies\\JFU\\exhibits\\0001213900-25-073649\\EX-8.1.htm",
+    "sha256": "2b398184bc329cca8668389f7932ec2527be610b5bd0d58b4400c37a1d2dca76",
+    "bytes": 5677,
+    "discovered_in": "20-F"
+  },
+  {
+    "ticker": "JFU",
+    "cik10": "0001619544",
     "year": "2024",
     "accession": "0001213900-24-043661",
     "exhibit_type": "ex8",
@@ -12282,6 +12308,19 @@
     "localPath": "companies\\XIN\\exhibits\\0001410578-25-000989\\EX-8.1.htm",
     "sha256": "8cea3c1265ecbceb902e7142722ab669f3f2fb596151062b9256698f0d8e280b",
     "bytes": 85747,
+    "discovered_in": "20-F"
+  },
+  {
+    "ticker": "XIN",
+    "cik10": "0001398453",
+    "year": "2024",
+    "accession": "0001104659-24-061570",
+    "exhibit_type": "ex8",
+    "exhibit_label": "EX-8.1",
+    "href": "/Archives/edgar/data/1398453/000110465924061570/xin-20231231xex8d1.htm",
+    "localPath": "companies\\XIN\\exhibits\\0001104659-24-061570\\EX-8.1.htm",
+    "sha256": "488aeb9017e5dd30f6250cb3339e5f1963e6fdd110460dbd4cd2c745610caf8a",
+    "bytes": 82382,
     "discovered_in": "20-F"
   },
   {

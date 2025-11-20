@@ -14,7 +14,7 @@ OUTPUT_DIR = "companies"
 LOG_DIR = "logs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-HEADERS = {"User-Agent": "first-name last-name email@gmail.com"} #Enter your information
+HEADERS = {"User-Agent": "First-Name Last-Name email@email.com"} #Enter your information
 
 # Detect latest annual_reports_index file + RUN_DATE
 def get_latest_annual_reports_index():
@@ -54,12 +54,37 @@ with open(INPUT_FILE, "r") as f:
 def sha256_bytes(content):
     return hashlib.sha256(content).hexdigest()
 
-def download_file(url):
-    time.sleep(0.2)
-    session = requests.session()
-    r = session.get(url, headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    return r.content
+def download_file(url, retries=5):
+    backoff = 3  # seconds
+
+    for attempt in range(retries):
+        try:
+            time.sleep(0.25)  # base delay to avoid rate limiting
+            r = requests.get(url, headers=HEADERS, timeout=30)
+            r.raise_for_status()
+            return r.content
+
+        except requests.HTTPError as e:
+            status = e.response.status_code
+
+            # SEC rate limit detected → wait + retry same file
+            if status == 503:
+                print(f"[WARN] 503 rate limit for {url}. Pausing {backoff}s and retrying...")
+                time.sleep(backoff)
+                backoff *= 2
+                continue
+
+            # If not a rate-limit → fail normally
+            raise
+
+        except requests.RequestException:
+            # network problem → retry too
+            print(f"[WARN] Network error. Pausing {backoff}s and retrying {url}...")
+            time.sleep(backoff)
+            backoff *= 2
+
+    # After 5 failed attempts, fail for real
+    raise Exception(f"Failed to download {url} after {retries} retries.")
 
 def find_exhibits_in_html(html_text):
     soup = BeautifulSoup(html_text, "html.parser")
