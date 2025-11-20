@@ -1,0 +1,27 @@
+[
+  {
+    "ticker": "JD",
+    "cik10": "0001549802",
+    "year": "2015",
+    "accession": "0001104659-15-028403",
+    "exhibit_type": "ex8",
+    "exhibit_label": "EX-8.1",
+    "error": "Failed to download exhibit /Archives/edgar/data/1549802/000110465915028403/a15-5694_1ex8d1.htm: 503 Server Error: Service Unavailable for url: https://www.sec.gov/Archives/edgar/data/1549802/000110465915028403/a15-5694_1ex8d1.htm"
+  },
+  {
+    "ticker": "JFU",
+    "cik10": "0001619544",
+    "year": "2025",
+    "accession": "0001213900-25-073649",
+    "exhibit_type": "ex8",
+    "exhibit_label": "EX-8.1",
+    "error": "Failed to download exhibit /Archives/edgar/data/1619544/000121390025073649/ea023969601ex8-1_9finc.htm: 503 Server Error: Service Unavailable for url: https://www.sec.gov/Archives/edgar/data/1619544/000121390025073649/ea023969601ex8-1_9finc.htm"
+  },
+  {
+    "ticker": "XIN",
+    "cik10": "0001398453",
+    "year": "2024",
+    "accession": "0001104659-24-061570",
+    "error": "Failed to download https://www.sec.gov/Archives/edgar/data/1398453/000110465924061570/0001104659-24-061570-index.htm: 503 Server Error: Service Unavailable for url: https://www.sec.gov/Archives/edgar/data/1398453/000110465924061570/0001104659-24-061570-index.htm"
+  }
+]
