@@ -1,0 +1,24 @@
+{"ticker": "NTES", "year": "2003", "accession": "0001021408-03-009190", "note": "primary doc not HTML", "primary_doc": "d20f.txt"}
+{"ticker": "NTES", "year": "2002", "accession": "9999999997-02-037373", "note": "primary doc not HTML", "primary_doc": "9999999997-02-037373.paper"}
+{"ticker": "CSIQ", "year": "2024", "accession": "0001104659-24-052464", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1375877/000110465924052464/csiq-20231231x20f.htm"}
+{"ticker": "DOGZ", "year": "2025", "accession": "0001493152-25-018363", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1707303/000149315225018363/form20-f.htm"}
+{"ticker": "QSG", "year": "2025", "accession": "0001213900-25-104390", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1932770/000121390025104390/ea0262119-20f_quanta.htm"}
+{"ticker": "WETO", "year": "2025", "accession": "0001575872-25-000653", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1941158/000157587225000653/weto-20250630.htm"}
+{"ticker": "STEC", "year": "2025", "accession": "0001437749-25-031287", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1785680/000143774925031287/sant20250630c_20f.htm"}
+{"ticker": "RCON", "year": "2025", "accession": "0001104659-25-099502", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1442620/000110465925099502/rcon-20250630x20f.htm"}
+{"ticker": "DSWL", "year": "2002", "accession": "0000950148-02-001651", "note": "primary doc not HTML", "primary_doc": "v82514e20vf.txt"}
+{"ticker": "DSWL", "year": "2001", "accession": "0000950148-01-501188", "note": "primary doc not HTML", "primary_doc": "v73590e20-f.txt"}
+{"ticker": "CLPS", "year": "2025", "accession": "0001213900-25-099739", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1724542/000121390025099739/ea0259441-20f_clpsincor.htm"}
+{"ticker": "LBGJ", "year": "2025", "accession": "0001213900-25-107445", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1896425/000121390025107445/ea0258519-20f_libang.htm"}
+{"ticker": "MASK", "year": "2025", "accession": "0001185185-25-001717", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1993097/000118518525001717/mask20f110325.htm"}
+{"ticker": "IZM", "year": "2025", "accession": "0001213900-25-102243", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1854572/000121390025102243/ea0262215-20f_iczoom.htm"}
+{"ticker": "MGIH", "year": "2025", "accession": "0001213900-25-103120", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1903995/000121390025103120/ea0261607-20f_millennium.htm"}
+{"ticker": "STFS", "year": "2025", "accession": "0001213900-25-109038", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/2003061/000121390025109038/ea0259904-20f_starfashion.htm"}
+{"ticker": "CPOP", "year": "2025", "accession": "0001213900-25-111512", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1807389/000121390025111512/ea0263918-20f_popcult.htm"}
+{"ticker": "UBXG", "year": "2025", "accession": "0001213900-25-102251", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1888525/000121390025102251/ea0259056-20f_ubxtech.htm"}
+{"ticker": "HIHO", "year": "2002", "accession": "9999999997-02-039698", "note": "primary doc not HTML", "primary_doc": "9999999997-02-039698.paper"}
+{"ticker": "EJH", "year": "2025", "accession": "0001213900-25-104179", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1769768/000121390025104179/ea0262487-20f_ehomehouse.htm"}
+{"ticker": "CHNR", "year": "2007", "accession": "0001116502-07-000895", "note": "primary doc not HTML", "primary_doc": "china20f.txt"}
+{"ticker": "CHNR", "year": "2006", "accession": "0001116502-06-001208", "note": "primary doc not HTML", "primary_doc": "china20-f.txt"}
+{"ticker": "CHNR", "year": "2005", "accession": "0001116502-05-001354", "note": "primary doc not HTML", "primary_doc": "form20f.txt"}
+{"ticker": "HAO", "year": "2025", "accession": "0001213900-25-100369", "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1954594/000121390025100369/ea0261580-20f_haoxi.htm"}
