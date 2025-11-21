@@ -142,6 +142,7 @@ def normalize_jurisdiction(j: str):
         "Philippines": "PHL",
         "Canada": "CAN",
         "Belgium": "BEL",
+        "Ireland": "IRL"
     }
 
     iso3 = JURIS_ISO3_MAP.get(j_norm, None)

@@ -139,7 +139,12 @@ for entry in reports:
 
             for subsidiary, jurisdiction, ownership in subsidiaries:
                 normalized_name = normalize_sub_name(subsidiary)
-                if normalized_name and "Consolidated Variable Interest" not in normalized_name:
+                exclude_phrases = [
+                    "consolidated variable interest",
+                    "variable interest entities:",
+                    "subsidiaries:"
+                ]
+                if normalized_name and not any(phrase in normalized_name.lower() for phrase in exclude_phrases):
                     exhibits_index.append({
                         "parent_ticker": ticker,
                         "parent_cik10": cik10,
