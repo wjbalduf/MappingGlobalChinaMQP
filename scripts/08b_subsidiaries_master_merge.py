@@ -12,10 +12,10 @@ import uuid
 # -------------------------------------------------------------
 # CONFIG
 # -------------------------------------------------------------
-RAW_PATTERN = os.path.join("data", "intermediate", "subs_ex21_raw_*.csv")
+RAW_PATTERN = os.path.join("data", "intermediate", "subs_ex21_ex8_raw_*.csv")
 files = glob.glob(RAW_PATTERN)
 if not files:
-    raise FileNotFoundError("No files found matching subs_ex21_raw_*.csv in data/intermediate")
+    raise FileNotFoundError("No files found matching subs_ex21_ex8_raw_*.csv in data/intermediate")
 
 # Get latest by date in filename (digits after last underscore)
 def extract_date(f):
