@@ -36,7 +36,6 @@ subs_df = pd.read_csv(latest_subs_file)
 
 subs_df["address_raw"] = pd.NA
 subs_df["entity_type"] = "subsidiary"
-# Consolidate into one column
 subs_df["entity_id"] = subs_df["sub_uuid"]
 
 # -----------------------------
@@ -48,7 +47,6 @@ if not os.path.exists(parents_file):
 parents_df = pd.read_csv(parents_file)
 
 parents_df["entity_type"] = "parent"
-# Consolidate into one column
 parents_df["entity_id"] = parents_df["parent_cik10"]
 
 # -----------------------------
@@ -92,7 +90,22 @@ addresses_master["addr_id"] = addresses_master.apply(
 )
 
 # -----------------------------
-# 7. SAVE CSV
+# 7. DROP UNNECESSARY COLUMNS
+# -----------------------------
+addresses_master = addresses_master.drop(columns=[
+    "sub_uuid", "parent_cik10", "parent_ticker"
+], errors="ignore")  # ignore if not present
+
+# -----------------------------
+# 8. REORDER COLUMNS
+# -----------------------------
+cols = addresses_master.columns.tolist()
+# Move entity_type and entity_id to the front
+cols = ["entity_type", "entity_id"] + [c for c in cols if c not in ("entity_type", "entity_id")]
+addresses_master = addresses_master[cols]
+
+# -----------------------------
+# 9. SAVE CSV
 # -----------------------------
 OUTPUT_FILE = os.path.join("data", "clean", f"addresses_master_{RUN_DATE}.csv")
 os.makedirs("data/clean", exist_ok=True)
