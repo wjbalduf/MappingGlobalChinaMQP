@@ -13,10 +13,10 @@ from datetime import datetime
 # -----------------------------
 # CONFIG: find latest subs_ex21_raw CSV
 # -----------------------------
-RAW_PATTERN = os.path.join("data", "intermediate", "subs_ex21_raw_*.csv")
+RAW_PATTERN = os.path.join("data", "intermediate", "subs_ex21_ex8_raw_*.csv")
 files = glob.glob(RAW_PATTERN)
 if not files:
-    raise FileNotFoundError("No files found matching subs_ex21_raw_*.csv in data/intermediate")
+    raise FileNotFoundError("No files found matching subs_ex21_ex8_raw_*.csv in data/intermediate")
 
 def extract_date(f):
     m = re.search(r"(\d{8})(?=\.csv$)", os.path.basename(f))
