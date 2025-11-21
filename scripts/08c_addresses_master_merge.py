@@ -2,51 +2,19 @@
 Usage:
     python scripts/08c_addresses_master_merge.py
 """
-
 import os
-import re
 import glob
-import hashlib
 import pandas as pd
-from datetime import datetime
-
-# -----------------------------
-# CONFIG: find latest subs_ex21_raw CSV
-# -----------------------------
-RAW_PATTERN = os.path.join("data", "intermediate", "subs_ex21_ex8_raw_*.csv")
-files = glob.glob(RAW_PATTERN)
-if not files:
-    raise FileNotFoundError("No files found matching subs_ex21_ex8_raw_*.csv in data/intermediate")
-
-def extract_date(f):
-    m = re.search(r"(\d{8})(?=\.csv$)", os.path.basename(f))
-    return m.group(1) if m else "00000000"
-
-latest_subs_file = max(files, key=lambda f: extract_date(f))
-RUN_DATE = extract_date(latest_subs_file)
-
-RAW_FILE = latest_subs_file
-
-# -----------------------------
-# CONFIG: find latest charter_addresses_raw CSV
-# -----------------------------
-ADDR_PATTERN = os.path.join("data", "intermediate", "charter_addresses_raw_*.csv")
-addr_files = glob.glob(ADDR_PATTERN)
-if not addr_files:
-    raise FileNotFoundError("No files found matching charter_addresses_raw_*.csv in data/intermediate")
-
-latest_addr_file = max(addr_files, key=lambda f: extract_date(f))
-ADDR_FILE = latest_addr_file
-
-# -----------------------------
-# OUTPUT
-# -----------------------------
-OUTPUT_FILE = os.path.join("data", "clean", f"addresses_master_{RUN_DATE}.csv")
-os.makedirs("data/clean", exist_ok=True)
+import hashlib
 
 # -----------------------------
 # HELPER FUNCTIONS
 # -----------------------------
+def extract_date(f):
+    import re
+    m = re.search(r"(\d{8})(?=\.csv$)", os.path.basename(f))
+    return m.group(1) if m else "00000000"
+
 def generate_addr_id(entity_id: str, address_raw: str) -> str:
     to_hash = f"{entity_id}_{address_raw or ''}".encode("utf-8")
     return hashlib.md5(to_hash).hexdigest()
@@ -54,60 +22,79 @@ def generate_addr_id(entity_id: str, address_raw: str) -> str:
 def parse_address(address_raw: str):
     if pd.isna(address_raw):
         return None, None, None, None, None
-    return address_raw, None, None, None, None  # addr_line, locality, region, postal_code, country_iso3
+    return address_raw, None, None, None, None
 
 # -----------------------------
-# MAIN
+# 1. LOAD SUBS_MASTER CSV
 # -----------------------------
-# Load latest subs_ex21_raw CSV
-df = pd.read_csv(RAW_FILE)
+subs_files = glob.glob(os.path.join("data", "clean", "subs_master_*.csv"))
+if not subs_files:
+    raise FileNotFoundError("No subs_master_*.csv found")
+latest_subs_file = max(subs_files, key=extract_date)
+RUN_DATE = extract_date(latest_subs_file)
+subs_df = pd.read_csv(latest_subs_file)
 
-# Load latest charter_addresses_raw CSV
-addr_df = pd.read_csv(ADDR_FILE)
+subs_df["address_raw"] = pd.NA
+subs_df["entity_type"] = "subsidiary"
+# Consolidate into one column
+subs_df["entity_id"] = subs_df["sub_uuid"]
 
-# Keep only most recent exhibit_year per company
-addr_df["company_id"] = addr_df.apply(
-    lambda x: x["parent_cik10"] if pd.notna(x.get("parent_cik10")) else x["subsidiary_name_raw"], axis=1
-)
-addr_df = addr_df.sort_values("exhibit_year", ascending=False).drop_duplicates("company_id")
+# -----------------------------
+# 2. LOAD PARENTS_MASTER CSV
+# -----------------------------
+parents_file = os.path.join("data", "clean", f"parents_master_{RUN_DATE}.csv")
+if not os.path.exists(parents_file):
+    raise FileNotFoundError(f"No parents_master_{RUN_DATE}.csv found")
+parents_df = pd.read_csv(parents_file)
 
-# Merge address_raw into df
-df["company_id"] = df.apply(
-    lambda x: x["parent_cik10"] if pd.notna(x.get("parent_cik10")) else x["subsidiary_name_raw"], axis=1
-)
-df = df.merge(
-    addr_df[["company_id", "address_raw", "exhibit_year"]],
-    on="company_id",
+parents_df["entity_type"] = "parent"
+# Consolidate into one column
+parents_df["entity_id"] = parents_df["parent_cik10"]
+
+# -----------------------------
+# 3. LOAD ADDRESSES CSV
+# -----------------------------
+addr_files = glob.glob(os.path.join("data", "intermediate", "charter_addresses_raw_*.csv"))
+if not addr_files:
+    raise FileNotFoundError("No charter_addresses_raw_*.csv found")
+latest_addr_file = max(addr_files, key=extract_date)
+addr_df = pd.read_csv(latest_addr_file)
+
+# Merge addresses for parents only (subs will have NA)
+parents_df = parents_df.merge(
+    addr_df[["parent_cik10", "address_raw"]],
+    left_on="parent_cik10",
+    right_on="parent_cik10",
     how="left"
 )
 
-# Initialize addresses_master
-addresses_master = pd.DataFrame()
-addresses_master["entity_type"] = df.apply(
-    lambda x: "parent" if pd.notna(x.get("parent_cik10")) else "subsidiary", axis=1
-)
-addresses_master["entity_id"] = df.apply(
-    lambda x: x.get("parent_cik10") if pd.notna(x.get("parent_cik10")) else x.get("subsidiary_name_raw"), axis=1
-)
-addresses_master["address_raw"] = df["address_raw"]
+# -----------------------------
+# 4. COMBINE SUBS AND PARENTS
+# -----------------------------
+addresses_master = pd.concat([subs_df, parents_df], ignore_index=True, sort=False)
 
-# Parsed parts
+# -----------------------------
+# 5. PARSE ADDRESSES
+# -----------------------------
 addresses_master[["addr_line","locality","region","postal_code","country_iso3"]] = pd.DataFrame(
-    [parse_address(a) for a in addresses_master["address_raw"]], index=addresses_master.index
+    [parse_address(a) for a in addresses_master["address_raw"]],
+    index=addresses_master.index
 )
 
-# source_accession and address_type
-addresses_master["source_accession"] = df.get("accession", pd.NA)
+# -----------------------------
+# 6. ADDITIONAL COLUMNS
+# -----------------------------
+addresses_master["source_accession"] = addresses_master.get("accession", pd.NA)
 addresses_master["address_type"] = pd.NA
-
-# parse_confidence
-addresses_master["parse_confidence"] = df.get("parse_confidence", pd.NA)
-
-# addr_id: hash of entity_id + address_raw
+addresses_master["parse_confidence"] = addresses_master.get("parse_confidence", pd.NA)
 addresses_master["addr_id"] = addresses_master.apply(
     lambda x: generate_addr_id(str(x["entity_id"]), str(x["address_raw"])), axis=1
 )
 
-# Save CSV
+# -----------------------------
+# 7. SAVE CSV
+# -----------------------------
+OUTPUT_FILE = os.path.join("data", "clean", f"addresses_master_{RUN_DATE}.csv")
+os.makedirs("data/clean", exist_ok=True)
 addresses_master.to_csv(OUTPUT_FILE, index=False)
 print(f"Saved addresses_master CSV to {OUTPUT_FILE}")
