@@ -1,0 +1,312 @@
+[
+  {
+    "parent_ticker": "NTES",
+    "parent_cik10": "0001110646",
+    "accession": "0001193125-04-110822",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2004",
+    "href": "/Archives/edgar/data/1110646/000119312504110822/dex81.txt",
+    "source_path": "companies\\NTES\\exhibits\\0001193125-04-110822\\EX-8.1.html",
+    "error": "An error occurred: list index out of range"
+  },
+  {
+    "parent_ticker": "TAL",
+    "parent_cik10": "0001499620",
+    "accession": "0001104659-24-067123",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2024",
+    "href": "/Archives/edgar/data/1499620/000110465924067123/tal-20240229xex8d1.htm",
+    "source_path": "companies\\TAL\\exhibits\\0001104659-24-067123\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "TAL",
+    "parent_cik10": "0001499620",
+    "accession": "0001410578-23-001399",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2023",
+    "href": "/Archives/edgar/data/1499620/000141057823001399/tal-20230228xex8d1.htm",
+    "source_path": "companies\\TAL\\exhibits\\0001410578-23-001399\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "TAL",
+    "parent_cik10": "0001499620",
+    "accession": "0001104659-20-078996",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2020",
+    "href": "/Archives/edgar/data/1499620/000110465920078996/tal-20200229xex8d1.htm",
+    "source_path": "companies\\TAL\\exhibits\\0001104659-20-078996\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "TAL",
+    "parent_cik10": "0001499620",
+    "accession": "0001144204-19-026826",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2019",
+    "href": "/Archives/edgar/data/1499620/000114420419026826/tv518838_ex8-1.htm",
+    "source_path": "companies\\TAL\\exhibits\\0001144204-19-026826\\EX-8.1.htm",
+    "error": "An error occurred: list index out of range"
+  },
+  {
+    "parent_ticker": "AHG",
+    "parent_cik10": "0001702318",
+    "accession": "0001104659-21-096667",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2021",
+    "href": "/Archives/edgar/data/1702318/000110465921096667/a21-20825_1ex8d1.htm",
+    "source_path": "companies\\AHG\\exhibits\\0001104659-21-096667\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AHG",
+    "parent_cik10": "0001702318",
+    "accession": "0001104659-20-095568",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2020",
+    "href": "/Archives/edgar/data/1702318/000110465920095568/a20-23940_1ex8d1.htm",
+    "source_path": "companies\\AHG\\exhibits\\0001104659-20-095568\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AHG",
+    "parent_cik10": "0001702318",
+    "accession": "0001104659-19-042798",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2019",
+    "href": "/Archives/edgar/data/1702318/000110465919042798/a19-11388_1ex8d1.htm",
+    "source_path": "companies\\AHG\\exhibits\\0001104659-19-042798\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AHG",
+    "parent_cik10": "0001702318",
+    "accession": "0001104659-18-047800",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2018",
+    "href": "/Archives/edgar/data/1702318/000110465918047800/a18-14971_1ex8d1.htm",
+    "source_path": "companies\\AHG\\exhibits\\0001104659-18-047800\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "PAVS",
+    "parent_cik10": "0001751876",
+    "accession": "0001213900-23-060263",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2023",
+    "href": "/Archives/edgar/data/1751876/000121390023060263/f20f2023ex8-1_paranovus.htm",
+    "source_path": "companies\\PAVS\\exhibits\\0001213900-23-060263\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "SY",
+    "parent_cik10": "0001758530",
+    "accession": "0001104659-22-054013",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2022",
+    "href": "/Archives/edgar/data/1758530/000110465922054013/sy-20211231xex8d1.htm",
+    "source_path": "companies\\SY\\exhibits\\0001104659-22-054013\\EX-8.1.htm",
+    "error": "An error occurred: list index out of range"
+  },
+  {
+    "parent_ticker": "CCG",
+    "parent_cik10": "0001965473",
+    "accession": "0001213900-23-079978",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2023",
+    "href": "/Archives/edgar/data/1965473/000121390023079978/f20f2023ex8-1_chechegroup.htm",
+    "source_path": "companies\\CCG\\exhibits\\0001213900-23-079978\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001213900-25-035604",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2025",
+    "href": "/Archives/edgar/data/1413855/000121390025035604/ea023882801ex8-1_aifuinc.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001213900-25-035604\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001213900-24-037144",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2024",
+    "href": "/Archives/edgar/data/1413855/000121390024037144/ea020428801ex8-1_fanhua.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001213900-24-037144\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001213900-23-032473",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2023",
+    "href": "/Archives/edgar/data/1413855/000121390023032473/f20f2022ex8-1_fanhuainc.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001213900-23-032473\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001213900-22-022703",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2022",
+    "href": "/Archives/edgar/data/1413855/000121390022022703/f20f2021ex8-1_fanhuainc.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001213900-22-022703\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001213900-21-023229",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2021",
+    "href": "/Archives/edgar/data/1413855/000121390021023229/f20f2020ex8-1_fanhua.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001213900-21-023229\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001213900-20-010360",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2020",
+    "href": "/Archives/edgar/data/1413855/000121390020010360/f20f2019ex8-1_fanhua.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001213900-20-010360\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001213900-19-007482",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2019",
+    "href": "/Archives/edgar/data/1413855/000121390019007482/f20f2018ex8-1_fanhua.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001213900-19-007482\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001171843-18-002899",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2018",
+    "href": "/Archives/edgar/data/1413855/000117184318002899/exh_81.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001171843-18-002899\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001213900-17-003986",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2017",
+    "href": "/Archives/edgar/data/1413855/000121390017003986/f20f2016ex8i_fanhuainc.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001213900-17-003986\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001171843-16-009319",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2016",
+    "href": "/Archives/edgar/data/1413855/000117184316009319/exh_81.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001171843-16-009319\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001171843-15-002153",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2015",
+    "href": "/Archives/edgar/data/1413855/000117184315002153/exh_81.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001171843-15-002153\\EX-8.1.htm",
+    "error": "An error occurred: list index out of range"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001171843-14-001968",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2014",
+    "href": "/Archives/edgar/data/1413855/000117184314001968/exh_81.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001171843-14-001968\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001104659-13-032184",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2013",
+    "href": "/Archives/edgar/data/1413855/000110465913032184/a12-21951_1ex8d1.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001104659-13-032184\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "AIFU",
+    "parent_cik10": "0001413855",
+    "accession": "0001104659-12-027563",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2012",
+    "href": "/Archives/edgar/data/1413855/000110465912027563/a12-7875_1ex8d1.htm",
+    "source_path": "companies\\AIFU\\exhibits\\0001104659-12-027563\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "XIN",
+    "parent_cik10": "0001398453",
+    "accession": "0001144204-13-021836",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2013",
+    "href": "/Archives/edgar/data/1398453/000114420413021836/v338183_ex8-1.htm",
+    "source_path": "companies\\XIN\\exhibits\\0001144204-13-021836\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "SOS",
+    "parent_cik10": "0001346610",
+    "accession": "0001213900-21-024630",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2021",
+    "href": "/Archives/edgar/data/1346610/000121390021024630/f20f2020ex8-1_soslimited.htm",
+    "source_path": "companies\\SOS\\exhibits\\0001213900-21-024630\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "TANH",
+    "parent_cik10": "0001588084",
+    "accession": "0001477932-25-003802",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2025",
+    "href": "/Archives/edgar/data/1588084/000147793225003802/tanh_ex81.htm",
+    "source_path": "companies\\TANH\\exhibits\\0001477932-25-003802\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "TANH",
+    "parent_cik10": "0001588084",
+    "accession": "0001477932-24-003629",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2024",
+    "href": "/Archives/edgar/data/1588084/000147793224003629/tanh_ex81.htm",
+    "source_path": "companies\\TANH\\exhibits\\0001477932-24-003629\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  },
+  {
+    "parent_ticker": "TANH",
+    "parent_cik10": "0001588084",
+    "accession": "0001104659-21-055681",
+    "exhibit_label": "EX-8.1",
+    "exhibit_year": "2021",
+    "href": "/Archives/edgar/data/1588084/000110465921055681/tm211768d1_ex8-1.htm",
+    "source_path": "companies\\TANH\\exhibits\\0001104659-21-055681\\EX-8.1.htm",
+    "error": "An error occurred: too many values to unpack (expected 3)"
+  }
+]
