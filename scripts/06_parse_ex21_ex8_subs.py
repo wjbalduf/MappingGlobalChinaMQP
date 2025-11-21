@@ -2,9 +2,8 @@
 Usage:
     python scripts/06_parse_ex21_ex8_subs.py
 """
-import os, re, json, time, hashlib, requests
+import os, re, json, time
 from datetime import datetime
-from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 import pandas as pd
 
@@ -13,6 +12,7 @@ DATA_DIR = "data/intermediate"
 OUTPUT_DIR = "companies"
 LOG_DIR = "logs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(LOG_DIR, exist_ok=True)
 
 # Detect latest exhibits_index file + RUN_DATE
 def get_latest_exhibits_index():
@@ -33,7 +33,6 @@ def get_latest_exhibits_index():
     return latest_date.strftime("%Y%m%d"), os.path.join(DATA_DIR, latest_file)
 
 RUN_DATE, INPUT_FILE = get_latest_exhibits_index()
-
 print(f"[INFO] Using exhibits_index for run_date={RUN_DATE}: {INPUT_FILE}")
 
 with open(INPUT_FILE, "r") as f:
@@ -72,9 +71,7 @@ def parse_table_in_html(html_text):
     }
 
     field_columns = {
-        "subsidiary": [],
-        "jurisdiction": [],
-        "owner": []
+        "subsidiary": [], "jurisdiction": [], "owner": []
     }
 
     for i, cell in enumerate(first_row):
@@ -170,15 +167,20 @@ for entry in reports:
                 "error": f"An error occurred: {e}"
             })
 
+# Convert to DataFrame
+df = pd.DataFrame(exhibits_index)
+
+# Keep only subsidiaries from the most recent year per company
+if not df.empty:
+    df = df[df.groupby('parent_ticker')['exhibit_year'].transform('max') == df['exhibit_year']]
+
 # Save cleaned CSV
 exhibit_file = os.path.join(DATA_DIR, f"subs_ex21_ex8_raw_{RUN_DATE}.csv")
-df = pd.DataFrame(exhibits_index)
 df.to_csv(exhibit_file, index=False, encoding="utf-8")
 
 # Save errors log
 errors_index_file = os.path.join(LOG_DIR, f"06_errors_{RUN_DATE}.json")
-os.makedirs(LOG_DIR, exist_ok=True)
 with open(errors_index_file, "w", encoding="utf-8") as f:
     json.dump(errors_index, f, indent=2, ensure_ascii=False)
 
-print(f"[INFO] Wrote {len(exhibits_index)} subsidiaries to {exhibit_file}")
+print(f"[INFO] Wrote {len(df)} subsidiaries (most recent year per company) to {exhibit_file}")
