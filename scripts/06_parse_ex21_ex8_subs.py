@@ -14,8 +14,6 @@ OUTPUT_DIR = "companies"
 LOG_DIR = "logs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-HEADERS = {"User-Agent": "First-Name Last-Name email@email.com"} #Enter your information
-
 # Detect latest exhibits_index file + RUN_DATE
 def get_latest_exhibits_index():
     files = [f for f in os.listdir(DATA_DIR) if f.startswith("exhibits_index_") and f.endswith(".json")]
@@ -42,15 +40,17 @@ with open(INPUT_FILE, "r") as f:
     reports = json.load(f)
 
 # Helpers
-def download_file(url):
-    time.sleep(0.2)
-    session = requests.session()
-    r = session.get(url, headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    return r.content
-
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
+
+def normalize_sub_name(name: str) -> str:
+    """Normalize spacing, remove invisible/zero-width characters."""
+    if pd.isna(name):
+        return ""
+    # Remove zero-width and invisible characters
+    name = re.sub(r"[\u200b\u200c\u200d\u2060]", "", name)
+    name = re.sub(r"\s+", " ", name.strip())
+    return name
 
 def parse_table_in_html(html_text):
     soup = BeautifulSoup(html_text, "html.parser")
@@ -77,43 +77,29 @@ def parse_table_in_html(html_text):
         "owner": []
     }
 
-    # Look through first row, record index of headers
     for i, cell in enumerate(first_row):
         if not cell:
             continue
-
         for field in fields_keywords:
             if any(k in cell for k in fields_keywords[field]):
                 field_columns[field].append(i)
 
-    # Need to add conflict resolution for possible column name overlap
-
-    # Add spacy as backup
-
     for row in rows[1:]:
-
-        values = []
-
         cols = [clean_text(cell.get_text(strip=True)) for cell in row.find_all(["th", "td"])]
-
-        if not any(col for col in cols):
+        if not any(cols):
             continue
 
-        # Get value corresponding to header column index
+        values = []
         for field in field_columns:
-
             if not field_columns[field]:
                 values.append("")
                 continue
-
-            for index in field_columns[field]: # This will break if multiple columns are detected for one header
-                values.append(cols[index]) # Needs to be fixed by resolving conflicting columns
-                
+            for index in field_columns[field]:
+                values.append(cols[index])
         if values:
             subsidiaries.append(values)
 
-    return (subsidiaries)
-
+    return subsidiaries
 
 # Main Loop
 exhibits_index = []
@@ -144,7 +130,7 @@ for entry in reports:
                 "exhibit_year": year,
                 "href": href,
                 "source_path": path,
-                "error" : f"Failed to read local file {path}: {e}"
+                "error": f"Failed to read local file {path}: {e}"
             })
             continue
 
@@ -155,14 +141,15 @@ for entry in reports:
                 continue
 
             for subsidiary, jurisdiction, ownership in subsidiaries:
-                if subsidiary:
+                normalized_name = normalize_sub_name(subsidiary)
+                if normalized_name:  # Only keep rows with non-empty names
                     exhibits_index.append({
                         "parent_ticker": ticker,
                         "parent_cik10": cik10,
                         "accession": accession,
                         "exhibit_label": exhibit_label,
                         "exhibit_year": year,
-                        "subsidiary_name_raw": subsidiary,
+                        "subsidiary_name_raw": normalized_name,
                         "jurisdiction_raw": jurisdiction,
                         "ownership_raw": ownership,
                         "footnote_marker": "",
@@ -180,15 +167,18 @@ for entry in reports:
                 "exhibit_year": year,
                 "href": href,
                 "source_path": path,
-                "error" : f"An error occurred: {e}"
+                "error": f"An error occurred: {e}"
             })
 
+# Save cleaned CSV
 exhibit_file = os.path.join(DATA_DIR, f"subs_ex21_ex8_raw_{RUN_DATE}.csv")
 df = pd.DataFrame(exhibits_index)
 df.to_csv(exhibit_file, index=False, encoding="utf-8")
 
+# Save errors log
 errors_index_file = os.path.join(LOG_DIR, f"06_errors_{RUN_DATE}.json")
+os.makedirs(LOG_DIR, exist_ok=True)
 with open(errors_index_file, "w", encoding="utf-8") as f:
     json.dump(errors_index, f, indent=2, ensure_ascii=False)
 
-print(f"[INFO] Wrote {len(exhibits_index)} subidiaries to {exhibit_file}")
+print(f"[INFO] Wrote {len(exhibits_index)} subsidiaries to {exhibit_file}")
