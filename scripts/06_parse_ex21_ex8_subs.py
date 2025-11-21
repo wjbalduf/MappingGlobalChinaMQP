@@ -139,7 +139,7 @@ for entry in reports:
 
             for subsidiary, jurisdiction, ownership in subsidiaries:
                 normalized_name = normalize_sub_name(subsidiary)
-                if normalized_name:  # Only keep rows with non-empty names
+                if normalized_name and "Consolidated Variable Interest" not in normalized_name:
                     exhibits_index.append({
                         "parent_ticker": ticker,
                         "parent_cik10": cik10,
@@ -183,4 +183,4 @@ errors_index_file = os.path.join(LOG_DIR, f"06_errors_{RUN_DATE}.json")
 with open(errors_index_file, "w", encoding="utf-8") as f:
     json.dump(errors_index, f, indent=2, ensure_ascii=False)
 
-print(f"[INFO] Wrote {len(df)} subsidiaries (most recent year per company) to {exhibit_file}")
+print(f"[INFO] Wrote {len(df)} subsidiaries (most recent year per company) excluding 'Consolidated Variable Interest' to {exhibit_file}")
