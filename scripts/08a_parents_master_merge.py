@@ -31,13 +31,13 @@ INTERMEDIATE_DIR = os.path.join("data", "intermediate")
 RAW_DIR = os.path.join("data", "raw")
 USCC_DIR = os.path.join(RAW_DIR, "USCC")
 EDGAR_DIR = os.path.join(RAW_DIR, "EDGAR")
+COMPANIES_DIR = "companies"
 OUTPUT_DIR = os.path.join("data", "clean")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Find latest input files automatically
 DEI_FILE = find_latest_file(INTERMEDIATE_DIR, "dei_facts_*.csv")
 CIK_FILE = find_latest_file(INTERMEDIATE_DIR, "cik_map_*.csv")
-EX21_FILE = find_latest_file(INTERMEDIATE_DIR, "subs_ex21_raw_*.csv")
 USCC_FILE = find_latest_file(USCC_DIR, "*_chinese_companies_USA.csv")
 
 RUN_DATE = datetime.now().strftime("%Y%m%d")
@@ -46,7 +46,6 @@ OUTPUT_PATH = os.path.join(OUTPUT_DIR, f"parents_master_{RUN_DATE}.csv")
 print("Using files:")
 print("  DEI:", DEI_FILE)
 print("  CIK:", CIK_FILE)
-print("  EX21:", EX21_FILE)
 print("  USCC:", USCC_FILE)
 
 # -------------------------------------------------------------
@@ -71,16 +70,6 @@ merged_df = pd.merge(
 uscc_df = pd.read_csv(USCC_FILE)
 uscc_df.rename(columns={"ticker": "parent_ticker", "company_name": "uscc_name"}, inplace=True)
 uscc_lookup = dict(zip(uscc_df["parent_ticker"], uscc_df["uscc_name"]))
-
-# -------------------------------------------------------------
-# LOAD EXHIBIT 21 (subsidiary data)
-# -------------------------------------------------------------
-if os.path.exists(EX21_FILE):
-    ex21_df = pd.read_csv(EX21_FILE)
-    ex21_df["parent_ticker"] = ex21_df["parent_ticker"].astype(str).str.strip()
-    ex21_df["parent_cik10"] = ex21_df["parent_cik10"].astype(str).str.strip()
-else:
-    ex21_df = pd.DataFrame()
 
 # -------------------------------------------------------------
 # FUNCTIONS
@@ -117,9 +106,6 @@ def get_state_from_submissions(ticker):
         print(f"Error reading {submissions_path}: {e}")
     return None
 
-# -------------------------------------------------------------
-# HELPER FUNCTION FOR COUNTRY MAPPING
-# -------------------------------------------------------------
 def get_country_from_state(state_or_region):
     """Convert state/region to ISO3 country code"""
     if pd.isna(state_or_region):
@@ -141,6 +127,40 @@ def get_country_from_state(state_or_region):
         "FL": "USA", "VA": "USA", "WY": "USA"
     }
     return country_mapping.get(state_or_region, None)
+
+def find_latest_20f_file(ticker):
+    """
+    Look for the latest 20-F file in companies/<ticker>/.
+    Filenames like: 2008_AACG_20-F_000114554908001579
+    Prioritize current year, then fallback year by year.
+    """
+    ticker_folder = os.path.join(COMPANIES_DIR, ticker)
+    current_year = datetime.now().year
+    years_to_check = list(range(current_year, current_year - 5, -1))  # last 5 years
+
+    try:
+        files = os.listdir(ticker_folder)
+    except FileNotFoundError:
+        return None, None
+
+    # Filter only 20-F files
+    twentyf_files = [f for f in files if re.search(r"\d{4}_.*_20-F_", f)]
+    if not twentyf_files:
+        return None, None
+
+    # Check for preferred year first
+    for year in years_to_check:
+        for f in twentyf_files:
+            if f.startswith(str(year)):
+                accession = f.split("_")[-1]
+                return year, accession
+
+    # fallback: pick latest available
+    twentyf_files.sort(reverse=True)
+    f = twentyf_files[0]
+    year = int(f.split("_")[0])
+    accession = f.split("_")[-1]
+    return year, accession
 
 # -------------------------------------------------------------
 # BUILD PARENTS RECORDS
@@ -206,9 +226,7 @@ for _, row in merged_df.iterrows():
     latest_20f_year = None
     latest_20f_accession = None
 
-    # -------------------------------------------------------------
     # Fill incorporation state from submissions if missing
-    # -------------------------------------------------------------
     if not has_value(incorp_state_or_region):
         sub_state = get_state_from_submissions(parent_ticker)
         if has_value(sub_state):
@@ -217,32 +235,19 @@ for _, row in merged_df.iterrows():
                 sources_used.append("submissions")
             lineage["submissions_path"] = os.path.join(EDGAR_DIR, parent_ticker, "submissions.json")
 
-    # -------------------------------------------------------------
-    # FIX: Map state/region to ISO3 country code
-    # -------------------------------------------------------------
+    # Map state/region to ISO3 country code
     if has_value(incorp_state_or_region):
         incorp_country_iso3 = get_country_from_state(incorp_state_or_region)
         if not incorp_country_iso3:
-            # If no mapping found, keep it empty but log
             print(f"Warning: No country mapping for '{incorp_state_or_region}' (ticker: {parent_ticker})")
 
-    # -------------------------------------------------------------
-    # Pull latest 20-F year and accession from EX-21 index
-    # -------------------------------------------------------------
-    if not ex21_df.empty:
-        ex_rows = ex21_df[
-            (ex21_df["parent_ticker"].astype(str) == str(parent_ticker)) |
-            (ex21_df["parent_cik10"].astype(str) == str(parent_cik10))
-        ]
-        if not ex_rows.empty:
-            latest_row = ex_rows.sort_values("exhibit_year", ascending=False).iloc[0]
-            latest_20f_year = latest_row.get("exhibit_year")
-            latest_20f_accession = latest_row.get("accession")
-
-            if has_value(latest_20f_year) or has_value(latest_20f_accession):
-                if "EX-21" not in sources_used:
-                    sources_used.append("EX-21")
-                lineage["ex21_path"] = latest_row.get("source_path")
+    # Pull latest 20-F based on files in companies/<ticker>/
+    year, accession = find_latest_20f_file(parent_ticker)
+    if year is not None and accession is not None:
+        latest_20f_year = year
+        latest_20f_accession = accession
+        sources_used.append("20-F")
+        lineage["companies_path"] = os.path.join(COMPANIES_DIR, parent_ticker)
 
     # -----------------------------
     # Append record
@@ -265,7 +270,7 @@ for _, row in merged_df.iterrows():
 # -------------------------------------------------------------
 df_out = pd.DataFrame(records)
 
-# FIX: Ensure CIK10 is saved as 10-digit string
+# Ensure CIK10 is saved as 10-digit string
 df_out['parent_cik10'] = df_out['parent_cik10'].astype(str).str.zfill(10)
 
 df_out.to_csv(OUTPUT_PATH, index=False, encoding="utf-8")
