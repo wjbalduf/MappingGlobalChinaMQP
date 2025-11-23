@@ -22,10 +22,10 @@ def generate_addr_id(entity_id: str, address_raw: str) -> str:
 def parse_address(address_raw: str):
     """
     Parse raw_address into addr_line, locality, region, postal_code.
-    Simple heuristic for international addresses with comma-separated parts.
+    Uses simple heuristic: split by commas.
     """
     if not address_raw or pd.isna(address_raw):
-        return None, None, None, None, None
+        return address_raw, None, None, None, None
 
     parts = [p.strip() for p in address_raw.split(",") if p.strip()]
 
@@ -34,22 +34,23 @@ def parse_address(address_raw: str):
     region = None
     postal_code = None
 
+    # Assign parts from the end backwards
     if parts:
-        # last part may contain postal code
+        # Last part may contain postal code
         last_part = parts[-1]
         postal_match = re.search(r"\b\d{4,6}\b", last_part)
         if postal_match:
             postal_code = postal_match.group(0)
 
-        # region is typically second-to-last part
+        # Region = second-to-last
         if len(parts) >= 2:
             region = parts[-2]
 
-        # locality is usually third-to-last
+        # Locality = third-to-last
         if len(parts) >= 3:
             locality = parts[-3]
 
-        # addr_line is everything before locality
+        # Address line = everything before locality
         if len(parts) >= 4:
             addr_line = ", ".join(parts[:-3])
         elif len(parts) == 3:
@@ -59,8 +60,8 @@ def parse_address(address_raw: str):
 
     return address_raw, addr_line, locality, region, postal_code
 
-# Normalize CIK into safe 10-digit string or "n/a"
 def normalize_cik(val):
+    """Normalize CIK into 10-digit string or 'n/a'."""
     if pd.isna(val):
         return "n/a"
     s = str(val).strip()
@@ -92,8 +93,6 @@ parents_df = pd.read_csv(parents_file)
 
 parents_df["entity_type"] = "parent"
 parents_df["entity_id"] = parents_df["parent_cik10"]
-
-# normalize cik
 parents_df["parent_cik10"] = parents_df["parent_cik10"].apply(normalize_cik)
 
 # -----------------------------
@@ -104,8 +103,6 @@ if not addr_files:
     raise FileNotFoundError("No charter_addresses_raw_*.csv found")
 latest_addr_file = max(addr_files, key=extract_date)
 addr_df = pd.read_csv(latest_addr_file)
-
-# normalize cik on addr df too
 addr_df["parent_cik10"] = addr_df["parent_cik10"].apply(normalize_cik)
 
 # -----------------------------
@@ -130,12 +127,11 @@ parsed_addresses = [parse_address(a) for a in addresses_master["address_raw"]]
 addresses_master[parsed_cols] = pd.DataFrame(parsed_addresses, index=addresses_master.index)
 
 # -----------------------------
-# 7. ADDITIONAL COLUMNS
+# 7. ADD ADDITIONAL COLUMNS
 # -----------------------------
 addresses_master["source_accession"] = addresses_master.get("accession", pd.NA)
 addresses_master["address_type"] = pd.NA
 addresses_master["parse_confidence"] = addresses_master.get("parse_confidence", pd.NA)
-
 addresses_master["addr_id"] = addresses_master.apply(
     lambda x: generate_addr_id(str(x["entity_id"]), str(x["address_raw"])),
     axis=1
@@ -150,12 +146,12 @@ addresses_master = addresses_master.drop(columns=[
 ], errors="ignore")
 
 # -----------------------------
-# 9. REORDER COLUMNS (address_raw as 3rd)
+# 9. REORDER COLUMNS
 # -----------------------------
-cols = addresses_master.columns.tolist()
-# Ensure entity_type, entity_id, address_raw as first three columns
-cols = ["entity_type", "entity_id", "address_raw"] + [c for c in cols if c not in ("entity_type", "entity_id", "address_raw")]
-addresses_master = addresses_master[cols]
+# entity_type, entity_id, address_raw, parsed columns next
+front_cols = ["entity_type", "entity_id", "address_raw", "addr_line", "locality", "region", "postal_code"]
+other_cols = [c for c in addresses_master.columns if c not in front_cols]
+addresses_master = addresses_master[front_cols + other_cols]
 
 # -----------------------------
 # 10. SAVE CSV
