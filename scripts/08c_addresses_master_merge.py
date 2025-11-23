@@ -24,6 +24,15 @@ def parse_address(address_raw: str):
         return None, None, None, None, None
     return address_raw, None, None, None, None
 
+# Normalize CIK into safe 10-digit string or "n/a"
+def normalize_cik(val):
+    if pd.isna(val):
+        return "n/a"
+    s = str(val).strip()
+    if s.isdigit():
+        return s.zfill(10)
+    return "n/a"
+
 # -----------------------------
 # 1. LOAD SUBS_MASTER CSV
 # -----------------------------
@@ -49,6 +58,9 @@ parents_df = pd.read_csv(parents_file)
 parents_df["entity_type"] = "parent"
 parents_df["entity_id"] = parents_df["parent_cik10"]
 
+# normalize cik
+parents_df["parent_cik10"] = parents_df["parent_cik10"].apply(normalize_cik)
+
 # -----------------------------
 # 3. LOAD ADDRESSES CSV
 # -----------------------------
@@ -58,21 +70,25 @@ if not addr_files:
 latest_addr_file = max(addr_files, key=extract_date)
 addr_df = pd.read_csv(latest_addr_file)
 
-# Merge addresses for parents only (subs will have NA)
+# normalize cik on addr df too
+addr_df["parent_cik10"] = addr_df["parent_cik10"].apply(normalize_cik)
+
+# -----------------------------
+# 4. MERGE ADDRESSES INTO PARENTS
+# -----------------------------
 parents_df = parents_df.merge(
     addr_df[["parent_cik10", "address_raw"]],
-    left_on="parent_cik10",
-    right_on="parent_cik10",
+    on="parent_cik10",
     how="left"
 )
 
 # -----------------------------
-# 4. COMBINE SUBS AND PARENTS
+# 5. COMBINE SUBS AND PARENTS
 # -----------------------------
 addresses_master = pd.concat([subs_df, parents_df], ignore_index=True, sort=False)
 
 # -----------------------------
-# 5. PARSE ADDRESSES
+# 6. PARSE ADDRESSES
 # -----------------------------
 addresses_master[["addr_line","locality","region","postal_code","country_iso3"]] = pd.DataFrame(
     [parse_address(a) for a in addresses_master["address_raw"]],
@@ -80,32 +96,33 @@ addresses_master[["addr_line","locality","region","postal_code","country_iso3"]]
 )
 
 # -----------------------------
-# 6. ADDITIONAL COLUMNS
+# 7. ADDITIONAL COLUMNS
 # -----------------------------
 addresses_master["source_accession"] = addresses_master.get("accession", pd.NA)
 addresses_master["address_type"] = pd.NA
 addresses_master["parse_confidence"] = addresses_master.get("parse_confidence", pd.NA)
+
 addresses_master["addr_id"] = addresses_master.apply(
-    lambda x: generate_addr_id(str(x["entity_id"]), str(x["address_raw"])), axis=1
+    lambda x: generate_addr_id(str(x["entity_id"]), str(x["address_raw"])),
+    axis=1
 )
 
 # -----------------------------
-# 7. DROP UNNECESSARY COLUMNS
+# 8. DROP UNNECESSARY COLUMNS
 # -----------------------------
 addresses_master = addresses_master.drop(columns=[
-    "sub_uuid", "parent_cik10", "parent_ticker"
-], errors="ignore")  # ignore if not present
+    "sub_uuid", "parent_cik10", "parent_ticker","subsidiary_name","ownership_pct","first_seen_year","last_seen_year"
+], errors="ignore")
 
 # -----------------------------
-# 8. REORDER COLUMNS
+# 9. REORDER COLUMNS
 # -----------------------------
 cols = addresses_master.columns.tolist()
-# Move entity_type and entity_id to the front
 cols = ["entity_type", "entity_id"] + [c for c in cols if c not in ("entity_type", "entity_id")]
 addresses_master = addresses_master[cols]
 
 # -----------------------------
-# 9. SAVE CSV
+# 10. SAVE CSV
 # -----------------------------
 OUTPUT_FILE = os.path.join("data", "clean", f"addresses_master_{RUN_DATE}.csv")
 os.makedirs("data/clean", exist_ok=True)
