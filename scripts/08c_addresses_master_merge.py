@@ -111,14 +111,17 @@ addresses_master["addr_id"] = addresses_master.apply(
 # 8. DROP UNNECESSARY COLUMNS
 # -----------------------------
 addresses_master = addresses_master.drop(columns=[
-    "sub_uuid", "parent_cik10", "parent_ticker","subsidiary_name","ownership_pct","first_seen_year","last_seen_year"
+    "sub_uuid", "parent_cik10", "parent_ticker",
+    "subsidiary_name", "ownership_pct", "first_seen_year", "last_seen_year"
 ], errors="ignore")
 
 # -----------------------------
-# 9. REORDER COLUMNS
+# 9. REORDER COLUMNS (address_raw as 3rd)
 # -----------------------------
 cols = addresses_master.columns.tolist()
-cols = ["entity_type", "entity_id"] + [c for c in cols if c not in ("entity_type", "entity_id")]
+
+# Ensure entity_type, entity_id, address_raw as first three columns
+cols = ["entity_type", "entity_id", "address_raw"] + [c for c in cols if c not in ("entity_type", "entity_id", "address_raw")]
 addresses_master = addresses_master[cols]
 
 # -----------------------------
