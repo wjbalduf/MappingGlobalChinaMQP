@@ -6,12 +6,12 @@ import os
 import glob
 import pandas as pd
 import hashlib
+import re
 
 # -----------------------------
 # HELPER FUNCTIONS
 # -----------------------------
 def extract_date(f):
-    import re
     m = re.search(r"(\d{8})(?=\.csv$)", os.path.basename(f))
     return m.group(1) if m else "00000000"
 
@@ -20,9 +20,44 @@ def generate_addr_id(entity_id: str, address_raw: str) -> str:
     return hashlib.md5(to_hash).hexdigest()
 
 def parse_address(address_raw: str):
-    if pd.isna(address_raw):
+    """
+    Parse raw_address into addr_line, locality, region, postal_code.
+    Simple heuristic for international addresses with comma-separated parts.
+    """
+    if not address_raw or pd.isna(address_raw):
         return None, None, None, None, None
-    return address_raw, None, None, None, None
+
+    parts = [p.strip() for p in address_raw.split(",") if p.strip()]
+
+    addr_line = None
+    locality = None
+    region = None
+    postal_code = None
+
+    if parts:
+        # last part may contain postal code
+        last_part = parts[-1]
+        postal_match = re.search(r"\b\d{4,6}\b", last_part)
+        if postal_match:
+            postal_code = postal_match.group(0)
+
+        # region is typically second-to-last part
+        if len(parts) >= 2:
+            region = parts[-2]
+
+        # locality is usually third-to-last
+        if len(parts) >= 3:
+            locality = parts[-3]
+
+        # addr_line is everything before locality
+        if len(parts) >= 4:
+            addr_line = ", ".join(parts[:-3])
+        elif len(parts) == 3:
+            addr_line = parts[0]
+        elif len(parts) == 2:
+            addr_line = parts[0]
+
+    return address_raw, addr_line, locality, region, postal_code
 
 # Normalize CIK into safe 10-digit string or "n/a"
 def normalize_cik(val):
@@ -90,10 +125,9 @@ addresses_master = pd.concat([subs_df, parents_df], ignore_index=True, sort=Fals
 # -----------------------------
 # 6. PARSE ADDRESSES
 # -----------------------------
-addresses_master[["addr_line","locality","region","postal_code","country_iso3"]] = pd.DataFrame(
-    [parse_address(a) for a in addresses_master["address_raw"]],
-    index=addresses_master.index
-)
+parsed_cols = ["address_raw", "addr_line", "locality", "region", "postal_code"]
+parsed_addresses = [parse_address(a) for a in addresses_master["address_raw"]]
+addresses_master[parsed_cols] = pd.DataFrame(parsed_addresses, index=addresses_master.index)
 
 # -----------------------------
 # 7. ADDITIONAL COLUMNS
@@ -119,7 +153,6 @@ addresses_master = addresses_master.drop(columns=[
 # 9. REORDER COLUMNS (address_raw as 3rd)
 # -----------------------------
 cols = addresses_master.columns.tolist()
-
 # Ensure entity_type, entity_id, address_raw as first three columns
 cols = ["entity_type", "entity_id", "address_raw"] + [c for c in cols if c not in ("entity_type", "entity_id", "address_raw")]
 addresses_master = addresses_master[cols]
