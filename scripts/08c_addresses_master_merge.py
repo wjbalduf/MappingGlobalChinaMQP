@@ -34,13 +34,11 @@ def parse_address(address_raw: str):
     region = None
     postal_code = None
 
-    # Assign parts from the end backwards
     if parts:
         last_part = parts[-1]
         postal_match = re.search(r"\b\d{4,6}\b", last_part)
         if postal_match:
             postal_code = postal_match.group(0)
-
         if len(parts) >= 2:
             region = parts[-2]
         if len(parts) >= 3:
@@ -78,10 +76,7 @@ subs_df["entity_type"] = "subsidiary"
 subs_df["entity_id"] = subs_df["sub_uuid"]
 
 # Fill country_iso3 for subsidiaries from jurisdiction_iso3
-if "jurisdiction_iso3" in subs_df.columns:
-    subs_df["country_iso3"] = subs_df["jurisdiction_iso3"]
-else:
-    subs_df["country_iso3"] = pd.NA
+subs_df["country_iso3"] = subs_df.get("jurisdiction_iso3", pd.NA)
 
 # -----------------------------
 # 2. LOAD PARENTS_MASTER CSV
@@ -94,6 +89,9 @@ parents_df = pd.read_csv(parents_file)
 parents_df["entity_type"] = "parent"
 parents_df["entity_id"] = parents_df["parent_cik10"]
 parents_df["parent_cik10"] = parents_df["parent_cik10"].apply(normalize_cik)
+
+# Add country_iso3 for parents
+parents_df["country_iso3"] = parents_df.get("incorp_country_iso3", pd.NA)
 
 # -----------------------------
 # 3. LOAD ADDRESSES CSV
@@ -108,71 +106,61 @@ addr_df["parent_cik10"] = addr_df["parent_cik10"].apply(normalize_cik)
 # -----------------------------
 # 4. MERGE ADDRESSES INTO PARENTS
 # -----------------------------
-# Merge both address_raw and address_type
+# Merge address_raw, address_type, parse_confidence
+merge_cols = ["parent_cik10", "address_raw", "address_type", "parse_confidence"]
 parents_df = parents_df.merge(
-    addr_df[["parent_cik10", "address_raw", "address_type"]],
+    addr_df[merge_cols],
     on="parent_cik10",
     how="left"
 )
 
 # -----------------------------
-# 5. ADD COUNTRY ISO3 FOR PARENTS
-# -----------------------------
-if "incorp_country_iso3" in parents_df.columns:
-    parents_df = parents_df.rename(columns={"incorp_country_iso3": "country_iso3"})
-else:
-    parents_df["country_iso3"] = pd.NA
-
-# -----------------------------
-# 6. COMBINE SUBS AND PARENTS
+# 5. COMBINE SUBS AND PARENTS
 # -----------------------------
 addresses_master = pd.concat([subs_df, parents_df], ignore_index=True, sort=False)
 
 # -----------------------------
-# 7. PARSE ADDRESSES
+# 6. PARSE ADDRESSES
 # -----------------------------
 parsed_cols = ["address_raw", "addr_line", "locality", "region", "postal_code"]
 parsed_addresses = [parse_address(a) for a in addresses_master["address_raw"]]
 addresses_master[parsed_cols] = pd.DataFrame(parsed_addresses, index=addresses_master.index)
 
 # -----------------------------
-# 8. ADD ADDITIONAL COLUMNS
+# 7. ADD ADDITIONAL COLUMNS
 # -----------------------------
-# Subsidiaries: source_accession from 'accession'
+# source_accession: subs from accession, parents from latest_20f_accession
 addresses_master["source_accession"] = addresses_master.get("accession", pd.NA)
-
-# Parents: overwrite with 'latest_20f_accession' if exists
 if "latest_20f_accession" in addresses_master.columns:
     parent_mask = addresses_master["entity_type"] == "parent"
     addresses_master.loc[parent_mask, "source_accession"] = addresses_master.loc[parent_mask, "latest_20f_accession"]
 
-# For any parents without address_type, keep NA (already merged above)
-addresses_master["parse_confidence"] = addresses_master.get("parse_confidence", pd.NA)
+# addr_id: hash of entity_id + address_raw
 addresses_master["addr_id"] = addresses_master.apply(
     lambda x: generate_addr_id(str(x["entity_id"]), str(x["address_raw"])),
     axis=1
 )
 
 # -----------------------------
-# 9. DROP UNNECESSARY COLUMNS
+# 8. DROP UNNECESSARY COLUMNS
 # -----------------------------
 addresses_master = addresses_master.drop(columns=[
     "sub_uuid", "parent_cik10", "subsidiary_name", "ownership_pct",
     "first_seen_year", "last_seen_year","jurisdiction_iso3","accession",
     "exhibit_label","lineage","parent_ticker","latest_20f_accession","parent_name",
-    "incorp_state_or_region","legal_form","latest_20f_year","sources_used"
+    "incorp_state_or_region","legal_form","latest_20f_year","sources_used","incorp_country_iso3"
 ], errors="ignore")
 
 # -----------------------------
-# 10. REORDER COLUMNS
+# 9. REORDER COLUMNS
 # -----------------------------
 front_cols = ["entity_type", "entity_id", "address_raw", "addr_line", "locality", "region",
-              "postal_code", "country_iso3", "source_accession", "address_type"]
+              "postal_code", "country_iso3", "source_accession", "address_type", "parse_confidence", "addr_id"]
 other_cols = [c for c in addresses_master.columns if c not in front_cols]
 addresses_master = addresses_master[front_cols + other_cols]
 
 # -----------------------------
-# 11. SAVE CSV
+# 10. SAVE CSV
 # -----------------------------
 OUTPUT_FILE = os.path.join("data", "clean", f"addresses_master_{RUN_DATE}.csv")
 os.makedirs("data/clean", exist_ok=True)
