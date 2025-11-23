@@ -115,19 +115,27 @@ parents_df = parents_df.merge(
 )
 
 # -----------------------------
-# 5. COMBINE SUBS AND PARENTS
+# 5. ADD COUNTRY ISO3 FROM PARENTS_MASTER (by parent_ticker)
+# -----------------------------
+if "parent_ticker" in parents_df.columns and "incorp_country_iso3" in parents_df.columns:
+    parents_df = parents_df.rename(columns={"incorp_country_iso3": "country_iso3"})
+else:
+    parents_df["country_iso3"] = pd.NA
+
+# -----------------------------
+# 6. COMBINE SUBS AND PARENTS
 # -----------------------------
 addresses_master = pd.concat([subs_df, parents_df], ignore_index=True, sort=False)
 
 # -----------------------------
-# 6. PARSE ADDRESSES
+# 7. PARSE ADDRESSES
 # -----------------------------
 parsed_cols = ["address_raw", "addr_line", "locality", "region", "postal_code"]
 parsed_addresses = [parse_address(a) for a in addresses_master["address_raw"]]
 addresses_master[parsed_cols] = pd.DataFrame(parsed_addresses, index=addresses_master.index)
 
 # -----------------------------
-# 7. ADD ADDITIONAL COLUMNS
+# 8. ADD ADDITIONAL COLUMNS
 # -----------------------------
 addresses_master["source_accession"] = addresses_master.get("accession", pd.NA)
 addresses_master["address_type"] = pd.NA
@@ -138,23 +146,22 @@ addresses_master["addr_id"] = addresses_master.apply(
 )
 
 # -----------------------------
-# 8. DROP UNNECESSARY COLUMNS
+# 9. DROP UNNECESSARY COLUMNS
 # -----------------------------
 addresses_master = addresses_master.drop(columns=[
-    "sub_uuid", "parent_cik10", "parent_ticker",
-    "subsidiary_name", "ownership_pct", "first_seen_year", "last_seen_year"
+    "sub_uuid", "parent_cik10", "subsidiary_name", "ownership_pct", "first_seen_year", "last_seen_year","parent_ticker","jurisdiction_iso3","accession","exhibit_label","lineage"
 ], errors="ignore")
 
 # -----------------------------
-# 9. REORDER COLUMNS
+# 10. REORDER COLUMNS
 # -----------------------------
-# entity_type, entity_id, address_raw, parsed columns next
-front_cols = ["entity_type", "entity_id", "address_raw", "addr_line", "locality", "region", "postal_code"]
+# Place entity_type, entity_id, address_raw, parsed columns, country_iso3 first
+front_cols = ["entity_type", "entity_id", "address_raw", "addr_line", "locality", "region", "postal_code", "country_iso3","source_accession"]
 other_cols = [c for c in addresses_master.columns if c not in front_cols]
 addresses_master = addresses_master[front_cols + other_cols]
 
 # -----------------------------
-# 10. SAVE CSV
+# 11. SAVE CSV
 # -----------------------------
 OUTPUT_FILE = os.path.join("data", "clean", f"addresses_master_{RUN_DATE}.csv")
 os.makedirs("data/clean", exist_ok=True)
