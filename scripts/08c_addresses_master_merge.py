@@ -159,7 +159,8 @@ addresses_master["addr_id"] = addresses_master.apply(
 addresses_master = addresses_master.drop(columns=[
     "sub_uuid", "parent_cik10", "subsidiary_name", "ownership_pct",
     "first_seen_year", "last_seen_year","jurisdiction_iso3","accession",
-    "exhibit_label","lineage","parent_ticker","latest_20f_accession"
+    "exhibit_label","lineage","parent_ticker","latest_20f_accession","parent_name",
+    "incorp_state_or_region","legal_form","latest_20f_year","sources_used"
 ], errors="ignore")
 
 # -----------------------------

@@ -118,7 +118,7 @@ for idx, row in cik_df.iterrows():
             "accession": "",
             "exhibit_year": "",
             "address_raw": "",
-            "address_type": "other",
+            "address_type": "",  # <-- leave blank
             "source_path": "",
             "parse_confidence": "Low",
             "address_note": ""
@@ -129,7 +129,8 @@ for idx, row in cik_df.iterrows():
 
     if accession:
         address_raw, address_note, parse_confidence, source_path = get_business_address(cik10, accession)
-        address_type = "principal_office" if address_raw else "other"
+        # Only fill address_type if we got a raw address
+        address_type = "principal_office" if address_raw else ""
     else:
         accession = ""
         exhibit_year = ""
@@ -137,7 +138,7 @@ for idx, row in cik_df.iterrows():
         address_note = ""
         parse_confidence = "Low"
         source_path = f"https://www.sec.gov/cgi-bin/browse-edgar?CIK={cik10}&action=filing"
-        address_type = "other"
+        address_type = ""  # <-- leave blank
 
     results.append({
         "parent_ticker": parent_ticker,

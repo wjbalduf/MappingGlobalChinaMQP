@@ -7,10 +7,10 @@ TCOM,0001269238,0001193125-25-078429,2024,"SINGAPORE U0 048622, 6531389736",prin
 BIDU,0001329099,0001193125-25-066199,2024,"BAIDU CAMPUS, NO. 10 SHANGDI 10TH STREET, HAIDIAN DISTRICT, BEIJING F4 100085",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001329099&accession_number=0001193125-25-066199&xbrl_type=r,High,(86-10) 5992 8888
 LI,0001791706,0001410578-25-000678,2024,"11 WENLIANG STREET, SHUNYI DISTRICT, BEIJING F4 101399, 861087427209",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001791706&accession_number=0001410578-25-000678&xbrl_type=r,High,
 BEKE,0001809587,0001410578-25-000783,2024,"ORIENTAL ELECTRONIC TECHNOLOGY BUILDING, NO. 2 CHUANGYE ROAD, HAIDIAN DISTRICT, BEIJING F4 100086, 861058104689",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001809587&accession_number=0001410578-25-000783&xbrl_type=r,High,
-ONC,0001651308,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001651308&action=filing,Low,
+ONC,0001651308,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001651308&action=filing,Low,
 TME,0001744676,0000950170-25-056949,2024,"UNIT 3, BUILDING D, KEXING SCIENCE PARK, KEJIZHONGSAN AVENUE, HI-TECH PARK, NANSHAN DISTRICT, SHENZHEN F4 518057, 86 755 86013388",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001744676&accession_number=0000950170-25-056949&xbrl_type=r,High,
 XPEV,0001810997,0001193125-25-082001,2024,"NO. 8 SONGGANG ROAD, CHANGXING STREET, CENCUN, TIANHE DISTRICT, GUANGZHOU, GUANGDONG F4 510640",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001810997&accession_number=0001193125-25-082001&xbrl_type=r,High,86-020-6680-6680
-YUMC,0001673358,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001673358&action=filing,Low,
+YUMC,0001673358,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001673358&action=filing,Low,
 ZTO,0001677250,0001410578-25-000774,2024,"BUILDING ONE, NO. 1685 HUAZHI ROAD, QINGPU DISTRICT, SHANGHAI F4 201708, 8621 59139988",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001677250&accession_number=0001410578-25-000774&xbrl_type=r,High,
 YMM,0001838413,0001193125-25-079553,2024,"BUILDING #3, WANBO R&D PARK, 20 FENGXIN ROAD, YUHUATAI DISTRICT, NANJING, JIANGSU PROVINCE F4 210012",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001838413&accession_number=0001193125-25-079553&xbrl_type=r,High,86-025-66920156
 HTHT,0001483994,0001410578-25-000900,2024,"NO. 1299 FENGHUA ROAD, JIADING DISTRICT, SHANGHAI F4 00000",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001483994&accession_number=0001410578-25-000900&xbrl_type=r,High,86 21 6195-2011
@@ -34,13 +34,13 @@ HCM,0001648257,0001410578-25-000377,2024,"48TH FLOOR, CHEUNG KONG CENTER, 2 QUEE
 TUYA,0001829118,0001410578-25-000850,2024,"HUACE CENTER, XIHU DISTRICT, HANGZHOU F4 00000, 86 0571 8691 5981",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001829118&accession_number=0001410578-25-000850&xbrl_type=r,High,"FLOOR 7-12, BLOCK A"
 LU,0001816007,0001193125-24-106025,2023,"BUILDING NO. 6, LANE 2777 JINXIU EAST RD, PUDONG NEW DISTRICT, SHANGHAI F4 200120",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001816007&accession_number=0001193125-24-106025&xbrl_type=r,High,86-2138632121
 WB,0001595761,0001410578-25-000730,2024,"8/F, QIHAO PLAZA, NO. 8 XINYUAN S. ROAD,, CHAOYANG DISTRICT, BEIJING F4 100027",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001595761&accession_number=0001410578-25-000730&xbrl_type=r,High,86 10 6061-8000
-YY,PENDING,,,,other,,Low,
+YY,PENDING,,,,,,Low,
 IQ,0001722608,0000950170-25-045691,2024,"3/F, IQIYI YOUTH CENTER YOOLEE PLAZA, NO. 21, NORTH ROAD OF WORKERS STADIUM, CHAOYANG DISTRICT BEIJING F4 100027, 861062677171",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001722608&accession_number=0000950170-25-045691&xbrl_type=r,High,
 HSAI,0001861737,0001410578-25-000614,2024,"1588 ZHUGUANG ROAD, SHANGHAI F4 201702, 86 21 31588240",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001861737&accession_number=0001410578-25-000614&xbrl_type=r,High,"9TH FLOOR, BUILDING L2-B"
 FINV,0001691445,0001641172-25-005409,2024,"BUILDING G1, NO. 999 DANGUI ROAD, PUDONG NEW DISTRICT, SHANGHAI F4 201203",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001691445&accession_number=0001641172-25-005409&xbrl_type=r,High,86 21 80303200-8601
 LZMH,0001967397,0001213900-25-055265,2024,"SIMING DISTRICT, XIAMEN, FUJIAN F4 361008",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001967397&accession_number=0001213900-25-055265&xbrl_type=r,High,0592-2950080
 AAPG,0002023311,0001213900-25-032599,2024,"68 XINQING ROAD, SUZHOU INDUSTRIAL PARK, SUZHOU , JIANGSU F4 00000, 86 512 8555 7777",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0002023311&accession_number=0001213900-25-032599&xbrl_type=r,High,
-ACMR,0001680062,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001680062&action=filing,Low,
+ACMR,0001680062,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001680062&action=filing,Low,
 LX,0001708259,0000950170-25-055749,2024,"27/F, CES TOWER, 3099 KE YUAN SOUTH ROAD, NANSHAN DISTRICT, SHENZHEN F4 518000, 8675533688788",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001708259&accession_number=0000950170-25-055749&xbrl_type=r,High,
 EH,0001759783,0001193125-25-080649,2024,"BUILDING #C, YIXIANG TECHNOLOGY PARK, NO.72, NANXIANG 2ND ROAD, GUANGZHOU F4 510700, 8602029028899",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001759783&accession_number=0001193125-25-080649&xbrl_type=r,High,
 TIGR,0001756699,0000950170-25-056953,2024,"18F,NO.16 TAIYANGGONG RD,CHAOYANG DIST., BEIJING F4 100020",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001756699&accession_number=0000950170-25-056953&xbrl_type=r,High,86-10-56216660
@@ -67,11 +67,11 @@ QD,0001692705,0001410578-25-000822,2024,"BUILDING 1, QUDIAN INNOVATION PARK, MEI
 JFIN,0001743102,0000950170-25-058942,2024,"26TH FLOOR,BUILDING NO.1,YOUYOU CENTURY, PLAZA,428 SOUTH YANGGAO ROAD,PUDONG, SHANGHAI F4 200122, 86 2160828732",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001743102&accession_number=0000950170-25-058942&xbrl_type=r,High,
 WYHG,0001999860,0001213900-25-037724,2024,"NO.9, GUANXIAN NORTH RD, HUANGPU TOWN, ZHONGSHAN CITY F4 528429",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001999860&accession_number=0001213900-25-037724&xbrl_type=r,High,(86)76023215457
 ZH,0001835724,0001410578-25-000729,2024,"18 XUEQING ROAD, HAIDIAN DISTRICT, BEIJING F4 100083, 86 10 82716605",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001835724&accession_number=0001410578-25-000729&xbrl_type=r,High,
-DADA,PENDING,,,,other,,Low,
+DADA,PENDING,,,,,,Low,
 SOHU,0001734107,0001193125-25-053425,2024,"LEVEL 18, SOHU.COM MEDIA PLAZA, BLOCK 3, NO. 2 KEXUEYUAN S. RD., HAIDIAN DISTRICT, BEIJING F4 100190",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001734107&accession_number=0001193125-25-053425&xbrl_type=r,High,86-10-6272-6666
 WDH,0001823986,0001410578-25-000891,2024,"BLOCK C, WANGJING SCIENCE PARK, NO. 2 LIZE ZHONGER ROAD, CHAOYANG, BEIJING F4 100102, 861053394997",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001823986&accession_number=0001410578-25-000891&xbrl_type=r,High,
 CAN,0001780652,0001410578-25-000805,2024,"28 AYER RAJAH CRESCENT, SINGAPORE U0 139959, 65 6305 6618",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001780652&accession_number=0001410578-25-000805&xbrl_type=r,High,#06-08
-AAM,0002012964,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0002012964&action=filing,Low,
+AAM,0002012964,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0002012964&action=filing,Low,
 YSG,0001819580,0000950170-25-056464,2024,"NO.23 EAST XUANYUE STREET, GUANGZHOU F4 510330, 86 20 38373543",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001819580&accession_number=0000950170-25-056464&xbrl_type=r,High,"32-35, 38/F, POLY MIDTOWN PLAZA"
 DOGZ,0001707303,0001493152-25-018363,2025,"NO. 16 N. DONGKE ROAD, TONGSHA INDUSTRIAL ZONE, DONGGUAN, GUANGDONG, 86 769 88753300",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001707303&accession_number=0001493152-25-018363&xbrl_type=r,High,
 CANG,0001725123,0001410578-25-000492,2024,"8F, NEW BUND ORIENTAL PLAZA II, 556 WEST HAIYANG ROAD, PUDONG, SHANGHAI F4 200127",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001725123&accession_number=0001410578-25-000492&xbrl_type=r,High,86-21-3183-0016
@@ -93,8 +93,8 @@ NTCL,0001927578,0001410578-25-000153,2024,"6F BUILDING A, 1188 WAN RONG ROAD, SH
 HCAI,0001958399,0001213900-25-044209,2024,"NO.1018 HAIHE ROAD, DUSHANGANG TOWN, PINGHU CITY, JIAXING, ZHEJIANG PROVINCE, JIAXING 314205, 86 68368658",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001958399&accession_number=0001213900-25-044209&xbrl_type=r,High,
 CMCM,0001597835,0000950170-25-053935,2024,"BLDG NO.11, WANDONG SCIENCE & TECHNOLOGY, CULTURAL PARK, NO.7 SANJIANFANGNANLI, CHAOYANG DISTRICT, BEIJING F4 100024, 86 10 6292 7779",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001597835&accession_number=0000950170-25-053935&xbrl_type=r,High,
 TOUR,0001597095,0001410578-25-000777,2024,"NO. 108 XUANWUDADAO, XUANWU DISTRICT, NANJING F4 210023, 86 25 86853969",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001597095&accession_number=0001410578-25-000777&xbrl_type=r,High,"6, 8-12TH FLOOR, BUILDING 6-A, JUHUIYUAN"
-KNDI,0001720250,0001213900-25-036190,2024,,other,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001720250&accession_number=0001213900-25-036190&xbrl_type=r,Low,
-CAAS,0002037400,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0002037400&action=filing,Low,
+KNDI,0001720250,0001213900-25-036190,2024,,,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001720250&accession_number=0001213900-25-036190&xbrl_type=r,Low,
+CAAS,0002037400,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0002037400&action=filing,Low,
 QH,0001781193,0001410578-25-001049,2024,"3RD FLOOR, BLOCK D, TONGHUI BUILDING, NO. 1132 HUIHE SOUTH STREET, BEIJING F4 100020, 00861053318747",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001781193&accession_number=0001410578-25-001049&xbrl_type=r,High,
 QSG,0001932770,0001213900-25-104390,2025,"2/F, BUILDING D, RONSIN TECHNOLOGY CENTER, CHAOYANG DISTRICT, BEIJING F4 100102, 86 10 64937857",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001932770&accession_number=0001213900-25-104390&xbrl_type=r,High,
 ZJYL,0001837821,0001213900-25-006519,2024,"NO. 33 LINGXIANG ROAD, WUJIN DISTRICT, CHANGZHOU CITY, JIANGSU PROVINCE F4 213149",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001837821&accession_number=0001213900-25-006519&xbrl_type=r,High,(86)51989607972
@@ -102,11 +102,11 @@ NCTY,0001296774,0001410578-25-000945,2024,"17 FLOOR, NO. 130 WU SONG ROAD,, HONG
 COE,0001659494,0001410578-25-000918,2024,SINGAPORE U0 048621,principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001659494&accession_number=0001410578-25-000918&xbrl_type=r,High,8610-56928909
 IH,0001814423,0001410578-25-000944,2024,"FLOOR 8, BUILDING 2,, NO.1 WANGJING EAST RD, CHAOYANG DISTRICT, BEIJING F4 100102",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001814423&accession_number=0001410578-25-000944&xbrl_type=r,High,86-10-5780-6636
 VIOT,0001742770,0001104659-25-094717,2024,"WANSHENG SQUARE, RM 1302 TOWER C, XINGANG EAST ROAD, HAIZHU DISTRICT, GUANGZHOU, GUANGDONG 510200",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001742770&accession_number=0001104659-25-094717&xbrl_type=r,High,86-75766833887
-EPWK,0001900720,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001900720&action=filing,Low,
+EPWK,0001900720,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001900720&action=filing,Low,
 THCH,0001877333,0001213900-25-044150,2024,"C/O CARTESIAN CAPITAL GROUP LLC, 505 5TH AVENUE, 15TH FLOOR, NEW YORK NY 10017",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001877333&accession_number=0001213900-25-044150&xbrl_type=r,High,(1) 917 294 1353
-GLAC,PENDING,,,,other,,Low,
+GLAC,PENDING,,,,,,Low,
 PAVS,0001751876,0001929980-25-000590,2025,"NO. 11, DONGJIAO EAST ROAD, SHUANGXI, SHUNCHANG, NANPING F4 353001",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001751876&accession_number=0001929980-25-000590&xbrl_type=r,High,516-951-9074
-,PENDING,,,,other,,Low,
+,PENDING,,,,,,Low,
 LUD,0001984124,0001213900-25-037162,2024,"UNIT H, 13/F, KAISER ESTATE PHASE 2, HUNG HOM, KOWLOON K3 999077, 852 2994 8774",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001984124&accession_number=0001213900-25-037162&xbrl_type=r,High,47-53 MAN YUE STREET
 SY,0001758530,0001410578-25-000800,2024,"CHAOYANG DISTRICT, BEIJING F4 100102, 00861057076564",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001758530&accession_number=0001410578-25-000800&xbrl_type=r,High,"3/F, WANGJING SOHO-TOWER 3A"
 HUHU,0001945415,0001213900-25-036389,2024,"WUXI, JIANGSU F4 214135, 051088681689",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001945415&accession_number=0001213900-25-036389&xbrl_type=r,High,3-1208 TIANANZHIHUI COMPOUND
@@ -117,17 +117,17 @@ ABLV,0001957489,0001213900-25-034677,2024,"511 WEIHAI ROAD, ROOM 1803, SHANGHAI 
 ANL,0001944552,0001213900-25-037591,2024,"685 U.S. HIGHWAY ONE, 2ND FLOOR, NORTH BRUNSWICK NJ 08902",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001944552&accession_number=0001213900-25-037591&xbrl_type=r,High,848-230-7430
 STG,0001723935,0000950170-25-058319,2024,"NO. 36 CHUANGYUAN RD, CHAOYANG DISTRICT, BEIJING F4 100012, 86 10 52413738",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001723935&accession_number=0000950170-25-058319&xbrl_type=r,High,"BUILDING 4-6, CHAOLAI SCIENCE PARK"
 SFWL,0001863218,0001013762-25-003699,2024,"SHENGFENG BUILDING, NO. 478 FUXIN EAST ROAD, JINAN DISTRICT, FUZHOU CITY F4 350001",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001863218&accession_number=0001013762-25-003699&xbrl_type=r,High,86-591-83619860
-CBAT,0001117171,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001117171&action=filing,Low,
+CBAT,0001117171,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001117171&action=filing,Low,
 WETO,0001941158,0001575872-25-000653,2025,"NO. 26 JUYE ROAD, SUITE 1902, BLDG A JINXIU INTERNATIONAL, HANGZHOU F4 310052",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001941158&accession_number=0001575872-25-000653&xbrl_type=r,High,86-571-81389116
 MATH,0001682241,0001213900-25-069404,2025,"SUITE 1508, CENTRAL PLAZA, 18 HARBOUR ROAD, WAN CHAI K3 000000, 852 35652920",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001682241&accession_number=0001213900-25-069404&xbrl_type=r,High,
 YIBO,0001868395,0001013762-25-004359,2024,"NO. 756 GUANGFU ROAD, HI-TECH DEVELOPMENT ZONE, XINYU CITY, JIANGXI PROVINCE F4 338004",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001868395&accession_number=0001013762-25-004359&xbrl_type=r,High,86-0790-7138216
 SOL,0001417892,0001410578-23-001267,2022,"100 FIRST STAMFORD PLACE, SUITE 302, STAMFORD CT 06902",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001417892&accession_number=0001410578-23-001267&xbrl_type=r,High,(347) 577 9055 X-115
-FVNNU,0002010653,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0002010653&action=filing,Low,
-FNGR,0001602409,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001602409&action=filing,Low,
+FVNNU,0002010653,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0002010653&action=filing,Low,
+FNGR,0001602409,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001602409&action=filing,Low,
 XCH,0001979887,0000950170-25-056976,2024,"NO.12 SHUANGYANG RD, DAXING DISTRICT, BEIJING F4 100023, 008618612790590",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001979887&accession_number=0000950170-25-056976&xbrl_type=r,High,
 WIMI,0001770088,0001213900-25-033934,2024,"NO. 6 XIAOZHUANG, BEIJING F4 100005, 861053384913",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001770088&accession_number=0001213900-25-033934&xbrl_type=r,High,
 AZI,0001959726,0001493152-25-003767,2024,"CITRUS GROVE,106 GORING AVE, GEORGE TOWN",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001959726&accession_number=0001493152-25-003767&xbrl_type=r,High,(86) 13810709967
-ICLK,PENDING,,,,other,,Low,
+ICLK,PENDING,,,,,,Low,
 CNF,0001733868,0001213900-25-037031,2024,"22/F, SOUTH FINANCE CTR, NO. 6 WUHENG RD, TIANHE DISTRICT, GUANGZHOU CITY, GUANGDONG PROVINCE F4 00000",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001733868&accession_number=0001213900-25-037031&xbrl_type=r,High,86-020-62316688
 YGMZ,0001782037,0001213900-25-044189,2024,"27F YANTIAN MODERN INDUSTRY SERVICE CTR, NO. 3018 SHAYAN RD., SHENZHEN, GUAGDONG F4 518083, 8675525202831",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001782037&accession_number=0001213900-25-044189&xbrl_type=r,High,
 YSXT,0001993463,0001410578-25-001545,2025,"401, 4/F, BUILDING 12, 1601 S. GUANGZHOU AVE., HAIZHU DISTRICT, GUANGZHOU F4 510220",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001993463&accession_number=0001410578-25-001545&xbrl_type=r,High,0998-2300833
@@ -136,7 +136,7 @@ YAAS,0001964946,0001493152-25-004300,2024,"ROOM 1005, 1006, 1007, NO. 122, HUANG
 YXT,0001872090,0001193125-25-092148,2024,"FLOOR 20, BUILDING 2, NO. 209,, ZHUYUAN ROAD, HIGH-TECH DISTRICT, SUZHOU, JIANGSU, 215011 F4 00000, 86 512 66899881",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001872090&accession_number=0001193125-25-092148&xbrl_type=r,High,
 JG,0001737339,0001410578-25-000628,2024,"3/F, BLDG 7, ZHIHENG INDUSTRIAL PARK,, NO. 15, GUANKOU ROAD 2, NANTOU STREET, SHENZHEN F4 518052, 8675583881462",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001737339&accession_number=0001410578-25-000628&xbrl_type=r,High,
 BNR,0001792267,0001193125-25-101753,2024,"NO. 5 XINGDAO RING ROAD NORTH,, INTERNATIONAL BIO ISLAND, GUANGZHOU, GUANGDONG F4 510005, 86 18501641666",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001792267&accession_number=0001193125-25-101753&xbrl_type=r,High,
-BEST,PENDING,,,,other,,Low,
+BEST,PENDING,,,,,,Low,
 JZXN,0001816172,0001213900-25-019083,2024,"NO.168 QIANJIANG NONGCHANG GENGWEN ROAD, 15TH FL, XIAOSHAN DIST., HANGZHOU CITY, ZHEJIANG PROVINCE F4 310000, 86 09372689523",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001816172&accession_number=0001213900-25-019083&xbrl_type=r,High,
 STEC,0001785680,0001437749-25-031287,2025,"15TH FLOOR, AIA CENTRAL,, 1 CONNAUGHT ROAD CENTRAL,, HONG KONG, 85225939309",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001785680&accession_number=0001437749-25-031287&xbrl_type=r,High,
 PTHL,0001970544,0001213900-25-025558,2024,"ROOM 306, NET BUILDING, HONGJUNYING SOUTH RD, CHAOYANG DISTRICT, BEIJING F4 100012",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001970544&accession_number=0001213900-25-025558&xbrl_type=r,High,010-84817665
@@ -149,7 +149,7 @@ ZBAO,0001966750,0001213900-24-092990,2024,"BUILDING 10, 860 XINYANG ROAD, LINGAN
 BEDU,0001696355,0001213900-24-108859,2024,"NO.1, COUNTRY GARDEN ROAD, BEIJIAO TOWN, SHUNDE DISTRICT, FOSHAN, GUANGDONG F4 528300, 86 757 6683 2507",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001696355&accession_number=0001213900-24-108859&xbrl_type=r,High,
 ZEPP,0001720446,0001410578-25-000903,2024,"BUILDING B2, ZHONG'AN CHUANGGU, TECHNOLOGY PARK NO.900 WANGJIANG WEST RD, HEFEI F4 230088",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001720446&accession_number=0001410578-25-000903&xbrl_type=r,High,86551-65837200
 GDHG,0001928340,0001213900-25-006978,2024,"NO.8 HAICHUAN ROAD, BANHOU, XIQIN TOWN, YANPING DISTRICT, NANPING CITY, FUJIAN PROVINCE F4 353001, 86 0599 8508022",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001928340&accession_number=0001213900-25-006978&xbrl_type=r,High,
-HPH,PENDING,,,,other,,Low,
+HPH,PENDING,,,,,,Low,
 DSWL,0000946936,0001174947-25-001096,2025,"10B EDIFICIO ASSOCIACAO INDUSTRIAL MACAU, 32 RUA DO COMANDANTE MATA E OLIVEIRA, MACAO F4 00000, 2127320030",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0000946936&accession_number=0001174947-25-001096&xbrl_type=r,High,
 SJ,0001753673,0001213900-25-033951,2024,"RM 1118, 11TH FLOOR, BUILDING 3, NO. 99, WANGZHOU RD.,LIANGZHU ST.YUHANG DISTRICT, HANGZHOU, ZHEJIANG PROVINCE F4 311113",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001753673&accession_number=0001213900-25-033951&xbrl_type=r,High,(86)0571-88586668
 HKIT,0001742341,0001213900-25-035602,2024,"UNIT 304, NO. 30 GUANRI ROAD, SIMING DISTRICT, XIAMEN, FUJIAN PROVINCE F4 361008",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001742341&accession_number=0001213900-25-035602&xbrl_type=r,High,86-57182213772
@@ -177,9 +177,9 @@ BTCT,0001796514,0001213900-25-037719,2024,"3RD FLOOR, TOWER A, 2 SHENYUN ROAD WE
 UTSI,0001030471,0000950170-25-058802,2024,"4TH FLOOR, SOUTH WING, 368 LIUHE ROAD, BINJIANG DISTRICT, HANGZHOU, P.R. F4 NA, 86 571 8192 8888",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001030471&accession_number=0000950170-25-058802&xbrl_type=r,High,
 HUDI,0001791725,0001213900-25-008430,2024,"NO. 68, YAQIAN VILLAGE, YONGZHONG STREET, WENZHOU F4 325025, 86057786598888",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001791725&accession_number=0001213900-25-008430&xbrl_type=r,High,
 AIFU,0001413855,0001213900-25-035604,2024,"60/F PEARL RIVER TOWER, NO.15 WEST ZHUJIANG ROAD TIANHE DISTRICT, GUANGZHOU",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001413855&accession_number=0001213900-25-035604&xbrl_type=r,High,(86-20) 8388 6888
-GDC,0001641398,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001641398&action=filing,Low,
+GDC,0001641398,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001641398&action=filing,Low,
 FEDU,0001709819,0000950170-25-090163,2025,"ROOM 1301, ZI'AN BUILDING, 309 YUYUAN ROAD, JING'AN DISTRICT, SHANGHAI F4 200040",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001709819&accession_number=0000950170-25-090163&xbrl_type=r,High,86-21-6317-6678
-GTEC,0001735041,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001735041&action=filing,Low,
+GTEC,0001735041,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001735041&action=filing,Low,
 CCM,0001472072,0001410578-25-000907,2024,"BUILDING NO. 7 GUANGHUA ROAD, CHAOYANG DISTRICT, BEIJING F4 100020",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001472072&accession_number=0001410578-25-000907&xbrl_type=r,High,(86)10-5825-6867
 IZM,0001854572,0001213900-25-102243,2025,"NO. 7018 CAI TIAN ROAD, FUTIAN DISTRICT,, SHENZHEN, GUANGDONG F4 518000, 86 755 88603072",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001854572&accession_number=0001213900-25-102243&xbrl_type=r,High,"ROOM 3801, BUILDING A, SUNHOPE E-METRO,"
 DDC,0001808110,0001213900-25-043916,2024,"368 9TH AVE, NEW YORK NY 10001",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001808110&accession_number=0001213900-25-043916&xbrl_type=r,High,852-2803-0688
@@ -187,26 +187,26 @@ BHAT,0001759136,0001731122-25-000634,2024,"7TH FLOOR, BUILDING C, NO. 1010,, ANL
 CHR,0001738758,0001213900-25-021907,2024,"22ND FLOOR, BLOCK B, XINHUA TECH BLDG., NO. 8 TUOFANGYING ROAD, CHAOYANG DISTRICT, BEIJING F4 00000",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001738758&accession_number=0001213900-25-021907&xbrl_type=r,High,86-13810355988
 JFU,0001619544,0001213900-25-073649,2024,"ROOM 1607, BUILDING NO. 5,, 5 W. LAIGUANGYING RD, CHAOYANG DISTRICT, CHAOYANG DISTRICT, BEIJING F4 100012",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001619544&accession_number=0001213900-25-073649&xbrl_type=r,High,86-10-85276996
 DUO,0001750593,0001213900-25-034322,2024,"18/F, UNIT B2, KEXING SCIENCE PARK, 15 KEYUAN ROAD, TECHNOLOGY PARK, SHENZHEN F4 518057, 008675526998968",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001750593&accession_number=0001213900-25-034322&xbrl_type=r,High,
-WETH,0001826660,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001826660&action=filing,Low,
+WETH,0001826660,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001826660&action=filing,Low,
 MGIH,0001903995,0001213900-25-103120,2025,"RM 2722, 27/F, NO. 1 HUNG TO ROAD,, KWUN TONG, KOWLOON, K3 999077, 85236195768",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001903995&accession_number=0001213900-25-103120&xbrl_type=r,High,
 TIRX,0001782941,0001410578-25-000068,2024,"21A JINGYUAN ART CENTER, 3 GUANGQU ROAD,, CHAOYANG DISTRICT,, BEIJING F4 100124, 01087529409",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001782941&accession_number=0001410578-25-000068&xbrl_type=r,High,
 NAAS,0001712178,0001410578-25-001444,2024,"NEWLINK CENTER, AREA G, BLDG. 7,HUITONG, TIMES SQUARE, NO.1 YAOJIAYUAN SOUTH RD,, CHAOYANG DISTRICT, BEIJING F4 100024, 861085511066",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001712178&accession_number=0001410578-25-001444&xbrl_type=r,High,
-SISI,0001300734,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001300734&action=filing,Low,
+SISI,0001300734,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001300734&action=filing,Low,
 EDTK,0001782309,0001641172-25-022783,2025,"FLOOR 4 BLDG 1 NO. 311 YANXIN RD, HUISHAN QU, WUXI SHI F4 214406, 13395136886",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001782309&accession_number=0001641172-25-022783&xbrl_type=r,High,
-ENFY,0000857949,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0000857949&action=filing,Low,
-DTSS,0001631282,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001631282&action=filing,Low,
+ENFY,0000857949,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0000857949&action=filing,Low,
+DTSS,0001631282,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001631282&action=filing,Low,
 XIN,0001398453,0001410578-25-000989,2024,"27/F, CHINA CENTRAL PLACE, TOWER II, 79 JIANGUO ROAD, CHAOYANG DISTRICT, BEIJING F4 100025, 861085889200",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001398453&accession_number=0001410578-25-000989&xbrl_type=r,High,
 SOS,0001346610,0001213900-25-044183,2024,"BLDG 6, E. SEAVIEW PARK, 298 HAIJING RD, YINZHU STR.,  WEST COAST NEW DISTRICT, QINGDAO SHANDONG PROVINCE F4 266400",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001346610&accession_number=0001213900-25-044183&xbrl_type=r,High,86-532-86617117
 RETO,0001687277,0001213900-25-041195,2024,BEIJING F4 100101,principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001687277&accession_number=0001213900-25-041195&xbrl_type=r,High,(86) 10-64827328
 DXST,0001958133,0001213900-25-021825,2024,"LASHAN DISTRICT, YANTAI CITY, SHANDONG PROVINCE F4 264600",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001958133&accession_number=0001213900-25-021825&xbrl_type=r,High,0535-5247776
 PT,0001716338,0001410578-25-000773,2024,"3RD FLOOR, NO.11 BUILDING, NO.109 YARD TIANJIZHIGU, JINGHAI 3RD ST, BDA, BEIJING F4 100000, 86 1085643600",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001716338&accession_number=0001410578-25-000773&xbrl_type=r,High,
 JDZG,0001976908,0001410578-25-000919,2024,"NO.1702&1706 MINJIANG RD, JINJIAN DIST., CHENGDU CITY, SICHUAN PROVINCE F4 610000",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001976908&accession_number=0001410578-25-000919&xbrl_type=r,High,400-028-0776
-PLAG,0001117057,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001117057&action=filing,Low,
+PLAG,0001117057,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001117057&action=filing,Low,
 YQ,0001821468,0000950170-25-058824,2024,"16/F, BLOCK B, WANGJING GREENLAND CENTER, CHAOYANG DISTRICT, BEIJING F4 100102, 86 10 59451082",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001821468&accession_number=0000950170-25-058824&xbrl_type=r,High,
 CDTG,0001793895,0001731122-25-000746,2024,"C1, 4TH FLOOR, BUILDING 1,, FINANCIAL BASE, NO.8 KEFA ROAD, NANSHAN DISTRICT F4 518057",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001793895&accession_number=0001731122-25-000746&xbrl_type=r,High,86-0755-86667922
 SFHG,0001926792,0001213900-25-032249,2024,"UNIT BM 8/F, BLK 4, KWUN TONG IND. CTR., HONG KONG K3 0000, 85235891500",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001926792&accession_number=0001213900-25-032249&xbrl_type=r,High,"436-446 KWUN TONG ROAD, KWUN TONG"
 SEED,0001321851,0001410578-25-000111,2024,"NO. 21 SHENG MING YUAN ROAD, CHANGPING DISTRICT BEIJING F4 102206",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001321851&accession_number=0001410578-25-000111&xbrl_type=r,High,858-847-9000
-CREG,0000721693,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0000721693&action=filing,Low,
+CREG,0000721693,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0000721693&action=filing,Low,
 PETZ,0001684425,0001213900-25-035775,2024,"C/O BEIJING WENXIN CO., LTD., ROOM 1104, FULL TOWER, 9 EAST THIRD RING MIDDLE RD., CHAOYANG DISTRICT, BEIJING F4 0000",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001684425&accession_number=0001213900-25-035775&xbrl_type=r,High,86-187-0642-0269
 FEBO,0001957001,0001641172-25-010075,2024,"UNIT J, 19/F, WORLD TECH CENTRE, 95 HOW MING ROAD, KWUN TONG, KOWLOON K3 0000",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001957001&accession_number=0001641172-25-010075&xbrl_type=r,High,852-2343-3328
 UCAR,0001939780,0001213900-25-044284,2024,"2F, ZUOAN 88 A, LUJIAZUI, SHANGHAI F4 200120",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001939780&accession_number=0001213900-25-044284&xbrl_type=r,High,0086-21-6859-3598
@@ -218,32 +218,32 @@ LXEH,0001814067,0001213900-25-037081,2024,"NO. 818 HUA YUAN STREET, LIANDU DISTR
 MHUA,0001835615,0001213900-25-035216,2024,"88 TONGDA ROAD, TOUQIAO TOWN, GUANGLING DISTRICT, YANGZHOU F4 225000",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001835615&accession_number=0001213900-25-035216&xbrl_type=r,High,(86) 0514-89800199
 WNW,0001787803,0001641172-25-010279,2024,"SIMING DISTRICT,, XIAMEN, 86 755 85250400",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001787803&accession_number=0001641172-25-010279&xbrl_type=r,High,"UNIT 304-3, NO. 19, WANGHAI ROAD"
 WOK,0001929783,0001213900-25-014076,2024,"BUILDING 23, NO. 2 TONGHUINAN RD., XIAOSHAN DISTRICT, HANGZHOU F4 311200",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001929783&accession_number=0001213900-25-014076&xbrl_type=r,High,86-0571-82613568
-LKCO,PENDING,,,,other,,Low,
+LKCO,PENDING,,,,,,Low,
 UBXG,0001888525,0001213900-25-102251,2025,"NO.1 LINKONG ER ROAD, SHUNYI DISTRICT, ZHONGGUAN SCIENCE AND TECHNOLOGY PARK, BEIJING 101300, 8610065120297",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001888525&accession_number=0001213900-25-102251&xbrl_type=r,High,
 ILAG,0001814963,0001641172-25-006445,2024,"UNIT 02, 5/F., BLK A, PROFIT IND. BLDG.,, HONG KONG K3 00000, 852 2481 7938",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001814963&accession_number=0001641172-25-006445&xbrl_type=r,High,"1-15 KWAI FUNG ST., KWAI CHUNG, N.T."
-AIHS,0001711012,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001711012&action=filing,Low,
+AIHS,0001711012,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001711012&action=filing,Low,
 KUKE,0001809158,0001213900-25-044411,2024,"ROOM 303 BEIJING BROADCASTING TOWER,, NO. JIA 14, JIANWAIDAJIE, CHAOYANG DISTRICT, BEIJING F4 100024",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001809158&accession_number=0001213900-25-044411&xbrl_type=r,High,86-10-6561-0392
 KRKR,0001779476,0001410578-25-000775,2024,"BUILDING B6, UNIVERSAL BUSINESS PARK,, NO. 10 JIUXIANQIAO ROAD, CHAOYANG DISTRICT, BEIJING F4 00000",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001779476&accession_number=0001410578-25-000775&xbrl_type=r,High,86 10 8965-0708
 WAFU,0001716770,0001213900-25-069961,2025,"RM 505 BLDG NO. 40, NO. 1 DISHENG N ST, ECONOMIC & TECHNOLOGICAL DEVELOP. ZONE, BEIJING F4 100176, 86 10 57925024",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001716770&accession_number=0001213900-25-069961&xbrl_type=r,High,
 YJ,0001759614,0001641172-25-005915,2024,"15/F, SOUTH BUILDING, HIPARK PHASE 2,, XIAOSHAN DISTRICT, HANGZHOU F4 310000",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001759614&accession_number=0001641172-25-005915&xbrl_type=r,High,86 571-81688920
-CLEU,PENDING,,,,other,,Low,
+CLEU,PENDING,,,,,,Low,
 CHSN,0001825349,0001213900-25-028989,2024,"B9 XINJIANG CHUANGBO ZHIGU INDUSTRIAL PK, NO.100 GUANGYUAN ROAD SHUIMOGOU DISTRICT, URUMQI, XINJIANG F4 830017",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001825349&accession_number=0001213900-25-028989&xbrl_type=r,High,86-0991-2302709
 HIHO,0001026785,0001213900-25-059629,2025,"LEVEL 18 LANDMARK N 39 LUNG SUM AVE, STE 1801, SHEUNG SHUI K3 00000",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001026785&accession_number=0001213900-25-059629&xbrl_type=r,High,011-86-755-2813-6056
-GURE,0000885462,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0000885462&action=filing,Low,
-GRNQ,0001597846,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001597846&action=filing,Low,
+GURE,0000885462,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0000885462&action=filing,Low,
+GRNQ,0001597846,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001597846&action=filing,Low,
 CNEY,0001780785,0001477932-25-001105,2024,"NO. 268 SHINIU ROAD, LIANDU DISTRICT, LISHUI CITY F4 323010",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001780785&accession_number=0001477932-25-001105&xbrl_type=r,High,(86) 571-87555823
-ANTE,PENDING,,,,other,,Low,
+ANTE,PENDING,,,,,,Low,
 EJH,0001769768,0001213900-25-104179,2025,"FLOOR 9, BUILDING 14, HAIXIBAIYUE TOWN, HEYUAN ROAD, LUZHOU TOWN, CANGSHAN DISTRICT, FUZHOU CITY F4 350001",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001769768&accession_number=0001213900-25-104179&xbrl_type=r,High,86-591-87590668
 WTO,0001789299,0001213900-25-074295,2025,"7TH FLOOR BUILDING 5A, SHENZHEN SOFTWARE INDUSTRY BASE, NANSHAN, 8675586512266",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001789299&accession_number=0001213900-25-074295&xbrl_type=r,High,
 RDGT,0001856084,0001213900-25-067924,2025,"4TH FLOOR, BUILDING 5, RENXIN YAJU, GONG SHU DISTRICT, HANGZHOU CITY F4 310014, 8657188219579",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001856084&accession_number=0001213900-25-067924&xbrl_type=r,High,
-ATXG,0001650101,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001650101&action=filing,Low,
+ATXG,0001650101,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001650101&action=filing,Low,
 CHNR,0000793628,0001079973-25-000827,2024,"RM 2205 22F WEST TOWER SHUN TAK CENTRE, 01185228107205",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0000793628&accession_number=0001079973-25-000827&xbrl_type=r,High,"SHEUNG WAN, HONG KONG F4 -"
 JWEL,0001805594,0001213900-25-041556,2024,"FLOOR.2, NO.285 JIANGPU ROAD, YANGPU DISTRICT, SHANGHAI F4 200136, 01186 2155216256",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001805594&accession_number=0001213900-25-041556&xbrl_type=r,High,
 SNTG,0001810467,0001213900-25-042842,2024,"501, PLATINUM TOWER, 233 TAICANG RD, HUANGPU, SHANGHAI F4 200020",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001810467&accession_number=0001213900-25-042842&xbrl_type=r,High,86-21 5386 0209
-FTFT,0001066923,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001066923&action=filing,Low,
+FTFT,0001066923,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001066923&action=filing,Low,
 HAO,0001954594,0001213900-25-100369,2025,"801/802, TOWER C, BUILDING 103, HUIZHONGLI, CHAOYANG DISTRICT, BEIJING 100101",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001954594&accession_number=0001213900-25-100369&xbrl_type=r,High,86-10-13311587976
 OST,0001803407,0001213900-25-007016,2024,"ROOM 101 BUILDING 2 KECHUANG ROAD 1, QIXIA DISTRICT, NANJIANG JIANGSU F4 231300, 8602558595234",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001803407&accession_number=0001213900-25-007016&xbrl_type=r,High,
-CPHI,0001106644,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001106644&action=filing,Low,
+CPHI,0001106644,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001106644&action=filing,Low,
 AEHL,0001470683,0001641172-25-008020,2024,"THE EMPIRE STATE BUILDING, 350 FIFTH AVENUE, SUITE 7540, NEW YORK NY 10118",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001470683&accession_number=0001641172-25-008020&xbrl_type=r,High,1-838-500 8888
 BON,0001816815,0001493152-25-003851,2024,"ROOM 601, BLOCK C, GAZELLE VALLEY, NO.69, JINYE ROAD, HIGH-TECH ZONE, XIAN, SHAANXI F4 710076",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001816815&accession_number=0001493152-25-003851&xbrl_type=r,High,0086-29-88346301
 AGMH,0001705402,0001213900-25-042324,2024,"BUILDING, 185 WANCHAI ROAD, WANCHAI K3 00000, 86 010 65020507",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001705402&accession_number=0001213900-25-042324&xbrl_type=r,High,"ROOM 1502-3 15/F., CONNUAGHT COMMERCIAL"
@@ -251,11 +251,11 @@ TAOP,0001552670,0001641172-25-006699,2024,"21ST FLOOR, EVERBRIGHT BANK BUILDING,
 TANH,0001588084,0001477932-25-003802,2024,"NO. 10 CEN SHAN RD, SHUIGE INDTRL ZONE, LISHUI CITY, ZHEJIANG F4 323000, 86 578 226 2309",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001588084&accession_number=0001477932-25-003802&xbrl_type=r,High,
 JXG,0001546383,0001213900-25-043744,2024,"BIN HAI DA DAO NO. 270, LANG QIN WAN GUO, JI DU JIA CUN ZONG HE LOU, XIU YING DIST, HAIKOU CITY, HAINAN PROVINCE F4 570100",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001546383&accession_number=0001213900-25-043744&xbrl_type=r,High,(86) 595 8889 6198
 BAOS,0001811216,0001410578-25-000994,2024,"EAST FLOOR 5, BUILDING NO. 8, XISHANHUI SHIJINGSHAN DISTRICT, BEIJING F4 100041",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001811216&accession_number=0001410578-25-000994&xbrl_type=r,High,(86) 010-82088021
-ITP,0001358190,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001358190&action=filing,Low,
-NXTT,0001784970,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001784970&action=filing,Low,
+ITP,0001358190,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001358190&action=filing,Low,
+NXTT,0001784970,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001784970&action=filing,Low,
 LICN,0001876766,0001213900-25-036244,2024,"B2306, BLOCK B TOWER 3,, JINJIANG WANDA PLAZA COMMERCIAL COMPLEX, JINJIANG CITY, FUJIAN PROVINCE F4 00000",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001876766&accession_number=0001213900-25-036244&xbrl_type=r,High,(86) 4008350088
-TCTM,PENDING,,,,other,,Low,
-CNET,0001376321,,,,other,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001376321&action=filing,Low,
+TCTM,PENDING,,,,,,Low,
+CNET,0001376321,,,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001376321&action=filing,Low,
 IFBD,0001815566,0001731122-25-000559,2024,"UNIT 532A, 5/F, CR BLD 2, 1 SCIENCE PARK, WEST AVENUE, HONG KONG SCNC PARK, TAI PO, N.T. HONG KONG K3 000000, 8601052411819",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001815566&accession_number=0001731122-25-000559&xbrl_type=r,High,
 BQ,0001815021,0001213900-25-065802,2025,"FLOOR 6, BUILDING 1, NO. 399, SHENGXIA ROAD, PUDONG NEW DISTRICT, SHANGHAI",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001815021&accession_number=0001213900-25-065802&xbrl_type=r,High,86-21-6109-6226
 EZGO,0001806904,0001213900-25-004698,2024,"BUIDLING A FLOOR 2, WUJIN DISTRICT CHANGZHOU CITY F4 213164, 8651983683805",principal_office,https://www.sec.gov/cgi-bin/viewer?action=view&cik=0001806904&accession_number=0001213900-25-004698&xbrl_type=r,High,
