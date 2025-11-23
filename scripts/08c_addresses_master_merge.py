@@ -115,9 +115,9 @@ parents_df = parents_df.merge(
 )
 
 # -----------------------------
-# 5. ADD COUNTRY ISO3 FROM PARENTS_MASTER (by parent_ticker)
+# 5. ADD COUNTRY ISO3 FROM PARENTS_MASTER
 # -----------------------------
-if "parent_ticker" in parents_df.columns and "incorp_country_iso3" in parents_df.columns:
+if "incorp_country_iso3" in parents_df.columns:
     parents_df = parents_df.rename(columns={"incorp_country_iso3": "country_iso3"})
 else:
     parents_df["country_iso3"] = pd.NA
@@ -137,7 +137,14 @@ addresses_master[parsed_cols] = pd.DataFrame(parsed_addresses, index=addresses_m
 # -----------------------------
 # 8. ADD ADDITIONAL COLUMNS
 # -----------------------------
+# Subsidiaries: source_accession from 'accession'
 addresses_master["source_accession"] = addresses_master.get("accession", pd.NA)
+
+# Parents: overwrite with 'latest_20f_accession' if exists
+if "latest_20f_accession" in addresses_master.columns:
+    parent_mask = addresses_master["entity_type"] == "parent"
+    addresses_master.loc[parent_mask, "source_accession"] = addresses_master.loc[parent_mask, "latest_20f_accession"]
+
 addresses_master["address_type"] = pd.NA
 addresses_master["parse_confidence"] = addresses_master.get("parse_confidence", pd.NA)
 addresses_master["addr_id"] = addresses_master.apply(
@@ -149,14 +156,15 @@ addresses_master["addr_id"] = addresses_master.apply(
 # 9. DROP UNNECESSARY COLUMNS
 # -----------------------------
 addresses_master = addresses_master.drop(columns=[
-    "sub_uuid", "parent_cik10", "subsidiary_name", "ownership_pct", "first_seen_year", "last_seen_year","parent_ticker","jurisdiction_iso3","accession","exhibit_label","lineage"
+    "sub_uuid", "parent_cik10", "subsidiary_name", "ownership_pct",
+    "first_seen_year", "last_seen_year","jurisdiction_iso3","accession",
+    "exhibit_label","lineage","parent_ticker"
 ], errors="ignore")
 
 # -----------------------------
 # 10. REORDER COLUMNS
 # -----------------------------
-# Place entity_type, entity_id, address_raw, parsed columns, country_iso3 first
-front_cols = ["entity_type", "entity_id", "address_raw", "addr_line", "locality", "region", "postal_code", "country_iso3","source_accession"]
+front_cols = ["entity_type", "entity_id", "address_raw", "addr_line", "locality", "region", "postal_code", "country_iso3", "source_accession"]
 other_cols = [c for c in addresses_master.columns if c not in front_cols]
 addresses_master = addresses_master[front_cols + other_cols]
 
