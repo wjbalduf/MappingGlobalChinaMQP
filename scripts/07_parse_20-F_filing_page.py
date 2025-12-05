@@ -1,3 +1,7 @@
+"""
+Usage:
+    python scripts/07_parse_20-F_filing_page.py
+"""
 import pandas as pd
 import requests
 import os
@@ -64,17 +68,15 @@ def get_business_address(cik10, accession):
     url = f"https://www.sec.gov/cgi-bin/viewer?action=view&cik={cik10}&accession_number={accession}&xbrl_type=r"
     r = requests.get(url, headers=HEADERS)
     if r.status_code != 200:
-        return None, None, "Low", url
+        return None, None, 0, url
 
     soup = BeautifulSoup(r.content, "lxml")
 
-    # SEC uses <div class="mailer"> for addresses
     mailer_divs = soup.find_all("div", class_="mailer")
 
     for div in mailer_divs:
         text = div.get_text(" ", strip=True).lower()
 
-        # Only process the BUSINESS ADDRESS block
         if "business address" not in text:
             continue
 
@@ -87,7 +89,6 @@ def get_business_address(cik10, accession):
             if not raw:
                 continue
 
-            # phone number detection
             if any(c in raw for c in ["+", "-", "(", ")"]) and any(d.isdigit() for d in raw):
                 phone_note = raw
             else:
@@ -95,9 +96,9 @@ def get_business_address(cik10, accession):
 
         if address_lines:
             address_raw = ", ".join(address_lines)
-            return address_raw, phone_note, "High", url
+            return address_raw, phone_note, 1, url
 
-    return None, None, "Low", url
+    return None, None, 0, url
 
 # -----------------------------
 # MAIN LOOP
@@ -109,7 +110,6 @@ for idx, row in cik_df.iterrows():
     parent_ticker = row.get("ticker", "")
     company_name = str(row.get("company_name", "unknown"))
 
-    # Skip non-numeric CIKs (e.g. PENDING)
     if not cik10.isdigit():
         print(f"Skipping non-numeric CIK: {cik10}")
         results.append({
@@ -118,9 +118,9 @@ for idx, row in cik_df.iterrows():
             "accession": "",
             "exhibit_year": "",
             "address_raw": "",
-            "address_type": "",  # <-- leave blank
+            "address_type": "",
             "source_path": "",
-            "parse_confidence": "Low",
+            "parse_confidence": 0,
             "address_note": ""
         })
         continue
@@ -129,16 +129,15 @@ for idx, row in cik_df.iterrows():
 
     if accession:
         address_raw, address_note, parse_confidence, source_path = get_business_address(cik10, accession)
-        # Only fill address_type if we got a raw address
         address_type = "principal_office" if address_raw else ""
     else:
         accession = ""
         exhibit_year = ""
         address_raw = ""
         address_note = ""
-        parse_confidence = "Low"
+        parse_confidence = 0
         source_path = f"https://www.sec.gov/cgi-bin/browse-edgar?CIK={cik10}&action=filing"
-        address_type = ""  # <-- leave blank
+        address_type = ""
 
     results.append({
         "parent_ticker": parent_ticker,
